@@ -26,32 +26,29 @@ class HomePage extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
+              SizedBox(height: 100),
               Text(
                 'Welcome to',
-                style: TextStyle(fontSize: 40),
+                style: TextStyle(fontSize: 28),
               ),
               Text(
                 'Worship lyrics Mara/Mizo',
-                 style: TextStyle(fontSize: 40),
+                 style: TextStyle(fontSize: 28),
               ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    'Mara',
-                    style: TextStyle(fontSize: 30),
-                  ),
+              SizedBox(height: 100),
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  'Mara',
+                  style: TextStyle(fontSize: 30),
                 ),
               ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    'Mizo',
-                    style: TextStyle(fontSize: 30),
-                  ),
+              SizedBox(height: 30),
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  'Mizo',
+                  style: TextStyle(fontSize: 30),
                 ),
               ),
             ],
