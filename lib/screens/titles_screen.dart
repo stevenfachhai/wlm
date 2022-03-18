@@ -3,14 +3,14 @@ import '../song/song_titles.dart';
 import 'lyrics_screen.dart';
 
 class TitlesScreen extends StatelessWidget {
-   TitlesScreen({Key? key, required this.language}) : super(key: key){
-    if (language == 'mara'){
-      songTitles =maraSongTitles;
-    } else{
+  TitlesScreen({Key? key, required this.language}) : super(key: key) {
+    if (language == 'mara') {
+      songTitles = maraSongTitles;
+    } else {
       songTitles = mizoSongTitles;
     }
   }
-  
+
   late List<String> songTitles;
   final String language;
 
