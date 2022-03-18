@@ -38,7 +38,8 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 30),
               TextButton(
-                onPressed: () {},
+             
+                onPressed: () {  },
                 child: const Text(
                   'Mizo',
                   style: TextStyle(fontSize: 30),

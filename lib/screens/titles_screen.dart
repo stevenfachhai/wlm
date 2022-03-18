@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wlm/songs/song_titles.dart';
+import '../song/song_titles.dart';
+ 
 
 class TitlesScreen extends StatelessWidget {
   const TitlesScreen({ Key? key }) : super(key: key);
@@ -18,6 +19,7 @@ class TitlesScreen extends StatelessWidget {
         },
       ),
     );
-      
+
   }
 }
+
