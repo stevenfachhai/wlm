@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import '../song/song_titles.dart';
- 
+import 'lyrics_screen.dart';
 
 class TitlesScreen extends StatelessWidget {
-  const TitlesScreen({ Key? key }) : super(key: key);
+  const TitlesScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,12 +14,20 @@ class TitlesScreen extends StatelessWidget {
           return Card(
             child: ListTile(
               title: Text(maraSongTitles[index]),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => LyricsScreen(
+                      songNumber: index + 1,
+                    ),
+                  ),
+                );
+              },
             ),
           );
         },
       ),
     );
-
   }
 }
-
