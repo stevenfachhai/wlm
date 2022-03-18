@@ -3,17 +3,26 @@ import '../song/song_titles.dart';
 import 'lyrics_screen.dart';
 
 class TitlesScreen extends StatelessWidget {
-  const TitlesScreen({Key? key}) : super(key: key);
+   TitlesScreen({Key? key, required this.language}) : super(key: key){
+    if (language == 'mara'){
+      songTitles =maraSongTitles;
+    } else{
+      songTitles = mizoSongTitles;
+    }
+  }
+  
+  late List<String> songTitles;
+  final String language;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(
-        itemCount: maraSongTitles.length,
+        itemCount: songTitles.length,
         itemBuilder: (context, index) {
           return Card(
             child: ListTile(
-              title: Text(maraSongTitles[index]),
+              title: Text(songTitles[index]),
               onTap: () {
                 Navigator.push(
                   context,

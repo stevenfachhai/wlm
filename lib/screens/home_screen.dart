@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const TitlesScreen()),
+                        builder: (context) =>  TitlesScreen(language: 'mara')),
                   );
                 },
                 child: const Text(
@@ -39,7 +39,13 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 30),
               TextButton(
              
-                onPressed: () {  },
+                onPressed: () { 
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>  TitlesScreen(language: 'mizo')),
+                  );
+                 },
                 child: const Text(
                   'Mizo',
                   style: TextStyle(fontSize: 30),

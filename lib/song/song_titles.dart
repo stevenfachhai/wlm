@@ -26,3 +26,8 @@ const maraSongTitles = [
   '25.Na molei phaohri pahlei na kho ma',
   '26.Thlapa pathai',
 ];
+
+const mizoSongTitles = [
+'nitin hian',
+'ka hmangaih che',
+];
