@@ -16,6 +16,19 @@ const maraLyrics = {
   13: no_ahachhikawdia,
   14: sakhihdahphipahawhbeipa,
   15: atthecross,
+  16: einachhityh,
+  17: akuthatlonachhohlia,
+  18: hykhazohna,
+  19: khazohpanahniapa,
+  20: nahrolialynanakhoma,
+  21: eireithailymaaw,
+  22: chachalaeipasiechaveilaeipahie,
+  23: hmotaotheinazy,
+  24: khizawhmozyhmapata,
+  25: namoleiphaohripahleinakhoma,
+  26: thlapapathai,
+  27: zisueiviasaphachhai,
+  28: aboveall, 
 };
 
 const still = '''
@@ -416,7 +429,7 @@ const no_ahachhikawdia = '''
 
 
 
-          No-ah achhi kawdia, paw kypachâna
+                  No-ah achhi kawdia, paw kypachâna
 
           1.No-ah achhi kawdia, paw kypachâna
             A sawchapaw leilâ za tuahpa ta
@@ -450,7 +463,7 @@ const sakhihdahphipahawhbeipa = '''
 
 
 
-          SAKHIH DÀHPHIPA HAWH
+                  SAKHIH DÀHPHIPA HAWH
 
           1.Sakhih dàhphipa hawh Beipa,
             Ei thlahpa ta nà a cha và,
@@ -513,4 +526,372 @@ const atthecross = '''
             Na hmia khochhi ei hmô aw
             Kyh na pachà chi.
 
+''';
+
+const einachhityh = '''
+                   
+                   
+                   
+                    EINA CHHI TYH
+
+          1.Khazohpa ta eina chhi tyh,
+            Cha cha pahno na ei ly kaw;
+            Hmo to ei taopa maih liata,
+            Ano ku ta eina chhi tyh.
+            Eina chhi tyh, eina chhi tyh,
+          
+                Ano ku ta eina chhi tyh;
+                A zituh siapa cha ei khoh,
+                Ano ku ta eina chhi tyh. 
+          
+          2.Achah ta ei pacharoh ta,
+            Achah ta ei vaw ly via tyh;
+            Chichhina nah thlahlohna lia,
+            Ano ku ta eina chhi tyh.
+
+          3.Beipa, na ku ei patu aw,
+            Paphoh leita kha ei ly aw;
+            Tovyuh lia ei paloh tlah aw,
+            Khazoh ku ta eina chhi tyh.
+
+          4.Khizaw lia rai ei hria khai ti,
+            Na zawzi tiahna ei to aw;
+            Thina Zawdah chatlao hrasa,
+            Nama ku ta na chhi aw chi. 
+
+''';
+
+const akuthatlonachhohlia = '''
+          
+          
+                   AKU THATLONA CHHOH LIA
+
+          1.Pachhatuhpa ta eina vaih thlah haw,
+            Chariah na dyuh hrasa ei boh aw na,
+            Thlihpi chichhihna tawh eina nyu aw,
+            A ku thatlona chho lia.
+
+                  A ku thatlona chhoh lia,
+                  A ku thatlona chhoh lia;
+                  Chariah na dyuh hrasa ei boh aw na,
+                  A ku thatlona chhoh lia.
+
+          2.A ngiachhiena ku ei cho lia pazawh,
+            A ao nai ta thlalohna bie na chho;
+            Khazohta eina vaih va ei boh aw,
+            A ku thatlona chhoh lia.
+
+          3.Ei thlahpa vaih tan a siesai beih vei,
+            Khapa hmah na pachhaih thei khao aw vei;
+            Kha eina hrobieh tahpa ei pahno,
+            A ku thatlona chhoh lia.
+
+''';
+
+const hykhazohna = '''
+                
+                
+                
+                  HY KHAZOH NA 
+
+          1.Hy Khazoh ! Na Beichhai na cha,
+            Paloh miah na moh tyh;
+            Ato eima ryhraopazy,
+            Na ta hmo thlah chita. 
+
+          2.Nama cha amo beih va chi,
+            Keimo miah na vaih tyh !
+            Paloh pha miah pahneisa la,
+            Beipa Zisu vata. 
+
+          3.Na rei saita y eima khoh,
+            Na bie hrona a cha;
+            Chavata miah athei thlah la,
+            Na chyhsazy cha pi. 
+
+''';
+
+const khazohpanahniapa = '''
+
+         
+                   KHAZOHPA NA HNIA'PA
+
+          1.Khazohpa na hnia’pa,hnia via ei khoh,
+            Kraws rietheina ta na vi hrasala;
+            He hla kha ei sa aw,Khazohpa na hnia pa,
+            Khazohpa,na hnia’pa,hnia via ei khoh.
+
+          2.Aviavipa hawhta noh na tla khah,
+            Zohna ta eina khu riena y vei,
+            Ma eisa nota chhao,Khaozohpa,na hnia’pa,
+            Khazohpa,na hnia’pa,hnia via ei khoh.
+
+          3.Varah hleidy kiah’pa na bao mah y,
+            Hro chhoh ei tyhpa maih na tuah cha se;
+            Vamo ku ta na kei,Khazohpa,na hnia ‘pa,
+            Khazohpa na hnia’pa,hnia via ei khoh.
+
+          4.Ei hra tawh pacha na,thapha ngaita,
+            Ei rietheina zydua lyna cha se,
+            Nopo pacharoh va,Khazohpa,na hnia pa,
+            Khazohpa,na hnia pa,hnia via ei khoh.
+            
+          5.Noh hro thapha ta varah ei kiah aw,
+            Khizaw hmo to zydua my khai’pa ta,
+            He hla khai ei sa aw,Khazohpa,na hnia’pa,
+            Khazohpa na hnia’pa,hnia via ei khoh.
+
+''';
+
+const nahrolialynanakhoma = '''
+          
+         
+              Na hro lia lyna na kho ma
+          
+          1.Na hro lia lyna na kho ma
+            Lyna dia bei leipa cha
+
+                Amoh reihthai la, a ronah na phuah luah te.
+                Amoh reithai la, a kypachana phuah lua te
+                Halleluia
+
+          2.Na hrolia thlaloh na khoh ma?
+            Thlaloh na dia beilei pa
+
+          3.Na hro lia thatloh na kho ma
+            Thlatlona dia bei leipa cha
+
+''';
+
+const eireithailymaaw = '''
+
+
+              EI REITHAI LYMA AW
+          1.Ei theina zydua ta zisu ei reithai aw
+            Reipasaona hlu hrasala 
+            Ei reithai lyma aw
+
+                Ei reithai lyma aw
+                Ei theina zyduata 
+                Hnola rai kua aw vana 
+                Moleina thlipi ru hrasala
+                Kua aw vana (*3)
+                Ei hnota y ha tlo
+
+          2.Ei chakaona kylia
+            Thachhapata y hrawsa 
+            Ano deikuata thana patlo
+
+''';
+
+const chachalaeipasiechaveilaeipahie = '''
+
+
+
+                Cha châla ei pasie chavei la ei pa hie
+
+          1.Cha châla ei pasie chavei la ei pa hie
+            Chavei la ei pasie chachâ la ei pa hie
+            Ei hei na la maih ta, Pahniena bei ei phuah
+            Amoh rohna va pahnie na cha kei ei achâ.
+                  
+                  (zisu)x3
+                  Na moh ei reithai a, zisu
+                  (zisu)X3
+                  Na moh ei reithai a chhazaw ta
+
+          2.Ei chana mothli zy , pahneina ta a thla
+            Ei nopona zydua chhao thlalohna ta abie
+            Daihti kho chiehpa zy cha ei hnochhy khai haw
+            Krista sai lyma cho, ta ei sie lyma aw
+
+''';
+
+const hmotaotheinazy = '''
+
+
+
+                  Hmotaotheina zy
+
+          1.Hmotaotheina zy, Beizy Beipa
+            Hmotaopa zydua kheihawpa to hla ta
+            Nohvahna nata chyhsa pahnothaina
+            Khizaw y hla chhao y ha tlo chi
+            
+          2.Khinarah zydua, Bei dyuchhai chhao
+            Hmo noah khizaw ta pahno beih leipa
+            Khizaw a hneirohna zydua chhao heta
+            Cha thlie pakho theivei na soh zie
+
+                    Cha khaipa ei
+                    Thla lia ma za pazia
+                    Ei cha na thi
+                    Dytha pata na y
+                    Keima va mohnaona tao chi
+                    Kei molei va
+                    Ei sia nawpa thi tlo chi
+
+''';
+
+const khizawhmozyhmapata = '''
+          
+           
+                Khizaw hmozy hma pata
+          
+          1.Khizaw hmozy hma pata
+            Hmia haopa chata,eima sahpa khopa zy
+            Hma pata noh tota miah aw tyh
+            Zisu Krista eima tleisai awpa he
+            Achhua chaipa acha. Eima pana pahno pata
+            Noh tota maniah tei tyh
+                  
+                  He khizaw hmo zydua hela rei adaih aw vei
+                  Hraolei pana thina dei acha, Eima lyna zy!
+                  Bei Zisu Krista lia deina thlahpa hrona a y
+                  Chavata khizaw hmo liata napaloh pachho kha y
+
+          2.Chyhsa pahrona hela  dadieh tu hata
+            Tihu buakha deita avaw lata
+            Alei heih tyh pahaw
+            Chyhsa zydua eima hrona chhao he 
+            Sokha ta  alo aw, chavata khizaw hmo liata
+            Na paloh pachho kha y
+
+          3.Daihti kho chiepa zy saikhao leipa ta
+            Bei zisu Krista na ngiapana kha
+            Vaw pathie heih ma y
+            Ano ta angiathai theilei awpa hmo
+            Khapa hmata hnei vei
+            Na kua hei awpa ha pata
+            Cha  mocha ngah  thlah tyh
+
+''';
+
+const namoleiphaohripahleinakhoma = '''
+          
+          
+                Na molei phaohri pahlei na khoh ma?
+          
+          1.Na molei phaohri pahlei na khoh ma?
+            Thisaih lia hmotaotheina a y;
+            Moleina zydua pahnie na khoh ma? 
+            Thisaih lia pahniena a y.
+
+                  Hmotaitheina noàhpa a y,
+                  Bei zisu thisaih lia;
+                  Hmotaotheina noàhpa a y,
+                  Mietahkutaw thisaih liata.
+
+          2.Molei hmo zydua pahnie na khoh ma?
+            Thisaih lia hmotaotheina a y;
+            Kalvari pathaihna chavah ngai la,
+            Cha liata pahniena a y.
+
+          3.Dàhhaw hlà chhaota ngyuh via na khoh ma?
+            Thisaih lia hmotaotheina a y;
+            Molei pathaih thei,Hrona ti a chà,
+            Thisaih lia pathaihna a y.
+
+          3.Bei zisu chakao awpa na khoh ma?
+            Thisaih lia hmotaotheina a y;
+            Noh chareuh Ano reithai na khoh ma?
+            Thisaih lia hmotaotheina y.
+
+''';
+
+const thlapapathai = '''
+                  
+                  
+                  
+                  Thlapa pathai 
+                  
+          1.Thlapa Pathai ei chavâ kaw dia
+            Ei khi tlyna râh liata
+            Molei charia keicha a ru tu
+            Ei tha tlôna ta tiah thei vei.
+
+                  Na ku lia tahmâ ei vaw hlâ khai
+                  Lâ chakâ dâhna pachu la
+                  Chatlaisaw zy châ nachhuadypa râhcha
+                  Bohpa tana tlôkhei ma y
+
+          2.Thlapa Pathai ei nohto hrolia
+            Nâ a bei chai ma y
+            Na leita bei hrorai hnei vana
+            Ei hrina hla ei chakho via
+
+          3.Vachhu nônai khizaw chhâna taih
+            Ei hno khâ pa hrâla
+            Namo khochhipa rônah n'awpa
+            Kei he nahmâ lymâ ma y
+
+''';
+
+const zisueiviasaphachhai = '''
+        
+        
+        
+          1.Zisu ei viasa pha chai,
+            Ei moleina ty tho awpa ta;
+            Riethei taola torai taopa ta,
+            Molei chaipazy thina su;
+            Chhiesana tho Kross liata athi,
+            Chhazaw hro ei hnei haw.
+
+                  Hrochhôh ei zi lymâ aw,
+                  Riethei rairuna lia chhao;
+                  Khizaw ta aheisâi hrasala,
+                  Kyh nâ pachâtuhpa cha;
+                  Keila aheisâi thei khao vana;
+                  Ei pahno pasia Bei Zisu,
+                  Kei châ asoh zie he.
+
+          2.Zisu ei viasa pha chai,
+            Ei châna zydua apahno khai;
+            Amoh vâ pasa ei tao nota,
+            Ano tlâi chhao apasa tyh;
+            Mothlih tlano na siesâi beih vei,
+            Ei hnohta a y tyh.
+
+          3.Zisu ei viasa pha chai,
+            Ei nopona daihtizy liata;
+            Thlah na paloh tyhtuhpa a châ,
+            Ei ngiahpa maih eina pie tyh;
+            Ei kha hmahta nâ heisâi beih vei,
+            Kei châta ngâ âchhi.
+
+          4.Zisu ei viasa pha chai,
+            Ano ei vâna rai pâi thei vei;
+            Zisu ta kei kyh eina pachâ,
+            Kei chhao ano kyh ei pachâ;
+            Ano khopa tao lymâ pa he,
+            Ei lyna chai a châ.
+
+''';
+const aboveall = '''
+         
+         
+         
+                  Above all
+
+          1.Hmotaotheina zy,
+            Beizy Beipa,
+            Hmotaopa zydua kheihawhpa to hlâ ta,
+            Novâhna nata chyhsa pahnothaina,
+            Khizaw y hlâ chhao y ha tlôh chi
+
+          2.Khihnarâh zydua,
+            Beidyuchhai chhao,
+            Hmo noâh khizaw ta pahno beih leipa,
+            Khizaw, a hneirôhna zydua chhao heta,
+            Cha thliepakho thei vei na sôhzie.
+
+                    Cha khaipâ ei,
+                    Thlâ lia 'ma cha pazia,
+                    Ei châ na thi,
+                    Dythapa ta na y,
+                    Keima vâ mohnaona tao chi,
+                    Kei molei vâ,
+                    Ei sia n'awpa,
+                    Thi tlôh chi.
 ''';
