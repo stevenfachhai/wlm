@@ -1,7 +1,7 @@
 const maraSongTitles = [
-  '1.still',
+  '1.Still',
   '2.Beipa phana',
-  '3.kyhpachana reih thei sala',
+  '3.Kyhpachana reih thei sala',
   '4.Here I am to Worship',
   '5.Pachhatuh kei na khosai kha',
   '6.Moh ngia chaipa a cha',
@@ -28,6 +28,21 @@ const maraSongTitles = [
 ];
 
 const mizoSongTitles = [
-'nitin hian',
-'ka hmangaih che',
+'1.	Nang ka Himna I ni si',
+'2.	Tlawm lua mah la',
+'3.	Min tiharh leh rawh',
+'4.	Min hmangaih loh I thei lo',
+'5.	Nazareth', 
+'6.	I hlu ani',
+'7.	Nitin hian'
+'8.	Rimawi ropui ber'
+'9.	Ka lawm e isu',
+'10.	Engtia awm thei nge?',
+'11.	Ka thupui ber',
+'12.	Thlei bîk a nei lo',
+'13.	Hmangaih tu'
+'14.	I lam kan lo hawi',
+'15.	Ka tan I hlu',
+'16.	Min chhungkhat la',
+
 ];
