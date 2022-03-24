@@ -27,6 +27,16 @@ const maraSongTitles = [
   '26.Thlapa pathai',
   '27.Zisu ei viasa pha chai',
   '28.Above all',
+  '29.Na ngiathai ma y',
+  '30.Ato ei hlâ khai',
+  '31.Lyna chota ei chakao aw',
+  '32.My redeemer Lives',
+  '33.Molei hmohri phao penaw',
+  '34.Hy rôhna chai',
+  '35.Ei hnota y mah y',
+  '36.Ei sâh hlupi',
+  '37.The blessing',
+  '38.Pathipalô molei chiepa',
 ];
 
 const mizoSongTitles = [
@@ -44,7 +54,6 @@ const mizoSongTitles = [
 '12.	Thlei bîk a nei lo',
 '13.	Hmangaih tu',
 '14.	I lam kan lo hawi',
-'15.	Ka tan I hlu',
+'15.	I hlu ani',
 '16.	Min chhungkhat la',
-
 ];

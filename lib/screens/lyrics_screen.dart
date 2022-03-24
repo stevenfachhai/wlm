@@ -20,10 +20,3 @@ class LyricsScreen extends StatelessWidget {
   }
 }
 
-
-
-
-
-
-
-
