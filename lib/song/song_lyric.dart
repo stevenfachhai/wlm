@@ -39,6 +39,9 @@ const maraLyrics = {
   36: eisahhlupi,
   37: theblessing,
   38: pathipalomoleichhipa,
+  39: hallelujah,
+  40: chhazawtaronahnatayse,
+  41: beipachawpangai,
 };
 
 const still = '''
@@ -48,15 +51,15 @@ const still = '''
            
                               STILL
 
-          1.	Na nyu la, na mathlaw lia
-              Na khu la, na ku thatlôpa ta
+          1. Na nyu la, na mathlaw lia
+             Na khu la, na ku thatlôpa ta
 
                   Tichalâpara nata thlihpi
                   Vaw tlô hra sala ei pahnie aw
                   Zisu pahnietuhpa na châ vâ
                   Chi aw va na, Hy Bei Zisu(2)
 
-         2.	Hy ei thlahpa, Krista lia dei
+         2. Hy ei thlahpa, Krista lia dei
             Pahâ la, A thatlôna ngâ la
 
 ''';
@@ -244,7 +247,7 @@ const hybeipaeichawpangai = '''
 
 
 
-                    Hy Beipa ei chaw pangai 
+                    Hy Beipa ei cha ngia ngaita 
                         (Lord I need you)
 
           1.Hy Beipa ei chaw pangai
@@ -839,7 +842,8 @@ const thlapapathai = '''
 
 const zisueiviasaphachhai = '''
         
-        
+              
+              Zisu ei viasa pha chai
         
           1.Zisu ei viasa pha chai,
             Ei moleina ty tho awpa ta;
@@ -1211,7 +1215,95 @@ const pathipalomoleichhipa = '''
 
 ''';
 
-const mizoLyric = {
+const hallelujah = '''
+        
+        
+               Hallelujah
+        
+          Hallelujah x3
+          Ryu A reih.
+
+          Hallelujahx3 
+          Beipa ta ryu A rei.
+
+          A hmotaotheina palâsa 
+          Ronâh ta A pahnie haw 
+          Thina zohna pahnietuh rônah a chân
+
+          Molei bâliari pathlâ ta, 
+          Seichâna tawh miah papua, 
+          Ngiachhiena ta pachhapa châ pi.
+
+''';
+
+const chhazawtaronahnatayse = '''
+          
+          
+                Chhâzaw ta rônahna ta y se
+          
+          1.Thlâpâ nah awhsi zy 
+            Nohlynô chhao a zoh
+            Khizaw Pachhatuhpa A thi haw
+            Kraws lia khaipâ ei ta
+            A thisaih cha a loh 
+            Chhiesana zydua cha a phao haw
+
+          2.Khazoh saw matlupa
+            Cha aheisai ta ei ly 
+            Thina zohna liata pazia ei
+            Thlâ khaoh adyuhna lia 
+            Thina cha pahnie ta 
+            Zohna hmotaotheina a tiah haw
+
+          3.Chhaolei achalyu ta
+            Thlâlô â pasie haw
+            A kyhpachana cha khawhlô thei vei
+            Thina nah a châmaih
+            Thyuheipa Beipa ta
+            Chhâzaw ta cha pahnie haw
+
+             
+                Chhâzaw ta rônahna ta y se
+                Chhâzaw ta reithai ta y se
+                Chhâzaw ta thyuhei Beipa
+                Chhâzaw a hro, chhâzaw a hro
+
+          Reithaipa ta y se(3) 
+          Khizaw a tiah ha na
+
+''';
+
+const beipachawpangai = '''
+          
+          
+              Beipa ch'aw pangai
+          
+          1.Beipa ch'aw pangai
+            Palôh thiehpa na pie la 
+            Ngiachhiena nâma tawh lohpa cha ta 
+            Ei tlohleina zy
+            chiehleina zydua chhaota 
+            Na kyhpachâna 
+            Ta na pathaisa se!
+               
+                Nâ hnia la na kyhpachâna ta na, 
+                Nâ kei la, nâ lâ na chhi teh, 
+                Chati Beipa pahmôpi hawh azaw ta
+                Na kiah lia ei sie aw,
+                Thlahpa ta na chhi la 
+                Na kyhpachana ta.
+
+          2.Ei mo pavâhsa, 
+            Beipa na hmi ei hmô khoh, 
+            Na kyhpachâ bieru pahnothai thei sah 
+            Pachâna thieh na pie,
+            Na khohzie hawh hro awpa ta,
+            Nohto na chhi la 
+            Kyhpachâ rônah ta.
+
+''';
+
+const mizoLyrics = {
 1: nangkahimnainisi,
 2: tlawmluamahla,
 3: mintiharhlehrawh,
@@ -1232,55 +1324,57 @@ const mizoLyric = {
 
 const nangkahimnainisi = '''
 
-                  Nang ka himna i ni si.
+                
+      
+        Nang ka himna i ni si.
 
-          1.Manganna tawhin buainaten min chim,
-            Tanpuitu awm lo, himna awm lo ve;
-            Khua reng var lo vin hawina lam a piang thim mahse,
-            Ka hlau lo'ng min hriatpui loh a awm si lo.
+1.Manganna tawhin buainaten min chim,
+  Tanpuitu awm lo, himna awm lo ve;
+  Khua reng var lo vin hawina lam a piang thim mahse,
+  Ka hlau lo'ng min hriatpui loh a awm si lo.
 
-                  Ka himna i ni, ka damna nangmah i ni,
-                  Min thlahthlam ngai lo, min venghimtu i ni;
-                  Zingtian khuavarin nangin min lo chelh reng thin,
-                  Ka hlau tawp lo vang nang ka himna i ni si.
+        Ka himna i ni, ka damna nangmah i ni,
+        Min thlahthlam ngai lo, min venghimtu i ni;
+        Zingtian khuavarin nangin min lo chelh reng thin,
+        Ka hlau tawp lo vang nang ka himna i ni si.
 
-          2.I ta ka ni a, i tan ka nung ang,
-            I duhzawng tih hi ka duhber thin a;
-            I kiangah awmin i aw hriat ka duh thin kha,
-            Chuvangin min hmuhtir ang i chhandamna.
+2.I ta ka ni a, i tan ka nung ang,
+  I duhzawng tih hi ka duhber thin a;
+  I kiangah awmin i aw hriat ka duh thin kha,
+  Chuvangin min hmuhtir ang i chhandamna.
 
-          3.Manganna karah lungawia awmin,
-            Buaina karah pawh muangin ka awm hi;
-            I hming ropui nan vawiin hi ka la sawi ang,
-            Chu mi niah chuan chawisanin i awm ang.
+3.Manganna karah lungawia awmin,
+  Buaina karah pawh muangin ka awm hi;
+  I hming ropui nan vawiin hi ka la sawi ang,
+  Chu mi niah chuan chawisanin i awm ang.
 ''';
 
 const tlawmluamahla = '''
          
                 
-                Tlawm lua mah la
-         
-          1.Ka lungngaihna hrethiam turin,
-            Gesmaniah i lungngai a;
-            Hei hian min hnem leh thin e,
-            Thinlaia nat niah lungmuangtein ka lo awm leh thin.
+Tlawm lua mah la
 
-                  Ranthlengah maw an zalh che,
-                  Kraws lerah maw an khai che;
-                  Ka chhandamtu ka Lal i ni si maw,
-                  Kei zawng ka chhuang zel dawn che,
-                  Kei zawng ka iai phal lo che,
-                  Tlawm lua mah la ka Lal duhawm i ni.
+1.Ka lungngaihna hrethiam turin,
+Gesmaniah i lungngai a;
+Hei hian min hnem leh thin e,
+Thinlaia nat niah lungmuangtein ka lo awm leh thin.
 
-          2.Chakna awm lo Mosiaah chuan,
-            Mahse, Lalpa i awmpui a;
-            Thiltihtheihna leh chakna a thuam a nih kha,
-            Ka hmachhuan nangmah chauh i ni e.
+    Ranthlengah maw an zalh che,
+    Kraws lerah maw an khai che;
+    Ka chhandamtu ka Lal i ni si maw,
+    Kei zawng ka chhuang zel dawn che,
+    Kei zawng ka iai phal lo che,
+    Tlawm lua mah la ka Lal duhawm i ni.
 
-          3.Thiam kan chan nan thiam loh i chang,
-            Nun kan neih nan thlan thim i pan;
-            Ka tan i tuar, i tan eng ka tuar ve lo maw,
-            Mahse maw, i lam ka tang ve e.
+2.Chakna awm lo Mosiaah chuan,
+Mahse, Lalpa i awmpui a;
+Thiltihtheihna leh chakna a thuam a nih kha,
+Ka hmachhuan nangmah chauh i ni e.
+
+3.Thiam kan chan nan thiam loh i chang,
+Nun kan neih nan thlan thim i pan;
+Ka tan i tuar, i tan eng ka tuar ve lo maw,
+Mahse maw, i lam ka tang ve e.
 ''';
 
 const mintiharhlehrawh = '''

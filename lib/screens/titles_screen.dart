@@ -22,13 +22,15 @@ class TitlesScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           return Card(
             child: ListTile(
-              title: Text(songTitles[index]),
+              title: Text(songTitles[index],
+              style: TextStyle(fontSize: 20),),
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => LyricsScreen(
                       songNumber: index + 1,
+                      language: language,
                     ),
                   ),
                 );

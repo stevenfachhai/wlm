@@ -5,7 +5,7 @@ const maraSongTitles = [
   '4.Here I am to Worship',
   '5.Pachhatuh kei na khosai kha',
   '6.Moh ngia chaipa a cha',
-  '7.Hy Beipa ei chaw pangai',
+  '7.Hy Beipa ei cha ngia ngaita',
   '8.Khizaw thaina nah sona zy',
   '9.Hrona tikhaoh kua beih lepa',
   '10.Beipa na ngiathai mah y',
@@ -37,6 +37,9 @@ const maraSongTitles = [
   '36.Ei sâh hlupi',
   '37.The blessing',
   '38.Pathipalô molei chiepa',
+  '39.Hallelujah',
+  '40.Chhâzaw ta rônahna ta y se',
+  '41.Beipa chaw pangai',
 ];
 
 const mizoSongTitles = [
