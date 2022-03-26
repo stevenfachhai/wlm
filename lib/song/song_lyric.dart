@@ -42,6 +42,15 @@ const maraLyrics = {
   39: hallelujah,
   40: chhazawtaronahnatayse,
   41: beipachawpangai,
+  42: imanueltharitawhta,
+  43: pakhotehu,
+  44: einachhinamaiheisieaw,
+  45: hmotoeitaothei,
+  46: khizawheleihrasa,
+  47: eimalikalialeichiepaay,
+  48: hybeikhazohnahmotaopazyduahe,
+  49: ngiachhiechakaoraihrialiata,
+  50: kalvariliapachhatuhmohla,
 };
 
 const still = '''
@@ -49,18 +58,18 @@ const still = '''
            
           
            
-                              STILL
+              STILL
 
-          1. Na nyu la, na mathlaw lia
-             Na khu la, na ku thatlôpa ta
+1.Na nyu la, na mathlaw lia
+Na khu la, na ku thatlôpa ta
 
-                  Tichalâpara nata thlihpi
-                  Vaw tlô hra sala ei pahnie aw
-                  Zisu pahnietuhpa na châ vâ
-                  Chi aw va na, Hy Bei Zisu(2)
+  Tichalâpara nata thlihpi
+  Vaw tlô hra sala ei pahnie aw
+  Zisu pahnietuhpa na châ vâ
+  Chi aw va na, Hy Bei Zisu(2)
 
-         2. Hy ei thlahpa, Krista lia dei
-            Pahâ la, A thatlôna ngâ la
+2.Hy ei thlahpa, Krista lia dei
+Pahâ la, A thatlôna ngâ la
 
 ''';
 
@@ -68,70 +77,69 @@ const beipaPhana = '''
                               
                               
                               
-                              BEIPA PHANA
-                              
-         1.Kyh cha pachá,
-           Na zawngiahna zydua vâta
-           Na chhitha chi Na ku thatlôpa ta
-           My nohly chhiki tawhta
-           Noh a tla nataihta
-           Hla ta ei sa aw Beipa Na phana
+       BEIPA PHANA
+                    
+1.Kyh cha pachá,
+  Na zawngiahna zydua vâta
+  Na chhitha chi Na ku thatlôpa ta
+  My nohly chhiki tawhta
+  Noh a tla nataihta
+  Hla ta ei sa aw Beipa Na phana
 
-               Ei hrozo chhâ kha lia ngâ nâ chhih
-               Ei chô lia Beipa na pha ngaita dia!
-               Ei theina zydua chhaota Beipa
-               Hla ta ei sa aw Beipa Na phana
+    Ei hrozo chhâ kha lia ngâ nâ chhih
+    Ei chô lia Beipa na pha ngaita dia!
+    Ei theina zydua chhaota Beipa
+    Hla ta ei sa aw Beipa Na phana
 
-          2.Na ao ei vâ
-           Thina saikao ei sao no chhao
-           Nöpo nota thlai baotuhpa viasa
-           Kei châta Paw châ chi ta
-           Ei viasa pha chaipa
-           Beipa Na pha na ry lia ei charei
+2.Na ao ei vâ
+  Thina saikao ei sao no chhao
+  Nöpo nota thlai baotuhpa viasa
+  Kei châta Paw châ chi ta
+  Ei viasa pha chaipa
+  Beipa Na pha na ry lia ei charei
 
-                  Na phana ta na zi laih ta, 
-                  na zi laih lymâ ta(2)
-                  Ei hrona zydua ato siesai ta,
-                  na châta ei hlâ khai
+        Na phana ta na zi laih ta, 
+        na zi laih lymâ ta(2)
+        Ei hrona zydua ato siesai ta,
+        na châta ei hlâ khai
 
 ''';
 
 const  kyhpachanareitheisala = '''
                            
-                           
-                           
-                           
-                            KYH PACHÂNA REIH THEI SALA (G)
+                                               
+                       
+      KYH PACHÂNA REIH THEI SALA 
 
-          1.Kyhpachana  reih thei sala,
-            Nazari zisu tlai kha;
-            Cha tlu ta kyh na pacha ta,
-            Molei thai lei cha chiehpa.
+1.Kyhpachana  reih thei sala,
+Nazari zisu tlai kha;
+Cha tlu ta kyh na pacha ta,
+Molei thai lei cha chiehpa.
 
-                    Kyhpachana!Noah a chhih ,
-                    Ei chhazaw hla awpa cha;
-                    Kyhpachana! Noah a chhih!
-                    Pachhatuh kyh na pacha.”
+        Kyhpachana!Noah a chhih ,
+        Ei chhazaw hla awpa cha;
+        Kyhpachana! Noah a chhih!
+        Pachhatuh kyh na pacha.”
 
-          2.Kei cha sahdo lia thlachha ta,
-            Kei rei vei,na rei,”a tah
-            Ano chata pacharoh vei,
-            Kei cha mathlai thisaih loh.
+2.Kei cha sahdo lia thlachha ta,
+Kei rei vei,na rei,”a tah
+Ano chata pacharoh vei,
+Kei cha mathlai thisaih loh.
 
-          3.Vamozy thapasa ta,
-            Khizaw ama sai sai tyh,
-            Pacharoh thlapalohpa ta,
-            Ei molei chatlai za ta.
+3.Vamozy thapasa ta,
+Khizaw ama sai sai tyh,
+Pacharoh thlapalohpa ta,
+Ei molei chatlai za ta.
 
-          4.Ei molei pacharoh siekhei,
-            Ano eih hawhta a tao;
-            Kalvari la moleina phaoh,
-            Pasa tao ta athin haw.
+4.Ei molei pacharoh siekhei,
+Ano eih hawhta a tao;
+Kalvari la moleina phaoh,
+Pasa tao ta athin haw.
 
-          5.Chatlaizy chhao rohnahna lia,
-            A hmia tlai cha ei hmo ha;
-            Kyh eina pachanazy,
-            Ei chhazaw hla a cha aw.
+5.Chatlaizy chhao rohnahna lia,
+A hmia tlai cha ei hmo ha;
+Kyh eina pachanazy,
+Ei chhazaw hla a cha aw.
 
 ''';
 
@@ -139,27 +147,27 @@ const hereiamtoworship = '''
 
 
 
-                     Here I am to worship
+          Here I am to worship
 
-          1.	Beipa Zisu khizaw zohna lâ nâ zu
-              Ngiapâna ta hmô ei kho
-              Ei palôh ta nâma a chatlaichhai chai
-              Chhâzaw na hnoh y ei khoh
-                      
-                      Náma dei ei châ chhy
-                      Nâma dei ei châ naoh
-                      Nâma dei he ei Khazoh na châ
-                      Kei châ na khohchhina, 
-                      kei châ na ngâhchhina, 
-                      kei châ na phana zydua vâta
+1.Beipa Zisu khizaw zohna lâ nâ zu
+  Ngiapâna ta hmô ei kho
+  Ei palôh ta nâma a chatlaichhai chai
+  Chhâzaw na hnoh y ei khoh
+          
+          Náma dei ei châ chhy
+          Nâma dei ei châ naoh
+          Nâma dei he ei Khazoh na châ
+          Kei châ na khohchhina, 
+          kei châ na ngâhchhina, 
+          kei châ na phana zydua vâta
 
-          2.	Chhazaw Beipa rôhnah na ta tobi pa 
-              Chônô chaita ryu nareih
-              Rôhna na sie saita khizaw la na zu 
-              Kei molei  thaicha nawpa. 
+2.Chhazaw Beipa rôhnah na ta tobi pa 
+  Chônô chaita ryu nareih
+  Rôhna na sie saita khizaw la na zu 
+  Kei molei  thaicha nawpa. 
 
-                    Pahno beiva ei molei na 
-                    Pasia nawpa thisai sôh loh.
+        Pahno beiva ei molei na 
+        Pasia nawpa thisai sôh loh.
 
 ''';
 
@@ -167,78 +175,78 @@ const pachhatuhkeinakhosaikha = '''
                       
                       
                       
-                      
-                      Pachhatuh, kei na khôsai kha,(G)
+          
+          Pachhatuh, kei na khôsai kha
 
-            1.Pachhatuh, kei na khôsai kha,
-              Ei awhna thei la;
-              Chysa hropa na aw no chhao,
-              Kei na khôsai kha.
+1.Pachhatuh, kei na khôsai kha,
+  Ei awhna thei la;
+  Chysa hropa na aw no chhao,
+  Kei na khôsai kha.
 
-                  Zisu, Zisu, ei awhna thei la,
-                  Chysa hropa na aw no chhao;
-                  Kei na khôsai kha. 
+      Zisu, Zisu, ei awhna thei la,
+      Chysa hropa na aw no chhao;
+      Kei na khôsai kha. 
 
-            2.Zawngiahna Beidyuchhai liata,
-              Na baona ei hmo;
-              Ei thlachhana he nathlie la,
-              NgiaPa pah na bao.
+2.Zawngiahna Beidyuchhai liata,
+  Na baona ei hmo;
+  Ei thlachhana he nathlie la,
+  NgiaPa pah na bao.
 
-            3.Na siana liata ei pahnieh,
-              Na hnoh y ei khoh;
-              Thlapa pasana patlah la,
-              Ngiahchhie ta pachha.
+3.Na siana liata ei pahnieh,
+  Na hnoh y ei khoh;
+  Thlapa pasana patlah la,
+  Ngiahchhie ta pachha.
 
-            4.Nama ei thlahlohna na cha,
-              Khochhih chai cha chi;
-              Na lei baotuh hro hnei va,
-              Lei nah va liata.
+4.Nama ei thlahlohna na cha,
+  Khochhih chai cha chi;
+  Na lei baotuh hro hnei va,
+  Lei nah va liata.
 
 ''';
 
 const mohngichaipaacha = '''
 
 
-                    MOH NGIA CHAIPA BEI ZISU
-                  
-          1.Athaona liata bie cha na châ
-            Chônô chaipa hnoh ypa 
-            Hmotaopa lia rônah na nyupa
-            Zisu lia âlâ khai haw. 
-                  Moh ngia chaipa cha a cha*2
-                  Bei Zisu Krista ei beipa *2
-                  Moh ngia chaipa cha a châ 
-                  Atlupa rai y vei
-                  Moh ngia chaipa cha a châ
-                  Bei Zisu moh cha 
-          2.Eimâ  hlao lei Vârâh kho chi va
-            Keimo~va Zisu za tuah chi
-            Paw Khazoh kyhpachana tawhta
-            Ahy miah pachhai thei aw tly? 
-                    Moh rônah chaipa  a châ*2.
-                    Bei Zisu Krista ei Beipa *2
-                    Moh ronah chaipa a châ 
-                    Atlupa rai y vei
-                    Moh rônah chaipa acha.
-                    Bei Zisu moh cha 
-          Bridge:
-          Thina na pahnie, Pohraipa na hrie! 
-          Thina châmaih na pahnie haw
-          Na rônahzie cha Va mota sa ei 
-          Thina pahnie pata na thyu  
+          MOH NGIA CHAIPA BEI ZISU
+        
+1.Athaona liata bie cha na châ
+  Chônô chaipa hnoh ypa 
+  Hmotaopa lia rônah na nyupa
+  Zisu lia âlâ khai haw. 
+        Moh ngia chaipa cha a cha*2
+        Bei Zisu Krista ei beipa *2
+        Moh ngia chaipa cha a châ 
+        Atlupa rai y vei
+        Moh ngia chaipa cha a châ
+        Bei Zisu moh cha 
+2.Eimâ  hlao lei Vârâh kho chi va
+  Keimo~va Zisu za tuah chi
+  Paw Khazoh kyhpachana tawhta
+  Ahy miah pachhai thei aw tly? 
+          Moh rônah chaipa  a châ*2.
+          Bei Zisu Krista ei Beipa *2
+          Moh ronah chaipa a châ 
+          Atlupa rai y vei
+          Moh rônah chaipa acha.
+          Bei Zisu moh cha 
+Bridge:
+Thina na pahnie, Pohraipa na hrie! 
+Thina châmaih na pahnie haw
+Na rônahzie cha Va mota sa ei 
+Thina pahnie pata na thyu  
 
-          Châ tlupa y v'ei, châ khopa y v'ei
-          Chhâzaw ta ryu na reih Beipa 
-          Khinarah nâ eih, rônahna zy chhao
-          Moh zydua hlâ chônô viapa
-                      Hmotaothei chaipa a châ*2
-                      Bei Zisu Krista ei Beipa*2
-                      Hmotaothei chaipa acha
-                      Atlupa rai y vei
-                      Hmotaothei chaipa a châ
-                      Bei Zisu moh cha!
-          Hmotaotheina Zisu moh lia a y *3
-          Bália to chhie la *3
+Châ tlupa y v'ei, châ khopa y v'ei
+Chhâzaw ta ryu na reih Beipa 
+Khinarah nâ eih, rônahna zy chhao
+Moh zydua hlâ chônô viapa
+            Hmotaothei chaipa a châ*2
+            Bei Zisu Krista ei Beipa*2
+            Hmotaothei chaipa acha
+            Atlupa rai y vei
+            Hmotaothei chaipa a châ
+            Bei Zisu moh cha!
+Hmotaotheina Zisu moh lia a y *3
+Bália to chhie la *3
 
 ''';
 
@@ -247,29 +255,29 @@ const hybeipaeichawpangai = '''
 
 
 
-                    Hy Beipa ei cha ngia ngaita 
-                        (Lord I need you)
+          Hy Beipa ei cha ngia ngaita 
+              (Lord I need you)
 
-          1.Hy Beipa ei chaw pangai
-            Na kiah lia napaha sa
-            Na leita sie thai vana
-            Ei paloh vaihtuh na cha
+1.Hy Beipa ei chaw pangai
+  Na kiah lia napaha sa
+  Na leita sie thai vana
+  Ei paloh vaihtuh na cha
 
-                Hy Beipa ei cha ngia ngaita
-                Noh tota ei cha ngiah
-                Ei bohna su, ei thaichana
-                BEipa ei cha ngiah
+      Hy Beipa ei cha ngia ngaita
+      Noh tota ei cha ngiah
+      Ei bohna su, ei thaichana
+      BEipa ei cha ngiah
 
-          2.Moleina lia ngiachhiena poh
-            Ngiachhiena lia na y tlo chi
-            Na y n alia khotaih laih na
-            Krista lia aki tlota
+2.Moleina lia ngiachhiena poh
+  Ngiachhiena lia na y tlo chi
+  Na y n alia khotaih laih na
+  Krista lia aki tlota
 
-                  (Bridge)
-                  Reipasaona ei tyh chata
-                  Ei awlaihsa ao theila
-                  Kei deita ei duah thei lei no chhao
-                  Zisu ei bohna na cha
+    (Bridge)
+    Reipasaona ei tyh chata
+    Ei awlaihsa ao theila
+    Kei deita ei duah thei lei no chhao
+    Zisu ei bohna na cha
 
 ''';
 
@@ -277,28 +285,34 @@ const khizawthainanahsohnazy = '''
 
 
 
-                    Khizaw thaina nah sona zy
+          Khizaw thaina nah sona zy
 
-          1.Khizaw thaina nah sona zy
-            A rônahna zy tluata ei râ tyh
-            Na Cha tlua beih va na
-            Na hmia khochhipa cha tahma ei hmô haw
+1.Khizaw thaina nah sona zy
+  A rônahna zy tluata ei râ tyh
+  Na Cha tlua beih va na
+  Na hmia khochhipa cha tahma ei 
+  hmô haw
 
-                  Nama leita hro he hrao leipa dei a cha
-                  Ei molei phaohri chhao
-                  Ei chaw pangai
-                  Hy Beipa nâma ta na pasi la
-                  Na khohzie hawhta na hmâh mah y!
+        Nama leita hro he hrao leipa dei 
+        a cha
+        Ei molei phaohri chhao
+        Ei chaw pangai
+        Hy Beipa nâma ta na pasi la
+        Na khohzie hawhta na hmâh 
+        mah y!
 
-          2.Molei châna a pahno lei ta
-            Daihti nah nohzy ei khohzie hawh hmâ na
-            Thlahpa Pathaipa ta moleina pahnosa
-            Ngiathai byuh ei châ. 
+2.Molei châna a pahno lei ta
+  Daihti nah nohzy ei khohzie hawh 
+  hmâ na
+  Thlahpa Pathaipa ta moleina 
+  pahnosa
+  Ngiathai byuh ei châ. 
 
-          3.He khizaw pawngianazy ta
-            Na aw tyh hra sa hnôhlâ kua va na
-            Na kyh ei cha pachâ
-            Ei hrochhôh daihtizy na châ ei hmâh aw.
+3.He khizaw pawngianazy ta
+  Na aw tyh hra sa hnôhlâ kua va na
+  Na kyh ei cha pachâ
+  Ei hrochhôh daihtizy na châ ei 
+  hmâh aw.
 
 ''';
 
@@ -306,169 +320,168 @@ const hronatikhaokuabeileipa = '''
 
 
 
-                    Hrona tikhaoh kua beih leipa
+          Hrona tikhaoh kua beih leipa
 
-          1.Hrona tikhaoh kua beih leipa
-            Hrona viachhà nie tiah leipa
-            Bei zisu cha ei hnei haw
-            Nôpopa ta y khao aw vana
+1.Hrona tikhaoh kua beih leipa
+  Hrona viachhà nie tiah leipa
+  Bei zisu cha ei hnei haw
+  Nôpopa ta y khao aw vana
 
-                Khizaw hela leidia khai ha hrasala 
-                Na pachhatuh zisu Krista ei hnei 
-                Khizaw hmo zydua hlâ chhaota
-                Ei pasô chai zisu kei eih a châ 
+      Khizaw hela leidia khai ha 
+      hrasala 
+      Na pachhatuh zisu Krista ei hnei 
+      Khizaw hmo zydua hlâ chhaota
+      Ei pasô chai zisu kei eih a châ 
 
-          2.Zâ zohna vaw tlô hrasala
-            My khih vaw deih aw kei châta
-            Zisu kei châ khaihna a châ 
-            Tlyzaw ta einâ chhi lymâ aw
+2.Zâ zohna vaw tlô hrasala
+  My khih vaw deih aw kei châta
+  Zisu kei châ khaihna a châ 
+  Tlyzaw ta einâ chhi lymâ aw
 
-          3.Ei bohna thokhy zisu 
-            Pathlie leipa ta ei patu aw
-            Ei hrona noh a tla tita
-            Vârâh tlôna taih einâ chhi aw
+3.Ei bohna thokhy zisu 
+  Pathlie leipa ta ei patu aw
+  Ei hrona noh a tla tita
+  Vârâh tlôna taih einâ chhi aw
 
 ''';
 
 const beipanangiathaimahy = '''
                   
-                  
-                  
-                  
-                  BEIPA NÂ NGIAHTHAI MAH Y
+                                 
+        BEIPA NÂ NGIAHTHAI MAH Y
 
-          1.Krista kyhpachâna,
-            Pahnothai leipa hawhta;
-            Ei daihti nah noh zy,
-            Ei khohzie hawh vaw hmâh na;
-            Kyhpachâtuh palôh cha,
-            Khatlu a pasa aw tly.
+1.Krista kyhpachâna,
+  Pahnothai leipa hawhta;
+  Ei daihti nah noh zy,
+  Ei khohzie hawh vaw hmâh na;
+  Kyhpachâtuh palôh cha,
+  Khatlu a pasa aw tly.
 
-                  BEIPA nâ ngiahthai mah y,
-                  Thaichâna rai hnei va na;
-                  Na sei pakha hawh chhâ ta,
-                  Châ hrawpa ta ei chaw ngai.
+        BEIPA nâ ngiahthai mah y,
+        Thaichâna rai hnei va na;
+        Na sei pakha hawh chhâ ta,
+        Châ hrawpa ta ei chaw ngai.
 
-          2.Siana rai hnei leipa,
-            Pathi palôh pualeipa;
-            Chyhsazy pachâ ta,
-            Thi tlâh ta ama raopa;
-            Khazia a tanoh taihta,
-            Khâ einâ thei thlâh hâ tly.
+2.Siana rai hnei leipa,
+  Pathi palôh pualeipa;
+  Chyhsazy pachâ ta,
+  Thi tlâh ta ama raopa;
+  Khazia a tanoh taihta,
+  Khâ einâ thei thlâh hâ tly.
 
-          3.Ei moleina vâta,
-            Kyhpachâtuh hmia khochhih;
-            Chyhsa hluhpi zy ta,
-            Vaw hmô thei tlâ khao veih ei;
-            Thina lâthlôh chhihpazy,
-            Keima thailei vâ a châ.
+3.Ei moleina vâta,
+  Kyhpachâtuh hmia khochhih;
+  Chyhsa hluhpi zy ta,
+  Vaw hmô thei tlâ khao veih ei;
+  Thina lâthlôh chhihpazy,
+  Keima thailei vâ a châ.
 
 ''';
 
 const christisenough = '''
-                 
-                 
-                 
+                          
                 
-                  Christ is enough
-                  (Krista âdaih paki)
-                  
-          1.Krista ei lymâ
-            Ei hmoto zydua chhaota
-            Khizaw lia lyna y vei
-            Krista lia deilei 
-            Rairuna lia
-            Chhao ei sa aw
-            Hnô kua aw va
-            Ei khohtalai haw
+        Christ is enough
+        (Krista âdaih paki)
+        
+1.Krista ei lymâ
+  Ei hmoto zydua chhaota
+  Khizaw lia lyna y vei
+  Krista lia deilei 
+  Rairuna lia
+  Chhao ei sa aw
+  Hnô kua aw va
+  Ei khohtalai haw
 
-                  Krista âdaih paki
-                  Kei châ âdaih paki
-                  Ei ngiahpa zydua âki khai
-                  Ei ngiapa zydua
+        Krista âdaih paki
+        Kei châ âdaih paki
+        Ei ngiahpa zydua âki khai
+        Ei ngiapa zydua
 
-          2.Krista ei toti
-            Ei ly chaina cha a châ
-            Ei hnabeidy khao aw vei
-            Vârâh Keimo O
-            Rietheina lia
-            Chhao ei sa aw
-            Zisu moh cha
-            Rônah chai ta y se
+2.Krista ei toti
+  Ei ly chaina cha a châ
+  Ei hnabeidy khao aw vei
+  Vârâh Keimo O
+  Rietheina lia
+  Chhao ei sa aw
+  Zisu moh cha
+  Rônah chai ta y se
 
-            Bridge:
-            Zisu zi awpa ta
-            Ei pathlu haw
-            Hnôhlâ kua khao beih aw va na
-            Kraws ei hmia lia y
-            khizaw ei hnôh lâ
-            hnôhlâ kua khao beih aw va na
-            Ei hnoh sie awpa
-            Y vei hr'ei sala
-            Hnôhlâ lâ kua khao beih va na.
+  Bridge:
+  Zisu zi awpa ta
+  Ei pathlu haw
+  Hnôhlâ kua khao beih aw va na
+  Kraws ei hmia lia y
+  khizaw ei hnôh lâ
+  hnôhlâ kua khao beih aw va na
+  Ei hnoh sie awpa
+  Y vei hr'ei sala
+  Hnôhlâ lâ kua khao beih va na.
 
 ''';
 const crossvaeimachaly = '''
           
           
                   
-                      Crosa va eima chaly
-                  (Thank you for the cross, Lord) 
+            Crosa va eima chaly
+        (Thank you for the cross, Lord) 
 
-          1.Cross vâ eimâ chã ly
-            Miah na chatlai vâ Beipa, 
-            Moleina zydua phao chi
-            Kyhpachâna 
-            Ta ngiachhiena pie chi
+1.Cross vâ eimâ chã ly
+  Miah na chatlai vâ Beipa, 
+  Moleina zydua phao chi
+  Kyhpachâna 
+  Ta ngiachhiena pie chi
 
-          2.Na kyhpachâna vâ
-            Thisaih sôh vâ ei châ ly
-            Na pasia chi moleina zydua tawhta
-            Nâ ngiathaina ei to haw.
+2.Na kyhpachâna vâ
+  Thisaih sôh vâ ei châ ly
+  Na pasia chi moleina zydua tawhta
+  Nâ ngiathaina ei to haw.
 
-                Rônah ta y se
-                Bei dyuchhai liata
-                Lakho zydua ei cha pakho
+      Rônah ta y se
+      Bei dyuchhai liata
+      Lakho zydua ei cha pakho
 
-                Pahnie ta ryu na reih
-                Reithai ta y se
-                Beipa Zisu cha
-                Vâ Bei saw matlu khaipâpa
-                Rônah ta y se
+      Pahnie ta ryu na reih
+      Reithai ta y se
+      Beipa Zisu cha
+      Vâ Bei saw matlu khaipâpa
+      Rônah ta y se
 
 ''';
 
 const no_ahachhikawdia = '''
 
 
+        No-ah achhi kawdia, 
+           paw kypachâna
 
-                  No-ah achhi kawdia, paw kypachâna
+1.No-ah achhi kawdia, 
+  paw kypachâna
+  A sawchapaw leilâ za tuahpa ta
+  A ryhna cha ano tlaita 
+  Eima likah lia avaw tao haw.
 
-          1.No-ah achhi kawdia, paw kypachâna
-            A sawchapaw leilâ za tuahpa ta
-            A ryhna cha ano tlaita 
-            Eima likah lia avaw tao haw.
+      Paw khazoh kypachâna hy
+      Arônah kaw dia
+      A phu vana kei moleipa heta
+      A ngiachhie pachhana vâ Dei
+      Chhâzaw hrona ei vaw hnei haw.
 
-                Paw khazoh kypachâna hy
-                Arônah kaw dia
-                A phu vana kei moleipa heta
-                A ngiachhie pachhana vâ Dei
-                Chhâzaw hrona ei vaw hnei haw.
+2.Molei pualeinazy pasia n’awpata 
+  Khâpa hro hma lei nata va lia y vei
+  Bei Zisu thisaih sôh dei he
+  Molei siana y chhôpa acha
 
-          2.Molei pualeinazy pasia n’awpata 
-            Khâpa hro hma lei nata va lia y vei
-            Bei Zisu thisaih sôh dei he
-            Molei siana y chhôpa acha
+3.Taopasina vâta hmahphaota y pi
+  Hmoparaona vâ thidô ta a y.
+  A hriena hriecheipazy ta
+  Patlâhpa ta eima vaw y haw.
 
-          3.Taopasina vâta hmahphaota y pi
-            Hmoparaona vâ thidô ta a y.
-            A hriena hriecheipazy ta
-            Patlâhpa ta eima vaw y haw.
-
-                Molei pualeinazy pasia n'awpata
-                Khâpa hro hmah lei nah vâ lia y vei.
-                Bei zisu thisaih sô deih he 
-                Molei siana y chhôpa a châ.
+      Molei pualeinazy pasia n'awpata
+      Khâpa hro hmah lei nah vâ lia 
+      y vei.
+      Bei zisu thisaih sô deih he 
+      Molei siana y chhôpa a châ.
 
 ''';
 
@@ -476,68 +489,68 @@ const sakhihdahphipahawhbeipa = '''
 
 
 
-                  SAKHIH DÀHPHIPA HAWH
+        SAKHIH DÀHPHIPA HAWH
 
-          1.Sakhih dàhphipa hawh Beipa,
-            Ei thlahpa ta nà a cha và,
-            Nà tlai he lóh-ri ei ngiabàh chai,
-            Khà chà chhy awpa ei khoh.
+1.Sakhih dàhphipa hawh Beipa,
+  Ei thlahpa ta nà a cha và,
+  Nà tlai he lóh-ri ei ngiabàh chai,
+  Khà chà chhy awpa ei khoh.
 
-                Nà ei thatlóna ei vyhphao,
-                Nà dei he ei thlahpa pado se,
-                Nà tlai he lóh-ri ei ngiabàh chai,
-                Khà chà chhy awpa ei khoh.
+      Nà ei thatlóna ei vyhphao,
+      Nà dei he ei thlahpa pado se,
+      Nà tlai he lóh-ri ei ngiabàh chai,
+      Khà chà chhy awpa ei khoh.
 
-          2.Tàkà nah ngóh hlà ei cha khoh via,
-            Nà dei lóh pangà thei chi,
-            Nà dei he lyna hmeiseih pietuh,
-            Ei mo ai leipa na chà.
+2.Tàkà nah ngóh hlà ei cha khoh via,
+  Nà dei lóh pangà thei chi,
+  Nà dei he lyna hmeiseih pietuh,
+  Ei mo ai leipa na chà.
 
-          3.Unawh viasa ta khà na tao chi,
-            Nà Abeipa tlai chi ta,
-            Chyhsa zydua hlà ei cha khoh via,
-            Hmo to zydua hlà chhaota
+3.Unawh viasa ta khà na tao chi,
+  Nà Abeipa tlai chi ta,
+  Chyhsa zydua hlà ei cha khoh via,
+  Hmo to zydua hlà chhaota
 
 ''';
 
 const atthecross = '''
 
 
-                  THE CROSS 
+        THE CROSS 
 
-          1.Beipa na pahno chi
-            A to zyduaAT 
-            Ei cha paviasai no chhao
-            Kyh na pachâ chi
+1.Beipa na pahno chi
+  A to zyduaAT 
+  Ei cha paviasai no chhao
+  Kyh na pachâ chi
 
-          2.Na Thlah pathai ta
-            Khâ na ypâ
-            Khatinorai chhaota
-            Kyh na pachâ chi
-            Kyh na pachà chi.
+2.Na Thlah pathai ta
+  Khâ na ypâ
+  Khatinorai chhaota
+  Kyh na pachâ chi
+  Kyh na pachà chi.
 
-                Kross thaby liata ei bôh
-                Kei châ thisaih lohna lia
-                Kyhpachâ noâhchhipa
+      Kross thaby liata ei bôh
+      Kei châ thisaih lohna lia
+      Kyhpachâ noâhchhipa
 
-                Thina pahnie ta na thyu,
-                Rônahna ta vâ a khu
-                Ahy miah pachhai thei aw tly.
+      Thina pahnie ta na thyu,
+      Rônahna ta vâ a khu
+      Ahy miah pachhai thei aw tly.
 
-          3.Ei hmialia na sie
-            Làthlô to lia
-            Na kuta na cha-ao
-            Kyh na pachà chi
+3.Ei hmialia na sie
+  Làthlô to lia
+  Na kuta na cha-ao
+  Kyh na pachà chi
 
-              BRIDGE: 
-              Porai na hrie 
-              Và na pahy
-              Ato na paki khai haw. *2
+    BRIDGE: 
+    Porai na hrie 
+    Và na pahy
+    Ato na paki khai haw. *2
 
-          4.Khizaw pawngiana
-            Alo khai ti
-            Na hmia khochhi ei hmô aw
-            Kyh na pachà chi.
+4.Khizaw pawngiana
+  Alo khai ti
+  Na hmia khochhi ei hmô aw
+  Kyh na pachà chi.
 
 ''';
 
@@ -545,59 +558,66 @@ const einachhityh = '''
                    
                    
                    
-                    EINA CHHI TYH
+          EINA CHHI TYH
 
-          1.Khazohpa ta eina chhi tyh,
-            Cha cha pahno na ei ly kaw;
-            Hmo to ei taopa maih liata,
-            Ano ku ta eina chhi tyh.
-            Eina chhi tyh, eina chhi tyh,
-          
-                Ano ku ta eina chhi tyh;
-                A zituh siapa cha ei khoh,
-                Ano ku ta eina chhi tyh. 
-          
-          2.Achah ta ei pacharoh ta,
-            Achah ta ei vaw ly via tyh;
-            Chichhina nah thlahlohna lia,
-            Ano ku ta eina chhi tyh.
+1.Khazohpa ta eina chhi tyh,
+  Cha cha pahno na ei ly kaw;
+  Hmo to ei taopa maih liata,
+  Ano ku ta eina chhi tyh.
+  Eina chhi tyh, eina chhi tyh,
 
-          3.Beipa, na ku ei patu aw,
-            Paphoh leita kha ei ly aw;
-            Tovyuh lia ei paloh tlah aw,
-            Khazoh ku ta eina chhi tyh.
+      Ano ku ta eina chhi tyh;
+      A zituh siapa cha ei khoh,
+      Ano ku ta eina chhi tyh. 
 
-          4.Khizaw lia rai ei hria khai ti,
-            Na zawzi tiahna ei to aw;
-            Thina Zawdah chatlao hrasa,
-            Nama ku ta na chhi aw chi. 
+2.Achah ta ei pacharoh ta,
+  Achah ta ei vaw ly via tyh;
+  Chichhina nah thlahlohna lia,
+  Ano ku ta eina chhi tyh.
+
+3.Beipa, na ku ei patu aw,
+  Paphoh leita kha ei ly aw;
+  Tovyuh lia ei paloh tlah aw,
+  Khazoh ku ta eina chhi tyh.
+
+4.Khizaw lia rai ei hria khai ti,
+  Na zawzi tiahna ei to aw;
+  Thina Zawdah chatlao hrasa,
+  Nama ku ta na chhi aw chi. 
 
 ''';
 
 const akuthatlonachhohlia = '''
           
           
-                   AKU THATLONA CHHOH LIA
+          AKU THATLONA CHHOH LIA
 
-          1.Pachhatuhpa ta eina vaih thlah haw,
-            Chariah na dyuh hrasa ei boh aw na,
-            Thlihpi chichhihna tawh eina nyu aw,
-            A ku thatlona chho lia.
+1.Pachhatuhpa ta eina vaih thlah 
+  haw,
+  Chariah na dyuh hrasa ei boh 
+  aw na,
+  Thlihpi chichhihna tawh eina 
+  nyu aw,
+  A ku thatlona chho lia.
 
-                  A ku thatlona chhoh lia,
-                  A ku thatlona chhoh lia;
-                  Chariah na dyuh hrasa ei boh aw na,
-                  A ku thatlona chhoh lia.
+        A ku thatlona chhoh lia,
+        A ku thatlona chhoh lia;
+        Chariah na dyuh hrasa ei boh 
+        aw na,
+        A ku thatlona chhoh lia.
 
-          2.A ngiachhiena ku ei cho lia pazawh,
-            A ao nai ta thlalohna bie na chho;
-            Khazohta eina vaih va ei boh aw,
-            A ku thatlona chhoh lia.
+2.A ngiachhiena ku ei cho lia 
+  pazawh,
+  A ao nai ta thlalohna bie na chho;
+  Khazohta eina vaih va ei boh aw,
+  A ku thatlona chhoh lia.
 
-          3.Ei thlahpa vaih tan a siesai beih vei,
-            Khapa hmah na pachhaih thei khao aw vei;
-            Kha eina hrobieh tahpa ei pahno,
-            A ku thatlona chhoh lia.
+3.Ei thlahpa vaih tan a siesai beih 
+  vei,
+  Khapa hmah na pachhaih thei 
+  khao aw vei;
+  Kha eina hrobieh tahpa ei pahno,
+  A ku thatlona chhoh lia.
 
 ''';
 
@@ -605,118 +625,146 @@ const hykhazohna = '''
                 
                 
                 
-                  HY KHAZOH NA 
+        HY KHAZOH NA 
 
-          1.Hy Khazoh ! Na Beichhai na cha,
-            Paloh miah na moh tyh;
-            Ato eima ryhraopazy,
-            Na ta hmo thlah chita. 
+1.Hy Khazoh ! Na Beichhai na cha,
+  Paloh miah na moh tyh;
+  Ato eima ryhraopazy,
+  Na ta hmo thlah chita. 
 
-          2.Nama cha amo beih va chi,
-            Keimo miah na vaih tyh !
-            Paloh pha miah pahneisa la,
-            Beipa Zisu vata. 
+2.Nama cha amo beih va chi,
+  Keimo miah na vaih tyh !
+  Paloh pha miah pahneisa la,
+  Beipa Zisu vata. 
 
-          3.Na rei saita y eima khoh,
-            Na bie hrona a cha;
-            Chavata miah athei thlah la,
-            Na chyhsazy cha pi. 
+3.Na rei saita y eima khoh,
+  Na bie hrona a cha;
+  Chavata miah athei thlah la,
+  Na chyhsazy cha pi. 
 
 ''';
 
 const khazohpanahniapa = '''
 
          
-                   KHAZOHPA NA HNIA'PA
+          KHAZOHPA NA HNIA'PA
 
-          1.Khazohpa na hnia’pa,hnia via ei khoh,
-            Kraws rietheina ta na vi hrasala;
-            He hla kha ei sa aw,Khazohpa na hnia pa,
-            Khazohpa,na hnia’pa,hnia via ei khoh.
+1.Khazohpa na hnia’pa,hnia via ei 
+  khoh,
+  Kraws rietheina ta na vi hrasala;
+  He hla kha ei sa aw,Khazohpa na 
+  hnia pa,
+  Khazohpa,na hnia’pa,
+  hnia via ei khoh.
 
-          2.Aviavipa hawhta noh na tla khah,
-            Zohna ta eina khu riena y vei,
-            Ma eisa nota chhao,Khaozohpa,na hnia’pa,
-            Khazohpa,na hnia’pa,hnia via ei khoh.
+2.Aviavipa hawhta noh na tla khah,
+  Zohna ta eina khu riena y vei,
+  Ma eisa nota chhao,Khaozohpa,
+  na hnia’pa,
+  Khazohpa,na hnia’pa,
+  hnia via ei khoh.
 
-          3.Varah hleidy kiah’pa na bao mah y,
-            Hro chhoh ei tyhpa maih na tuah cha se;
-            Vamo ku ta na kei,Khazohpa,na hnia ‘pa,
-            Khazohpa na hnia’pa,hnia via ei khoh.
+3.Varah hleidy kiah’pa na bao mah y,
+  Hro chhoh ei tyhpa maih na tuah 
+  cha se;
+  Vamo ku ta na kei,Khazohpa,
+  na hnia ‘pa,
+  Khazohpa na hnia’pa,
+  hnia via ei khoh.
 
-          4.Ei hra tawh pacha na,thapha ngaita,
-            Ei rietheina zydua lyna cha se,
-            Nopo pacharoh va,Khazohpa,na hnia pa,
-            Khazohpa,na hnia pa,hnia via ei khoh.
-            
-          5.Noh hro thapha ta varah ei kiah aw,
-            Khizaw hmo to zydua my khai’pa ta,
-            He hla khai ei sa aw,Khazohpa,na hnia’pa,
-            Khazohpa na hnia’pa,hnia via ei khoh.
+4.Ei hra tawh pacha na,thapha 
+  ngaita,
+  Ei rietheina zydua lyna cha se,
+  Nopo pacharoh va,Khazohpa,
+  na hnia pa,
+  Khazohpa,na hnia pa,
+  hnia via ei khoh.
+  
+5.Noh hro thapha ta varah ei 
+  kiah aw,
+  Khizaw hmo to zydua my 
+  khai’pa ta,
+  He hla khai ei sa aw,Khazohpa,
+  na hnia’pa,
+  Khazohpa na hnia’pa,
+  hnia via ei khoh.
 
 ''';
 
 const nahrolialynanakhoma = '''
           
          
-              Na hro lia lyna na kho ma
-          
-          1.Na hro lia lyna na kho ma
-            Lyna dia bei leipa cha
+Na hro lia lyna na kho ma
 
-                Amoh reihthai la, a ronah na phuah luah te.
-                Amoh reithai la, a kypachana phuah lua te
-                Halleluia
+1.Na hro lia lyna na kho ma
+Lyna dia bei leipa cha
 
-          2.Na hrolia thlaloh na khoh ma?
-            Thlaloh na dia beilei pa
+  Amoh reihthai la, 
+  a ronah na phuah luah te.
+  Amoh reithai la, 
+  a kypachana phuah lua te
+  Halleluia
 
-          3.Na hro lia thatloh na kho ma
-            Thlatlona dia bei leipa cha
+2.Na hrolia thlaloh na khoh ma?
+Thlaloh na dia beilei pa
+
+3.Na hro lia thatloh na kho ma
+Thlatlona dia bei leipa cha
 
 ''';
 
 const eireithailymaaw = '''
 
 
-              EI REITHAI LYMA AW
-          1.Ei theina zydua ta zisu ei reithai aw
-            Reipasaona hlu hrasala 
-            Ei reithai lyma aw
+    EI REITHAI LYMA AW
 
-                Ei reithai lyma aw
-                Ei theina zyduata 
-                Hnola rai kua aw vana 
-                Moleina thlipi ru hrasala
-                Kua aw vana (*3)
-                Ei hnota y ha tlo
+1.Ei theina zydua ta 
+  zisu ei reithai aw
+  Reipasaona hlu hrasala 
+  Ei reithai lyma aw
 
-          2.Ei chakaona kylia
-            Thachhapata y hrawsa 
-            Ano deikuata thana patlo
+      Ei reithai lyma aw
+      Ei theina zyduata 
+      Hnola rai kua aw vana 
+      Moleina thlipi ru hrasala
+      Kua aw vana (*3)
+      Ei hnota y ha tlo
+
+2.Ei chakaona kylia
+  Thachha ta y hrawsa 
+  Ano deikuata thana patlo tyh
+  Ei reithai lyma aw.
 
 ''';
 
 const chachalaeipasiechaveilaeipahie = '''
 
 
+      Cha châla ei pasie 
+      chavei la ei pa hie
 
-                Cha châla ei pasie chavei la ei pa hie
+1.Cha châla ei pasie 
+  chavei la ei pa hie
+  Chavei la ei pasie 
+  chachâ la ei pa hie
+  Ei hei na la maih ta, 
+  Pahniena bei ei phuah
+  Amoh rohna va pahnie na cha 
+  kei ei achâ.
+        
+        (zisu)x3
+        Na moh ei reithai a, zisu
+        (zisu)X3
+        Na moh ei reithai a chhazaw ta
 
-          1.Cha châla ei pasie chavei la ei pa hie
-            Chavei la ei pasie chachâ la ei pa hie
-            Ei hei na la maih ta, Pahniena bei ei phuah
-            Amoh rohna va pahnie na cha kei ei achâ.
-                  
-                  (zisu)x3
-                  Na moh ei reithai a, zisu
-                  (zisu)X3
-                  Na moh ei reithai a chhazaw ta
-
-          2.Ei chana mothli zy , pahneina ta a thla
-            Ei nopona zydua chhao thlalohna ta abie
-            Daihti kho chiehpa zy cha ei hnochhy khai haw
-            Krista sai lyma cho, ta ei sie lyma aw
+2.Ei chana mothli zy , 
+  pahneina ta a thla
+  Ei nopona zydua chhao 
+  thlalohna ta abie
+  Daihti kho chiehpa zy cha 
+  ei hnochhy khai haw
+  Krista sai lyma cho, 
+  ta ei sie lyma aw
 
 ''';
 
@@ -724,582 +772,906 @@ const hmotaotheinazy = '''
 
 
 
-                  Hmotaotheina zy
+        Hmotaotheina zy
 
-          1.Hmotaotheina zy, Beizy Beipa
-            Hmotaopa zydua kheihawpa to hla ta
-            Nohvahna nata chyhsa pahnothaina
-            Khizaw y hla chhao y ha tlo chi
-            
-          2.Khinarah zydua, Bei dyuchhai chhao
-            Hmo noah khizaw ta pahno beih leipa
-            Khizaw a hneirohna zydua chhao heta
-            Cha thlie pakho theivei na soh zie
+1.Hmotaotheina zy, 
+  Beizy Beipa
+  Hmotaopa zydua kheihawpa 
+  to hla ta
+  Nohvahna nata chyhsa 
+  pahnothaina
+  Khizaw y hla chhao y ha tlo chi
+  
+2.Khinarah zydua, 
+  Bei dyuchhai chhao
+  Hmo noah khizaw ta pahno 
+  beih leipa
+  Khizaw a hneirohna zydua 
+  chhao heta
+  Cha thlie pakho theivei na soh zie
 
-                    Cha khaipa ei
-                    Thla lia ma za pazia
-                    Ei cha na thi
-                    Dytha pata na y
-                    Keima va mohnaona tao chi
-                    Kei molei va
-                    Ei sia nawpa thi tlo chi
+          Cha khaipa ei
+          Thla lia ma za pazia
+          Ei cha na thi
+          Dytha pata na y
+          Keima va mohnaona tao chi
+          Kei molei va
+          Ei sia nawpa thi tlo chi
 
 ''';
 
 const khizawhmozyhmapata = '''
-          
-           
-                Khizaw hmozy hma pata
-          
-          1.Khizaw hmozy hma pata
-            Hmia haopa chata,eima sahpa khopa zy
-            Hma pata noh tota miah aw tyh
-            Zisu Krista eima tleisai awpa he
-            Achhua chaipa acha. Eima pana pahno pata
-            Noh tota maniah tei tyh
-                  
-                  He khizaw hmo zydua hela rei adaih aw vei
-                  Hraolei pana thina dei acha, Eima lyna zy!
-                  Bei Zisu Krista lia deina thlahpa hrona a y
-                  Chavata khizaw hmo liata napaloh pachho kha y
 
-          2.Chyhsa pahrona hela  dadieh tu hata
-            Tihu buakha deita avaw lata
-            Alei heih tyh pahaw
-            Chyhsa zydua eima hrona chhao he 
-            Sokha ta  alo aw, chavata khizaw hmo liata
-            Na paloh pachho kha y
+  
+      Khizaw hmozy hma pata
 
-          3.Daihti kho chiepa zy saikhao leipa ta
-            Bei zisu Krista na ngiapana kha
-            Vaw pathie heih ma y
-            Ano ta angiathai theilei awpa hmo
-            Khapa hmata hnei vei
-            Na kua hei awpa ha pata
-            Cha  mocha ngah  thlah tyh
+1.Khizaw hmozy hma pata
+  Hmia haopa chata,
+  eima sahpa khopa zy
+  Hma pata noh tota miah aw tyh
+  Zisu Krista eima tleisai awpa he
+  Achhua chaipa acha. 
+  Eima pana pahno pata
+  Noh tota maniah tei tyh
+        
+        He khizaw hmo zydua hela 
+        rei adaih aw vei
+        Hraolei pana thina dei acha, 
+        Eima lyna zy!
+        Bei Zisu Krista lia deina 
+        thlahpa hrona a y
+        Chavata khizaw hmo liata 
+        napaloh pachho kha y
+
+2.Chyhsa pahrona hela  
+  dadieh tu hata
+  Tihu buakha deita avaw lata
+  Alei heih tyh pahaw
+  Chyhsa zydua eima hrona 
+  chhao he 
+  Sokha ta  alo aw, 
+  chavata khizaw hmo liata
+  Na paloh pachho kha y
+
+3.Daihti kho chiepa zy 
+  saikhao leipa ta
+  Bei zisu Krista na ngiapana kha
+  Vaw pathie heih ma y
+  Ano ta angiathai theilei awpa hmo
+  Khapa hmata hnei vei
+  Na kua hei awpa ha pata
+  Cha  mocha ngah  thlah tyh
 
 ''';
 
 const namoleiphaohripahleinakhoma = '''
-          
-          
-                Na molei phaohri pahlei na khoh ma?
-          
-          1.Na molei phaohri pahlei na khoh ma?
-            Thisaih lia hmotaotheina a y;
-            Moleina zydua pahnie na khoh ma? 
-            Thisaih lia pahniena a y.
 
-                  Hmotaitheina noàhpa a y,
-                  Bei zisu thisaih lia;
-                  Hmotaotheina noàhpa a y,
-                  Mietahkutaw thisaih liata.
 
-          2.Molei hmo zydua pahnie na khoh ma?
-            Thisaih lia hmotaotheina a y;
-            Kalvari pathaihna chavah ngai la,
-            Cha liata pahniena a y.
+    Na molei phaohri pahlei na khoh ma?
 
-          3.Dàhhaw hlà chhaota ngyuh via na khoh ma?
-            Thisaih lia hmotaotheina a y;
-            Molei pathaih thei,Hrona ti a chà,
-            Thisaih lia pathaihna a y.
+1.Na molei phaohri pahlei 
+  na khoh ma?
+  Thisaih lia hmotaotheina a y;
+  Moleina zydua pahnie 
+  na khoh ma? 
+  Thisaih lia pahniena a y.
 
-          3.Bei zisu chakao awpa na khoh ma?
-            Thisaih lia hmotaotheina a y;
-            Noh chareuh Ano reithai na khoh ma?
-            Thisaih lia hmotaotheina y.
+        Hmotaitheina noàhpa a y,
+        Bei zisu thisaih lia;
+        Hmotaotheina noàhpa a y,
+        Mietahkutaw thisaih liata.
+
+2.Molei hmo zydua pahnie 
+  na khoh ma?
+  Thisaih lia hmotaotheina a y;
+  Kalvari pathaihna chavah ngai la,
+  Cha liata pahniena a y.
+
+3.Dàhhaw hlà chhaota ngyuh via 
+  na khoh ma?
+  Thisaih lia hmotaotheina a y;
+  Molei pathaih thei,Hrona ti a chà,
+  Thisaih lia pathaihna a y.
+
+4.Bei zisu chakao awpa 
+  na khoh ma?
+  Thisaih lia hmotaotheina a y;
+  Noh chareuh Ano reithai 
+  na khoh ma?
+  Thisaih lia hmotaotheina y.
 
 ''';
 
 const thlapapathai = '''
-                  
-                  
-                  
-                  Thlapa pathai 
-                  
-          1.Thlapa Pathai ei chavâ kaw dia
-            Ei khi tlyna râh liata
-            Molei charia keicha a ru tu
-            Ei tha tlôna ta tiah thei vei.
+        
+        
+        
+        Thlapa pathai 
+        
+1.Thlapa Pathai ei chavâ kaw dia
+  Ei khi tlyna râh liata
+  Molei charia keicha a ru tu
+  Ei tha tlôna ta tiah thei vei.
 
-                  Na ku lia tahmâ ei vaw hlâ khai
-                  Lâ chakâ dâhna pachu la
-                  Chatlaisaw zy châ nachhuadypa râhcha
-                  Bohpa tana tlôkhei ma y
+        Na ku lia tahmâ ei vaw hlâ khai
+        Lâ chakâ dâhna pachu la
+        Chatlaisaw zy châ na
+        chhuadypa râhcha
+        Bohpa tana tlôkhei ma y
 
-          2.Thlapa Pathai ei nohto hrolia
-            Nâ a bei chai ma y
-            Na leita bei hrorai hnei vana
-            Ei hrina hla ei chakho via
+2.Thlapa Pathai ei nohto hrolia
+  Nâ a bei chai ma y
+  Na leita bei hrorai hnei vana
+  Ei hrina hla ei chakho via
 
-          3.Vachhu nônai khizaw chhâna taih
-            Ei hno khâ pa hrâla
-            Namo khochhipa rônah n'awpa
-            Kei he nahmâ lymâ ma y
+3.Vachhu nônai khizaw chhâna taih
+  Ei hno khâ pa hrâla
+  Namo khochhipa rônah n'awpa
+  Kei he nahmâ lymâ ma y
 
 ''';
 
 const zisueiviasaphachhai = '''
-        
-              
-              Zisu ei viasa pha chai
-        
-          1.Zisu ei viasa pha chai,
-            Ei moleina ty tho awpa ta;
-            Riethei taola torai taopa ta,
-            Molei chaipazy thina su;
-            Chhiesana tho Kross liata athi,
-            Chhazaw hro ei hnei haw.
 
-                  Hrochhôh ei zi lymâ aw,
-                  Riethei rairuna lia chhao;
-                  Khizaw ta aheisâi hrasala,
-                  Kyh nâ pachâtuhpa cha;
-                  Keila aheisâi thei khao vana;
-                  Ei pahno pasia Bei Zisu,
-                  Kei châ asoh zie he.
+    
+    Zisu ei viasa pha chai
 
-          2.Zisu ei viasa pha chai,
-            Ei châna zydua apahno khai;
-            Amoh vâ pasa ei tao nota,
-            Ano tlâi chhao apasa tyh;
-            Mothlih tlano na siesâi beih vei,
-            Ei hnohta a y tyh.
+1.Zisu ei viasa pha chai,
+  Ei moleina ty tho awpa ta;
+  Riethei taola torai taopa ta,
+  Molei chaipazy thina su;
+  Chhiesana tho Kross liata athi,
+  Chhazaw hro ei hnei haw.
 
-          3.Zisu ei viasa pha chai,
-            Ei nopona daihtizy liata;
-            Thlah na paloh tyhtuhpa a châ,
-            Ei ngiahpa maih eina pie tyh;
-            Ei kha hmahta nâ heisâi beih vei,
-            Kei châta ngâ âchhi.
+        Hrochhôh ei zi lymâ aw,
+        Riethei rairuna lia chhao;
+        Khizaw ta aheisâi hrasala,
+        Kyh nâ pachâtuhpa cha;
+        Keila aheisâi thei khao vana;
+        Ei pahno pasia Bei Zisu,
+        Kei châ asoh zie he.
 
-          4.Zisu ei viasa pha chai,
-            Ano ei vâna rai pâi thei vei;
-            Zisu ta kei kyh eina pachâ,
-            Kei chhao ano kyh ei pachâ;
-            Ano khopa tao lymâ pa he,
-            Ei lyna chai a châ.
+2.Zisu ei viasa pha chai,
+  Ei châna zydua apahno khai;
+  Amoh vâ pasa ei tao nota,
+  Ano tlâi chhao apasa tyh;
+  Mothlih tlano na siesâi beih vei,
+  Ei hnohta a y tyh.
+
+3.Zisu ei viasa pha chai,
+  Ei nopona daihtizy liata;
+  Thlah na paloh tyhtuhpa a châ,
+  Ei ngiahpa maih eina pie tyh;
+  Ei kha hmahta nâ heisâi beih vei,
+  Kei châta ngâ âchhi.
+
+4.Zisu ei viasa pha chai,
+  Ano ei vâna rai pâi thei vei;
+  Zisu ta kei kyh eina pachâ,
+  Kei chhao ano kyh ei pachâ;
+  Ano khopa tao lymâ pa he,
+  Ei lyna chai a châ.
 
 ''';
 const aboveall = '''
-         
-         
-         
-                  Above all
 
-          1.Hmotaotheina zy,
-            Beizy Beipa,
-            Hmotaopa zydua kheihawhpa to hlâ ta,
-            Novâhna nata chyhsa pahnothaina,
-            Khizaw y hlâ chhao y ha tlôh chi
 
-          2.Khihnarâh zydua,
-            Beidyuchhai chhao,
-            Hmo noâh khizaw ta pahno beih leipa,
-            Khizaw, a hneirôhna zydua chhao heta,
-            Cha thliepakho thei vei na sôhzie.
 
-                    Cha khaipâ ei,
-                    Thlâ lia 'ma cha pazia,
-                    Ei châ na thi,
-                    Dythapa ta na y,
-                    Keima vâ mohnaona tao chi,
-                    Kei molei vâ,
-                    Ei sia n'awpa,
-                    Thi tlôh chi.
+        Above all
+
+1.Hmotaotheina zy,
+  Beizy Beipa,
+  Hmotaopa zydua kheihawhpa to 
+  hlâ ta,
+  Novâhna nata chyhsa pahnothaina,
+  Khizaw y hlâ chhao y ha tlôh chi
+
+2.Khihnarâh zydua,
+  Beidyuchhai chhao,
+  Hmo noâh khizaw ta pahno beih 
+  leipa,
+  Khizaw, a hneirôhna zydua chhao 
+  heta,
+  Cha thliepakho thei vei na sôhzie.
+
+          Cha khaipâ ei,
+          Thlâ lia 'ma cha pazia,
+          Ei châ na thi,
+          Dythapa ta na y,
+          Keima vâ mohnaona tao chi,
+          Kei molei vâ,
+          Ei sia n'awpa,
+          Thi tlôh chi.
 ''';
 
 const nangiathaimay = '''
-          
-             
-             
-                Na Ngiathai ma y
-          
-          1.Krista kyhpachâna,
-            Pahnothai leipa hawhta;
-            Ei daihti nah noh zy,
-            Ei khohzie hawh vaw hmâh na;
-            Kyhpachâtuh palôh cha,
-            Khatlu a pasa aw tly.
 
-                BEIPA nâ ngiahthai mah y,
-                Thaichâna rai hnei va na; 
-                Na sei pakha hawh chhâ ta, 
-                Châ hrawpa ta ei chaw ngai.
+    
+    
+      Na Ngiathai ma y
 
-          2.Siana rai hnei leipa,
-            Pathi palôh pualeipa;
-            Chyhsazy pachâ ta, 
-            Thi tlâh ta ama raopa; 
-            Khazia a tanoh taihta, 
-            Khâ einâ thei thân hâ tly.
+1.Krista kyhpachâna,
+  Pahnothai leipa hawhta;
+  Ei daihti nah noh zy,
+  Ei khohzie hawh vaw hmâh na;
+  Kyhpachâtuh palôh cha,
+  Khatlu a pasa aw tly.
 
-          3.Ei moleina vâta,
-            Kyhpachâtuh hmia khochhih;
-            Chyhsa hluhpi zy ta,
-            Vaw hmô thei tlâ khao veih ei; 
-            Thina lâthlôh chhihpazy, 
-            Keima thailei và a châ.
+      BEIPA nâ ngiahthai mah y,
+      Thaichâna rai hnei va na; 
+      Na sei pakha hawh chhâ ta, 
+      Châ hrawpa ta ei chaw ngai.
+
+2.Siana rai hnei leipa,
+  Pathi palôh pualeipa;
+  Chyhsazy pachâ ta, 
+  Thi tlâh ta ama raopa; 
+  Khazia a tanoh taihta, 
+  Khâ einâ thei thân hâ tly.
+
+3.Ei moleina vâta,
+  Kyhpachâtuh hmia khochhih;
+  Chyhsa hluhpi zy ta,
+  Vaw hmô thei tlâ khao veih ei; 
+  Thina lâthlôh chhihpazy, 
+  Keima thailei và a châ.
 
 ''';
 
 const atoeihlakhai = '''
-          
-              
-              
-                Ato ei hlâ khai
-          
-          1.Zisu hnohta ato ei hlâ, 
-            Lypa ta ei pie khai haw; 
-            A kyhpachâ ta ei ngâ aw, 
-            Noh to a hnoh ei y aw.
 
-                Ato ei hlâ khai, (2)
-                Nâma hnohta hy Bei Zisu;
-                Ato ei hlâ khai.
+    
+    
+      Ato ei hlâ khai
 
-          2.Zisu hnohta ato ei hlâ,
-            Areisipa ta ei vy; 
-            Khizaw lyna siesaipa ta, 
-            Na hnohta na pa-ysa.
+1.Zisu hnohta ato ei hlâ, 
+  Lypa ta ei pie khai haw; 
+  A kyhpachâ ta ei ngâ aw, 
+  Noh to a hnoh ei y aw.
 
-          3.Zisu hnohta ato ei hlâ,
-            Nâma eih ta na tao la;
-            Thlahpa Pathaih na pahnokhei, 
-            Kei cha nâma eih ei châ.
+      Ato ei hlâ khai, (2)
+      Nâma hnohta hy Bei Zisu;
+      Ato ei hlâ khai.
 
-          4.Zisu hnohta ato ei hlâ,
-            Ei pôhpa chhao ei cha hlâ;
-            Kyhpachâna ta na pabie, 
-            Ngiachhie ta byhnâ na pie.
+2.Zisu hnohta ato ei hlâ,
+  Areisipa ta ei vy; 
+  Khizaw lyna siesaipa ta, 
+  Na hnohta na pa-ysa.
 
-          5.Zisu hnohta ato ei hlâ, 
-            Na ngiachhiena ei padi;
-            Pachhana ki lychhihpa vâ, 
-            A moh cha rôhnah mawh sy.
+3.Zisu hnohta ato ei hlâ,
+  Nâma eih ta na tao la;
+  Thlahpa Pathaih na pahnokhei, 
+  Kei cha nâma eih ei châ.
+
+4.Zisu hnohta ato ei hlâ,
+  Ei pôhpa chhao ei cha hlâ;
+  Kyhpachâna ta na pabie, 
+  Ngiachhie ta byhnâ na pie.
+
+5.Zisu hnohta ato ei hlâ, 
+  Na ngiachhiena ei padi;
+  Pachhana ki lychhihpa vâ, 
+  A moh cha rôhnah mawh sy.
 
 ''';
 
 const lynachotaeichakaoaw = '''
-         
-              
-              Lyna chôta ei chakao aw
-         
-          1.Chiehleinazy rairunazy,
-            Ei chô Liata vaw tlô tyhpa he; 
-            Vâduana ta rao hrawsala, 
-            A kyhpachâ ngiachhiena; 
-            Keima lia palâsatuhpa a châ.
-        
-                Lyna chôta ei chakao aw, 
-                Rairuna hluh hrasa;
-                Kyhpachâtuh Bei Zisu ta,
-                Rairuna lia kei dei na siesai aw vei.
-                A ngiachhiena khokheina raihria he;
 
-          2.Kyhpachâzy pha nawpa ta,
-            Chyhsa sohna pahnona ta, 
-            A pha thei vei â thuhzie;
-            Thlahpa lâ sawzy deileipa ta cha.
+    
+    Lyna chôta ei chakao aw
 
-          3.Keima liata rairuna he,
-            Nohto ta pôh via rili hrasa; 
-            chakao raihria liata, 
-            Thazeihpa ta y aw va; 
-            Beipa cha paphôh leita ei zi aw.
+1.Chiehleinazy rairunazy,
+  Ei chô Liata vaw tlô tyhpa he; 
+  Vâduana ta rao hrawsala, 
+  A kyhpachâ ngiachhiena; 
+  Keima lia palâsatuhpa a châ.
+
+      Lyna chôta ei chakao aw, 
+      Rairuna hluh hrasa;
+      Kyhpachâtuh Bei Zisu ta,
+      Rairuna lia kei dei na 
+      siesai aw vei.
+      A ngiachhiena khokheina 
+      raihria he;
+
+2.Kyhpachâzy pha nawpa ta,
+  Chyhsa sohna pahnona ta, 
+  A pha thei vei â thuhzie;
+  Thlahpa lâ sawzy deileipa ta cha.
+
+3.Keima liata rairuna he,
+  Nohto ta pôh via rili hrasa; 
+  chakao raihria liata, 
+  Thazeihpa ta y aw va; 
+  Beipa cha paphôh leita ei zi aw.
 
 ''';
- 
+
 const myredeemerluves = '''
-          
-          
-              MY REDEEMER LIVES
 
-          EI THLAHPA NA PACHHA HAW 
-          A THISAIH TA EI MOLEINA NA PASI, 
-          EI NGIAPÂ
 
-          EI TLOHLEINA A PAHLEI HAW 
-          EI PASANA CHHAO A PATLÂH A MOH TA
-          EI NGIAPÂ
+    MY REDEEMER LIVES
 
-          PORAI EI ZAWH AW 
-          BEIPA TA THINA PAHNIE
+EI THLAHPA NA PACHHA HAW 
+A THISAIH TA EI MOLEINA NA PASI, 
+EI NGIAPÂ
 
-          PACHHATUH A CHÂ(X4)
+EI TLOHLEINA A PAHLEI HAW 
+EI PASANA CHHAO A PATLÂH A MOH TA
+EI NGIAPÂ
 
-          EI PHAOHRI PATHLÂ 
-          CHI NÔ LÀ EIVY 
-          TLÂH KI CHÔ LIATA LÂHPA TA
-          NA KHINARÂH EI HÂ.
+PORAI EI ZAWH AW 
+BEIPA TA THINA PAHNIE
+
+PACHHATUH A CHÂ(X4)
+
+EI PHAOHRI PATHLÂ 
+CHI NÔ LÀ EIVY 
+TLÂH KI CHÔ LIATA LÂHPA TA
+NA KHINARÂH EI HÂ.
 
 ''';
 
 const moleihmohriphaopenaw = '''
-          
-              
-              Molei hmohri aphaohp'enawh
-          
-          1.Molei hmohri aphaohp'enawh, 
-            Bei lia zawhngiahna y;
-            A bie a ngâtuhpazy cha,
-            Pahâna a pie ei.
 
-                Ano ngâ teh, Ano ngâ teh,, 
-                Atahmâ ngâ teh; 
-                Cha pachha aw, cha pachha aw, 
-                Thlai cha pachha aw.
+    
+    Molei hmohri aphaohp'enawh
 
-          2.Byhnâ reitiah lei pie awpa, 
-            Krista thisaih a loh; 
-            Thisaih sôh liata any la,
-            Dâhhaw tlu pasi thei.
+1.Molei hmohri aphaohp'enawh, 
+  Bei lia zawhngiahna y;
+  A bie a ngâtuhpazy cha,
+  Pahâna a pie ei.
 
-          3.Zisu cha Hmeiseih nah Lâthlôh, 
-            Pahâna su a châ;
-            Nainôsô lei ta, ngiapâ teh,
-            Byhnâ phahl'aw va chi.
+      Ano ngâ teh, Ano ngâ teh,, 
+      Atahmâ ngâ teh; 
+      Cha pachha aw, cha pachha aw, 
+      Thlai cha pachha aw.
 
-          4.Sahlao pathaih nawh hnoh vy t'u, 
-            Rôhnah lâ ngaipa ta;
-            Tlyzaw râh lia pahrâ'pa ta, 
-            Tlyzaw thaphana lia.
+2.Byhnâ reitiah lei pie awpa, 
+  Krista thisaih a loh; 
+  Thisaih sôh liata any la,
+  Dâhhaw tlu pasi thei.
+
+3.Zisu cha Hmeiseih nah Lâthlôh, 
+  Pahâna su a châ;
+  Nainôsô lei ta, ngiapâ teh,
+  Byhnâ phahl'aw va chi.
+
+4.Sahlao pathaih nawh hnoh vy t'u, 
+  Rôhnah lâ ngaipa ta;
+  Tlyzaw râh lia pahrâ'pa ta, 
+  Tlyzaw thaphana lia.
 
 ''';
 
 const hyrohnachai = '''
 
-                  
-                  
-                   HY RÔHNAH CHAI 
+        
+        
+          HY RÔHNAH CHAI 
 
-          1.Noh nah thlapa, awhsi zy,
-            A ruapa liata; 
-            Zili pathaihpa tilaipi nah tlâhpi zy, 
-            Na rôhnah zie he khâ palâsa ei.
+1.Noh nah thlapa, awhsi zy,
+  A ruapa liata; 
+  Zili pathaihpa tilaipi nah tlâhpi zy, 
+  Na rôhnah zie he khâ palâsa ei.
 
-                  Hy rôhnah chai na rôhnahzie zy he, 
-                  Chyhsa pachâna ta a pha thei vei;
-                  Khina râhzy, hmotaotheinazy,
-                  Tlyzaw ta nâ eih châ tlôh ta.
+        Hy rôhnah chai na rôhnahzie 
+        zy he, 
+        Chyhsa pachâna ta a pha thei 
+        vei;
+        Khina râhzy, hmotaotheinazy,
+        Tlyzaw ta nâ eih châ tlôh ta.
 
-          2.Vâ meihdo nah vâpiati, 
-            My thlihua na ta; 
-            Diahti pasohpa pawpi pawngia to zyta,
-            Na rôhnahzie he ama palâsa.
+2.Vâ meihdo nah vâpiati, 
+  My thlihua na ta; 
+  Diahti pasohpa pawpi pawngia to 
+  zyta,
+  Na rôhnahzie he ama palâsa.
 
-          3.Ti chalâ parâpazy, 
-            Tôhkalôh nata;
-            Pachie tlapa pyu, thlihpi ru ngaitapazy,
-            Na rôhnahzie he ama palâsa.
+3.Ti chalâ parâpazy, 
+  Tôhkalôh nata;
+  Pachie tlapa pyu, 
+  thlihpi ru ngaitapazy,
+  Na rôhnahzie he ama palâsa.
 
 ''';
 
 const eihnotaymahy = '''
-                
-                
-                Ei hnohta ymah y
+      
+      
+      Ei hnohta ymah y
 
-          1. Zisu Zisu Ei palôh liata bie vaw reih chanei 
-            heih la, 
-            Ei ngiapâna he tha napatlo teh; 
-            Na bie leita keima lia hmotaotheina rai y vei.
+1.Zisu Zisu Ei palôh liata 
+  bie vaw reih chanei heih la, 
+  Ei ngiapâna he tha napatlo teh; 
+  Na bie leita keima lia 
+  hmotaotheina rai y vei.
 
-                Nâzari Zisu kei na khosai khay,
-                Nâ leita keima he,he khizaw liata;
-                Baotuhpa hro rai hnei va,
-                Ei hnohta y mah y.
+      Nâzari Zisu kei na khosai kha y,
+      Nâ leita keima he,
+      he khizaw liata;
+      Baotuhpa hro rai hnei va,
+      Ei hnohta y mah y.
 
-          2.Zisu Zisu He khizaw liata na daihti nâ hmah 
-            no ta, 
-            Palôh hmeihseih ta cha hruatuhpazy;
-            Dytha va chi kei chhao ei chahruana dytha 
-            kha y.
+2.Zisu Zisu He khizaw liata 
+  na daihti nâ hmah no ta, 
+  Palôh hmeihseih ta cha 
+  hruatuhpazy;
+  Dytha va chi kei chhao ei 
+  chahruana dytha kha y.
 
-          3.Zisu Zisu chiehleipazy ta Dawty angiah ty 
-            ei ta,
-            Thatlôpazy ta ângiah vei ei;
-            Kei chieleipa thachhâpa he ta ei chavâ ngai ta.
+3.Zisu Zisu chiehleipazy ta Dawty 
+  angiah ty ei ta,
+  Thatlôpazy ta ângiah vei ei;
+  Kei chieleipa thachhâpa he ta 
+  ei chavâ ngai ta.
 
 ''';
 
 const eisahhlupi = '''
-                 
-                 
-                  EI SÂH HLUHPI
-                  (10000 Reasons)
+        
+        
+        EI SÂH HLUHPI
+        (10000 Reasons)
 
-          Hy ei thlahmipa y, Beipa reithai la
-          A moh dei a chhy la
-          Noh hro hlâh rôhna via ta sala
-          A moh reithai ma y
+Hy ei thlahmipa y, Beipa reithai la
+A moh dei a chhy la
+Noh hro hlâh rôhna via ta sala
+A moh reithai ma y
 
-          Atanoh he daihti thiehpa a châ 
-          Na reithaina hla eima sa 
-          Khắpa rai ei hro ta âtyh hra sala
-          Reithaina hla sa lymâ ei khoh
+Atanoh he daihti thiehpa a châ 
+Na reithaina hla eima sa 
+Khắpa rai ei hro ta âtyh hra sala
+Reithaina hla sa lymâ ei khoh
 
-          Kyhpachana nah sianata na bie 
-          Na palôh a pha, na rôhna 
-          Na phana zydua va ei cha reithai aw 
-          Ei sâh hluhpi na phana zy va
+Kyhpachana nah sianata na bie 
+Na palôh a pha, na rôhna 
+Na phana zydua va ei cha reithai aw 
+Ei sâh hluhpi na phana zy va
 
-          Locho thatlôna ta na tleisai ti
-          Ei hrozô noh a tla ti ta 
-          Reithaina hla ei thlahpa ta a sa aw 
-          Kô sâh hluhpi chhazaw taih chhao ta
+Locho thatlôna ta na tleisai ti
+Ei hrozô noh a tla ti ta 
+Reithaina hla ei thlahpa ta a sa aw 
+Kô sâh hluhpi chhazaw taih chhao ta
 
 ''';
 
 const theblessing = '''
-          
-              
-              
-              The Blessing 
-          
-          Bei chaipa ta
-          Cha hrôbie se 
-          A hmia khohchhi cha pahmôsa
-          Zawh châ ngiah mawh sy! 
-          A hmiâ nâ lâ aheih sala
-          Thlâh cha palôh se!
 
-          AMEN AMEN AMEN AMEN AMEN 
-          A khokheina cha na chô lia 
-          Na chhôkha nah na pathla zy
-          Ama pathla zydua hnôh chhao
-          Chhâ zydua hnoh vaw y mawh sy!
+    
+    
+    The Blessing 
 
-          Na hnôh lâta, na hmia lâ chhao 
-          Na chavei nah, na châchâh lâ
-          Na siena maih zydua liata
-          A cha ypâ, A cha ypâ
+Bei chaipa ta
+Cha hrôbie se 
+A hmia khohchhi cha pahmôsa
+Zawh châ ngiah mawh sy! 
+A hmiâ nâ lâ aheih sala
+Thlâh cha palôh se!
 
-          AMEN AMEN AMEN AMEN AMEN
-          My nah zâ ta, acha ypâ
-          Nâ ngia nota, na pua ti chhao
-          Nôpo nota nâ lyna lia
-          Na châ a y, Na châ a y.
+AMEN AMEN AMEN AMEN AMEN 
+A khokheina cha na chô lia 
+Na chhôkha nah na pathla zy
+Ama pathla zydua hnôh chhao
+Chhâ zydua hnoh vaw y mawh sy!
+
+Na hnôh lâta, na hmia lâ chhao 
+Na chavei nah, na châchâh lâ
+Na siena maih zydua liata
+A cha ypâ, A cha ypâ
+
+AMEN AMEN AMEN AMEN AMEN
+My nah zâ ta, acha ypâ
+Nâ ngia nota, na pua ti chhao
+Nôpo nota nâ lyna lia
+Na châ a y, Na châ a y.
 
 ''';
 
 const pathipalomoleichhipa = '''
-          
-          
-              Pathipalôh molei chiehpa
-          
-          1.Pathipalôh molei chiehpa,
-            Nâ chhyna o pachâsa; 
-            A chhôh liata, hy ei Beipa,
-            Chhâzaw ta vaw pahrâ la.
 
-                Na yna cha,na yna cha, 
-                Chhâzaw lyna a châ tyh. }2
 
-          2.Ei khata chhâ ei cha hmô khiah,
-            Nâ tlai ei cha hmô khiahla ; 
-            Khizaw ngiana zydua hlâta,
-            A lie za ta nâ ngia via.
+      Pathipalôh molei chiehpa
 
-                Ei châ pie aw, ei châ pie aw, 
-                Nâma hnoh pahrâ'pa ta .} 2
+1.Pathipalôh molei chiehpa,
+  Nâ chhyna o pachâsa; 
+  A chhôh liata, hy ei Beipa,
+  Chhâzaw ta vaw pahrâ la.
 
-          3.Ei moleina pahlei khai la,
-            Ei thlahpa pachha mah y;
-            A zohna kyh eina ai cha, 
-            Vâ khaihpa vaw khaih mah y. 
+      Na yna cha,na yna cha, 
+      Chhâzaw lyna a châ tyh. }2
 
-                Na vaw khaih khiah, (2) 
-                Ei palôh lyna ta bie. }2
+2.Ei khata chhâ ei cha hmô khiah,
+  Nâ tlai ei cha hmô khiahla ; 
+  Khizaw ngiana zydua hlâta,
+  A lie za ta nâ ngia via.
+
+      Ei châ pie aw, ei châ pie aw, 
+      Nâma hnoh pahrâ'pa ta .} 2
+
+3.Ei moleina pahlei khai la,
+  Ei thlahpa pachha mah y;
+  A zohna kyh eina ai cha, 
+  Vâ khaihpa vaw khaih mah y. 
+
+      Na vaw khaih khiah, (2) 
+      Ei palôh lyna ta bie. }2
 
 ''';
 
 const hallelujah = '''
-        
-        
-               Hallelujah
-        
-          Hallelujah x3
-          Ryu A reih.
 
-          Hallelujahx3 
-          Beipa ta ryu A rei.
 
-          A hmotaotheina palâsa 
-          Ronâh ta A pahnie haw 
-          Thina zohna pahnietuh rônah a chân
+      Hallelujah
 
-          Molei bâliari pathlâ ta, 
-          Seichâna tawh miah papua, 
-          Ngiachhiena ta pachhapa châ pi.
+Hallelujah x3
+Ryu A reih.
+
+Hallelujahx3 
+Beipa ta ryu A rei.
+
+A hmotaotheina palâsa 
+Ronâh ta A pahnie haw 
+Thina zohna pahnietuh rônah a chân
+
+Molei bâliari pathlâ ta, 
+Seichâna tawh miah papua, 
+Ngiachhiena ta pachhapa châ pi.
 
 ''';
 
 const chhazawtaronahnatayse = '''
-          
-          
-                Chhâzaw ta rônahna ta y se
-          
-          1.Thlâpâ nah awhsi zy 
-            Nohlynô chhao a zoh
-            Khizaw Pachhatuhpa A thi haw
-            Kraws lia khaipâ ei ta
-            A thisaih cha a loh 
-            Chhiesana zydua cha a phao haw
 
-          2.Khazoh saw matlupa
-            Cha aheisai ta ei ly 
-            Thina zohna liata pazia ei
-            Thlâ khaoh adyuhna lia 
-            Thina cha pahnie ta 
-            Zohna hmotaotheina a tiah haw
 
-          3.Chhaolei achalyu ta
-            Thlâlô â pasie haw
-            A kyhpachana cha khawhlô thei vei
-            Thina nah a châmaih
-            Thyuheipa Beipa ta
-            Chhâzaw ta cha pahnie haw
+      Chhâzaw ta rônahna ta y se
 
-             
-                Chhâzaw ta rônahna ta y se
-                Chhâzaw ta reithai ta y se
-                Chhâzaw ta thyuhei Beipa
-                Chhâzaw a hro, chhâzaw a hro
+1.Thlâpâ nah awhsi zy 
+  Nohlynô chhao a zoh
+  Khizaw Pachhatuhpa A thi haw
+  Kraws lia khaipâ ei ta
+  A thisaih cha a loh 
+  Chhiesana zydua cha a phao haw
 
-          Reithaipa ta y se(3) 
-          Khizaw a tiah ha na
+2.Khazoh saw matlupa
+  Cha aheisai ta ei ly 
+  Thina zohna liata pazia ei
+  Thlâ khaoh adyuhna lia 
+  Thina cha pahnie ta 
+  Zohna hmotaotheina a tiah haw
+
+3.Chhaolei achalyu ta
+  Thlâlô â pasie haw
+  A kyhpachana cha khawhlô thei vei
+  Thina nah a châmaih
+  Thyuheipa Beipa ta
+  Chhâzaw ta cha pahnie haw
+
+    
+      Chhâzaw ta rônahna ta y se
+      Chhâzaw ta reithai ta y se
+      Chhâzaw ta thyuhei Beipa
+      Chhâzaw a hro, chhâzaw a hro
+
+Reithaipa ta y se(3) 
+Khizaw a tiah ha na
 
 ''';
 
 const beipachawpangai = '''
           
-          
-              Beipa ch'aw pangai
-          
-          1.Beipa ch'aw pangai
-            Palôh thiehpa na pie la 
-            Ngiachhiena nâma tawh lohpa cha ta 
-            Ei tlohleina zy
-            chiehleina zydua chhaota 
-            Na kyhpachâna 
-            Ta na pathaisa se!
-               
-                Nâ hnia la na kyhpachâna ta na, 
-                Nâ kei la, nâ lâ na chhi teh, 
-                Chati Beipa pahmôpi hawh azaw ta
-                Na kiah lia ei sie aw,
-                Thlahpa ta na chhi la 
-                Na kyhpachana ta.
 
-          2.Ei mo pavâhsa, 
-            Beipa na hmi ei hmô khoh, 
-            Na kyhpachâ bieru pahnothai thei sah 
-            Pachâna thieh na pie,
-            Na khohzie hawh hro awpa ta,
-            Nohto na chhi la 
-            Kyhpachâ rônah ta.
+    Beipa ch'aw pangai
+
+1.Beipa ch'aw pangai
+  Palôh thiehpa na pie la 
+  Ngiachhiena nâma tawh 
+  lohpa cha ta 
+  Ei tlohleina zy
+  chiehleina zydua chhaota 
+  Na kyhpachâna 
+  Ta na pathaisa se!
+      
+      Nâ hnia la na kyhpachâna ta na, 
+      Nâ kei la, nâ lâ na chhi teh, 
+      Chati Beipa pahmôpi hawh 
+      azaw ta
+      Na kiah lia ei sie aw,
+      Thlahpa ta na chhi la 
+      Na kyhpachana ta.
+
+2.Ei mo pavâhsa, 
+  Beipa na hmi ei hmô khoh, 
+  Na kyhpachâ bieru 
+  pahnothai thei sah 
+  Pachâna thieh na pie,
+  Na khohzie hawh hro awpa ta,
+  Nohto na chhi la 
+  Kyhpachâ rônah ta.
+
+''';
+
+const imanueltharitawhta = '''
+
+      
+      Imanuel thari tawhta
+
+1.Imanuel thari tawhta,
+  Thisaih tihnawh a y; 
+  Moleipa cha thisaih lia ny, 
+  Molei puanazy lei.
+
+2.Parutuhpa a thi haino, 
+  Cha tihnawh hmô và ly; 
+  Ano tlu molei hr'aw sala, 
+  Ei molei pasia thei.
+
+3.Na hmah thi phih vahtie lohna, 
+  Ngiapâna ta hmô tawh; Chatlai,
+ kyhpachâ rôhnahzie, 
+  Hro chhôh ei chho laih aw.
+
+4.He paleih reih thai khao lei no, 
+  Thlâ lia ei zia tita; 
+  Cha hnôhlâ ta hla rôhnah via, 
+  Pachhana hla ei sa.
+
+5.Thisaih chavah ei vaw hmô no,
+  Ngiachhiena ta a bie; 
+  Tlyzaw chhaota kua beih aw vei,
+  Molei siana chavah.
+
+''';
+const pakhotehu = '''
+
+      Pakho teh u,
+
+1.Mopathaihpazy, moh teh u, 
+  Pachârôhpa chyhsa cha;
+  Adyuhna pahnie ta vaw kua,
+  Mo to ta anaoh suh vy.
+
+      Pakho teh u, vâmo saih u,
+      Bei zydua Beichaipa cha !
+      Pakho teh u, Pachhatuhpa,
+      Bei zydua Beichaipa cha.
+
+2.Pachhatuhpa cha pakho t'u,
+  Pahnietuhpa Bei Zisu;
+  Hmotaotheina Beidyuchhai lia, 
+  Và liana khi â kaw tyuh.
+
+3.Moleipa chhaota pakho ei,
+  Pachhatuh taolapa ta; 
+  Vâmozy, ano chadô ei, 
+  A Beina moh reithai ei.
+
+4.Alyna hla cha nahthlie t'u!
+  Ramo pyu ngia chaipa cha! 
+  Bei Zisu su sâh chai a to !
+  Hy thapha â chhih kaw dia !
+
+''';
+
+const einachhinamaiheisieaw = '''
+
+
+    Einâ chhina maih ei sie aw
+
+1.Einâ chhina maih ei sie aw, 
+  Ano ei ngâ hapa vâta; 
+  Ei châta Kalvari lia thi, 
+  Tahpa khâ ei thei thlâh vâta.
+
+      Zisu ta chhô nah zâ nâ chhi, 
+      A chhâna taih einâ chhi aw;
+      Ei viasa hmeiseihpa a châ,
+      Kalvari khâ ei thei vâta.
+
+2.A biepiena lia ei thapha, 
+  A ku ta nâ chhipa ei khoh;
+  Kalvari thisaih vâ na cha, 
+  Ano khopa ei pahâsa.
+
+3.Nâ Pachhatuh Krista hnohta, 
+  China hnei lei ta ei sie aw; 
+  Zisu kalvari lia thipa, 
+  Vâ lia hmô'pa ei hnabeiseih.
+
+''';
+const hmotoeitaothei = '''
+
+
+HMOTO EI TAOTHEI
+
+Na liata ato ei taothei
+Hmoto ei taothei
+Tha na patlôtu cha chi
+Hmoto ei taothei
+Na lia mopavana a y
+Bâliahri a thlâ
+Ngiapâna ta ei sie
+Hmoto ei taothei
+
+Hmôtheipa hmo lia a pahnie va 
+Hriatheipa lia chhao apahnie va 
+Ei palôh lia na hro ei pahno
+Ato taothei na cha ei pahno
+
+Bridge
+Ei ngiapa, Ei ngiapa x 3
+
+''';
+const khizawheleihrasa = '''
+
+    
+    Khizaw he lei hrasa
+
+1.Khizaw he lei hrasa,
+  Zisu ei hnei, 
+  Ato zydua hlâta
+  Zisu Ei khoh via;
+  Khizaw a zoh kaw na,
+  Moleina y vâta, 
+  Zisu Pachhatuhpa,
+  Zisu kei eih.
+
+2.Moleina lâ sie kha, 
+  Zisu zi teh,
+  Ano ta chhâzaw ta
+  Châ chhi laih aw;
+  Ngiaroh a tlô khiahla, 
+  Thlah cha palôh laih aw,
+  Na pachârôh lei aw
+ Zisu zi la.
+
+3.Zâ vaw tlô hra sala, 
+  Zisu ei hnei, 
+  Kei châ khih pava aw, 
+  Zisu khaih ta; 
+  Ei thlahpa tlâhna cha 
+  Zisu hnohta a y,
+  Thisaih ta na chalei, 
+  Zisu kei eih.
+
+4.Thina ei hnia no chhao, 
+  Zisu na zi,
+  A hnohta nâ chhi aw, 
+  Vârâh taihta; 
+  Cha cha ei tlô tita, 
+  Tlyzaw ei pahâ aw, 
+  Ano cha tlyzaw ta 
+  ei reithai aw.
+
+''';
+
+const eimalikalialeichiepaay = '''
+
+    Eima lika lia Lei chiepa a y
+
+1.Eima lika lia Lei chiepa a y
+  Tlasapa ei kia theilei awpa 
+  Hnabeidy pa ta, na la ei kaw heih 
+  Nopota na mo ei pa do 
+  Zona hry tawh na kypachana ta 
+  Ei palôh zona khaipahlie 
+  Ato pahnie ta, na paki khai haw 
+  Zisu ei hnabeiseina
+
+2.A ngiachhiena na ta zawngiana he 
+  Ahy palo ta pahnothai aw 
+  Ronahna siesai ta lei la naa zu 
+  Ei molei ty phao awpa ta 
+  Kross ta/lia ngiathai ei chana palasa 
+  Ano eih ta eina tao haw 
+  (Ano ta eina hnei khai haw) 
+  Pachhatu khochhi, na eih ei cha haw 
+  Zisu ei hnabeiseina
+
+
+    Hallelujah, Pachhatu ei reithai aw 
+    Hallelujah, Thina na tiakhao vei
+    Balia ri to pathla chi
+    Namo lia hrona a y 
+    Zisu ei hnabeiseina
+
+3.Thyuheihna bietai pakina noh lia 
+  Sapa thina tawh hrona thiep. 
+  Thlà sidiapa tawh, biehneina chhao ta 
+  Zisu ta thina a pahnie haw 
+  Zisu, pahnietuhpa na châ,whoa!
+
+''';
+const hybeikhazohnahmotaopazyduahe = '''
+
+
+      Hy Bei Khazoh na hmotaopa zydua he
+
+1.Hy Bei Khazoh na hmotaopa zydua he, 
+  Pachâ châh ta noâhna ta na bie; 
+  Zâ awhsi khaihpa nah tôhkalôhpa pyu, 
+  Na hmotaothei vâ lia â lâpazy.
+
+      Ei thlahpa ta cha reithai khoh, Beipa, 
+      Hy rôhnah chai ! Hy rôhnah chai ! 
+      Ei thlahpa ta cha reithai khoh, Beipa, 
+      Hy rôhnah chai ! Hy rôhnah chai !
+
+2.Tuhpi thosôh, râhhmâh zy chahryh châh ta, 
+  Thosôh chô lia sopavaw hla sa ei; 
+  Sai ei sih la tlâhto nah su to tawhta, 
+  Thlihua vaw sie chavah nai zualua loh.
+
+3.Khazoh ta a saw matlu pahlôh lei ta, 
+  Ngiakhoh y vei thi awpa ta a tuah ; 
+  Kraws chỗ liata ei molei ty lyta phaoh, 
+  Kei molei châ thisaih lohta a thi.
+
+4.Krista tlai cha awhna ao chhao â zu ti,
+  Nâ chhi aw ta, lyna ta ei bie aw; 
+  Ahmiakô lia bôhta anaoh aw na ta, 
+  "Hy rôhnah chai," tahta ei reithai aw.
+
+''';
+
+const ngiachhiechakaoraihrialiata = '''
+1.Ngiachhie chakao raihria liata
+chàna zy hnei pata 
+Thaina sona hneina zy chhao 
+hmà hraw sala 
+Thlahpa pathai â hlao leita 
+chakaona he 
+Hraolei dei a châ hriapasana.
+
+    Ei chava ngaita thlahpa pathai palô 
+    lia bie vaw reih heihla 
+    Paw kho via pa na pachu la 
+    noh charei ta 
+    Hnôsy leipata ei cha zi aw
+
+2.Ei vaw chakao tyhna 
+daihti khô chieh pa zy kha 
+Ei sai châta a palai kheih 
+tlâhpa hnei va
+Ei sia leina tloh leina dei 
+na pahmôsa 
+Hmâtlâh cha vana na ràh chàta
+
+3.Sâh hlupi zy leidiana rah, rahpatho lia ta
+Nodi dahphi thachha pata kha ei ro ty 
+Keikha chhao he Chaka Thai va Nama leita
+Na ku thatlo ta na chhi MA y
+
+''';
+
+const kalvariliapachhatuhmohla = '''
+
+      
+      Kalvari lia Pachhatuh moh la
+
+1.Kalvari lia Pachhatuh moh la, 
+  Na nah kei châ pasa a tao haw; 
+  Kyhpachâ ta awna nahthlie la, 
+  Moh la na hroh aw.
+
+      Moh la na hroh aw,
+      Moh la na hroh aw;
+      Na châ a thina Kraws lâ moh la, 
+      Moh la na hroh aw. 
+
+2.Thlahpa molei pachha awpa ta,
+  Chhâzaw hrona cha na hnei khoh ma? 
+  Zisu ano tlaita â pie haw, 
+  Moh la na hroh aw.
+
+3.Thlâ tawh thyupa Pachhatuh moh la,
+  Ano yna lâ ngai para la;
+  A hmia khaihna ta zohna pahlei, 
+  Moh la na hroh aw.
+
+4.Zisu reihpha chei n'awpa ta hroh, 
+  Moleipazy ngiahna a pahno; 
+  Ano tlaita a châ chhi laih aw, 
+  Moh la na hroh aw.
 
 ''';
 
@@ -1318,420 +1690,1345 @@ const mizoLyrics = {
 12: thleibikaneilo,
 13: hmangaihtu,
 14: ilamkanlohawi,
-15: ihluani,
+15: kalawmelalpa,
 16: minchhungkhatla,
+17: kadaizeldawn,
+18: nangfakzelche,
+19: kathlarauachawmlehthin,
+20: engngekalungaihang,
+21: minhmangaihsia,
+22: eldorado,
+23: nitinin,
+24: sualsetananreitakminlobum,
+25: nawmsaknatezawnginkatlanthin,
+26: hringnunkanzinkawngahhian,
+27: hekhawvelleharopuinate,
+28: kumtamtakchunghmangaihtuhreloin,
+29: kalalpaminhruainahi,
+30: sualbumnalamtluangzawhin,
+31: nangnenchuan,
+32: thianthaberisua,
+33: leihringnunkhualzinkawngahhian,
+34: minhruailakazuiangche,
+35: katlingsilo,
+
 };
 
 const nangkahimnainisi = '''
 
                 
-      
         Nang ka himna i ni si.
 
-1.Manganna tawhin buainaten min chim,
+1.Manganna tawhin buainaten 
+  min chim,
   Tanpuitu awm lo, himna awm lo ve;
-  Khua reng var lo vin hawina lam a piang thim mahse,
-  Ka hlau lo'ng min hriatpui loh a awm si lo.
+  Khua reng var lo vin hawina lam 
+  a piang thim mahse,
+  Ka hlau lo'ng min hriatpui loh 
+  a awm si lo.
 
-        Ka himna i ni, ka damna nangmah i ni,
-        Min thlahthlam ngai lo, min venghimtu i ni;
-        Zingtian khuavarin nangin min lo chelh reng thin,
-        Ka hlau tawp lo vang nang ka himna i ni si.
+        Ka himna i ni, 
+        ka damna nangmah i ni,
+        Min thlahthlam ngai lo, 
+        min venghimtu i ni;
+        Zingtian khuavarin nangin 
+        min lo chelh reng thin,
+        Ka hlau tawp lo vang 
+        nang ka himna i ni si.
 
 2.I ta ka ni a, i tan ka nung ang,
   I duhzawng tih hi ka duhber thin a;
-  I kiangah awmin i aw hriat ka duh thin kha,
-  Chuvangin min hmuhtir ang i chhandamna.
+  I kiangah awmin i aw hriat 
+  ka duh thin kha,
+  Chuvangin min hmuhtir ang 
+  i chhandamna.
 
 3.Manganna karah lungawia awmin,
-  Buaina karah pawh muangin ka awm hi;
-  I hming ropui nan vawiin hi ka la sawi ang,
-  Chu mi niah chuan chawisanin i awm ang.
+  Buaina karah pawh muangin 
+  ka awm hi;
+  I hming ropui nan vawiin hi 
+  ka la sawi ang,
+  Chu mi niah chuan chawisanin 
+  i awm ang.
 ''';
 
 const tlawmluamahla = '''
-         
-                
-Tlawm lua mah la
+
+      
+    Tlawm lua mah la
 
 1.Ka lungngaihna hrethiam turin,
-Gesmaniah i lungngai a;
-Hei hian min hnem leh thin e,
-Thinlaia nat niah lungmuangtein ka lo awm leh thin.
+  Gesmaniah i lungngai a;
+  Hei hian min hnem leh thin e,
+  Thinlaia nat niah lungmuangtein 
+  ka lo awm leh thin.
 
-    Ranthlengah maw an zalh che,
-    Kraws lerah maw an khai che;
-    Ka chhandamtu ka Lal i ni si maw,
-    Kei zawng ka chhuang zel dawn che,
-    Kei zawng ka iai phal lo che,
-    Tlawm lua mah la ka Lal duhawm i ni.
+      Ranthlengah maw an zalh che,
+      Kraws lerah maw an khai che;
+      Ka chhandamtu ka Lal 
+      i ni si maw,
+      Kei zawng ka chhuang zel 
+      dawn che,
+      Kei zawng ka iai phal lo che,
+      Tlawm lua mah la ka Lal 
+      duhawm i ni.
 
 2.Chakna awm lo Mosiaah chuan,
-Mahse, Lalpa i awmpui a;
-Thiltihtheihna leh chakna a thuam a nih kha,
-Ka hmachhuan nangmah chauh i ni e.
+  Mahse, Lalpa i awmpui a;
+  Thiltihtheihna leh chakna a thuam 
+  a nih kha,
+  Ka hmachhuan nangmah chauh 
+  i ni e.
 
-3.Thiam kan chan nan thiam loh i chang,
-Nun kan neih nan thlan thim i pan;
-Ka tan i tuar, i tan eng ka tuar ve lo maw,
-Mahse maw, i lam ka tang ve e.
+3.Thiam kan chan nan thiam loh 
+  i chang,
+  Nun kan neih nan thlan thim i pan;
+  Ka tan i tuar, 
+  i tan eng ka tuar ve lo maw,
+  Mahse maw, i lam ka tang ve e.
 ''';
 
 const mintiharhlehrawh = '''
-        
-                  Min ti harh leh rawh
-        
-          1.Kan ram thlirin i thinlung kan hliam thin a,
-            Chapona tlangah dingin malsawmtu kan hawisan che;
-            I malsawm dawn kan chak a, malsawmtu kan chak si lo,
-            I hming kan lam thin mahse i thu kan zawm si lo.
 
-                  Siamthar, dinthar ngaiin kan chau zo ta e,
-                  Thinlung bawlhhlawh, bumhmang, silfai ngaiin,
-                  I hnathawh nghaka thlirin i hmaah kan lo kal e,
-                  Thlarau thianghlim min ti harh leh rawh.
+        Min ti harh leh rawh
 
-          2.Kan chang thina harhnain min tuam leh thin,
-            Mahse, ramri kan lo hianin mei angin a mit leh thin,
-            Thahnemngaih chin a thui lo, hmangaih chin a zau mawlh lo,
-            Pawl ram leh ramri a kan lo harhna kan chante hian.
+1.Kan ram thlirin i thinlung 
+  kan hliam thin a,
+  Chapona tlangah dingin 
+  malsawmtu kan hawisan che;
+  I malsawm dawn kan chak a, 
+  malsawmtu kan chak si lo,
+  I hming kan lam thin mahse 
+  i thu kan zawm si lo.
 
-          3.Kohhran thlirin biakbuk chhungah thianghlimin,
-            I hming kan lam thin mahse maw chhungrilah kan hlat che;
-            Kohhran sumpai a him a, sawrkar sum a him si lo,
-            Engkimah ramri kan siam a dinthar kan ngai a ni.
+        Siamthar, dinthar ngaiin 
+        kan chau zo ta e,
+        Thinlung bawlhhlawh, 
+        bumhmang, silfai ngaiin,
+        I hnathawh nghaka thlirin 
+        i hmaah kan lo kal e,
+        Thlarau thianghlim 
+        min ti harh leh rawh.
+
+2.Kan chang thina harhnain 
+  min tuam leh thin,
+  Mahse, ramri kan lo hianin 
+  mei angin a mit leh thin,
+  Thahnemngaih chin a thui lo, 
+  hmangaih chin a zau mawlh lo,
+  Pawl ram leh ramri a kan lo harhna 
+  kan chante hian.
+
+3.Kohhran thlirin biakbuk chhungah 
+  thianghlimin,
+  I hming kan lam thin mahse maw 
+  chhungrilah kan hlat che;
+  Kohhran sumpai a him a, 
+  sawrkar sum a him si lo,
+  Engkimah ramri kan siam a dinthar 
+  kan ngai a ni.
 ''';
 
 const minhmangaihlohItheilo = '''
-          
-                Min hmangaih loh i thei lo
-          
-          1.Awm thei lo, i awm lohna hmun,
-            Awm lohna i nei si lo;
-            Nangma'n engkim min tanin,
-            Hun leh ni i thuhnuaiah,
-            Rorelna i kuta awmin i hriatpui loh engmah awm lo,
-            Engkim chungah meuh leng mah la,
-            Min hmangaih i thulh thei lo,
 
-                  Engkim ti thei, aw ropui ber,
-                  Engkim chungah leng mah la;
-                  Hei hi erawh i thei mawlh si lo,
-                  Min hmangaih loh i thei lo,
-                  Hmangaihtu mak, hmangaihtu ril ber i ni.
+    
+      Min hmangaih loh i thei lo
 
-          2.Chunglam khian an tarlang fo thin,
-            I ropui namen loh zia;
-            Hnuai lam hian an tarlang fo thin,
-            I themthiam ril ropui zia,
-            Hringmi theihna lo san zual leh,
-            A siamtu ropui an tarlang,
-            Engkim hmangin puang tawh mah la,
-            Tunah kan fiah seng mawlh lo.
+1.Awm thei lo, i awm lohna hmun,
+  Awm lohna i nei si lo;
+  Nangma'n engkim min tanin,
+  Hun leh ni i thuhnuaiah,
+  Rorelna i kuta awmin i hriatpui loh 
+  engmah awm lo,
+  Engkim chungah meuh 
+  leng mah la,
+  Min hmangaih i thulh thei lo,
 
-          3.Kraws ai hian tlawm zawk awm se,
-            Bawlhhlawh zawk, tenawm zawk se;
-            Aw Lalpa, i thlang tho hian maw,
-            Ka ring thin kei min tlan nan,
-            Kan hlu a sin i tan hian aw,
-            Lalpa a mak ka ti thin,
-            Kraws meuh hmangin puang tawh mah la,
-            Min hmangaih fiah zo ne'maw.
+        Engkim ti thei, aw ropui ber,
+        Engkim chungah leng mah la;
+        Hei hi erawh i thei mawlh si lo,
+        Min hmangaih loh i thei lo,
+        Hmangaihtu mak, 
+        hmangaihtu ril ber i ni.
+
+2.Chunglam khian an tarlang fo thin,
+  I ropui namen loh zia;
+  Hnuai lam hian an tarlang fo thin,
+  I themthiam ril ropui zia,
+  Hringmi theihna lo san zual leh,
+  A siamtu ropui an tarlang,
+  Engkim hmangin puang tawh 
+  mah la,
+  Tunah kan fiah seng mawlh lo.
+
+3.Kraws ai hian tlawm zawk 
+  awm se,
+  Bawlhhlawh zawk, 
+  tenawm zawk se;
+  Aw Lalpa, i thlang tho hian maw,
+  Ka ring thin kei min tlan nan,
+  Kan hlu a sin i tan hian aw,
+  Lalpa a mak ka ti thin,
+  Kraws meuh hmangin puang tawh 
+  mah la,
+  Min hmangaih fiah zo ne'maw.
 ''';
 
 const nazareth = '''
-          
-                  Nazareth
-          
-          Lal Isua hring chan niah khan,
-          Nazarethah a seilian;
-          Hun leh ni hmang zo mahsela,
-          Tih hlum tum an thulh lo,
-          Mahse, sakhming chawi chhanah chuan,
-          Nazareth Isua.
 
-          Nazareth, Nazareth,
-          Thil tha reng hi chhuah lo mah la;
-          A chawisang che, a chawimawi che,
-          A hming pawh Nazareth Isua.
+      
+        Nazareth
 
-          Ka nun hian thil tha chhuah lo se,
-          Rah tha chhuah lo ila;
-          Ka duhzawng tih nan hmang zo vin,
-          Lalpa hawi lo mahse,
-          Tihhlum tum tu chawisang ang khan,
-          Min hmangaih a thulh lo.
+1.Lal Isua hring chan niah khan,
+  Nazarethah a seilian;
+  Hun leh ni hmang zo mahsela,
+  Tih hlum tum an thulh lo,
+  Mahse, sakhming chawi 
+  chhanah chuan,
+  Nazareth Isua.
 
-          Hun liamta chhui tlak lo niin,
-          Theihnghilh tlak chauh nise;
-          Hmangaihna chuan zui zel chein,
-          Thlahthlam che a thei lo,
-          Krista hnaih la, a nghak reng che,
-          A hmangaih reng a che.
+      Nazareth, Nazareth,
+      Thil tha reng hi chhuah lo 
+      mah la;
+      A chawisang che, 
+      a chawimawi che,
+      A hming pawh Nazareth Isua.
+
+2.Ka nun hian thil tha chhuah lo se,
+  Rah tha chhuah lo ila;
+  Ka duhzawng tih nan hmang 
+  zo vin,
+  Lalpa hawi lo mahse,
+  Tihhlum tum tu chawisang 
+  ang khan,
+  Min hmangaih a thulh lo.
+
+3.Hun liamta chhui tlak lo niin,
+  Theihnghilh tlak chauh nise;
+  Hmangaihna chuan zui zel chein,
+  Thlahthlam che a thei lo,
+  Krista hnaih la, a nghak reng che,
+  A hmangaih reng a che.
 ''';
 
 const ihluani = '''
 
 
-                    I hlu a ni.
+          I hlu a ni.
 
-          1.I thiltih te ka ngaihtuah chang hianin,
-            I rinawm min hmuh tir kei tawmkai lo hi;
-            Thahnem lo in tangkai lo mah ila,
-            I hnathawh min hmuhtir i thulh si lo.
+1.I thiltih te ka ngaihtuah chang 
+  hianin,
+  I rinawm min hmuh tir kei tawmkai 
+  lo hi;
+  Thahnem lo in tangkai lo mah ila,
+  I hnathawh min hmuhtir i thulh 
+  si lo.
 
-                  I hmangaihna hi ka damchhung hla a ni,
-                  I mi lainatna khawngaihna hian lairila  fan zo e;
-                  Engvang hian nge min hriatreng a min hruai zel thin ni le?
-                  Ka tan hian aw, i hlu a ni.
+      I hmangaihna hi ka damchhung 
+      hla a ni,
+      I mi lainatna khawngaihna hian 
+      lairila fan zo e;
+      Engvang hian nge 
+      min hriatreng a 
+      min hruai zel thin ni le?
+      Ka tan hian aw, i hlu a ni.
 
-          2.I hmaah hian chhuan tur reng nei lovin,
-            Thinlung chapo tak leh fel lo thin ka  ni;
-            Ka thlir leh thin ka thiam leh finna te,
-            Ka inbuk tling mawlh lo i rawngbawl an.
+2.I hmaah hian chhuan tur reng 
+  nei lovin,
+  Thinlung chapo tak leh fel lo 
+  thin ka  ni;
+  Ka thlir leh thin ka thiam leh 
+  finna te,
+  Ka inbuk tling mawlh lo 
+  i rawngbawl an.
 
-          3.Ka zui ang che ka damchhung ni zawng hian,
-            I hman atan tiin ka rawn inhlan e;
-            Keimahah hian katlang se i hnathawh,
-            Chu chu ka ngai hlu ber thildang aiin.
+3.Ka zui ang che ka damchhung ni
+  zawng hian,
+  I hman atan tiin ka rawn inhlan e;
+  Keimahah hian katlang se 
+  i hnathawh,
+  Chu chu ka ngai hlu ber 
+  thildang aiin.
 
 ''';
 
 const nitinhian = '''
-        
-              Nitin hian
-        
-          1.Ka nunna i tlan a,
-            Boralna lak ata,
-            Hliama ka awm min kalsan lo,
-            Thinlung naa rum pawh,
-            Hmangaihtu thiantha ber chu.
 
-                  Ka tan i thatna leh malsawmna,
-                  Chiangte'n ka dawn hianin,
-                  Nang fak lo hian ka mawi si lo maw,
-                  Nang hmangaih zual zelin,
-                  Nitin hian, nitin hian...
+    Nitin hian
 
-          2.Ka thinlung duhzawngte,
-            Min pek i thulh si lo,
-            A dawhthleng zawk min siamremin,
-            Chu chu ka tan hianin
-            A tha si, a thaber si.
+1.Ka nunna i tlan a,
+  Boralna lak ata,
+  Hliama ka awm min kalsan lo,
+  Thinlung naa rum pawh,
+  Hmangaihtu thiantha ber chu.
 
-          3.Vanhnuai thil engkim hi,
-            Silhpuan chulhnu ang hian,
-            Thlakin an la awm dawn a ni,
-            Nang erawh pangngai reng,
-            Ropui ber, aw, ropui ber.
+        Ka tan i thatna leh malsawmna,
+        Chiangte'n ka dawn hianin,
+        Nang fak lo hian ka mawi 
+        si lo maw,
+        Nang hmangaih zual zelin,
+        Nitin hian, nitin hian...
+
+2.Ka thinlung duhzawngte,
+  Min pek i thulh si lo,
+  A dawhthleng zawk 
+  min siamremin,
+  Chu chu ka tan hianin
+  A tha si, a thaber si.
+
+3.Vanhnuai thil engkim hi,
+  Silhpuan chulhnu ang hian,
+  Thlakin an la awm dawn a ni,
+  Nang erawh pangngai reng,
+  Ropui ber, aw, ropui ber.
 ''';
 
 const rimawiropuiber = '''
-          
-                    Rimawi ropui ber
-          
-          1.Tlang tin chuanin mual tin hruta hawi vel in,
-            Luipui luang damdiai leh chhemdam thli;
-            Khua tin luahtu hringmi ropuina te hian,
-            A siamtu ropui zia min hrilh thin.
 
-                  Kei zawng ka zai zel dawn min siamtu fakin,
-                  Chatuan nun min petu fakin;
-                  Chu aia hlu zawk rimawi dang reng awm thei lo,
-                  Hei ngei hi a ni rimawi ropui ber.
+        
+         Rimawi ropui ber
 
-          2.Khuavel lo parvulin mawina chhuah zel se,
-            Tlang tin leh mual tin mawi zual zel se;
-            Thing tin par vul zual se hramthiam tinreng pawh,
-            An mawi zual leh siamtu an fak zual.
+1.Tlang tin chuanin mual tin 
+  hruta hawi vel in,
+  Luipui luang damdiai leh 
+  chhemdam thli;
+  Khua tin luahtu hringmi 
+  ropuina te hian,
+  A siamtu ropui zia 
+  min hrilh thin.
 
-          3.Hringmi thiamna, finna zawngte nei ila,
-            Chawimawina leh ropuina zawng nen;
-            Nang chawimawina dal thei engdang ka thlang lo,
-            Nang fak theih che hi ka duh ber e.
+        Kei zawng ka zai zel dawn 
+        min siamtu fakin,
+        Chatuan nun min petu fakin;
+        Chu aia hlu zawk rimawi dang 
+        reng awm thei lo,
+        Hei ngei hi a ni 
+        rimawi ropui ber.
+
+2.Khuavel lo parvulin 
+  mawina chhuah zel se,
+  Tlang tin leh mual tin 
+  mawi zual zel se;
+  Thing tin par vul zual se 
+  hramthiam tinreng pawh,
+  An mawi zual leh 
+  siamtu an fak zual.
+
+3.Hringmi thiamna, finna 
+  zawngte nei ila,
+  Chawimawina leh ropuina 
+  zawng nen;
+  Nang chawimawina dal thei 
+  engdang ka thlang lo,
+  Nang fak theih che hi 
+  ka duh ber e.
 ''';
 
 const kalawmeisu = '''
-        
-        
-        
-          1.I thu hian min thlamuan thin,
-            I aw hian min ti chak thin;
-            He khawvel rohlu ai hian,
-            Ka ngaihlu zawk i hmangaih thu.
 
-                    Ka thlang che ka ta i ni,
-                    I ta ka ni min lei si;
-                    Thil dang zawng zawng ai pawh hianin,
-                    Nang ka nei hi ka lawm e Isu.
+      
+      Ka lawm e i su
 
-          2.Ka chak loh chang niah pawh,
-            Min kalsan lo i hnai reng;
-            Dotu lakah min humin,
-            Ka tan dawhkan i buatsaih thin.
+1.I thu hian min thlamuan thin,
+  I aw hian min ti chak thin;
+  He khawvel rohlu ai hian,
+  Ka ngaihlu zawk i hmangaih thu.
 
-          3.Chhandamna dang a awm lo,
-            Kawng dawng reng hi a awm lo;
-            Kawng leh thutak Lal Isua,
-            Nangmah chauh hi nunkawng i ni.
+          Ka thlang che ka ta i ni,
+          I ta ka ni min lei si;
+          Thil dang zawng zawng ai 
+          pawh hianin,
+          Nang ka nei hi ka lawm e Isu.
+
+2.Ka chak loh chang niah pawh,
+  Min kalsan lo i hnai reng;
+  Dotu lakah min humin,
+  Ka tan dawhkan i buatsaih thin.
+
+3.Chhandamna dang a awm lo,
+  Kawng dawng reng hi a awm lo;
+  Kawng leh thutak Lal Isua,
+  Nangmah chauh hi nunkawng i ni.
 
 ''';
 
 const engtiaawmtheinge = '''
-        
-                Engtia awm thei nge?
-        
-          1.Dawn chang ni hianin thinlai a fan thin,
-            I hmangaihna hi ka dawn thui thiam silo;
-            Tihhlum tura lokal, khenbeh tura piangin,
-            Phumin a awm maw, Pathian meuh ni si hi!
 
-                  Engtia awm thei nge maw hringmi tawnah hian?
-                  Ka chhui chhuak thiam mawlh silo maw!
-                  I hmangaihna a ril hian a ropui ngei e,
-                  Misual ber mai pawh i hnar phal si lo maw?
-                  Ka phu mawlh love misual kei mai hian,
-                  I hmangaihna hi.
+      
+      Engtia awm thei nge?
 
-          2.Dawn chang ni hianin lunglai a zing thin,
-            Ka hmangaihna che tichauh mai maw lo ni!
-            I tan ka tih ve hi a tlem lua e Lalpa,
-            Engkim hlan che in (aw), a hen chuang si lo'ng maw!
+1.Dawn chang ni hianin thinlai a fan 
+  thin,
+  I hmangaihna hi ka dawn thui 
+  thiam silo;
+  Tihhlum tura lokal, khenbeh tura 
+  piangin,
+  Phumin a awm maw, 
+  Pathian meuh ni si hi!
+
+        Engtia awm thei nge maw 
+        hringmi tawnah hian?
+        Ka chhui chhuak thiam mawlh 
+        silo maw!
+        I hmangaihna a ril hian a ropui 
+        ngei e,
+        Misual ber mai pawh i hnar 
+        phal si lo maw?
+        Ka phu mawlh love misual kei 
+        mai hian,
+        I hmangaihna hi.
+
+2.Dawn chang ni hianin lunglai a 
+  zing thin,
+  Ka hmangaihna che tichauh mai 
+  maw lo ni!
+  I tan ka tih ve hi a tlem lua e Lalpa,
+  Engkim hlan che in (aw), a hen 
+  chuang si lo'ng maw!
 ''';
 
 const kathupuiber = '''
-          
-                      Ka thupui ber
-          
-          1.Ramtiam lam panin chaklo tak chungin nitin ka kal a,
-            Mahse, aw Lalpa, chimbuaitu an tam ngei, ka kal thiam lo;
-            Setanan nitin min ber nangmah kalbo san turin,
-            Mahse, chaklo ber lai pawn ka peng ngam lo,
-            Lalpa nangin min chelh tlat rawh.
 
-                  I ta ka ni e, chatuan atan,
-                  Ka thiamna, finna zawngte hi;
-                  Lalpa i tan a ni,
-                  Hei hi ka thupui ber- nangmah fak hi.
+            
+            Ka thupui ber
 
-          2.Tunah aw Lalpa hei hi ka hria a lawmthu ka hrilh che,
-            Ka tlin loh anga nangin min pawm in min lo duh si;
-            Ka sualna zawng zawng te hi miten hrereng thin mahse,
-            Lalpa nang erawh chuanin i theihnghilh si,
-            I hmangaihna ka fak fo ang.
+1.Ramtiam lam panin chaklo tak 
+  chungin nitin ka kal a,
+  Mahse, aw Lalpa, 
+  chimbuaitu an tam ngei, 
+  ka kal thiam lo;
+  Setanan nitin min bei 
+  nangmah kalbo san turin,
+  Mahse, chaklo ber lai pawn 
+  ka peng ngam lo,
+  Lalpa nangin min chelh tlat rawh.
+
+        I ta ka ni e, chatuan atan,
+        Ka thiamna, finna zawngte hi;
+        Lalpa i tan a ni,
+        Hei hi ka thupui ber 
+        nangmah fak hi.
+
+2.Tunah aw Lalpa hei hi ka hria a 
+  lawmthu ka hrilh che,
+  Ka tlin loh anga nangin min pawm 
+  in min lo duh si;
+  Ka sualna zawng zawng te hi 
+  miten hrereng thin mahse,
+  Lalpa nang erawh chuanin 
+  i theihnghilh si,
+  I hmangaihna ka fak fo ang.
 ''';
 
 const thleibikaneilo = '''
 
+
+THLEI A BIK NEI LO
+
+1.Misual ber pawh min hmangaih hi 
+  a mak ka ti Lalpa
+  Engtiang pawh in haider ila 
+  min enkawl i thulh lo
+  Ka nunhlui vangin min hmangaih 
+  a kiam love
+  Min enkawl danah min hmangaih 
+  ziah a lang
+
+        I hmangai leh khawngaihna 
+        hian thlei bik a nei love
+        Eng ang mi pawh lo ni ila, 
+        Hmangaih theilo i neilo
+        Kei ang misual ber tan pawh
+        I nun i hlan mai hi 
+        min hmangaih em a ni
+
+2.Teh dawn ila ka thil tih te 
+  hmangaih tlak lo ka ni
+  Van Lal pafa meuh thi nan chuan 
+  ka te luah em ani
+  I hnial phallo maw ranthleng leh 
+  kross ka tan
+  Van mipui tepawn an ui bet 
+  zo lo che
+
+3.Mamawh  chhangtu i ni vanga 
+  mamawh che ka ni lo
+  Ka hmangaih zawk vanga 
+  min hmangai i nilo
+  Min hmangaih mai hi ini 
+  na zawk a ni
+  Ka mamawh zawk chu 
+  nang hmangaih hi a ni.
+
 ''';
 
 const hmangaihtu = '''
-          
-                  Hmangaihtu  
-          
-          1.Tunge ka nih Lalpa i hria,
-            Eng nge ka tih thin i hai lo;
-            Nunhlui liam tawh hnute vanga beidawng thin,
-            Sulhnu pawh hmuh tlak awm lo,
-            Hmangaihtu thinlung meuh pawh hliam thin hian,
-            Hawi san bak ka phu lo.
 
-                  Mahse, hmangaihtu, min hmangaihtun,
-                  Misual kei min hnar phal lo ve;
-                  Min hmangaih, min hmangaih,
-                  Min enkawl a thulh lo,
-                  A malsawm min vur bang lo ve,
-                  Kei mai hian i hmangaih ka phu mawlh lo.
+      
+        Hmangaihtu  
 
-          2.Ka duhthlan ka daipelh ten,
-            Ka inchhirna ber min thlen thin;
-            Heng hian ba ang min thing se, rul zo maw,
-            He taksa hi thlan thim thuk berah pawh zalin famchang ila,
-            Ka sulhnuten a phu reng a ni.
+1.Tunge ka nih Lalpa i hria,
+  Eng nge ka tih thin i hai lo;
+  Nunhlui liam tawh hnute vanga 
+  beidawng thin,
+  Sulhnu pawh hmuh tlak awm lo,
+  Hmangaihtu thinlung meuh pawh 
+  hliam thin hian,
+  Hawi san bak ka phu lo.
 
-                Aw, min hmangaihtu,
-                Misual kei min hnar phal lo ve;
-                Min hmangaih, min hmangaih,
-                Min enkawl a thulh lo,
-                A malsawm min vur bang lo ve,
-                Kei mai hian i hmangaih ka phu mawlh lo.
-         
+        Mahse, hmangaihtu,
+        min hmangaihtun,
+        Misual kei min hnar phal lo ve;
+        Min hmangaih, min hmangaih,
+        Min enkawl a thulh lo,
+        A malsawm min vur bang lo ve,
+        Kei mai hian i hmangaih ka phu 
+        mawlh lo.
+
+2.Ka duhthlan ka daipelh ten,
+  Ka inchhirna ber min thlen thin;
+  Heng hian ba ang min thing se, 
+  rul zo maw,
+  He taksa hi thlan thim thuk berah 
+  pawh zalin famchang ila,
+  Ka sulhnuten a phu reng a ni.
+    
 ''';
 
 const ilamkanlohawi = '''
-          
-                  I lam kan lo hawi
-          
-          1.Aw Lalpa, i lam kan lo hawi,
-            Nangmah lam chauh kan rawn thlir e;
-            Kan ram hi a rum a ni,
-            Hlau leh khurin kan awm e,
-            Aw Lalpa, nangmah chauh kan beisei e.
 
-                Hawi lam tur reng hre lo hianin,
-                I lam hawiin ban kan phar e;
-                Belh tur reng hi, aw, kan nei mawlh si lo,
-                Kan hawi e, aw Lalpa, i lam kan hawi.
+      
+        I lam kan lo hawi
 
-          2.I zawnchhuah nih kan hlut zo lo,
-            Kan zah zo lo min thawhsak hi;
-            Kan lo hliam tawh thin che a,
-            Peng bo tawh nimah ila,
-            Aw Lalpa, i lam kan lo hawi leh e.
+1.Aw Lalpa, i lam kan lo hawi,
+  Nangmah lam chauh kan rawn 
+  thlir e;
+  Kan ram hi a rum a ni,
+  Hlau leh khurin kan awm e,
+  Aw Lalpa, nangmah chauh 
+  kan beisei e.
 
-          3.I duhber nang kan hnaih zel hi,
-            I duhber nang kan belh fo hi;
-            Nang kan hnaih nan kawng i ruat,
-            Kan hrethiam phak lo fo thin,
-            Tunah chuan nang hlat hi kan ngam tawh lo.
+      Hawi lam tur reng hre lo hianin,
+      I lam hawiin ban kan phar e;
+      Belh tur reng hi aw, 
+      kan nei mawlh si lo,
+      Kan hawi e, aw Lalpa, 
+      i lam kan hawi.
+
+2.I zawnchhuah nih kan hlut zo lo,
+  Kan zah zo lo min thawhsak hi;
+  Kan lo hliam tawh thin che a,
+  Peng bo tawh nimah ila,
+  Aw Lalpa, i lam kan lo hawi leh e.
+
+3.I duhber nang kan hnaih zel hi,
+  I duhber nang kan belh fo hi;
+  Nang kan hnaih nan kawng i ruat,
+  Kan hrethiam phak lo fo thin,
+  Tunah chuan nang hlat hi 
+  kan ngam tawh lo.
 ''';
 
-const Ihluani = '''
-        
-        
-        
-          1.I thiltih te ka ngaihtuah chang hianin,
-            I rinawm min hmuh tir kei tawmkai lo hi;
-            Thahnem lo in tangkai lo mah ila,
-            I hnathawh min hmuhtir i thulh si lo.
+const kalawmelalpa = '''
 
-                  I hmangaihna hi ka damchhung hla a ni,
-                  I mi lainatna khawngaihna hian lairila  fan zo e;
-                  Engvang hian nge min hriatreng a min hruai zel thin ni le?
-                  Ka tan hian aw, i hlu a ni.
 
-          2.I hmaah hian chhuan tur reng nei lovin,
-            Thinlung chapo tak leh fel lo thin ka  ni;
-            Ka thlir leh thin ka thiam leh finna te,
-            Ka inbuk tling mawlh lo i rawngbawl an.
+      KA LAWM E LALPA
 
-          3.Ka zui ang che ka damchhung ni zawng hian,
-            I hman atan tiin ka rawn inhlan e;
-            Keimahah hian katlang se i hnathawh,
-            Chu chu ka ngai hlu ber thildang aiin.
+1.Khawvel mi ten min thlir reng,
+  Ka nunkawng har tak hi;
+  Beisei tur neilo min ti,
+  An va hre lo em;
+  Chhungril ah hian ka hlim si,
+  Aw min han hmu thei se;
+
+      Ka lawm e Lalpa, 
+      i malsawmna vangin.
+
+2.Chenna in tur min buatsaih,
+  Hahchawlhna tur min pe;
+  Ei leh in tur min pe in,
+  Silh leh fen min pe a;
+  Hmangaihna in min hruai thin,
+  Chhungkaw duhawm min pe;
+
+      Ka lawm e Lalpa, 
+      i malsawmna vangin.
+
+3.Hausakna chhuan tur ka nei lo,
+  Silhfen tha nei lovin;
+  Sum leh pai tam ka nei lo,
+  Mahse nang ka nei;
+  Chu mawlh chu ka tan a hlu ber,
+  Miten hmu lo mahse;
+  
+      Ka lawm e Lalpa, 
+      i malsawmna vangin.
 ''';
 
 const minchhungkhatla = '''
-          
-                  Min chhung khat la
-          
-          1.I thiltih te ka ngaihtuah chang hianin,
-            I rinawm min hmuh tir kei tawmkai lo hi;
-            Thahnem lo in tangkai lo mah ila,
-            I hnathawh min hmuhtir i thulh si lo.
 
-                  I hmangaihna hi ka damchhung hla a ni,
-                  I mi lainatna khawngaihna hian lairila  fan zo e;
-                  Engvang hian nge min hriatreng a min hruai zel thin ni le?
-                  Ka tan hian aw, i hlu a ni.
 
-          2.I hmaah hian chhuan tur reng nei lovin,
-            Thinlung chapo tak leh fel lo thin ka  ni;
-            Ka thlir leh thin ka thiam leh finna te,
-            Ka inbuk tling mawlh lo i rawngbawl an.
+        Min chhung khat la
 
-          3.Ka zui ang che ka damchhung ni zawng hian,
-            I hman atan tiin ka rawn inhlan e;
-            Keimahah hian katlang se i hnathawh,
-            Chu chu ka ngai hlu ber thildang aiin.
+1.Min chhungkhat la,
+  Khawngaihna leh hmangaihna 
+  a khatin;
+  Fapa pek hiala i hmangaihte tan,
+  Lo ti pung la hmangaihna chu.
+
+    I thinlung zau tak hmangaihna 
+    ang neih ka duh,
+    Thutak chauh hmu a sualna 
+    zawng tireh tu chu;
+    Chutin kan hmel an hmuh hunin 
+    an hmuh nan che,
+    Nui hmel ringawtah Pa hmangaih 
+    an hriat theih  nan.
+
+2.Min hmangaih zia hi,
+  Rethei, hausa, i thilsiam 
+  dangte nen;
+  Uluk taka min din dan zawngte hi,
+  A tawpah chuan i fate vek kan ni.
+
+    Ka nun zawng hian i nihna puang 
+    chhuak se,
+    I hmangaihna tawp ngai lo mak 
+    tak nen;
+    Ka nu zawng hian i nihna puang 
+    chhuak se,
+    I mawi zia leh i felna zawng 
+    zawng nen,
+    Ka nun zawng hian i nihna puang 
+    chhuak se,
+    I hmangaihna tawp ngai lo mak 
+    tak nen,
+    Ka nun zawng hian i nihna puang 
+    chhuak se,
+    I mawi zia leh i felna 
+    zawng zawng,
+    I mawi zia leh i felna 
+    zawng zawng nen.
+''';
+
+const kadaizeldawn = '''
+
+
+    Ka dai zel dawn
+
+1.Ka hringnun hi 
+  ka theihna zawng leh,
+  Khawvel mawina ten 
+  min hip thin mahse;
+  Buai manganna ten 
+  min eiral tum mahse,
+  Ka tan chuan chawtui
+  ber an lo ni zawk ang.
+
+    Sualral lian te an lo pung zel a,
+    Min lakbo sak rawh 
+    tiin ka ngen fo;
+    Luang sawp paih lovin
+    lakhu pawh a mit lo,
+    Ka chhiatna tur reng a
+    ngaihtuah ngai love.
+
+2.Engpawh tawk ila 
+  ka lawm zel ang,
+  Ka chhandamna kulhpui
+  a nghing ngai love;
+  Sual ral in a hneh lawng
+  ka Lal remruat hi,
+  Ka hma ah ngei hian
+  khawdur thleng mahse;
+  A phenah malsawmna a
+  awm tih min hrilh kha,
+  Manna thuhruk chang ngei turin;
+  Ka dai zel dawn e 
+  harsatna zawng te.
+
+3.Khawvel zawng leh 
+  keimah nun ngei hi,
+  Kalsan rawh tiin 
+  min lo ko reng si;
+  He lei danah chuan 
+  hreawm ve thin mahse,
+  Ka chungah i lawm chuan 
+  ka tan a tawk e
+
+''';
+
+const nangfakzelche = '''
+
+
+      Nang fak zel che
+
+Kan zin na he lei hi zawng
+lungngaihna hmun mai lo ni,
+Hlimni lo thleng thin mahse
+tah na in kan khar leh thin;
+Lungangaihna leh manganna in
+min chimbuai lai hian in,
+Tu hringnun nge maw lungawi ngai le?
+
+Hringmi nun a thleng thin hi
+kan rel leh ruat a ni lo,
+Jakoba Pathian ngei chu
+ro min rel sak tu a ni;
+Kan puithiam Krista zarah
+a mah chu kan ta a ni,
+Hmangaih tawp lo a hmangaih tu chu.
+        Chibai ka buk a che I hmaah ka lo kun e,
+        Fakna ka hlan a che ka
+        thiamna theihna zawngin;
+        Lungngaihni lo thleng mahse
+        hlim lawmna kar pawh nise,
+        Nang fak zel che hi ka duhsam ber a ni.
+Nang fakna hlan lo che in
+chibai buk lo che ila,
+He thlarau rethei tak hian
+khawilam nge a hawi ang le?
+Nang Pathian nung chu i ni,
+engkim chunga rorel tu,
+I hnen lo ah hian thla a muang lo.
+
+Aw unau i dawn ngai em?
+hringmi kan lo pian chhan hi,;
+A siamtu chibai buk a
+ropuina tarlang a'n;
+A ma tana in hlan a,a
+hnena in pumpek hi,
+A rawng chauh bawl tur kan lo ni e.
+''';
+
+const kathlarauachawmlehthin = '''
+
+
+      Nang fak zel che
+
+Kan zin na he lei hi zawng
+lungngaihna hmun mai lo ni,
+Hlimni lo thleng thin mahse
+tah na in kan khar leh thin;
+Lungangaihna leh manganna in
+min chimbuai lai hian in,
+Tu hringnun nge maw lungawi ngai le?
+
+Hringmi nun a thleng thin hi
+kan rel leh ruat a ni lo,
+Jakoba Pathian ngei chu
+ro min rel sak tu a ni;
+Kan puithiam Krista zarah
+a mah chu kan ta a ni,
+Hmangaih tawp lo a hmangaih tu chu.
+
+        Chibai ka buk a che 
+        I hmaah ka lo kun e,
+        Fakna ka hlan a che ka
+        thiamna theihna zawngin;
+        Lungngaihni lo thleng mahse
+        hlim lawmna kar pawh nise,
+        Nang fak zel che hi 
+        ka duhsam ber a ni.
+
+Nang fakna hlan lo che in
+chibai buk lo che ila,
+He thlarau rethei tak hian
+khawilam nge a hawi ang le?
+Nang Pathian nung chu i ni,
+engkim chunga rorel tu,
+I hnen lo ah hian thla a muang lo.
+
+Aw unau i dawn ngai em?
+hringmi kan lo pian chhan hi,;
+A siamtu chibai buk a
+ropuina tarlang a'n;
+A ma tana in hlan a,a
+hnena in pumpek hi,
+A rawng chauh bawl tur kan lo ni e.
+''';
+
+const engngekalungaihang = '''
+
+
+      Engnge ka lungngaih ang
+
+1.Engnge ka lungngaih ang,
+  Engnge ka hlauh ang;
+  Engnge ka buai fo ang le,
+  Khawvel mawina zawng 
+  chan dawn mah ila,
+  Rohlu Isua ka nei.
+
+        Ka hlau lo'ng, ka ui lo'ng,
+        Engkim pawh chan dawn ila;
+        Ka hlau lo'ng, ka vui lo'ng,
+        Rohlu Isua ka nei.
+
+2.Khawvel ropuina, 
+  mawina tinreng nen,
+  Sanna ka lo zawn thin te;
+  Chan in nei dawn lo mah ila,
+  Rohlu Isua ka nei.
+
+3.Engnge ka lungkham ang,
+  Engnge ka zawn ang;
+  Engahnge ka mangan ang le,
+  Khawvel zawng pawh hi 
+  bo dawn mahsela,
+  Rohlu Isua ka nei.
+
+''';
+
+const minhmangaihsia = '''
+
+
+      Min hmangaih si a
+
+1.I khawngaih kraws kawng zawhin
+  i rawngbawl lamtluang ka chhui
+  Kawng nuam leh hahdam 
+  changte pawh awm thin
+  Kawng hahthlak leh raltiah 
+  min hruai niah pawh hianin
+  I rinawm zia min hmuh tir leh thin
+
+      Ka tan i rinawmna aw a ropui e
+      Engdang reng hi aw ka sawi 
+      thei lo
+      I khawngaih lainatna 
+      ka nun hi a ropui e
+      Ka hmangaih che 
+      min hmangaih si a
+      Ka hmangaih che 
+      min hmangaih si a
+
+2.I khawngaih leh malsawmna 
+  lei rohlu ka chan zawng te
+  Ka chhiarseng lo ve aw a ropui e
+  I thatna ka tan lawmna 
+  i khawngaih ka tan chawlhna
+  Tu nen nge ka teh dawn che Lalpa
+
+3.Hei hi hlan nawn ka duh thin 
+  ka nun leh theihnate hi
+  I ran rimtuiah lo chang fo rawh se
+  Hmangaih che ka thiam ne'maw 
+  i duh zawng tih mai loh chu
+  Ka hmangaih che 
+  min hmangaih si a
+''';
+const eldorado = '''
+
+    
+    El Dorado
+
+1.Aw ka nun khawhar chau tak hian,
+  Hmangaihtu a ngai thin a;
+  Aw ka nunna hian Lalpa a ngai a ni.
+
+        I tello chuan nun a kim lo,
+        Ka zinkawng khawhar ah hian;
+        An sawi nin loh ramnuam 
+        El Dorado,
+        An ngai thin ang hian,
+        Lalpa ka ngai em che.
+
+2.Aw ka nun chau rethei tak hian,
+  Hnemtu a ngai a ni;
+  Aw ka hringnun hian 
+  Lalpa a ngai a ni.
+
+3.Hmangaihtu tawnglo 
+  nun khawhar,
+  Kei misual leh rethei tan hian;
+  Aw lo eng ang che ka nun 
+  khawhar ah hian.
+''';
+const nitinin = '''
+
+
+            Nitin in
+
+1.Ka hun leh ni 
+  i rawngbawl nan hmangin,
+  Ka thiamna te leh theihna 
+  ka hman lai hian;
+  Sawichhiatna te leh elrelna ten 
+  min umzui chang awm leh thin,
+  Mahse, banzai reng ka rel thei lo.
+
+      Nitinin i aw hriat fo ka duh thin,
+      Nitinin i hmel hmuh 
+      ka duh fo thin;
+      Ka bo san loh nan che, 
+      nang ka hloh loh nan,
+      Nitinin hmangaih che ka duh.
+
+2.Nang faknan hian 
+  ka hun leh ni hmangin,
+  Ka theihnate hi hlan leh chuan 
+  ka thiam lo;
+  Mahse, i ropui hmangaih vanga 
+  fak tur che ka nihna hian,
+  Min delh thin 
+  ka va duh khawp lo em.
+
+3.Miten engtin min chhiar maw 
+  ka hre lo,
+  Keimah ka inchhiar 
+  ka tling thei mawlh silo;
+  Ka bansan theilo i hnungzui hi, 
+  i rawngbawl ka thulh thei lo,
+  Ka duhber Lalpa nang chauh i ni.
+''';
+
+const sualsetananreitakminlobum = '''
+
+
+      Amen! Silfai ka ni
+
+Sual Setana'n rei tak min lo bum,
+Zahngaihna ka hmuh ve a phal ngai lo;
+A parzu thlum ka tan a hremhmun min hnaih tirin,
+Fam chan thleng a min phuar zel turin.
+
+Aw, a rawng in, a tum zia ka lo va lo hre lo rei em,
+Kraws thisen a silfai ka nih hi;
+Kraws thisen a silfai ka ni a,
+Sual a phuarte zalen kan ni ta,
+Zalenna hlamawi chu ka rem ve tawh e.
+
+Heti mai hian chhandam ka ni a,
+Amen! ka nunhlui leh sulhnu a chhui ve lo;
+A khawngaihna ka tan a 'Amen' lo tih mai hi,
+Chatuan atan nunna a lo ni.
+
+Aw, a hlu in, a thlum zia ka va lo hre lo rei em,
+Kraws thisen a silfai ka nih hi;
+Kraws thisen a silfai ka ni a,
+Sual a phuarte zalen kan ni ta,
+Zalenna hlamawi chu ka rem ve tawh e.
+
+Aw, a hlu in, a thlum zia ka va lo hre lo rei em,
+Kraws thisen a silfai ka nih hi;
+Kraws thisen a silfai kan ni e, Amen!
+''';
+
+const nawmsaknatezawnginkatlanthin = '''
+
+
+      Hriatchian lehzual che
+
+1.Nawmsaknate zawngin 
+  ka tlan thin,
+  Hausaknate zawngin ka tlan thin;
+  Mahse hei hi ka duh ber 
+  Nangmah hriat hi,
+  Ka tan hian a tha ber e.
+
+2.Ka nunna hi I tan ka hlan e,
+  Ka thiamna hi i tan ka hlan e;
+  Ka neih ro hlu leh 
+  ka hun hlu zawngte hi’tan 
+  ka hlan e Lalpa
+
+          Hriatchian lehzual che hi 
+          ka va duh em;
+          I hmangaihna leh 
+          khawngaihnate hi,
+          Hrechiang i la, 
+          Nang ka bosan tawh lawng 
+          che;
+          Hriatchian leh zual che hi 
+          ka va duh em!
+
+3.I thisen hlu ka tan a luang chhuak,
+  A va makin Aw a ropui e;
+  Mihring finna hian a chhui 
+  phak lul love,
+  Lalpa a va ropui em!
+
+4.Midangte tan damna a thlen a,
+  Mahse A tan damna a awm lo;
+  A va make m I hmangaihna ropui 
+  hi;
+  Ka tan hian a sang lua e.
+''';
+
+const hringnunkanzinkawngahhian = '''
+
+
+      Thuro iang zaidam nunnem
+
+1.Hringnun kan zin kawngah hian,
+  Kan ngai che Thlarau Thianghlim;
+  Min kai la chung van Kanan t
+  hlen thlengin,
+  Dam tein min hruai zel rawh.
+
+      Thuro iang zaidam nunnem,
+      Kan thinlung rawn luahkhat la;
+      Nun zemawi, Lal Krista nun 
+      mawi tak kha,
+      Nitin min zirtir ang che.
+
+2.Thlarau Thianghlim thlamuantu,
+  Zirtirtu ngilnei ber chu;
+  Thianghlimna sual hnehna 
+  nun min petu,
+  Van thlen thlengin min hruai rawh.
+
+3.Aw van thli, lo leng ang che,
+  Sual chhumpui zing chhemkiang 
+  la;
+  Kohhranhote min ti harh thar lehin,
+  Sual doral kan ngam ngei ang.
+''';
+
+const hekhawvelleharopuinate = '''
+
+
+    Kan thinlung hi 
+    kan rawn hlan a che
+
+1.He khawvel leh a ropuina te,
+  Vana arsi zawng zanwg te leh;
+  Mita hmuh theih leh hmuh phak 
+  loh te nen,
+  A kut chhuak an lo ni vek si.
+  Tui thuk tak chhungah te,
+  Lei hnuai ril berah a ropuina a 
+  in phum si!
+  Engvang hian nge maw 
+  aw hringmi hmangaih a,
+  Kan tan a nun a rawn hlan le?
+
+      Aw, i hmaah kan lo kun e,
+      Kan rawn hlan a che;
+      Kan thiamna zawng zawng te hi,
+      Aw, i hnenah, i hnenah chauh;
+      Kan thinlung hi 
+      kan rawn hlan a che,
+      Kan thinlung hi 
+      kan rawn hlan a che.
+
+2.Hringmi'n ropuina a tih zawng te 
+  leh,
+  A ngaihhlut thil tinrengte hi;
+  Thil hlu a tih leh a ngaihsan 
+  thil te,
+  Mawina leh sanna zawng zawng 
+  te;
+  Kan Pathian hmangaihna 
+  chhanletna turin,
+  Thil hlu tawk reng a awm love;
+  Kan thiam, kan theihna leh 
+  kan nunna zawng pawh,
+  Hlan zo ila a hen si lo.
+''';
+
+const kumtamtakchunghmangaihtuhreloin = '''
+
+
+            ka lo kir e
+
+1.Kum tam tak chhung hmangaihtu 
+  hre lo in,
+  Am ten ka hmang ka vanglaini te;
+  Mahse ka nun a lo ngui zo a,
+  Khawhar takin ka rum 
+  vawng vawng thin.
+
+        Ka Pa van ropui a mi,
+        I chungah, nangma chung 
+        ngeiah 
+        ka lo sual ta a;
+        Fa a vuah tlak ka tling zo tawh 
+        love,
+        I bawih ni turin ka lo kir e.
+
+2.Ka kal zel dawn ka phatsan tawh 
+  lovang,
+  Ka hmangaih che ka thinlung nei 
+  la;
+  Ka tan khawvel ka khengbet tawh 
+  ang,
+  Ka nunna kraws ka chhuang zel 
+  tawh ang.
+
+3.Sual kawng zawh a ka pen bo phal 
+  suh la,
+  Thlemna lakah ka nun veng ang 
+  che;
+  Chutin i hnen ka lo thlen hunah,
+  Ka lawmna chu a parvul tawh ang.
+''';
+
+const kalalpaminhruainahi = '''
+
+
+      A hmangaihna a lo ni
+
+1.Ka Lalpa min hruaina hi,
+  Thu in ka hril seng dawn lo;
+  Ka zai leh ka banphar te 
+  zawng pawhin,
+  A hmangaih an hril seng lo.
+
+        Min hmangaihna chhiar dawn 
+        ila,
+        Ka hringnun hian a hril phak lo;
+        Ka nun leh ka neih zawng te 
+        nen hian,
+        A hmangaihna a lo ni.
+
+2.A malsawm ka chhiar seng lo,
+  Ka mamawh chitin min pe;
+  Lamtluang thim leh zim ka zawh 
+  lai pawhin,
+  A hmangaih banin min kai thin.
+
+3.Ka hmabak ka en zel a,
+  Doral lian a tlawm zel a;
+  Ka rin leh ka beisei te aia sangin,
+  Min la chawisang zel dawn si.
+''';
+
+const sualbumnalamtluangzawhin = '''
+
+
+      Bultan min phal sak
+
+SUALBUMNA LAMTLUANG ZAWHIN
+KA BUAI THIN A
+KA HMAA NUNKAWNG HLEN TUR HMU CHUNG SIIN
+KA DAI KAI HNU TEN MIN HIP THIN
+MAHSE LUNGCHHIR NA MAI LO CHU
+LEIAH HIAN CHAN RENG KA NEI SI LO
+
+MAHSE TUNAH I LAM KA RAWN PAN
+NANGIN KEI MINLO HNAR CHUANG SI LO
+HMANGAIHNA CHUAN BULTAN MIN PHALSAK IN
+MIN NGAIDAMIN MIN LO SILFAI ZAWK SI
+
+
+KA KOAH LALPA HNGAH CHHAN HRE RENG SIIN
+HLEN LOH IN REI TAK KALO HAIDER THIN A
+ENGTIANGIN KA LAL THINLAI NA MAW?
+KEIMISUAL HIAN KALO DER CHE
+THINGTHI IN TUNAH KALO KIR E
+
+AW TUNAH I LAM KA RAWN PAN
+NANGIN KEI MINLO HNAR CHUANG SI LO
+HMANGAIHNA CHUAN BULTAN MIN PHALSAK IN
+MIN NGAIDAMIN MIN LO SILFAI ZAWKSI
+
+I HMANGAIHNA ROPUI ZIA KALO HRE TA
+HMANGAIHNA KA NEIH TE HI TLEM HLE MAHSE
+I KUT CHAK TAK CHUAN MIN CHELH RENG SI
+HMALAM PANIN KA KAL ZEL ANG
+I KRAWS ENG CHUANG MIN HRUAI ZEL DAWN SI
+
+AW TUNAH I LAM KA RAWN PAN
+NANGIN KEI MINLO HNAR CHUANG SI LO
+HMANGAIHNA CHUAN BULTAN MIN PHALSAK IN
+MIN NGAIDAMIN MIN LO SILFAI ZAWKSI
+''';
+
+const nangnenchuan = '''
+
+
+      Nang nen chuan
+
+1.Nang nen chuan khawi hmunah 
+  pawh,
+  Nang nen chuan engtiang pawhin;
+  Hrehawmah pawh, rethei pawhin,
+  Nang nen chuan vanram a chang 
+  thin.
+
+        I hnena awm turin keimah hi 
+        min siam a,
+        I hnena awm turin vak bo 
+        lo turin;
+        I tel lo chuan engmah hian 
+        mi ti tlai thei lo e,
+        Ka famkimna, aw, 
+        nang chauh hi i ni.
+
+2.Nang nen chuan khawi hmunah 
+  pawh,
+  Nang nen chuan tlakchham 
+  a awm lo;
+  Nun khawhara thian nei lo in mal 
+  in awm mah ila ,
+  Nang nen chuan vanram 
+  a chang thin.
+
+3.Aw Isu, i hnenah chauh 
+  ka thla a muang, 
+  a hahchawl thin,
+  I tel lo a lawmna tur 
+  zawng ruai hmu si lo in;
+  I tel lo a tlei thei lo 
+  min siam i chennan chauh,
+  I tel lo chuan ka nun 
+  a kim thei lo,
+  Mahse, nang nen chuan 
+  vanram a chang thin.
+''';
+
+const thianthaberisua = '''
+
+
+      Thian tha ber Isua
+
+1.Manganna in min tuam lai leh,
+  Lungngaihna lo thlen changin;
+  Hei hian in min thlamuan fo 
+  thin a,
+  Lal Isua kan thian tha ber.
+
+      Lal Isua kan thian tha berin,
+      Englai pawhin min vengin 
+      min awmpui thin;
+      Harsatna lungngaihna karah,
+      Thian tha ber a ni tih 
+      min hrilh nawn leh thin.
+
+2.Lungngaihna tawk ngai lo ila,
+  Buaina ten min chim lo se;
+  Thian tha Lal Isua ka neih hi,
+  Theinghilhin hun ka hmang ang.
+
+3.Hei hi ka dawn hian mak ka ti,
+  Buaina chhumdum karah pawh;
+  Beiseina reng reng a chuai lo,
+  Lal Isua kan thian tha ber.
+
+4.Inngahna dang a awm love,
+  Thlamuantu dang a awm lo;
+  Englai pawh a min muan thin 
+  tu,
+  Lal Isua kan thian tha ber.
+''';
+
+const leihringnunkhualzinkawngahhian = '''
+
+
+        Ka rinchhan Lalpa'n
+
+1.Lei hringnun khualzin 
+  kawngah hian,
+  Natna thlipui ten 
+  min nuai mahse;
+  Ka vui mawlh lo Lalpa,
+  Mihring siamthatnan khawdur 
+  a ngai ang hian;
+  Ka nunah hian khawdur 
+  a ngai a ni.
+
+        Ka Lalpa ngei chuan 
+        min ensan ngai lo,
+        Min awmpui reng thin, 
+        min kalsan ngai lo;
+        Min thlamuan reng thin, 
+        ka thlaphang hlau in,
+        Ka rinchhan Lalpa'n, 
+        min thlahthlam ngai lo.
+
+2.Thlarau damna min pekte hi,
+  Ka tan Lalpa a hlu zual thin;
+  Kei chak lo hi Lalpa,
+  Ka au thawm min ngaihthlak 
+  sak thin vangin;
+  Lawmna mittui biangah 
+  a luang fo thin.
+
+3.Hmagaihtu Lalpa I ta ka ni,
+  Ka thinglung hi ka rawn hlan e;
+  I khawngaihna banin,
+  Min kai ang che chatuan ram 
+  thlen thlengin;
+  Ropuina ram khawpui 
+  mawiah chuan.
+''';
+
+const minhruailakazuiangche = '''
+
+
+      Min hruai la ka zui ang che
+
+1.Min hruai la ka zui ang che,
+  Min tirhna ah ka kal ang;
+  Ka nunna hi nangmah tan chauh,
+  Ka hlan tawh che aw Lal Isu.
+
+      Ka zingkawng te chhuk 
+      chho mahse,
+      Harsat buaina kar pawh nise;
+      Isua nen kan nih vangin,
+      Engmah reng ka hlau tawh 
+      lawng.
+
+2.Lal Isua hnungzui zel turin,
+  Nitin mahni inphat zelin;
+  Ka duhthlanna zawng zawng nen,
+  Ka inpe, aw Lal Isu.
+
+3.Aw thlarau thianghlim, lo leng la,
+  I chaknain min thuam ang che;
+  Chaklo leh tanpui ngai hi,
+  Chakna thar min pe ang che.
+''';
+
+const katlingsilo = '''
+
+
+          Ka tling si lo
+
+1.I hmangaihna thuk zia 
+  ka han dawn chang hian,
+  Mifelte thlang lova 
+  kei misual min thlang hi;
+  A makin a ropui e hmangaihna hi,
+  Ka rul seng lawng chatuan 
+  thleng pawh in.
+
+        Mite mit hmuh ah 
+        ka tling si lo Lalpa,
+        Mahse, i Kraws danah chuan 
+        thiamchang ka lo ni e;
+        Amakin a ropui e, 
+        aw hmangaihna hi,
+        Ropuina te chawimawina te 
+        i ta ni zel rawh se.
+
+2.Thing lenbuang te leh lentu 
+  hnah hring mawi te,
+  Vahkhuai partlan hramthiam 
+  va tin reng te nen;
+  I ropui zia an lan tir e 
+  Lal Isu,
+  Kei erawh chu engmah 
+  lo mai ka ni.
+
+3.Vandumpawl riai te leh chung 
+  siar leng te,
+  Lui thuk tak te leh 
+  chung khawpuiri zawng te nen;
+  I ropui zia an lantir e 
+  Lal Isu,
+  Mahse kei zawng ka tling lo 
+  Lalpa.
+
+4.Khawngaihna a chhandam 
+  ka lo ni e,
+  A va ropui em kei misual 
+  min tlanna hi;
+  Van khua leh tui nihna te 
+  ka lo ni e,
+  Ka rul seng lawng chatuan chatuan 
+  pawh in.
 ''';

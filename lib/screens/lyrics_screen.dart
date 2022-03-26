@@ -20,10 +20,10 @@ class LyricsScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Container (
           width: double.infinity,
-          margin: EdgeInsets.symmetric(horizontal: 30),
+          margin: EdgeInsets.symmetric(horizontal: 35),
           child: Text(
           lyrics,
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(fontSize: 17),
           ),
         ),
       ),
