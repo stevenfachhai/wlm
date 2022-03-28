@@ -1,4 +1,5 @@
 const maraSongTitles = [
+  
   '1.Above all',
   '2.At the Cross',
   '3.Aku thatlona chhoh lia',
@@ -100,4 +101,18 @@ const mizoSongTitles = [
 '34.	Tlawm lua mah la',
 '35.	Thlei bîk a nei lo',
 '36.  Thian tha ber Isua',
+'37.  Ka thinglung a nung',
+'38.  Chawimawina zawng ka hlan a che',
+'39.  Aman engkimah min hria',
+'40.  Isua Lal ber ani',
+'41.  indona',
+'42.  Phulo hmangaihna',
+'43.  Duhthlana sang ber',
+'44.  Pathian Hmelduhawm',
+'45.  Ka nun hnarkaitu',
+'46.  Hei leh chen',
+'47.  ka damlai nun kawng',
+'48.  Ka duhsamber',
+'49.  Ka tawr hi Lalpan a phal',
+'50.  Ka rawn in hlan e',
 ];

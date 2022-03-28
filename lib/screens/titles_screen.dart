@@ -23,7 +23,7 @@ class TitlesScreen extends StatelessWidget {
           return Card(
             child: ListTile(
               title: Text(songTitles[index],
-              style: TextStyle(fontSize: 20),),
+              style: TextStyle(fontSize: 17),),
               onTap: () {
                 Navigator.push(
                   context,
