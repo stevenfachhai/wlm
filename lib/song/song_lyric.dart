@@ -889,9 +889,9 @@ const thlapapathai = '''
         
         
         
-        Thlapa Pathaih 
+        Thlahpa Pathaih 
         
-1.Thlapa Pathaih ei chavâ kaw dia,
+1.Thlahpa Pathaih ei chavâ kaw dia,
   Ei khi tlyna râh liata;
   Molei charia kei châ a ru tu,
   Ei thatlôna ta tiah thei vei.
@@ -902,7 +902,7 @@ const thlapapathai = '''
         chhuadypa râh cha,
         Bohpa ta na tlôkhei mah y.
 
-2.Thlapa Pathahi ei nohto hro lia,
+2.Thlahpa Pathaih ei nohto hro lia,
   Nâ a bei chai mah y;
   Nâ leita bei hro rai hnei vana,
   Ei hrona hlâ ei chakho via.
