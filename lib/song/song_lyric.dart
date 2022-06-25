@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
 const maraLyrics = {
-
   47: still,
   7: beipaPhana,
   33: kyhpachanareitheisala,
@@ -29,7 +28,7 @@ const maraLyrics = {
   39: namoleiphaohripahleinakhoma,
   48: thlapapathai,
   50: zisueiviasaphachhai,
-  1: aboveall, 
+  1: aboveall,
   40: nangiathaimay,
   4: atoeihlakhai,
   34: lynachotaeichakaoaw,
@@ -110,7 +109,7 @@ const beipaPhana = '''
 
 ''';
 
-const  kyhpachanareitheisala = '''
+const kyhpachanareitheisala = '''
                            
                                                
                        
@@ -1701,56 +1700,56 @@ const kalvariliapachhatuhmohla = '''
 ''';
 
 const mizoLyrics = {
-24: nangkahimnainisi,
-34: tlawmluamahla,
-19: mintiharhlehrawh,
-20: minhmangaihlohItheilo,
-25: nazareth,
-8: ihluani,
-27: nitinhian,
-31: rimawiropuiber,
-10: kalawmeisu,
-3: engtiaawmtheinge,
-11: kathupuiber,
-35: thleibikaneilo,
-5: hmangaihtu,
-9: ilamkanlohawi,
-12: kalawmelalpa,
-21: minchhungkhatla,
-13: kadaizeldawn,
-26: nangfakzelche,
-15: kathlarauachawmlehthin,
-4: engngekalungaihang,
-22: minhmangaihsia,
-2: eldorado,
-30: nitinin,
-32: sualsetananreitakminlobum,
-29: nawmsaknatezawnginkatlanthin,
-7: hringnunkanzinkawngahhian,
-6: hekhawvelleharopuinate,
-17: kumtamtakchunghmangaihtuhreloin,
-16: kalalpaminhruainahi,
-33: sualbumnalamtluangzawhin,
-28: nangnenchuan,
-36: thianthaberisua,
-18: leihringnunkhualzinkawngahhian,
-23: minhruailakazuiangche,
-14: katlingsilo,
-1:  anichuankanthiltihangteniloin,
-37: kathinglungahanung,
-38: chawmawinazawngkahlanche,
-39: amanengkimahminhria,
-40: isualalber,
-41: indona,
-42: phulohmangaihna,
-43: duhthlannasangber,
-44: pathianhmelduhawm,
-45: kanunhnarkaitu,
-46: heilehchen,
-47: kadamlainunkawng,
-48: kaduhsamber,
-49: katawrhhilalpanaphal,
-50: karawninhlane,
+  24: nangkahimnainisi,
+  34: tlawmluamahla,
+  19: mintiharhlehrawh,
+  20: minhmangaihlohItheilo,
+  25: nazareth,
+  8: ihluani,
+  27: nitinhian,
+  31: rimawiropuiber,
+  10: kalawmeisu,
+  3: engtiaawmtheinge,
+  11: kathupuiber,
+  35: thleibikaneilo,
+  5: hmangaihtu,
+  9: ilamkanlohawi,
+  12: kalawmelalpa,
+  21: minchhungkhatla,
+  13: kadaizeldawn,
+  26: nangfakzelche,
+  15: kathlarauachawmlehthin,
+  4: engngekalungaihang,
+  22: minhmangaihsia,
+  2: eldorado,
+  30: nitinin,
+  32: sualsetananreitakminlobum,
+  29: nawmsaknatezawnginkatlanthin,
+  7: hringnunkanzinkawngahhian,
+  6: hekhawvelleharopuinate,
+  17: kumtamtakchunghmangaihtuhreloin,
+  16: kalalpaminhruainahi,
+  33: sualbumnalamtluangzawhin,
+  28: nangnenchuan,
+  36: thianthaberisua,
+  18: leihringnunkhualzinkawngahhian,
+  23: minhruailakazuiangche,
+  14: katlingsilo,
+  1: anichuankanthiltihangteniloin,
+  37: kathinglungahanung,
+  38: chawmawinazawngkahlanche,
+  39: amanengkimahminhria,
+  40: isualalber,
+  41: indona,
+  42: phulohmangaihna,
+  43: duhthlannasangber,
+  44: pathianhmelduhawm,
+  45: kanunhnarkaitu,
+  46: heilehchen,
+  47: kadamlainunkawng,
+  48: kaduhsamber,
+  49: katawrhhilalpanaphal,
+  50: karawninhlane,
 };
 
 const nangkahimnainisi = '''
@@ -1993,6 +1992,7 @@ const ihluani = '''
 
 const nitinhian = '''
 
+  
     Nitin hian
 
 1.Ka nunna i tlan a,
@@ -3518,6 +3518,10 @@ const katawrhhilalpanaphal = '''
 ''';
 
 const karawninhlane = '''
+
+
+
+
 1.Ka zinna kawng thlaler hmun khawhar
   He lei hrehawm an
   Mi chim lungngaih tahna ten
