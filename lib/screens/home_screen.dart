@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
               ),
               const Text(
                 'Worship lyrics Mara/Mizo',
-                style: TextStyle(fontSize: 28),
+                style: TextStyle(fontSize: 25),
               ),
               const SizedBox(height: 100),
               TextButton(

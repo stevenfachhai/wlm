@@ -1,16 +1,10 @@
 # wlm
 
-A new Flutter project.
+Mara
+He Worship Lyrics Mara/Mizo App. (WLM) he Praise & Worship daihti liata phahnai kawpa ta hmâpa a châ thei na awpa ta  mopakha kho pasana ta taopa a châ. 
 
-## Getting Started
+Abeipa Thlahpa Pathaih a pahlaona chôta hmâ chyu awpa ta khokheina eimâ hlâ.
 
-This project is a starting point for a Flutter application.
+He Worship Lyrics Mara/Mizo App. (WLM) hi Praise & Worship atana tangkai taka hman a nih theih nan mimal thahnemngaihna avanga siam a ni.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Thlarau Thianghlim pawlhna nen hmang theuh turin kan induhsak e.
