@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
           Positioned.fill(
             //
             child: Image(
-              image: AssetImage('assets/wlmb.jpg'),
+              image: AssetImage('assets/wlmlst.png'),
               fit: BoxFit.fill,
             ),
           ),
@@ -21,12 +21,7 @@ class HomeScreen extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: Column(
                 children: [
-                  const SizedBox(height: 100),
-                  const Text(
-                    'Worship lyrics Mara/Mizo',
-                    style: TextStyle(fontSize: 25),
-                  ),
-                  const SizedBox(height: 100),
+                  const SizedBox(height: 251),
                   TextButton(
                     onPressed: () {
                       Navigator.push(
@@ -56,19 +51,19 @@ class HomeScreen extends StatelessWidget {
                       style: TextStyle(fontSize: 30),
                     ),
                   ),
-                  const SizedBox(height: 30),
+                  const SizedBox(height: 37),
                   TextButton(
                     onPressed: () {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) =>
-                                TitlesScreen(language: 'Dance')),
+                                TitlesScreen(language: 'Action song')),
                       );
                     },
                     child: const Text(
-                      'Dance',
-                      style: TextStyle(fontSize: 30),
+                      'Action song',
+                      style: TextStyle(fontSize: 27),
                     ),
                   ),
                 ],
