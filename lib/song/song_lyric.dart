@@ -65,10 +65,10 @@ const still = '''
   Na khu la, 
   Na ku thatlôpa ta.
 
-  Tichalâhparâ nata thlihpi,
-  Vaw tlô hra sala ei pahnie aw;
-  Zisu pahnietuhpa na châ vâ,
-  Chi aw va na, Hy Bei Zisu.(2)
+    Tichalâhparâ nata thlihpi,
+    Vaw tlô hra sala ei pahnie aw;
+    Zisu pahnietuhpa na châ vâ,
+    Chi aw va na, Hy Bei Zisu.(2)
 
 2.Hy ei thlahpa, 
   Krista lia dei;
@@ -218,16 +218,19 @@ const mohngichaipaacha = '''
   Chônô chaipa hnoh ypa;
   Hmotaopa lia rônahna nyupa,
   Zisu lia âlâ khai haw. 
+
         Moh ngia chaipa cha a châ, x2
         Bei Zisu Krista ei Beipa; x2
         Moh ngia chaipa cha a châ, 
         Atlupa rai y vei;
         Moh ngia chaipa cha a châ,
         Bei Zisu moh cha .
+
 2.Eimâ  hlao lei Vârâh kho chi va,
   Keimo vâ Zisu za tuah chi;
   Paw Khazoh kyhpachâna tawhta,
   Ahy miah pachhaih thei aw tly? 
+
           Moh rônah chaipa  a châ x2.
           Bei Zisu Krista ei Beipa x2
           Moh rônah chaipa a châ 
@@ -244,12 +247,14 @@ Châ tlupa y v'ei, châ khopa y v'ei,
 Chhâzaw ta ryu na reih Beipa; 
 Khinarâh nâ eih, rônahna zy chhao,
 Moh zydua hlâ chônô viapa.
+
             Hmotaothei chaipa a châ x2
             Bei Zisu Krista ei Beipa x2
             Hmotaothei chaipa a châ
             Atlupa rai y vei
             Hmotaothei chaipa a châ
             Bei Zisu moh cha!
+            
 Hmotaotheina Zisu moh lia a y x3
 Bâlia to chhie la x3
 
@@ -3560,4 +3565,11 @@ const karawninhlane = '''
   Ka nun khawharin a rum thin Isu
   Aw min kai ang che aw Isu
 
+''';
+const danceLyrics = {
+  1: ape,
+};
+
+const ape = '''
+ape
 ''';

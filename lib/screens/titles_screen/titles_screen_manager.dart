@@ -12,8 +12,14 @@ class TitlesScreenManager {
             (title) => _contains(title, searchString),
           )
           .toList();
-    } else {
+    } else if (_language == 'mizo') {
       songListNotifier.value = mizoSongTitles
+          .where(
+            (title) => _contains(title, searchString),
+          )
+          .toList();
+    } else {
+      songListNotifier.value = danceSongTitles
           .where(
             (title) => _contains(title, searchString),
           )
@@ -29,8 +35,16 @@ class TitlesScreenManager {
     _language = language;
     if (_language == 'mara') {
       songListNotifier.value = maraSongTitles;
-    } else {
+    } else if (_language == 'mizo') {
       songListNotifier.value = mizoSongTitles;
+    } else {
+      songListNotifier.value = danceSongTitles;
     }
+  }
+
+  int getSongNumber(int index) {
+    final name = songListNotifier.value[index];
+    final number = name.split('.').first;
+    return int.parse(number);
   }
 }

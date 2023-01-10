@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:wlm/screens/titles_screen/titles_screen_manager.dart';
-import '../../song/song_titles.dart';
 import '../lyrics_screen.dart';
 
 class TitlesScreen extends StatefulWidget {
   TitlesScreen({Key? key, required this.language}) : super(key: key) {}
 
-  late List<String> songTitles;
   final String language;
 
   @override
@@ -54,11 +52,13 @@ class _TitlesScreenState extends State<TitlesScreen> {
                             style: TextStyle(fontSize: 17),
                           ),
                           onTap: () {
+                            final songNumber = manager.getSongNumber(index);
+
                             Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => LyricsScreen(
-                                  songNumber: index + 1,
+                                  songNumber: songNumber,
                                   language: widget.language,
                                 ),
                               ),

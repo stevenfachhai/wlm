@@ -7,51 +7,75 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(
-            children: [
-              const SizedBox(height: 100),
-              const Text(
-                'Welcome to',
-                style: TextStyle(fontSize: 28),
-              ),
-              const Text(
-                'Worship lyrics Mara/Mizo',
-                style: TextStyle(fontSize: 25),
-              ),
-              const SizedBox(height: 100),
-              TextButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => TitlesScreen(language: 'mara')),
-                  );
-                },
-                child: const Text(
-                  'Mara',
-                  style: TextStyle(fontSize: 30),
-                ),
-              ),
-              const SizedBox(height: 30),
-              TextButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => TitlesScreen(language: 'mizo')),
-                  );
-                },
-                child: const Text(
-                  'Mizo',
-                  style: TextStyle(fontSize: 30),
-                ),
-              ),
-            ],
+      body: Stack(
+        children: [
+          Positioned.fill(
+            //
+            child: Image(
+              image: AssetImage('assets/wlmb.jpg'),
+              fit: BoxFit.fill,
+            ),
           ),
-        ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                children: [
+                  const SizedBox(height: 100),
+                  const Text(
+                    'Worship lyrics Mara/Mizo',
+                    style: TextStyle(fontSize: 25),
+                  ),
+                  const SizedBox(height: 100),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                TitlesScreen(language: 'mara')),
+                      );
+                    },
+                    child: const Text(
+                      'Mara',
+                      style: TextStyle(fontSize: 30),
+                    ),
+                  ),
+                  const SizedBox(height: 30),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                TitlesScreen(language: 'mizo')),
+                      );
+                    },
+                    child: const Text(
+                      'Mizo',
+                      style: TextStyle(fontSize: 30),
+                    ),
+                  ),
+                  const SizedBox(height: 30),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                TitlesScreen(language: 'Dance')),
+                      );
+                    },
+                    child: const Text(
+                      'Dance',
+                      style: TextStyle(fontSize: 30),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
