@@ -44,13 +44,16 @@ const maraSongTitles = [
   '43. Pachhatuh, kei na khôsai kha                                                                    (Zisu, Zisu, ei awhna thei la)',
   '44. Pakho teh u                                                                                     (Mopathaihpazy, moh teh u)',
   '45. Pathipalôh molei chiehpa ',
-  '46. Paw kypachâna',
-  '47. SAKHIH DÀHPHIPA HAWH',
+  '46. Paw Khazoh kypachâna',
+  '47. SAKHIH DÂHPHIPA HAWH',
   '48. Still',
   '49. Shout to the Lord',
   '50. Thlahpa Pathaih ',
   '51. The blessing',
   '52. Ti, wine lâ na pachâsa',
+  '53. Zisu ei viasa pha chai                                                                         (Hrochhôh ei zi lymâ aw)',
+  '54. Zisu eima viasa pha chai',
+  '55. Zisu hnei ei khoh via',
 ];
 
 const mizoSongTitles = [

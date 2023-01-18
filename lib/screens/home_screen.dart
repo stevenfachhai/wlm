@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
           Positioned.fill(
             //
             child: Image(
-              image: AssetImage('assets/wlmlst.png'),
+              image: AssetImage('assets/wlmlst1.png'),
               fit: BoxFit.fill,
             ),
           ),
@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: Column(
                 children: [
-                  const SizedBox(height: 251),
+                  const SizedBox(height: 222),
                   TextButton(
                     onPressed: () {
                       Navigator.push(
@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
                       style: TextStyle(fontSize: 30),
                     ),
                   ),
-                  const SizedBox(height: 30),
+                  const SizedBox(height: 12),
                   TextButton(
                     onPressed: () {
                       Navigator.push(
@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                       style: TextStyle(fontSize: 30),
                     ),
                   ),
-                  const SizedBox(height: 37),
+                  const SizedBox(height: 16),
                   TextButton(
                     onPressed: () {
                       Navigator.push(
@@ -63,7 +63,7 @@ class HomeScreen extends StatelessWidget {
                     },
                     child: const Text(
                       'Action song',
-                      style: TextStyle(fontSize: 27),
+                      style: TextStyle(fontSize: 25),
                     ),
                   ),
                 ],
