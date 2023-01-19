@@ -1788,6 +1788,24 @@ const zisuhneieikhohvia = '''
 const mizoLyrics = {
   1: ahmangaihnaaloni,
   2: amanengkimahminhria,
+  3: chawmawinazawngkahlanche,
+  4: chhandamtuminhruainalamtluang,
+  5: duhthlannasangber,
+  6: engtiaawmtheinge,
+  7: engkimahminhria,
+  8: eldoradomizo,
+  9: hmangaihtu,
+  10: hringnunkanzinkawngahhian,
+  11: hriatchianlehzualchehi,
+  12: ihluani,
+  13: ilamkanlohawi,
+  14: indona,
+  15: isualalber,
+  16: kadamlainunkawng,
+  17: kadaizeldawn,
+  18: kaduhberlalpa,
+  19: kalawmeisu,
+  20: kalawmelalpa,
 };
 
 const ahmangaihnaaloni = '''
@@ -1849,6 +1867,1080 @@ const amanengkimahminhria = '''
   Ka hmui kawngkhar hi veng ang che;
   A chhia, a tha, hriatna min pe ang che,
   Nangman engkimah min hria e.
+''';
+
+const AmenSilfaikani = '''
+
+      Amen! Silfai ka ni
+
+Sual Setana'n rei tak min lo bum,
+Zahngaihna ka hmuh ve a phal ngai lo;
+A parzu thlum ka tan a hremhmun min hnaih tirin,
+Fam chan thleng a min phuar zel turin.
+
+Aw, a rawng in, a tum zia ka lo va lo hre lo rei em,
+Kraws thisen a silfai ka nih hi;
+Kraws thisen a silfai ka ni a,
+Sual a phuarte zalen kan ni ta,
+Zalenna hlamawi chu ka rem ve tawh e.
+
+Heti mai hian chhandam ka ni a,
+Amen! ka nunhlui leh sulhnu a chhui ve lo;
+A khawngaihna ka tan a 'Amen' lo tih mai hi,
+Chatuan atan nunna a lo ni.
+
+Aw, a hlu in, a thlum zia ka va lo hre lo rei em,
+Kraws thisen a silfai ka nih hi;
+Kraws thisen a silfai ka ni a,
+Sual a phuarte zalen kan ni ta,
+Zalenna hlamawi chu ka rem ve tawh e.
+
+Aw, a hlu in, a thlum zia ka va lo hre lo rei em,
+Kraws thisen a silfai ka nih hi;
+Kraws thisen a silfai kan ni e, Amen!
+''';
+
+const bultanminphalsak = '''
+
+      Bultan min phal sak
+
+SUALBUMNA LAMTLUANG ZAWHIN
+KA BUAI THIN A
+KA HMAA NUNKAWNG HLEN TUR HMU CHUNG SIIN
+KA DAI KAI HNU TEN MIN HIP THIN
+MAHSE LUNGCHHIR NA MAI LO CHU
+LEIAH HIAN CHAN RENG KA NEI SI LO
+
+MAHSE TUNAH I LAM KA RAWN PAN
+NANGIN KEI MINLO HNAR CHUANG SI LO
+HMANGAIHNA CHUAN BULTAN MIN PHALSAK IN
+MIN NGAIDAMIN MIN LO SILFAI ZAWK SI
+
+KA KOAH LALPA HNGAH CHHAN HRE RENG SIIN
+HLEN LOH IN REI TAK KALO HAIDER THIN A
+ENGTIANGIN KA LAL THINLAI NA MAW?
+KEIMISUAL HIAN KALO DER CHE
+THINGTHI IN TUNAH KALO KIR E
+
+AW TUNAH I LAM KA RAWN PAN
+NANGIN KEI MINLO HNAR CHUANG SI LO
+HMANGAIHNA CHUAN BULTAN MIN PHALSAK IN
+MIN NGAIDAMIN MIN LO SILFAI ZAWKSI
+
+I HMANGAIHNA ROPUI ZIA KALO HRE TA
+HMANGAIHNA KA NEIH TE HI TLEM HLE MAHSE
+I KUT CHAK TAK CHUAN MIN CHELH RENG SI
+HMALAM PANIN KA KAL ZEL ANG
+I KRAWS ENG CHUANG MIN HRUAI ZEL DAWN SI
+
+AW TUNAH I LAM KA RAWN PAN
+NANGIN KEI MINLO HNAR CHUANG SI LO
+HMANGAIHNA CHUAN BULTAN MIN PHALSAK IN
+MIN NGAIDAMIN MIN LO SILFAI ZAWKSI
+''';
+
+const chawmawinazawngkahlanche = '''
+
+        Chawimawina zawng ka hlan che,
+
+1.Aw Pa Pathian, engkim siamtu,
+  Fak phu Pathian reng i lo ni e;
+  Ka nihna zawng nen ka rawn pan a che,
+  Fak hla sa chung zel in.
+
+        Chawimawina zawng ka hlan che,
+        Ropuina leh lalna nen;
+        Chibai ka buk che, i hmaah lo kun in,
+        Lalpa, ka hmangaih che,
+        Lawmna min pekah hian.
+
+2.I awmnaah ka lo kal hian,
+  Thinlung bawlhhlawh min lak bo sak rawh;
+  Krista thisen ka thiamchanna lo chu,
+  Chhuan tur ka nei si lo.
+
+3.Leiah vawihnih kan vul dawn lo,
+  Kan damlaini a ral hma ngei hian;
+  Hei ka duhber fak leh chawimawi che,
+  Ban reng ka duh lo e.
+''';
+
+const chhandamtuminhruainalamtluang = '''
+
+        Chhandamtu min hruaina lamtluang
+
+1.Chhandamtu min hruaina lamtluang ka thlir let a,
+  Khawngaihna in min chhandam a;
+  Khawngaihna in min nun sak thin,
+  Hmangaihna in min enkawl thin.
+
+        Van lawmna kim ka neih theih nan,
+        Lei lawmna hi min thiah sak a;
+        Van nun hlut zia ka hriat theih nan,
+        Hringnun nep zia min hriattir thin.
+
+2.Khawngaihna in min thukru in min awmtlei thin,
+  Damlai hreawm kawng chhuk chho pawh;
+  Chung muvanlai iang min chawiin,
+  Thlaler ah pawh bikna min siam.
+
+3.Ka hma ah hian fiahna tinreng a rawn tir a,
+  Amah vekin min hneh sak a;
+  Ka theihna zawng ka sawm khawm pawh,
+  Engmah lo mai a chan tir thin.
+
+4.Lei lungngaihna pelh kan nghalhlel ringtu ten,
+  Mahse, tihtur min pe;
+  Khawngaihna a rawngbawl tur leh,
+  Khawvel thim hi tieng tur in.
+
+''';
+
+const duhthlannasangber = '''
+
+        Duhthlanna sang ber
+
+1.Dam lai lamtluang ka zawh laiin,
+  Doral a lian thlemna karah;
+  Thlarau zawngin peih mahse,
+  Tisa erawh a chak si lo,Ka hneh zo lo ka tlu leh si thin.
+  (Châng 2-na sak leh nghal tur)
+
+2.Mi rethei ka va han ni em!
+  Tu in nge min chhanchhuak ang le?
+  Thihna taksa atang hian;
+  Tihtheih dang reng ka nei si lo,
+  Duhthlanna sang ber hlan mai loh chu.
+
+      Aw tunah lawmin ka khat,
+      Krista keimahah a nung zawk si;
+      Thiamloh chan reng a awm tawh lo,
+      Min tlantu nung anih vangin.
+
+3.Thlemna thlipui a zual zel ang,
+  Doral lian Setan ramah hian;
+  Mahse himna kulh Krista,
+  Chatuan nunna ka thlan vangin,
+  Kumkhuain ka him reng tawh ang a.
+''';
+
+const engtiaawmtheinge = '''
+
+      
+      Engtia awm thei nge?
+
+1.Dawn chang ni hianin thinlai a fan 
+  thin,
+  I hmangaihna hi ka dawn thui 
+  thiam silo;
+  Tihhlum tura lokal, khenbeh tura 
+  piangin,
+  Phumin a awm maw, 
+  Pathian meuh ni si hi!
+
+        Engtia awm thei nge maw 
+        hringmi tawnah hian?
+        Ka chhui chhuak thiam mawlh 
+        silo maw!
+        I hmangaihna a ril hian a ropui 
+        ngei e,
+        Misual ber mai pawh i hnar 
+        phal si lo maw?
+        Ka phu mawlh love misual kei 
+        mai hian,
+        I hmangaihna hi.
+
+2.Dawn chang ni hianin lunglai a 
+  zing thin,
+  Ka hmangaihna che tichauh mai 
+  maw lo ni!
+  I tan ka tih ve hi a tlem lua e Lalpa,
+  Engkim hlan che in (aw), a hen 
+  chuang si lo'ng maw!
+''';
+
+const engkimahminhria = '''
+
+        Engkimah min hria
+        Phuahtu: Lallianmawia Pachuau
+
+1.Lalpan chiang takin min thlir a,
+  Ka awmdan zawng zawngte hi;
+  Ka rilru ngaihtuahna zawngte,
+  Ka kal leh ka mutthilh lai te;
+  Ka hnung lam leh ka hmalam min hual a,
+  
+          Aman engkimah min hria e.
+          Aman engimah min hria e(2)
+          Hetiang em em a hriat chianna chu.
+          A sang em a ka phak lo a ni.
+
+2.Lalpa thlarau hnen ata hi,
+  Khawiah nge ka kal ang le;
+  Tuifinriat chhungril lamah te,
+  Vansag leh Seoul lamah pawh;
+  Pathian ramri khamna reng a awm lo,
+  Ama hriat loh reng a awm lo.
+
+3.Ka ngaihtuahna sual kai zawng hi,
+  Puitlin tir suh ang che Lalpa,
+  Keimah ka inchawimawi loh nan,
+  Ka hmui kawngkhar hi veng che;
+  A chhia a tha hriatna min pe ang che,
+  Nangman engkimah min hria e.
+
+''';
+
+const eldoradomizo = '''
+   
+        El Dorado
+
+1.Aw ka nun khawhar chau tak hian,
+  Hmangaihtu a ngai thin a;
+  Aw ka nunna hian Lalpa a ngai a ni.
+
+        I tello chuan nun a kim lo,
+        Ka zinkawng khawhar ah hian;
+        An sawi nin loh ramnuam 
+        El Dorado,
+        An ngai thin ang hian,
+        Lalpa ka ngai em che.
+
+2.Aw ka nun chau rethei tak hian,
+  Hnemtu a ngai a ni;
+  Aw ka hringnun hian 
+  Lalpa a ngai a ni.
+
+3.Hmangaihtu tawnglo 
+  nun khawhar,
+  Kei misual leh rethei tan hian;
+  Aw lo eng ang che ka nun 
+  khawhar ah hian.
+''';
+
+const hmangaihtu = '''
+     
+        Hmangaihtu  
+
+1.Tunge ka nih Lalpa i hria,
+  Eng nge ka tih thin i hai lo;
+  Nunhlui liam tawh hnute vanga 
+  beidawng thin,
+  Sulhnu pawh hmuh tlak awm lo,
+  Hmangaihtu thinlung meuh pawh 
+  hliam thin hian,
+  Hawi san bak ka phu lo.
+
+        Mahse, hmangaihtu,
+        min hmangaihtun,
+        Misual kei min hnar phal lo ve;
+        Min hmangaih, min hmangaih,
+        Min enkawl a thulh lo,
+        A malsawm min vur bang lo ve,
+        Kei mai hian i hmangaih ka phu 
+        mawlh lo.
+
+2.Ka duhthlan ka daipelh ten,
+  Ka inchhirna ber min thlen thin;
+  Heng hian ba ang min thing se, 
+  rul zo maw,
+  He taksa hi thlan thim thuk berah 
+  pawh zalin famchang ila,
+  Ka sulhnuten a phu reng a ni.
+    
+''';
+
+const hringnunkanzinkawngahhian = '''
+
+      Thuro iang zaidam nunnem
+
+1.Hringnun kan zin kawngah hian,
+  Kan ngai che Thlarau Thianghlim;
+  Min kai la chung van Kanan t
+  hlen thlengin,
+  Dam tein min hruai zel rawh.
+
+        Thuro iang zaidam nunnem,
+        Kan thinlung rawn luahkhat la;
+        Nun zemawi, Lal Krista nun 
+        mawi tak kha,
+        Nitin min zirtir ang che.
+
+2.Thlarau Thianghlim thlamuantu,
+  Zirtirtu ngilnei ber chu;
+  Thianghlimna sual hnehna 
+  nun min petu,
+  Van thlen thlengin min hruai rawh.
+
+3.Aw van thli, lo leng ang che,
+  Sual chhumpui zing chhemkiang 
+  la;
+  Kohhranhote min ti harh thar lehin,
+  Sual doral kan ngam ngei ang.
+''';
+
+const hriatchianlehzualchehi = '''
+
+      Hriatchian lehzual che
+
+1.Nawmsaknate zawngin 
+  ka tlan thin,
+  Hausaknate zawngin ka tlan thin;
+  Mahse hei hi ka duh ber 
+  Nangmah hriat hi,
+  Ka tan hian a tha ber e.
+
+2.Ka nunna hi I tan ka hlan e,
+  Ka thiamna hi i tan ka hlan e;
+  Ka neih ro hlu leh 
+  ka hun hlu zawngte hi’tan 
+  ka hlan e Lalpa
+
+          Hriatchian lehzual che hi 
+          ka va duh em;
+          I hmangaihna leh 
+          khawngaihnate hi,
+          Hrechiang i la, 
+          Nang ka bosan tawh lawng 
+          che;
+          Hriatchian leh zual che hi 
+          ka va duh em!
+
+3.I thisen hlu ka tan a luang chhuak,
+  A va makin Aw a ropui e;
+  Mihring finna hian a chhui 
+  phak lul love,
+  Lalpa a va ropui em!
+
+4.Midangte tan damna a thlen a,
+  Mahse A tan damna a awm lo;
+  A va make m I hmangaihna ropui 
+  hi;
+  Ka tan hian a sang lua e.
+''';
+const ihluani = '''
+
+          I hlu a ni.
+
+1.I thiltih te ka ngaihtuah chang 
+  hianin,
+  I rinawm min hmuh tir kei tawmkai 
+  lo hi;
+  Thahnem lo in tangkai lo mah ila,
+  I hnathawh min hmuhtir i thulh 
+  si lo.
+
+          I hmangaihna hi ka damchhung 
+          hla a ni,
+          I mi lainatna khawngaihna hian 
+          lairila fan zo e;
+          Engvang hian nge 
+          min hriatreng a 
+          min hruai zel thin ni le?
+          Ka tan hian aw, i hlu a ni.
+
+2.I hmaah hian chhuan tur reng 
+  nei lovin,
+  Thinlung chapo tak leh fel lo 
+  thin ka  ni;
+  Ka thlir leh thin ka thiam leh 
+  finna te,
+  Ka inbuk tling mawlh lo 
+  i rawngbawl an.
+
+3.Ka zui ang che ka damchhung ni
+  zawng hian,
+  I hman atan tiin ka rawn inhlan e;
+  Keimahah hian katlang se 
+  i hnathawh,
+  Chu chu ka ngai hlu ber 
+  thildang aiin.
+
+''';
+
+const ilamkanlohawi = '''
+      
+        I lam kan lo hawi
+
+1.Aw Lalpa, i lam kan lo hawi,
+  Nangmah lam chauh kan rawn 
+  thlir e;
+  Kan ram hi a rum a ni,
+  Hlau leh khurin kan awm e,
+  Aw Lalpa, nangmah chauh 
+  kan beisei e.
+
+      Hawi lam tur reng hre lo hianin,
+      I lam hawiin ban kan phar e;
+      Belh tur reng hi aw, 
+      kan nei mawlh si lo,
+      Kan hawi e, aw Lalpa, 
+      i lam kan hawi.
+
+2.I zawnchhuah nih kan hlut zo lo,
+  Kan zah zo lo min thawhsak hi;
+  Kan lo hliam tawh thin che a,
+  Peng bo tawh nimah ila,
+  Aw Lalpa, i lam kan lo hawi leh e.
+
+3.I duhber nang kan hnaih zel hi,
+  I duhber nang kan belh fo hi;
+  Nang kan hnaih nan kawng i ruat,
+  Kan hrethiam phak lo fo thin,
+  Tunah chuan nang hlat hi 
+  kan ngam tawh lo.
+''';
+
+const indona = '''
+
+            Indona
+
+1.Indona zawng a rapthlak ber ka nun hi,
+  Lehlam lehlam ah neksawr in a awm a;
+  Van indona aia nasa zawk a ni,
+  Hruaitu Krista nih suh se ka tlawm ngei ang.
+
+        Krista mi hruaitu hnehtu Lal ropui chu,
+        Ka chakna leh ka thiltihtheihna a ni;
+        Ka zam ngai lo'ng Setan ral hma ah,
+        Hnehna chu ka ta a ni tih ka hria.
+
+2.Lehlam lehlam ah lungawi tum a nun hi,
+  Mahni himna tur a tih nimahsela;
+  Chhiatna za khua thlentu mai a lo ni si,
+  Tuilairapa awm an dingchhuak ngai love.
+
+3.Aw, ka nun rimchhia hi ka va han ning tak em,
+  Mahni chu inpawh hram hram thei mah ila;
+  Thianghlimna Pathian chuan a thei ve silo,
+  Min ti thianghlimtu Lal thisen i tello chuan.
+
+3.Ka lawm e Lalpa, i thisen avangin,
+  I angchhung ah ka muang (lungsi in);
+  Ka tan i hlu thildang zawng aiin,
+  Ka Lalpa thisen min ti thianghlim tu.
+''';
+const isualalber = '''
+
+        Isua lal ber ani
+
+1.Hmangaihna hla mawi ri ka hria
+  Rimawi mawi ber mai chu
+  Mipui pungkhawm ropui tak chuan
+  Lalpa fak hla an rem
+  An hmel hlim leh nui hiau in
+  Fak hla chu an rem a
+  Pheilai khai a per rem chungin
+  Zaivawr pui ka nuam e
+
+        Zaiin Isua lal ber ani
+        Lal zawng zawngte lal chu 
+        Angel var te hla mawi rem chu
+        Hmangaih hla mawi ani
+
+2.Tlang sangte leh tui thukte pawn
+  Rimawi chu an zawm a
+  Thangvan siar ni leh thla ten
+  Fak hla rem an min sawm
+  Tui fawn nasa tak te chuan
+  Lalpa chak zia an puang
+  Van dumpawl leh tuifinriat ten
+  Lalpa chak zia min hrilh 
+
+3.Ahmangaih ropui khawvel tan
+  A pek hi dawn ve la
+  Thisen chhuak a kross ah thiin
+  Mitin damna a thlen
+  Aw, Kalvari ka dawn changin 
+  Ka mittui a tla thin 
+  A tho leh ta tih ka hriat in 
+  Hlimin ka zai zawk ang 
+
+''';
+
+const kadamlainunkawng = '''
+
+          Ka dam lai nun kawng
+
+1.Ka dam lai nun kawng hi Lal Isu,
+  Chhiar dan ka thiam theih nan min kai la;
+  I ram ka thlen hmain sualnaten,
+  Min beiin chauvin ka buai leh thin.
+
+      Chaute hnena chakna pe thintu,
+      Kei pawhin ka rawn pan che Lalpa;
+      I kraws hlim hnuaiah min chawlhtir la,
+      Ka thla hliam hnu hi tidam leh rawh.
+
+2.Beidawng leh lungngaia ka awmin,
+  I thlarauvin min tiharh leh la;
+  Chak lo leh khawhara ka awmin,
+  Min thlamuanin min tiharh ang che.
+
+3.Khawvel mawinate lo vul mahse,
+  Ka tan zawng i hlu ber Lal Isu;
+  Dam lai ropui leh nawmsaknate,
+  Ka phum ang rohlu ber ka nei si.
+''';
+
+const kadaizeldawn = '''
+
+    Ka dai zel dawn
+
+1.Ka hringnun hi 
+  ka theihna zawng leh,
+  Khawvel mawina ten 
+  min hip thin mahse;
+  Buai manganna ten 
+  min eiral tum mahse,
+  Ka tan chuan chawtui
+  ber an lo ni zawk ang.
+
+          Sualral lian te an lo pung zel a,
+          Min lakbo sak rawh 
+          tiin ka ngen fo;
+          Luang sawp paih lovin
+          lakhu pawh a mit lo,
+          Ka chhiatna tur reng a
+          ngaihtuah ngai love.
+
+2.Engpawh tawk ila 
+  ka lawm zel ang,
+  Ka chhandamna kulhpui
+  a nghing ngai love;
+  Sual ral in a hneh lawng
+  ka Lal remruat hi,
+  Ka hma ah ngei hian
+  khawdur thleng mahse;
+  A phenah malsawmna a
+  awm tih min hrilh kha,
+  Manna thuhruk chang ngei turin;
+  Ka dai zel dawn e 
+  harsatna zawng te.
+
+3.Khawvel zawng leh 
+  keimah nun ngei hi,
+  Kalsan rawh tiin 
+  min lo ko reng si;
+  He lei danah chuan 
+  hreawm ve thin mahse,
+  Ka chungah i lawm chuan 
+  ka tan a tawk e
+
+''';
+
+const kaduhberlalpa = '''
+
+        Ka duh ber Lalpa
+
+1.Hei leh chen kumtam min hruaitu,
+  Ka Lalpa ka tan i va tha em;
+  Malsawm tin reng ka chhiar seng lo,
+  Hlim leh lawmna chatuan nun nen.
+
+        I tello chuanin mitkhap kar pawh,
+        Ka nung zo lo ka chau leh thin;
+        Nang chauh i ni ka duh ber leh,
+        Chatuan thleng a ka belh tur che.
+
+2.Ka chhingmit khua fiahlo mahse,
+  Thlarau mit in a fiah ka chhandamtu;
+  Ka vui love engpawh thleng se,
+  Chatuan khawvar min hruai thleng ang.
+
+3.Ka hahchawlhna leh thlamuanna,
+  Innghahna leh beisei dang ka nei lo;
+  Ka pum in nei rawh ka inhlan e,
+  I angchhung muanna ka rawn pan e.
+
+4.Natna leh hreawmna khawvel,
+  Buai leh lungngaihna ram ah hian;
+  Ka ngaizual ka chhandamtu Lalpa,
+  I kianga len hlan ka nghakhlel e.
+
+''';
+
+const kalawmeisu = '''
+
+      
+      Ka lawm e Isu
+
+1.I thu hian min thlamuan thin,
+  I aw hian min ti chak thin;
+  He khawvel rohlu ai hian,
+  Ka ngaihlu zawk i hmangaih thu.
+
+          Ka thlang che ka ta i ni,
+          I ta ka ni min lei si;
+          Thil dang zawng zawng ai 
+          pawh hianin,
+          Nang ka nei hi ka lawm e Isu.
+
+2.Ka chak loh chang niah pawh,
+  Min kalsan lo i hnai reng;
+  Dotu lakah min humin,
+  Ka tan dawhkan i buatsaih thin.
+
+3.Chhandamna dang a awm lo,
+  Kawng dawng reng hi a awm lo;
+  Kawng leh thutak Lal Isua,
+  Nangmah chauh hi nunkawng i ni.
+
+''';
+
+const kalawmelalpa = '''
+
+      KA LAWM E LALPA
+
+1.Khawvel mi ten min thlir reng,
+  Ka nunkawng har tak hi;
+  Beisei tur neilo min ti,
+  An va hre lo em;
+  Chhungril ah hian ka hlim si,
+  Aw min han hmu thei se;
+
+      Ka lawm e Lalpa, 
+      i malsawmna vangin.
+
+2.Chenna in tur min buatsaih,
+  Hahchawlhna tur min pe;
+  Ei leh in tur min pe in,
+  Silh leh fen min pe a;
+  Hmangaihna in min hruai thin,
+  Chhungkaw duhawm min pe;
+
+      Ka lawm e Lalpa, 
+      i malsawmna vangin.
+
+3.Hausakna chhuan tur ka nei lo,
+  Silhfen tha nei lovin;
+  Sum leh pai tam ka nei lo,
+  Mahse nang ka nei;
+  Chu mawlh chu ka tan a hlu ber,
+  Miten hmu lo mahse;
+  
+      Ka lawm e Lalpa, 
+      i malsawmna vangin.
+''';
+
+const kalokire = '''
+
+            ka lo kir e
+
+1.Kum tam tak chhung hmangaihtu 
+  hre lo in,
+  Am ten ka hmang ka vanglaini te;
+  Mahse ka nun a lo ngui zo a,
+  Khawhar takin ka rum 
+  vawng vawng thin.
+
+        Ka Pa van ropui a mi,
+        I chungah, nangma chung 
+        ngeiah 
+        ka lo sual ta a;
+        Fa a vuah tlak ka tling zo tawh 
+        love,
+        I bawih ni turin ka lo kir e.
+
+2.Ka kal zel dawn ka phatsan tawh 
+  lovang,
+  Ka hmangaih che ka thinlung nei 
+  la;
+  Ka tan khawvel ka khengbet tawh 
+  ang,
+  Ka nunna kraws ka chhuang zel 
+  tawh ang.
+
+3.Sual kawng zawh a ka pen bo phal 
+  suh la,
+  Thlemna lakah ka nun veng ang 
+  che;
+  Chutin i hnen ka lo thlen hunah,
+  Ka lawmna chu a parvul tawh ang.
+''';
+
+const kanthinlunghi = '''
+
+    Kan thinlung kan hlan che
+
+1.He khawvel leh a ropuina te,
+  Vana arsi zawng zanwg te leh;
+  Mita hmuh theih leh hmuh phak 
+  loh te nen,
+  A kut chhuak an lo ni vek si.
+  Tui thuk tak chhungah te,
+  Lei hnuai ril berah a ropuina a 
+  in phum si!
+  Engvang hian nge maw 
+  aw hringmi hmangaih a,
+  Kan tan a nun a rawn hlan le?
+
+          Aw, i hmaah kan lo kun e,
+          Kan rawn hlan a che;
+          Kan thiamna zawng zawng te hi,
+          Aw, i hnenah, i hnenah chauh;
+          Kan thinlung hi 
+          kan rawn hlan a che,
+          Kan thinlung hi 
+          kan rawn hlan a che.
+
+2.Hringmi'n ropuina a tih zawng te 
+  leh,
+  A ngaihhlut thil tinrengte hi;
+  Thil hlu a tih leh a ngaihsan 
+  thil te,
+  Mawina leh sanna zawng zawng 
+  te;
+  Kan Pathian hmangaihna 
+  chhanletna turin,
+  Thil hlu tawk reng a awm love;
+  Kan thiam, kan theihna leh 
+  kan nunna zawng pawh,
+  Hlan zo ila a hen si lo.
+''';
+const kanunhnarkaitu = '''
+
+      Ka nun hnâr kaitu
+
+1.Lalpa nang lo tu nge ka neih,
+  Ka mangan leh ritphurh ka thlenna;
+  Ka lâwmna leh hlimna te nên,
+  Ka thinlung ril hmu fai vektu.
+
+  Ka chanchin hi ziak dâwn ila,
+  I tel ve ang, a phêk tinah;
+  Ka hmangaih che i hria Lalpa,
+  I duhzâwng tih ka duh fo thin.
+
+      Nangin min hmangaih,
+      Nangin min enkawl thin;
+      Ka pian tirh ata tûn thlengin,
+      Ka nun hnâr kaitu i ni.
+
+2.I hmangaihnain i lamah,
+  Min hîp leh thin bo dâwn ila;
+  Ni êng leh pâr inkawp ang leh
+  Ruah leh chhûm, ni, thla leh arsi.
+
+  Tlâng, phûl leh lui, nu leh fa,
+  Êng leh hlim a inzawm ang hian;
+  Ka then thei lo che aw, Lalpa,
+  Ka neih chhun aw, ka ngaihlu che.
+''';
+
+const karawninhlane = '''
+
+        Ka rawn in hlan e
+
+1.Ka zinna kawng thlaler hmun khawhar
+  He lei hrehawm an
+  Mi chim lungngaih tahna ten
+  Sualna hliam chu tuarin nun a lo chau zo
+  Aw ka Lal Isu min silfai rawh
+  Thihna hnehtu Lalpa Isu
+  He lei hringnun ka thlarau lei taksa
+  Aw i chhandam famkim chu min entir rawh
+
+        Aw Lal Isu nangmah chu rinchhanin
+        I chhandamna chu beisei in ka lo kir e
+        Nangin min silfai leh ta che Isu
+        Ka khawlohna zawng zawng chu phurin
+        I hnenah ka rawn in hlan e.
+
+2.He lei hrehawm an
+  Mi chim lungngaih tahna ten
+  Sualna hliam chu tuarin nun a lo chau zo
+  Aw ka Lal Isu min silfai rawh
+  Thihna hnehtu Lalpa Isu
+  He lei hringnun ka thlarau lei taksa
+  Aw i chhandam famkim chu min entir rawh
+
+3.Ka dawn thin ka sulhnu leh nunhlui
+  Aw ka Lalpa i hmuh loh reng a awm lo
+  I hnen ata ka vak bo ka nun chawl lovin
+  Mahse Isu min kalsan suh
+  Lungchhira simin ka thinlung
+  Ka zawng zawngin ka rawn in hlan e
+  Aw i chhandam famkim chu min entir rawh
+
+4.He lei hringnun hi a chau thin tui halin
+  Aw ka tisa hian a ngai thin che Isu
+  He khawvel zawng lungngaia tahna mai maw
+  Lung minhnemtu ka vai si thin
+  Ka nun khawharin a rum thin Isu
+  Aw min kai ang che aw Isu
+
+''';
+
+const karinchhanLalpan = '''
+
+        Ka rinchhan Lalpa'n
+
+1.Lei hringnun khualzin 
+  kawngah hian,
+  Natna thlipui ten 
+  min nuai mahse;
+  Ka vui mawlh lo Lalpa,
+  Mihring siamthatnan khawdur 
+  a ngai ang hian;
+  Ka nunah hian khawdur 
+  a ngai a ni.
+
+        Ka Lalpa ngei chuan 
+        min ensan ngai lo,
+        Min awmpui reng thin, 
+        min kalsan ngai lo;
+        Min thlamuan reng thin, 
+        ka thlaphang hlau in,
+        Ka rinchhan Lalpa'n, 
+        min thlahthlam ngai lo.
+
+2.Thlarau damna min pekte hi,
+  Ka tan Lalpa a hlu zual thin;
+  Kei chak lo hi Lalpa,
+  Ka au thawm min ngaihthlak 
+  sak thin vangin;
+  Lawmna mittui biangah 
+  a luang fo thin.
+
+3.Hmagaihtu Lalpa I ta ka ni,
+  Ka thinglung hi ka rawn hlan e;
+  I khawngaihna banin,
+  Min kai ang che chatuan ram 
+  thlen thlengin;
+  Ropuina ram khawpui 
+  mawiah chuan.
+''';
+
+const katawrhhilalpanaphal = '''
+
+        Ka tawrh hi Lalpan a phal
+
+1.Khawvel lungngaihna te leh buaina karah ah hian,
+  Mangan leh harsatna ten nitinin min bawm;
+  Beidawng leh chauin ka rum tanpuitu ka au,
+  I hmaah ka lo kun e aw ka Lal Isu.
+
+        Ka vahbo san tawh lovang he khawvel ah hian,
+        Chhandamtu Isua ka nei ka tana thi kha;
+        Khawvelin min hmusit in min dem mahse la,
+        Ka chhuang zel fo dawn a ni ka chhandamtu.
+
+2.Hreawmna ka tawrh zawng te hrethiam duh lovin,
+  Ka nawmsakna tur zawngin ka tlan fo thin a;
+  Midang tana malsawmna a lo ni reng si,
+  Ka tawrh hi Lalpan a phal vui thei ka nilo.
+
+3.Ka nawmsakna tur zawnga rawng ka bawllai in,
+  Ka tana a tawrhna zawng ka lo hrechhuak a;
+  Ka tan eng hreawm te nge i lo tawrh ve le?
+  Sawi tur reng ka nei love misual mai ka ni.
+''';
+
+const katlingsilo = '''
+
+          Ka tling si lo
+
+1.I hmangaihna thuk zia 
+  ka han dawn chang hian,
+  Mifelte thlang lova 
+  kei misual min thlang hi;
+  A makin a ropui e hmangaihna hi,
+  Ka rul seng lawng chatuan 
+  thleng pawh in.
+
+        Mite mit hmuh ah 
+        ka tling si lo Lalpa,
+        Mahse, i Kraws danah chuan 
+        thiamchang ka lo ni e;
+        Amakin a ropui e, 
+        aw hmangaihna hi,
+        Ropuina te chawimawina te 
+        i ta ni zel rawh se.
+
+2.Thing lenbuang te leh lentu 
+  hnah hring mawi te,
+  Vahkhuai partlan hramthiam 
+  va tin reng te nen;
+  I ropui zia an lan tir e 
+  Lal Isu,
+  Kei erawh chu engmah 
+  lo mai ka ni.
+
+3.Vandumpawl riai te leh chung 
+  siar leng te,
+  Lui thuk tak te leh 
+  chung khawpuiri zawng te nen;
+  I ropui zia an lantir e 
+  Lal Isu,
+  Mahse kei zawng ka tling lo 
+  Lalpa.
+
+4.Khawngaihna a chhandam 
+  ka lo ni e,
+  A va ropui em kei misual 
+  min tlanna hi;
+  Van khua leh tui nihna te 
+  ka lo ni e,
+  Ka rul seng lawng chatuan chatuan 
+  pawh in.
+''';
+
+const kathinglungahanung = '''
+
+        Ka thinlungah a nung
+
+Vante khian i ropui zia an lan tir,
+Leilung leh tuifinriat i ta an ni;
+Khawvel finna hian hnial thin mahse,
+Ka rinna chu a nghing ve chhin ngai lo.
+
+Ka Pathian aia ropui an awm lo,
+Ka Pathian aia thiltithei an awm lo;
+Lei leh vana Lal awmchhun a ni,
+Engkim siama, engkim neitu a ni.
+
+Amah fakin ka zai, ka zai zel ang,
+Ka rin a chuan a thisen hlu min pe;
+Ka Lal a ni, ka nun hruaitu leh vengtu,
+A nung ka hria, ka thinlungah a nung.
+
+Ka inchhuang thin Pathian fa ka nih hi,
+Aman engkimah min hria tih ka hria;
+Ka nunna, ka kawng hruaitu ropui,
+Ka nun laimu, ka innghahna a ni.
+
+Pathian fakin ka zai, ka zai zel ang,
+Ka rin a chuan a thisen hlu min pe;
+Ka Lal a ni, ka nun hruaitu leh vengtu,
+A nung ka hria, ka thinlungah a nung.
+
+Ka rinna hi nangmahah chauh a awm,
+Ka duhzawng zawng zawng neitu i ni a;
+Ka hrechiang, ka hmu, ka tem bawk thin,
+Khawvel mamawh engkim chhanna a ni.
+
+Pathian fakin ka zai, ka zai zel ang,
+Ka rin a chuan a thisen hlu min pe;
+Ka Lal a ni, ka nun hruaitu leh vengtu,
+A nung ka hria, ka thinlungah a nung.
+
+Ka Lal a ni, ka nun hruaitu leh vengtu,
+A nung ka hria, ka thinlungah a nung.
+''';
+
+const kathupuiber = '''
+
+            
+            Ka thupui ber
+
+1.Ramtiam lam panin chaklo tak 
+  chungin nitin ka kal a,
+  Mahse, aw Lalpa, 
+  chimbuaitu an tam ngei, 
+  ka kal thiam lo;
+  Setanan nitin min bei 
+  nangmah kalbo san turin,
+  Mahse, chaklo ber lai pawn 
+  ka peng ngam lo,
+  Lalpa nangin min chelh tlat rawh.
+
+        I ta ka ni e, chatuan atan,
+        Ka thiamna, finna zawngte hi;
+        Lalpa i tan a ni,
+        Hei hi ka thupui ber 
+        nangmah fak hi.
+
+2.Tunah aw Lalpa hei hi ka hria a 
+  lawmthu ka hrilh che,
+  Ka tlin loh anga nangin min pawm 
+  in min lo duh si;
+  Ka sualna zawng zawng te hi 
+  miten hrereng thin mahse,
+  Lalpa nang erawh chuanin 
+  i theihnghilh si,
+  I hmangaihna ka fak fo ang.
+''';
+
+const Khawngaihna = '''
+
+          Khawngaihna
+
+1.Ani chuan kan thiltih angte ni loin,
+  Ama duhdan leh remruat ang zelin;
+  A fapaah chuan min lo chhandam 
+  si,
+  Aw, khawngaihna a va thuk em.
+
+      Mihring thiltihte hi 
+      chhinchhiah la,
+      Lalpa, tunge chhandam 
+      ni thei ang le, Aw Lalpa.
+
+2.Hnathawk lo a Pathian pawh 
+  ngaihsak lo,
+  Thiamchantirtu ring zawka 
+  rinna chu;
+  Ama felnaah ruat a ni si a,
+  A va mak em, 
+  Lalpa hmangaihna chu.
+
+3.Keimah lam ka han in en hian 
+  Lalpa,
+  Engmah reng hi hmuhtur 
+  a awm si lo;
+  Mahse, Krista lam chauh ka thlir 
+  let chuan,
+  Mifel famkimah min lo pawm 
+  leh si.
+
+4.Mihring mithmuah tling lo mah ila,
+  Isua Kristna rinna avanga;
+  Lalpan fela min lo pawm ve 
+  chuanin,
+  Ka tan chu chu a tawk reng 
+  tawh a ni.
+
+5.Krista aia thlan tur dang 
+  eng nge awm?
+  Krista aiawh zo reng reng an 
+  awm lo;
+  Aman min thlan tawh zawkna 
+  avangin,
+  Amah chauh chu ka ring lo thei 
+  si lo.
+''';
+const krawkawng = '''
+
+        KRAWS KAWNG
+
+1.Ka khualzin kawng ka vahvaihna,
+  Ka Pa lalram a ni si lo;
+  Amah ngei vahvaihna a nih vangin,
+  Tap chungin kraws kawng ka zawh zel ang.
+
+        Tahna ruam ka zawh hi,
+        Ka Pa in panna lam lian a ni;
+        Mittui nen ka zin kawng zawh mah ila;
+        Ka pelh hunin,
+        Ka chhandamtu hmel duhawm hlim hnu kha,
+        Hmuin hlimin hla mawi ka rem tawh ang.
+
+2.Tuarna pumpelh kawng zawhtu ten,
+  Kraws nunna hnar an hloh si thin;
+  Ka zin kawng a hrang ngei e, kham leh suar,
+  A hming pawh luruh hmun a ni si.
+
+3.Ka tan kawng dang a awm lo'm ni?
+  Ka tan Zion panna lamlian;
+  Mahse, ka Lal hnen min thlen dawn vangin,
+  Tap chungin kraws kawng ka zawh zel ang.
+
+4.Ka pa hnen ka thlen hunah chuan,
+  Ka khualzin kawng ka hrilh ang a;
+  Ka mittui min hrukfaisak tawh ang a,
+  Ka Pa, i hnen lo hawn ka nghakhlel.
+
 ''';
 
 const danceLyrics = {
