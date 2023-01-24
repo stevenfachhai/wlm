@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
           Positioned.fill(
             //
             child: Image(
-              image: AssetImage('assets/wlmlst1.png'),
+              image: AssetImage('assets/newpp.png'),
               fit: BoxFit.fill,
             ),
           ),
@@ -31,10 +31,19 @@ class HomeScreen extends StatelessWidget {
                                 TitlesScreen(language: 'mara')),
                       );
                     },
-                    child: const Text(
-                      'Mara',
-                      style: TextStyle(fontSize: 30),
-                    ),
+                    child: const Text('Mara',
+                        style: TextStyle(
+                          fontSize: 35,
+                          color: Color.fromARGB(255, 246, 222, 222),
+                          fontWeight: FontWeight.bold,
+                          backgroundColor: Color.fromARGB(250, 0, 0, 0),
+                          shadows: [
+                            Shadow(
+                                color: Color.fromARGB(255, 247, 131, 131),
+                                blurRadius: 3.0,
+                                offset: Offset(4, 2))
+                          ],
+                        )),
                   ),
                   const SizedBox(height: 12),
                   TextButton(
@@ -46,10 +55,19 @@ class HomeScreen extends StatelessWidget {
                                 TitlesScreen(language: 'mizo')),
                       );
                     },
-                    child: const Text(
-                      'Mizo',
-                      style: TextStyle(fontSize: 30),
-                    ),
+                    child: const Text('Mizo',
+                        style: TextStyle(
+                          fontSize: 35,
+                          color: Color.fromARGB(255, 246, 222, 222),
+                          fontWeight: FontWeight.bold,
+                          backgroundColor: Color.fromARGB(250, 0, 0, 0),
+                          shadows: [
+                            Shadow(
+                                color: Color.fromARGB(255, 247, 131, 131),
+                                blurRadius: 3.0,
+                                offset: Offset(4, 2))
+                          ],
+                        )),
                   ),
                   const SizedBox(height: 16),
                   TextButton(
@@ -61,10 +79,19 @@ class HomeScreen extends StatelessWidget {
                                 TitlesScreen(language: 'Action song')),
                       );
                     },
-                    child: const Text(
-                      'Action song',
-                      style: TextStyle(fontSize: 25),
-                    ),
+                    child: const Text('Action song',
+                        style: TextStyle(
+                          fontSize: 35,
+                          color: Color.fromARGB(255, 246, 222, 222),
+                          fontWeight: FontWeight.bold,
+                          backgroundColor: Color.fromARGB(250, 0, 0, 0),
+                          shadows: [
+                            Shadow(
+                                color: Color.fromARGB(255, 247, 131, 131),
+                                blurRadius: 3.0,
+                                offset: Offset(4, 2))
+                          ],
+                        )),
                   ),
                 ],
               ),
