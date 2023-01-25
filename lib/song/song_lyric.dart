@@ -1,17 +1,15 @@
 import 'package:flutter/cupertino.dart';
 
 const maraLyrics = {
-  1: aboveall,
-  2: akuthatlonachhohlia,
-  3: atoeihlakhai,
-  4: beichaipatakeimoleipa,
-  5: beipachawpangai,
-  6: beipanangiathaimahy,
-  7: beipanapachachi,
+  1: akuthatlonachhohlia,
+  2: atoeihlakhai,
+  3: beipachawpangai,
+  4: beipaeivy,
+  5: beipanangiathaimahy,
+  6: beipanapachachi,
   8: beipaPhana,
   9: chakrawchaeipatulymaaw,
   10: chhazawtaronahnatayse,
-  11: eimalikalialeichiepaay,
   12: einachhityh,
   13: einachhinamaiheisieaw,
   14: eithlahpanapachhahaw,
@@ -30,7 +28,7 @@ const maraLyrics = {
   27: khizawthainanahsohnazy,
   28: khizawheleihrasa,
   29: khizawchysanatanamohmolia,
-  30: khophiechhaopahnomapi,
+  30: beichaipatakeimoleipa,
   31: krawliatathisaisohay,
   32: krawsthabylia,
   33: krawsvaeimachaly,
@@ -39,10 +37,8 @@ const maraLyrics = {
   36: mohlanahroaw,
   37: mohngichaipaacha,
   38: namoleiphaohripahleinakhoma,
-  39: nangiathaimay,
   40: nazarizisu,
   41: olivethohna,
-  42: pachatuahro,
   43: pachhatuhkeinakhosaikha,
   44: pakhotehu,
   45: pathipalomoleichhipa,
@@ -53,43 +49,14 @@ const maraLyrics = {
   50: thlapapathai,
   51: theblessing,
   52: tiwinelapachasa,
+  53: eimalikalialeichiepaay,
 };
-
-const aboveall = '''
-
-        Above all
-
-1.Hmotaotheina zy,
-  Beizy Beipa,
-  Hmotaopa zydua kheihawhpa to 
-  hlâ ta,
-  Novâhna nata chyhsa pahnothaina,
-  Khizaw y hlâ chhao y ha tlôh chi
-
-2.Khihnarâh zydua,
-  Beidyuchhai chhao,
-  Hmo noâh khizaw ta pahno beih 
-  leipa,
-  Khizaw, a hneirôhna zydua chhao 
-  heta,
-  Cha thliepakho thei vei na sôhzie.
-
-          Cha khaipâ ei,
-          Thlâ lia 'ma cha pazia,
-          Ei châ na thi,
-          Dythapa ta na y,
-          Keima vâ mohnaona tao chi,
-          Kei molei vâ,
-          Ei sia n'awpa,
-          Thi tlôh chi.
-''';
-
 const akuthatlonachhohlia = '''
              
-          AKU THATLONA CHHÔH LIA
+          A ku thatlôna chhôh lia
 
 1.Pachhatuhpa ta eina vaih thlâh haw,
-  Chariah nâ dyuh hrasa ei boh aw na,
+  Chariah nâ dyuh hrasa ei boh aw na;
   Thlihpi chichhihna tawh eina nyu aw,
   A ku thatlôna chhôh lia.
 
@@ -108,6 +75,37 @@ const akuthatlonachhohlia = '''
   vei;
   Khâ eina hrôbieh tahpa ei pahno,
   A ku thatlôna chhôh lia.
+
+''';
+
+const einachhityh = '''
+               
+       Ano ku ta einâ chhi tyh   
+
+1.Khazohpa ta einâ chhi tyh,
+  Cha cha pahno na ei ly kaw;
+  Hmo to ei taopa maih liata,
+  Ano ku ta einâ chhi tyh.
+  
+        Einâ chhi tyh, einâ chhi tyh,
+        Ano ku ta einâ chhi tyh;
+        A zituh siapa châ ei khoh,
+        Ano ku ta einâ chhi tyh. 
+
+2.Achâh ta ei pachârôh ta,
+  Achâh ta ei vaw ly via tyh;
+  Chichhihna nah thlahlôhna lia,
+  Ano ku ta einâ chhi tyh.
+
+3.Beipa, na ku ei patu aw,
+  Paphôh leita khâ ei ly aw;
+  Tovyuh lia ei palôh tlâh aw,
+  Khazoh ku ta einâ chhi tyh.
+
+4.Khizaw lia rai ei hria khai ti,
+  Na zawhzi tiahna ei to aw;
+  Thina Zawdâh chatlao hrasa,
+  Nâma ku ta nâ chhi aw chi. 
 
 ''';
 
@@ -146,41 +144,6 @@ const atoeihlakhai = '''
 
 ''';
 
-const beichaipatakeimoleipa = '''
-
-        BEI CHAIPA TA KEI MOLEIPA
-
-1.Bei chaipa ta kei moleipa
-  He na dytha vei
-  Leidiapa eina hmo haw hei
-  Kyhpachana ta(2)
-
-          Khotalaina cha zisu ta na pie
-          Khazoh  saw ei châ
-          Ei châ tlai
-
-2.A thisaih va ei khohtalai
-  A ngiachhiena ta
-  Molei sei lia ei tâh hai no
-  Kei châta a thi
-  Zisu kei châ thi
-
-          Khotalaina cha zisu ta na pie
-          Khazoh saw ei cha,ei cha tlai
-          Ei paw o liata
-          Kei cha su a y
-          Khazoh saw ei cha
-          Ei cha tlai
-          Na dytha vei
-
- Eina tly haw
- Na saw ta na raoh haw chi
- Kei châ na dua
- Chi aw va na
- Na saw ta na raoh haw chi(2)
-
-''';
-
 const beipachawpangai = '''
           
         Beipa ch'aw pangai
@@ -203,7 +166,7 @@ const beipachawpangai = '''
           Na kyhpachâna ta.
 
 2.Ei mo pavâhsa, 
-  Beipa na hmi ei hmô khoh; 
+  Beipa na hmia ei hmô khoh; 
   Na kyhpachâ bieru 
   pahnothai thei sah, 
   Pachâna thieh na pie;
@@ -213,9 +176,40 @@ const beipachawpangai = '''
 
 ''';
 
+const beipaeivy = '''
+
+1.Khazohpa tawh ei pavia haw, 
+  Tahmâ ei vy hai;
+  Molei lâpi vâro ei chhih,
+  Beipa ei vy hai.
+
+        Ei vy hai, ei vy hai,
+        Lei khao lei'pa ta; 
+        Ngiachhie vâ nâ eih ei châ,
+        Beipa ei vy hai.
+
+2.Kô hluhpi daihti ei pahlei, 
+  Tahmâ ei vy hai;
+  Rona mothlih tlana chô ta, 
+  Beipa ei vy hai.
+
+
+3.Nâ tawh pavia riethei â chhih, 
+  Tahmâ ei vy hai; 
+  Na kyhpacha bie ei ng â aw, 
+  Beipa ei vy hai.
+
+4.Ei thlahpa cha a pachârôh,
+  Tahmâ ei vy hai; 
+  Ngiap â thatlona na pie la. 
+  Beipa ei vy hai.
+
+
+''';
+
 const beipanangiathaimahy = '''
                                                   
-        BEIPA NÂ NGIAHTHAI MAH Y
+        BEIPA nâ ngiahthai mah y
 
 1.Krista kyhpachâna,
   Pahnothai leipa hawhta;
@@ -249,25 +243,25 @@ const beipanapachachi = '''
 
         Beipa, na pachâ chi
 
-1.Nopona ei tyhpa hryta
-  Pacharohna ta eiy no chhao
-  Pacha na ta ei ly via tyh
-  Beipa na pacha chi
+1.Nopona ei tyhpa hryta,
+  Pachârohna ta ei y no chhao;
+  Pacha na ta ei ly via tyh,
+  Beipa na pachâ chi.
 
-        Beipa, na pachâ chi
-        Beipa, na pachâ chi
-        Na kiapâh khapâ ei chi aw 
-        Beipa, na pachâ chi
+        Beipa, na pachâ chi,
+        Beipa, na pachâ chi;
+        Na kiapâh khapâ ei chi aw, 
+        Beipa, na pachâ chi.
 
-2.Hrochho khisa pachana ta
-  Ei thlapa viavikhei hrasa
-  Pacharo ta ei y no chhao
-  Beipa na pacha chi
+2.Hrochho khisa pachâna ta,
+  Ei thlapa viavikhei hrasa;
+  Pachâroh ta ei y no chhao,
+  Beipa na pachâ chi.
 
-3.Rietheina vaw tlo hra sala 
-  Nopona vaw y hrasala
-  Kha ei ly aw, he bie thei ta
-  Beipa na pacha chi
+3.Rietheina vaw tlo hra sala, 
+  Nopona vaw y hrasala;
+  Khâ ei ly aw, he bie thei ta,
+  Beipa na pachâ chi.
 
 
 
@@ -277,19 +271,19 @@ const beipaPhana = '''
                                                                                      
         BEIPA PHANA
                     
-1.Kyh cha pachâ,
+  Kyh cha pachâ,
   Na zawngiahna zydua vâta;
   Na chhitha chi Na ku thatlôpa ta,
   My nohly chhiki tawhta;
   Noh a tla na taihta,
-  Hla ta ei sa aw Beipa Na phana.
+  Aw ei sa aw Beipa Na phana.
 
           Ei hrozôh chhâ kha lia ngâ nâ chhih,
           Ei chô lia Beipa na pha ngaita dia!
           Ei theina zydua chhaota Beipa,
           Aw ei sa aw Beipa Na phana.
 
-2.Na ao ei vâ,
+  Na ao ei vâ,
   Thina saikao ei sao no chhao;
   Nôpo nota thlai baotuhpa viasa,
   Kei châta Paw khochhihpa;
@@ -297,18 +291,20 @@ const beipaPhana = '''
   Beipa Na pha na ry lia ei charei.
 
           Na phana ta na zi ly ma, 
-          Na zi laih lymâ ta(2)
+          Na zi laih lymâ ta
           Ei hrona zydua ato siesai ta,
           Na châta ei hlâ khai.
+          Na phana ta na zi ly ma, 
+          Na zi laih lymâ ta
 
 ''';
 
 const chakrawchaeipatulymaaw = '''
 
-        CHA KRAWS CHA EI PATU LYMA AW
+        CHA KRAWS CHA EI PATU LYMA AW (KHB 159)
 
 1.Haosa râh tlâh lata kraws hlopa cha a y
-  Taona nah moaphyu palahana
+  Taona nah moaphyu palâhâna
   Kraws cha kyh eipachâ
   Kei cha soh kho a chhi
   Molei cha mosiapa thina cha
@@ -340,21 +336,21 @@ const chhazawtaronahnatayse = '''
 
         Chhâzaw ta rônahna ta y se
 
-1.Thlâpâ nah awhsi zy, 
+  Thlâpâ nah awhsi zy, 
   Nohlynô chhao a zoh;
   Khizaw Pachhatuhpa A thi haw,
   Kraws lia khaipâ ei ta;
   A thisaih cha a loh ,
   Chhiesana zydua cha a phao haw.
 
-2.Khazoh saw matlupa,
-  Cha a heisai ta ei ly;
+  Khazoh saw matlupa,
+  Cha a heisai ta y;
   Thina zohna liata pazia ei,
   Thlâ khaoh adyuhna lia; 
   Thina cha pahnie ta,
   Zohna hmotaotheina a tiah haw.
 
-3.Chhaolei a chalyu ta,
+  Chhaolei a chalyu ta,
   Thlâlô â pasie haw;
   A kyhpachâna cha khawhlô thei vei,
   Thina nah a châmaih;
@@ -369,77 +365,6 @@ const chhazawtaronahnatayse = '''
 
 Reithaipa ta y se x3 
 Khizaw a tiah ha na.
-
-''';
-
-const eimalikalialeichiepaay = '''
-  
-    Eima lika lia Lei chiepa a y
-
-1.Eima lika lia Lei chiepa a y,
-  Tlâsapa ei kia theilei awpa;
-  Hnabeidy pa ta, nâ lâ ei kaw heih, 
-  Nôpota na moh ei pa do; 
-  Zona hry tawh na kypachâna ta, 
-  Ei palôh zona khaipahlie;
-  Ato pahnie ta, na paki khai haw,
-  Zisu ei hnabeiseina.
-
-2.A ngiachhiena nata zawngiana he, 
-  Ahy palôh ta pahnothai aw; 
-  Rônahna siesai ta lei la nâ zu, 
-  Ei molei ty phao awpa ta;
-  Kraws liata ngiathai,
-  ei châna palâsa ;
-  Ano eih ta eina tao haw, 
-  (Ano ta eina hnei khai haw) 
-  Pachhatu khochhi, 
-  na eih ei châ haw 
-  Zisu ei hnabeiseihna.
-
-        Hallelujah, Pachhatu ei reithai aw, 
-        Hallelujah, Thina na tiakhao vei;
-        Bâlia ri to pathlâ chi,
-        Namo lia hrona a y 
-        Zisu ei hnabeiseihna
-
-3.Thyuheihna bietai pakina noh lia,
-  Sapa thina tawh hrona thiehpa; 
-  Thlà sidiapa tawh, biehneina 
-  chhao ta, 
-  Zisu ta thina a pahnie haw; 
-  Zisu, pahnietuhpa na châ, 
-
-''';
-
-const einachhityh = '''
-               
-          EINÂ CHHI TYH
-
-1.Khazohpa ta einâ chhi tyh,
-  Cha cha pahno na ei ly kaw;
-  Hmo to ei taopa maih liata,
-  Ano ku ta eina chhi tyh.
-  
-        Einâ chhi tyh, einâ chhi tyh,
-        Ano ku ta eina chhi tyh;
-        A zituh siapa châ ei khoh,
-        Ano ku ta einâ chhi tyh. 
-
-2.Achâh ta ei pachârôh ta,
-  Achâh ta ei vaw ly via tyh;
-  Chichhihna nah thlahlôhna lia,
-  Ano ku ta einâ chhi tyh.
-
-3.Beipa, na ku ei patu aw,
-  Paphôh leita khâ ei ly aw;
-  Tovyuh lia ei palôh tlâh aw,
-  Khazoh ku ta einâ chhi tyh.
-
-4.Khizaw lia rai ei hria khai ti,
-  Na zawhzi tiahna ei to aw;
-  Thina Zawdâh chatlao hrasa,
-  Nâma ku ta nâ chhi aw chi. 
 
 ''';
 
@@ -469,32 +394,6 @@ const einachhinamaiheisieaw = '''
 
 ''';
 
-const eithlahpanapachhahaw = '''
-
-        My redeemer lives
-
-Ei thlahpa na pachha haw,
-A thisaih ta ei moleina na pasi; 
-Ei ngiapâ.
-
-Ei tlohleina a pahlei haw,
-Ei pasana chhao a patlâh a moh ta;
-Ei ngiapâ.
-
-Pohrai ei zawh aw 
-Beipa ta thina pahnie
-
-Pachhatuh a châ (x4)
-
-Ei phaohri pathlâ 
-Chi nô lâ ei vy 
-Tlâh ki chô liata lâhpa ta
-Na khinarâh ei hâ.
-
-
-
-''';
-
 const eithyuawnaeipawola = '''
 
         Ei thyu aw na, ei paw o lȃ
@@ -505,16 +404,21 @@ const eithyuawnaeipawola = '''
   Ei paw lei cha chariah chȃ ei.
 
         Molei paviasa hr’awsa,
-        a phana tleih beih vei;
-        ngiapachhi ta ei tlua khiah,
-        a zawh ei zi heih aw.
+        A phana tleih beih vei;
+        Ngiapachhi ta ei tlua khiah,
+        A zawh ei zi heih aw.
 
-2.Hy a hnohta ei y nota a phazie kha,
+2.Ei Paw o lia na kha sôh hluhpi y thlâ haw, 
+  Chyhsa rietheipazy a pie; 
+  Kei he thluahrua, nodipa ta ei thi aw ma, 
+  Khâzia riethei ta ei pavia ?
+
+3.Hy a hnohta ei y nota a phazie kha,
   Khizaw ngiana ei zyh tlamaw;
   Ei vaw pacha ei paw o chhôh ei vȃ ngȃsȃ,
   Reihpha cheih pa chȃ vana ma?
 
-3.Kei molei pachȃrôhsa, pa maohphyutuhpa,
+4.Kei molei pachȃrôhsa, pa maohphyutuhpa,
   Kei chȃ su a pasaih khiah cha;
   Khizaw paw ei khakhaipa he vȃ aw va na,
   Â ngiana cha a chyu tu na.
@@ -525,7 +429,7 @@ const eithyuawnaeipawola = '''
 const eisahhlupi = '''
                 
         EI SÂH HLUHPI
-        (10000 Reasons)
+        
 
 Hy ei thlahmipa y, Beipa reithai la,
 A moh dei a chhy la;
@@ -570,7 +474,36 @@ const eldorado = '''
 3.Baotuh hmô lei hro yrupa
   Kei molei riethei châta, 
   Aw vaw khai ma y
-  Ei hro yru lia he
+  Ei hro yru na lia.
+
+
+''';
+const hekhizawrahliabaohela = '''
+
+        He khizaw râh lia bao hela
+
+1.He khizaw râh lia bao hela,
+  Molei reipasaona ba thei tlô va;
+  Eima lyna nohzy cha vaw chhi tyh hrasala,
+  Pachârôhna ta avaw pazi heih tyh.
+
+        Maophyu khei ngâhpa ta beipa 
+        chakao su vy,
+        Pachâ dâh hlupi y tyh hrasa;
+        Eima sahpa khohpa zy hnôhchhy 
+        lymâpa ta,
+        Râh taipa lâ cha khâ sie hualua suh vy.
+
+2.Krista ngiapâtuhpazy cha,
+  Ahloh hlupi hry lia siepa châpi;
+  Ahy pahno leipa ta mothlih tla tyh hrasa,
+  Hnô lâ kua awpa a ryh khao tlôh va.
+
+3.Pachâna palôhrupa he,
+  Thazeipa ta a rôh châh y hrasa;
+  Beipa hnota na phaohri zydua cha 
+  pachhô la,
+  Thatlôna thiehpa a cha pie heih aw.
 
 
 ''';
@@ -579,7 +512,7 @@ const hmotaotheinazy = '''
 
         Hmotaotheina zy
 
-1.Hmotaotheina zy, 
+  Hmotaotheina zy, 
   Beizy Beipa;
   Hmotaopa zydua kheihawpa 
   to hlâ ta,
@@ -587,7 +520,7 @@ const hmotaotheinazy = '''
   pahnothaina;
   Khizaw y hlâ chhao y ha tlô chi.
   
-2.Khinarâh zydua, 
+  Khinarâh zydua, 
   Bei dyuchhai chhao;
   Hmo noâh khizaw ta pahno 
   beih leipa,
@@ -635,9 +568,8 @@ const hronatikhaokuabeileipa = '''
 const hybeipaeichawpangai = '''
 
           Hy Beipa ei châ ngiah ngaita 
-              (Lord I need you)
-
-1.Hy Beipa ei ch'aw pangai,
+              
+  Hy Beipa ei ch'aw pangai,
   Na kiah lia na pahâsa;
   Nâ leita sie thai vana,
   Ei palôh vaihtuh na châ.
@@ -645,9 +577,9 @@ const hybeipaeichawpangai = '''
         Hy Beipa, ei châ ngiah ngaita,
         Noh tota ei châ ngiah;
         Ei bohna su, ei thaichâna,
-        Beipa ei châ ngiah.
+        Beipa na ei châ ngiah.
 
-2.Moleina lia ngiachhiena pôh,
+  Moleina lia ngiachhiena pôh,
   Ngiachhiena lia nâ y tlôh chi;
   Na yna lia khotalaihna,
   Krista lia a ki tlôh ta.
@@ -655,6 +587,8 @@ const hybeipaeichawpangai = '''
     (Bridge)
     Reipasaona ei tyh châhta,
     Ei awlaihsa ao theila;
+    Kei deita ei duah thei lei no chhao,
+    Zisu ei bohna na châ.
     Kei deita ei duah thei lei no chhao,
     Zisu ei bohna na châ.
 
@@ -726,7 +660,7 @@ const hykhazohna = '''
 
 const hyrohnachai = '''
         
-          HY RÔHNAH CHAI 
+          Hy rôhnah chai 
 
 1.Noh nah thlapa, awhsi zy,
   A ruapa liata; 
@@ -753,34 +687,39 @@ const hyrohnachai = '''
   Na rôhnahzie he ama palâsa.
 
 ''';
+const krawliatathisaisohay = '''
 
-const hekhizawrahliabaohela = '''
+       Hy, thisai rôhna chaipa 
 
-        He khizaw râh lia bao hela
+1.Kraws liata thisai sôh a y,
+  Kraws pathai cha ei hmô;
+  Zisu thisai na pahnosa,
+  Kei châ a lohpa kha.
 
-1.He khizaw râh lia bao hela
-  Molei reipasaona ba thei tlô va
-  Eima lyna nohzy cha vaw chhi tyh hrasala
-  Pachârôhna ta avaw pazi heih tyh.
+        Hy, thisai rôhna chaipa,
+        Zisu a taona cha;
+        Kraws chô lia thisai sôh a loh;
+        Ngiapâna ta ei hmô.
 
-        Maophyu khei ngâhpa ta beipa 
-        chakao su vy
-        pachâ dâh hlupi y tyh hrasa
-        eima sahpa khohpa zy hnôhchhy 
-        lymâpa ta
-        râh taipa lâ cha khâ sie hualua suh vy.
+2.Kraws, hy kraws hri ngaita pa cha,
+  Zisu kei châ â pu;
+  Thina tai a pachârôhna,
+  Kalvari lia pachhô.
 
-2.Krista ngiapâtuhpazy cha
-  Ahloh hlupi hry lia siepa châpi
-  Ahy pahno leipa ta mothlih tla tyh hrasa
-  Hnô lâ kua awpa a ryh khao tlôh va.
+3.A hua tlyma kraws sôhpa cha,
+  Kraws cha vaw sai na ta;
+  Ei pahua thei hra aw vâ ma?
+  Ei chhuah lakho hmô'pa.
 
-3.Pachâna palôhrupa he
-  Thazeipa ta a rôh châh y hrasa
-  Beipa hnota na phaohri zydua cha 
-  pachhô la
-  Thatlôna thiehpa a cha pie heih aw.
+4.Beilakho rôhna chaipa cha,
+  Tiahna beilakho cha;
+  Vâ lia zisu ei hmô ti ta,
+  Kei chhao ei kho hra aw.
 
+5.Ei mothli tla beih khao aw vei,
+  Kyhpachana râh lia;
+  Khizaw tyhrein tawh nâ chhi,
+  Lyna râh na tlôkhei.
 
 ''';
 
@@ -801,10 +740,11 @@ const khizawhmozyhmapata = '''
         rei a daih aw vei,
         Hraolei pana thina dei a châ, 
         Eima lyna zy!
-        Bei Zisu Krista lia dei hena,
+        Bei Zisu Krista lia dei na,
         thlahpa hrona a y;
-        Chavâta khizaw hmo liata, 
-        Na palôh pachhô kha y.
+        Ano liata apahniela,
+        vaw kua ha ma y.
+        
 
 2.Chyhsapa hrona hela, 
   Dadieh tu hata;
@@ -836,7 +776,7 @@ const khizawthainanahsohnazy = '''
   Nâ Cha tlua beih vana,
   Na hmia khochhipa cha tahmâ ei 
   hmô haw.
-  Nâma leita hro he hrao leipa dei 
+  Nâma leita hro he hraoleipa dei 
   a châ.
 
         Ei molei phaohri chhao,
@@ -851,16 +791,13 @@ const khizawthainanahsohnazy = '''
   Thlahpa Pathaihpa ta molei na 
   pahnosa,
   Ngiathai byuh ei châ, 
-  Nâma leita hro he hrao leipa dei 
-  a châ.
-
+  
 3.He khizaw pawngianazy ta,
   Na aw tyh hrasa hnôhlâ kua vana;
   Nâ kyh ei cha pachâ
   Ei hrochhôh daihtizy na châ ei 
   hmâh aw,
-  Nâma leita hro he hrao leipa dei 
-  a châ.
+ 
 ''';
 
 const khizawheleihrasa = '''
@@ -915,9 +852,9 @@ const khizawchysanatanamohmolia = '''
   Nȃ ngiahthai ma y hy bei zisu.
 
         Beipa ei chô lia ta na phana he,
-        a rôhnah ta lei thei va na,
-        moleina lia ei y no chhao ta,
-        ei pha nawpa tlao pacha tyh chi
+        A rôhnah ta lei thei va na,
+        Moleina lia ei y no chhao ta,
+        Ei pha nawpa tlao pacha tyh chi
 
 2.Hy beipa hro diathlȃ ngaitapa ta,
   Cha vaw chakao tyh na ta,
@@ -936,66 +873,38 @@ const khizawchysanatanamohmolia = '''
 
 
 ''';
+const beichaipatakeimoleipa = '''
 
-const khophiechhaopahnomapi = '''
+        Khotalaina cha zisu ta na pie
 
-        Khophie chhao pahno ma pi
+  Bei chaipa ta kei moleipa
+  He na dytha vei
+  Leidiapa eina hmo haw hei
+  Kyhpachana ta(2)
 
-1.Noh tota bei zisu kyh ei pachâ via rili tyh,
-  Ano cha noh khaihna hlâ chhao â ngia viapa châ ta;
-  Ano cha kei châ khochhih chaipa nah lyna a châ,
-  Noh tota ano cha â ngia via rili lymâ aw.
+          Khotalaina cha zisu ta na pie
+          Khazoh  saw ei châ
+          Ei châ tlai
 
-        Khophie chhao pahno ma pi,
-        chavah kiah tawhna he;
-        hy cha lia ano cha, â ngia via rili lymâ aw.
+  A thisaih va ei khohtalai
+  A ngiachhiena ta
+  Molei sei lia ei tâh hai no
+  Kei châta a thi
+  Zisu kei châ thi
 
-2.Lâhlapi tawh chhaota a rôhnahna te ei na khai,
-  Lili paw ngia nah deiva awhsi hlâ chhao a khaih via;
-  Ei khopazy pakisa ta a palysa via tyh,
-  Noh tota ano cha â ngia via rili lymâ aw.
+          Khotalaina cha zisu ta na pie
+          Khazoh saw ei cha,ei cha tlai
+          Ei paw o liata
+          Kei cha su a y
+          Khazoh saw ei cha
+          Ei cha tlai
+          Na dytha vei
 
-3.Ei palôh lia ei panao châh ano nâ châkhei tyh,
-  Ei riethei nota ano kalachhôh lia nâ pyh tyh;
-  Krista ei moleizy phaohtuhpa cha kyh ei pachâ,
-  Noh tota ano cha â ngia via rili lymâ aw.
-
-
-''';
-
-const krawliatathisaisohay = '''
-
-        Kraws liata thisai soh a y
-
-1.Kraws liata thisai soh a y
-  Kraws pathai cha ei hmo
-  Zisu thisai na pahnosa
-  Kei cha a lohpa kha
-
-        Hy, thisai rohna chaipa
-        Zisu a taona cha
-        Kraws cho lia thisai soh a loh
-        Ngiapana ta ei hmo
-
-2.Kraws, hy kraws hri ngaita pa cha
-  Zisu ke cha a pu
-  Thina tai a pacharona
-  Kalvari lia pachho
-
-3.A hua tlyma kraws sohpa cha
-  Kraws cha vaw sai na ta
-  Ei pahua thei hra aw va ma
-  Ei chhua lakho hmo pa
-
-4.Beilakho rohna chaipa cha
-  Tiahna beilakho cha
-  Va lia zisu ei hmo ti ta
-  Ke chhao ei kho hra aw
-
-5.Ei mothli tla beih khao aw vei
-  Kyhpachana rah lia
-  Khizaw tyhrein tawh na chhi
-  Lyna rah na tlokhei.
+ Eina tly haw
+ Na saw ta na rao haw chi
+ Kei châ na dua
+ Chi aw va na
+ Na saw ta na rao haw chi(2)
 
 ''';
 
@@ -1003,26 +912,25 @@ const krawsthabylia = '''
 
         Kraws thaby lia
 
-1.Beipa na pahno chi,
+  Beipa na pahno chi,
   Ato zydua;
   Ei cha paviasai no chhao,
   Kyh na pachâ chi.
 
-2.Na Thlah Pathaih ta,
+  Na Thlah Pathaih ta,
   Khâ na ypâ;
   Khatinorai chhaota,
   Kyh na pachâ chi;
-  Kyh na pachà chi.
+  Kyh na pachâ chi.
 
       Kraws thaby liata ei bôh
       Kei châ thisaih lohna lia
       Kyhpachâ no_âhchhipa
-
       Thina pahnie ta na thyu,
       Rônahna ta vâ a khu
       Ahy miah pachhaih thei aw tly.
 
-3.Ei hmialia na sie,
+  Ei hmialia na sie,
   Lâthlôh to lia;
   Na kuta na cha-ao,
   Kyh na pachâ chi.
@@ -1032,7 +940,7 @@ const krawsthabylia = '''
     Vâ na pahy;
     Ato na paki khai haw x2
 
-4.Khizaw pawngiana,
+  Khizaw pawngiana,
   Alo khai ti;
   Na hmia khochhi ei hmô aw,
   Kyh na pachâ chi.
@@ -1042,15 +950,14 @@ const krawsthabylia = '''
 const krawsvaeimachaly = '''
                             
             Kraws va eima châly
-        (Thank you for the cross, Lord) 
-
-1.Kraws vâ eimâ châly,
+        
+  Kraws vâ eimâ châly,
   Miah na chatlai vâ Beipa;
   Moleina zydua phao chi,
   Kyhpachâna ta;
   Ngiachhiena pie chi.
 
-2.Na kyhpachâna vâ,
+  Na kyhpachâna vâ,
   Thisaih sôh vâ ei châly;
   Na pasia chi moleina zydua tawhta,
   Na ngiathaina ei to haw.
@@ -1058,7 +965,6 @@ const krawsvaeimachaly = '''
       Rônah ta y se,
       Bei dyuchhai liata;
       Lakho zydua ei cha pakho.
-
       Pahnie ta ryu na reih,
       Reithai ta y se;
       Beipa Zisu cha,
@@ -1082,8 +988,7 @@ const keideinasiesaiawvei = '''
       Kyhpachâtuh Bei Zisu ta,
       Rairuna lia kei dei na 
       siesai aw vei.
-      
-
+    
 2.Kyhpachâzy pha nawpa ta,
   A ngiachhiena khokheina rai he;
   Chyhsa sohna pahnona ta, 
@@ -1101,9 +1006,8 @@ const keideinasiesaiawvei = '''
 const Kristaadaihpaki = '''
                                           
         Christ is enough
-        (Krista â daih paki)
-        
-1.Krista ei lymâ,
+              
+  Krista ei lymâ,
   Ei hmoto zydua chhaota;
   Khizaw lia lyna y vei,
   Krista lia dei lei;
@@ -1117,7 +1021,7 @@ const Kristaadaihpaki = '''
         Ei ngiahpa zydua â ki khai,
         Ei ngiahpa zydua.
 
-2.Krista ei toti,
+  Krista ei toti,
   Ei ly chaina cha a châ;
   Ei hnabeidy khao aw vei,
   Vârâh Keimo O;
@@ -1141,14 +1045,14 @@ const Kristaadaihpaki = '''
 
 const kyhpachanareitheisala = '''
                                                   
-      KYH PACHÂNA REIH THAI SALA 
+      Kyhpachâna! Noâh â chhih 
 
 1.Kyhpachâna  reih thai sala,
   Nâzari zisu tlai kha;
   Cha tlu ta kyh na pachâ ta,
   Molei thai lei châ chiehpa.
 
-        "Kyhpachâna! Noâh â chhih,"
+        "Kyhpachâna! Noâh â chhih!"
         Ei chhâzaw hla awpa cha;
         Kyhpachâna! Noâh â chhih!
         Pachhatuh kyh na pachâ.”
@@ -1206,25 +1110,25 @@ const mohngichaipaacha = '''
 
           MOH NGIA CHAIPA BEI ZISU
         
-1.Athaona liata bie cha na châ,
+  Athaona liata bie cha na châ,
   Chônô chaipa hnoh ypa;
   Hmotaopa lia rônahna nyupa,
   Zisu lia âlâ khai haw. 
 
         Moh ngia chaipa cha a châ, x2
-        Bei Zisu Krista ei Beipa; x2
+        Bei Zisu Krista ei Beipa; 
         Moh ngia chaipa cha a châ, 
         Atlupa rai y vei;
         Moh ngia chaipa cha a châ,
         Bei Zisu moh cha .
 
-2.Eimâ  hlao lei Vârâh kho chi va,
+  Eimâ  hlao lei Vârâh kho chi va,
   Keimo vâ Zisu za tuah chi;
   Paw Khazoh kyhpachâna tawhta,
   Ahy miah pachhaih thei aw tly? 
 
           Moh rônah chaipa  a châ x2.
-          Bei Zisu Krista ei Beipa x2
+          Bei Zisu Krista ei Beipa 
           Moh rônah chaipa a châ 
           Atlupa rai y vei
           Moh rônah chaipa a cha.
@@ -1241,7 +1145,7 @@ Khinarâh nâ eih, rônahna zy chhao,
 Moh zydua hlâ chônô viapa.
 
             Hmotaothei chaipa a châ x2
-            Bei Zisu Krista ei Beipa x2
+            Bei Zisu Krista ei Beipa 
             Hmotaothei chaipa a châ
             Atlupa rai y vei
             Hmotaothei chaipa a châ
@@ -1289,45 +1193,13 @@ const namoleiphaohripahleinakhoma = '''
 
 ''';
 
-const nangiathaimay = '''
-    
-      Nâ Ngiahthai mah y
-
-1.Krista kyhpachâna,
-  Pahnothai leipa hawhta;
-  Ei daihti nah noh zy,
-  Ei khohzie hawh vaw hmâh na;
-  Kyhpachâtuh palôh cha,
-  Khatlu a pasa aw tly.
-
-      BEIPA nâ ngiahthai mah y,
-      Thaichâna rai hnei va na; 
-      Na sei pakha hawh chhâ ta, 
-      Châ hrawpa ta ei chaw ngai.
-
-2.Siana rai hnei leipa,
-  Pathi palôh pualeipa;
-  Chyhsazy pachâ ta, 
-  Thi tlâh ta ama raopa; 
-  Khazia atanoh taihta, 
-  Khâ einâ thei thlâh hâ tly.
-
-3.Ei moleina vâta,
-  Kyhpachâtuh hmia khochhih;
-  Chyhsa hluhpi zy ta,
-  Vaw hmô thei tlâ khao veih ei; 
-  Thina lâthlôh chhihpazy, 
-  Keima thailei vâ a châ.
-
-''';
-
 const nazarizisu = '''
 
         Nazari zisu
 
 1.Zisu, zisu ei paloh liata bie vaw reih 
   chanei heih la
-  Ei ngiapana he tha napatlo teh
+  Ei ngiapana he tha na patlo teh
   Na bie leita keima lia hmotaotheina rai y 
   vei
 
@@ -1382,25 +1254,27 @@ const olivethohna = '''
 
 ''';
 
-const pachatuahro = '''
+const eithlahpanapachhahaw = '''
 
-        Pachhahtuh a hro
+        Pachhatuh a hro
 
-1.Ei thlapa na pachha hawh
-  A thisaih ta ei moleina
-  Na pasi ei ngiapȃ 
-  Ei tloleina  a pahlei hawh
-  Ei pasana chhao a patlȃ
-  A moh ta ei ngiapȃ
+Ei thlahpa na pachha haw,
+A thisaih ta ei moleina na pasi; 
+Ei ngiapâ.
 
-        Porai ei zaw aw
-        Beipa ta thina pahnie
-        Pachhahtuh a hro (4)
+Ei tlohleina a pahlei haw,
+Ei pasana chhao a patlâh a moh ta;
+Ei ngiapâ.
 
-2.Ei phaohri pathlȃ chi
-  Nȃlȃ ei vy
-  Tlȃhpi chô liata lȃhpa ta
-  Na khihna rȃh ei hȃ.
+Pohrai ei zawh aw 
+Beipa ta thina pahnie
+
+Pachhatuh a hro (x4)
+
+Ei phaohri pathlâ 
+Chi nô lâ ei vy 
+Tlâh ki chô liata lâhpa ta
+Na khinarâh ei hâ.
 
 
 
@@ -1574,24 +1448,25 @@ const still = '''
 
 const shouttothelord = '''
 
-1.Bei zisu, pachhatuh 
-  nâ hawhpa rai y vei ei 
-  ei hrozô chhâkha liana heta 
-  na rônahzie reithai ei kho.
+        Reithai teh u khizaw zydua sai u
 
-        Lôhngâhna ei bohna
-        ku ngâchhihpa thatlôpa
-        ei theina zydua ei chânazy chhao
-        na rônahna reithai se
+  Bei zisu, pachhatuh 
+  Nâ hawhpa rai y vei ei 
+  Ei hrozô chhâkha liana heta 
+  Na rônahzie reithai ei kho.
 
-2.Reithai teh u khizaw zydua sai u
-  rônahna beipa cha reithai suh vy
-  tilaipi nata tlâhpipa zy chhao
-  chalyu ei na mo vâ
+  Lôhngâhna ei bohna
+  Ku ngâchhihpa thatlôpa
+  Ei theina zydua ei chânazy chhao
+  Na rônahna reithai se
 
-3.Na hmotao rônah vâ ei cha reithai
-  chhâzaw taih chhao kyh ei cha pachâ aw
-  nâ hawhta ngâchhihpa rai y vei ei zisu
+          Reithai teh u khizaw zydua sai u
+          rônahna beipa cha reithai suh vy
+          tilaipi nata tlâhpipa zy chhao
+          chalyu ei na mo vâ
+          Na hmotao rônah vâ ei cha reithai
+          Chhâzaw taih chhao kyh ei cha pachâ aw
+          Nâ hawhta ngâchhihpa rai y vei ei zisu
 
 
 ''';
@@ -1657,27 +1532,66 @@ const tiwinelapachasa = '''
 
         Ti, wine lâ na pachâsa
 
-1.Ti, wine lâ na pachâsa
+  Ti, wine lâ na pachâsa
   mochao mo na pavâhsa
   nâ hawhpa raita
   y vei ei.
 
-        Zohna su na khaipahlie
-        doh-lei tawh miah
-        Na padua
-        nâ hawhpa raita y vei ei
+   Zohna su na khaipahlie
+   Doh-lei tawh miah
+   Na padua
+   Nâ hawhpa raita y vei ei
 
-2.Khazoh rônahpa khazoh thatlôpa
-  hmo to zydua  hlâta na chônô via
-  patlâhtu noâhchhi khazoh rônah
-  a châ (2)
+          Khazoh rônahpa khazoh thatlôpa
+          hmo to zydua  hlâta na chônô via
+          patlâhtu noâhchhi khazoh rônah
+          a châ (2)
 
-3.Khazoh eima châ â duah
+  (Bridge)
+  Khazoh eima châ â duah
   ahy miah pakhâ thei aw?
   Khazoh eima chhâh a châ
   ahy miah dyuh thei aw?
 
 
+
+''';
+const eimalikalialeichiepaay = '''
+  
+    Zisu ei hnabeiseina
+
+1.Eima lika lia Lei chiepa a y,
+  Tlâsapa ei kia theilei awpa;
+  Hnabeidy pa ta, nâ lâ ei kaw heih, 
+  Nôpota na moh ei pa do; 
+  Zona hry tawh na kypachâna ta, 
+  Ei palôh zona khaipahlie;
+  Ato pahnie ta, na paki khai haw,
+  Zisu ei hnabeiseina.
+
+2.A ngiachhiena nata zawngiana he, 
+  Ahy palôh ta pahnothai aw; 
+  Rônahna siesai ta lei la nâ zu, 
+  Ei molei ty phao awpa ta;
+  Kraws ta ngiathai,
+  ei châna palâsa ;
+  Ano eih ta eina tao haw, 
+  Pachhatu khochhi, 
+  na eih ei châ haw 
+  Zisu ei hnabeiseihna.
+
+        Hallelujah, Pachhatu ei reithai aw, 
+        Hallelujah, Thina na tiakhao vei;
+        Bâlia ri to pathlâ chi,
+        Namo lia hrona a y 
+        Zisu ei hnabeiseihna
+
+3.Thyuheihna bietai pakina noh lia,
+  Sapa thina tawh hrona thiehpa; 
+  Thlà sidiapa tawh, biehneina 
+  chhao ta, 
+  Zisu ta thina a pahnie haw; 
+  Zisu, pahnietuhpa na châ, 
 
 ''';
 

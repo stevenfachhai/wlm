@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wlm/song/song_lyric.dart';
+import 'package:wlm/song/song_info.dart';
 
 class LyricsScreen extends StatelessWidget {
   LyricsScreen({Key? key, required this.songNumber, required this.language})
