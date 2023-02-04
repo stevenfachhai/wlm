@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
           Positioned.fill(
             //
             child: Image(
-              image: AssetImage('assets/newpp.png'),
+              image: AssetImage('assets/last.png'),
               fit: BoxFit.fill,
             ),
           ),
@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                             builder: (context) =>
-                                TitlesScreen(language: 'Action song')),
+                                TitlesScreen(language: 'dance')),
                       );
                     },
                     child: const Text('Action song',

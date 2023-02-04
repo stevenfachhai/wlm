@@ -1,24 +1,29 @@
 import 'package:flutter/material.dart';
-import 'package:wlm/song/song_lyric.dart';
-import 'package:wlm/song/song_info.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class LyricsScreen extends StatelessWidget {
-  LyricsScreen({Key? key, required this.songNumber, required this.language})
-      : super(key: key);
+class LyricsScreen extends StatefulWidget {
+  LyricsScreen({
+    Key? key,
+    required this.song,
+  }) : super(key: key);
 
-  final int songNumber;
-  final String language;
+  final Map<String, String> song;
+
+  @override
+  State<LyricsScreen> createState() => _LyricsScreenState();
+}
+
+class _LyricsScreenState extends State<LyricsScreen> {
+  String _lyrics = '';
+
+  @override
+  void initState() {
+    super.initState();
+    _lyrics = widget.song['lyrics']!;
+  }
+
   @override
   Widget build(BuildContext context) {
-    var lyrics = '';
-    if (language == 'mara') {
-      lyrics = maraLyrics[songNumber] ?? '';
-    } else if (language == 'mizo') {
-      lyrics = mizoLyrics[songNumber] ?? '';
-    } else {
-      lyrics = danceLyrics[songNumber] ?? '';
-    }
-
     return Scaffold(
       appBar: AppBar(),
       body: SingleChildScrollView(
@@ -26,10 +31,20 @@ class LyricsScreen extends StatelessWidget {
           width: double.infinity,
           margin: EdgeInsets.symmetric(horizontal: 35),
           child: Text(
-            lyrics,
+            _lyrics,
             style: TextStyle(fontSize: 17),
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          final link = widget.song['link'] ?? '';
+          if (link.isEmpty) return;
+          final url = Uri.parse(link);
+          launchUrl(url);
+          print(widget.song['link']);
+        },
+        child: Icon(Icons.play_arrow),
       ),
     );
   }

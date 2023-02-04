@@ -45,21 +45,21 @@ class _TitlesScreenState extends State<TitlesScreen> {
                   return ListView.builder(
                     itemCount: songTitles.length,
                     itemBuilder: (context, index) {
+                      final title = songTitles[index];
                       return Card(
                         child: ListTile(
                           title: Text(
-                            songTitles[index],
+                            '${index + 1}. $title',
                             style: TextStyle(fontSize: 17),
                           ),
                           onTap: () {
-                            final songNumber = manager.getSongNumber(index);
+                            final song = manager.getSong(title);
 
                             Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => LyricsScreen(
-                                  songNumber: songNumber,
-                                  language: widget.language,
+                                  song: song,
                                 ),
                               ),
                             );
