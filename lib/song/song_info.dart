@@ -166,7 +166,7 @@ const songInfo = [
     'id': '0024',
     'title': 'Ka dam lai nun kawng',
     'language': 'mizo',
-    'lyrics': izalen,
+    'lyrics': kadamlainunkawng,
     'link': 'https://youtu.be/ToF0vmgtw8c',
   },
   {
@@ -614,7 +614,7 @@ const songInfo = [
     'id': '1013',
     'title': 'Ei lôhngâhna chaipa na cha',
     'language': 'mara',
-    'lyrics': eichalybeipa,
+    'lyrics': eilongahnachaipa,
     'link': 'https://youtu.be/56H8adR25YU',
   },
   {
@@ -647,9 +647,9 @@ const songInfo = [
   },
   {
     'id': '1018',
-    'title': 'El Dorado',
+    'title': 'El Dorado (mara)',
     'language': 'mara',
-    'lyrics': eldorado,
+    'lyrics': eldoradomara,
     'link': '',
   },
   {
@@ -852,7 +852,7 @@ const songInfo = [
     'id': '1047',
     'title': 'Pachhatuh, kei na khôsai kha(KHB 226)',
     'language': 'mara',
-    'lyrics': pachhatuhahro,
+    'lyrics': pachhatuhkeinakhosaikha,
     'link': 'https://youtu.be/MXbYaqMSCUY',
   },
   {

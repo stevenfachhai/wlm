@@ -16,7 +16,7 @@
 //   '15. Ei thyu aw na, ei paw o lȃ (KHB 379)',
 //   '16. Ei sah hlupi',
 //   '17. Ei va o lathloh',
-//   '18. El Dorado',
+//   '18. El Dorado (mara)',
 //   '19. He khizaw râh lia bao hela',
 //   '20. Hmotaotheina zy',
 //   '21. Hosanna',
