@@ -1,5 +1,3 @@
-import 'package:flutter/cupertino.dart';
-
 const maraLyrics = {
   1: akuthatlonachhohlia,
   2: einachhityh,

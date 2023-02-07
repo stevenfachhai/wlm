@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(
+          const Positioned.fill(
             //
             child: Image(
               image: AssetImage('assets/last.png'),
@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                             builder: (context) =>
-                                TitlesScreen(language: 'mara')),
+                                const TitlesScreen(language: 'mara')),
                       );
                     },
                     child: const Text('Mara',
@@ -52,7 +52,7 @@ class HomeScreen extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                             builder: (context) =>
-                                TitlesScreen(language: 'mizo')),
+                                const TitlesScreen(language: 'mizo')),
                       );
                     },
                     child: const Text('Mizo',
@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                             builder: (context) =>
-                                TitlesScreen(language: 'dance')),
+                                const TitlesScreen(language: 'dance')),
                       );
                     },
                     child: const Text('Action song',

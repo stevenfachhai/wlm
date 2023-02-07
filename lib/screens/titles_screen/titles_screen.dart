@@ -3,7 +3,7 @@ import 'package:wlm/screens/titles_screen/titles_screen_manager.dart';
 import '../lyrics_screen.dart';
 
 class TitlesScreen extends StatefulWidget {
-  TitlesScreen({Key? key, required this.language}) : super(key: key) {}
+  const TitlesScreen({Key? key, required this.language}) : super(key: key);
 
   final String language;
 
@@ -33,7 +33,7 @@ class _TitlesScreenState extends State<TitlesScreen> {
             autofocus: true,
             decoration: InputDecoration(
               hintText: 'search',
-              suffixIcon: Icon(Icons.search),
+              suffixIcon: const Icon(Icons.search),
               filled: true,
               fillColor: Colors.grey.shade200, //<-- SEE HERE
             ),
@@ -50,7 +50,7 @@ class _TitlesScreenState extends State<TitlesScreen> {
                         child: ListTile(
                           title: Text(
                             '${index + 1}. $title',
-                            style: TextStyle(fontSize: 17),
+                            style: const TextStyle(fontSize: 17),
                           ),
                           onTap: () {
                             final song = manager.getSong(title);

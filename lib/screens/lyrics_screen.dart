@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LyricsScreen extends StatefulWidget {
-  LyricsScreen({
+  const LyricsScreen({
     Key? key,
     required this.song,
   }) : super(key: key);
@@ -29,10 +29,10 @@ class _LyricsScreenState extends State<LyricsScreen> {
       body: SingleChildScrollView(
         child: Container(
           width: double.infinity,
-          margin: EdgeInsets.symmetric(horizontal: 35),
+          margin: const EdgeInsets.symmetric(horizontal: 35),
           child: Text(
             _lyrics,
-            style: TextStyle(fontSize: 17),
+            style: const TextStyle(fontSize: 17),
           ),
         ),
       ),
@@ -42,9 +42,8 @@ class _LyricsScreenState extends State<LyricsScreen> {
           if (link.isEmpty) return;
           final url = Uri.parse(link);
           launchUrl(url);
-          print(widget.song['link']);
         },
-        child: Icon(Icons.play_arrow),
+        child: const Icon(Icons.play_arrow),
       ),
     );
   }

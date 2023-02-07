@@ -1,44 +1,29 @@
 name: wlm
-description: A new Flutter project.
-
-
+description: worship lyrics mara & mizo app.
 publish_to: 'none' 
-
-
-version: 1.0.0+1
+version: 1.1.0+2
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
 
-
 dependencies:
   flutter:
     sdk: flutter
-
-  url_launcher: ^6.1.8
-  cupertino_icons: ^1.0.2
-  zoom_widget: ^0.2.1
-  matrix_gesture_detector: ^0.1.0
-  
+  url_launcher: ^6.1.8   
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-flutter_launcher_icons: ^0.9.3
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: ^0.9.3
 
 flutter_icons:
   image_path: "app_logo.png"
   android: true
   ios: true
-  
-  flutter_lints: ^1.0.0
-
-
-
 
 flutter:
   uses-material-design: true
-
   assets:     
     - assets/last.png
     
