@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wlm.app.wlm">
+    package="com.wlm.app.worshiplyricsmara">
    <application
         android:label="wlm"
         android:name="${applicationName}"
