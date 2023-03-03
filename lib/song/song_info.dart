@@ -558,7 +558,7 @@ const songInfo = [
     'id': '1005',
     'title': 'Beipa chaw pangai',
     'language': 'mara',
-    'lyrics': atoeihlakhai,
+    'lyrics': beipachawpangai,
     'link': '',
   },
   {

@@ -1,4 +1,4 @@
-package com.wlm.app.wlm
+package com.wlm.app.worshiplyricsmara
 
 import io.flutter.embedding.android.FlutterActivity
 
