@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wlm.app.worshiplyricsmara">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="wlm"
         android:name="${applicationName}"

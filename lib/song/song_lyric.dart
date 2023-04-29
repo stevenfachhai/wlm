@@ -2239,7 +2239,7 @@ const ahmangaihnaaloni = '''
         ila,
         Ka hringnun hian a hril phak lo;
         Ka nun leh ka neih zawng te 
-        nen hian,
+        nen hian in,
         A hmangaihna a lo ni.
 
 2.A malsawm ka chhiar seng lo,
@@ -2334,25 +2334,35 @@ const amenkapelotheilo = '''
 
         Amen ka pe lo thei lo 
 
-1.Moria tlangah kal la, i Isaka vuiliam rawh,
+1.Moria tlangah kal la, 
+  i Isaka vuiliam rawh,
   Harsa ka ti, ava namai lo em Lalpa;
-  Chinral tur ka thlirin dai ngam a har ka ti,
-  Mahse, i rinawm zia ka hriatna tur a lo ni.
+  Chinral tur ka thlirin dai ngam 
+  a har ka ti,
+  Mahse, i rinawm zia ka hriatna tur 
+  a lo ni.
 
         Bawkkhupin i hmaah ka lo kun e,
         I ta ka ni, i thu ang ni zel rawh se;
-        Kawng harsa leh ralti pawh nimahse,
+        Kawng harsa leh ralti 
+        pawh nimahse,
         Amen! ka pe lo thei lo che Lalpa,
         Amen! ka pe lo thei lo che a ni.
 
-2.Engatinge kei kher tiin ka buai fo thin a,
-  Vanduai bik a engah khuanun mi ruat tiin;
-  Mahse, Lal kohna chu a nung ka thinglungah,
+2.Engatinge kei kher tiin ka buai 
+  fo thin a,
+  Vanduai bik a engah khuanun mi ruat 
+  tiin;
+  Mahse, Lal kohna chu a nung 
+  ka thinglungah,
   Chhang lo ngam zia reng ka ni si lo.
 
-3.Ka deng ange, lente ka deng ange i thu in,
-  Ka dai ang a, ka dai thuk zual zel ang Lalpa;
-  Ka duhberte aiin ka thlang tawh che a,
+3.Ka deng ange, lente ka deng ange 
+  i thu in,
+  Ka dai ang a, ka dai thuk zual zel ang 
+  Lalpa;
+  Ka duhberte aiin ka thlang 
+  tawh che a,
   Ka sun tawh e ka damlai nun pawh.
 
 
@@ -3326,7 +3336,7 @@ const kanthinlunghi = '''
 
     Kan thinlung kan hlan che
 
-1.He khawvel leh a ropuina te,
+1.He khawvel zawng leh a ropuina te,
   Vana arsi zawng zanwg te leh;
   Mita hmuh theih leh hmuh phak 
   loh te nen,
@@ -3334,8 +3344,8 @@ const kanthinlunghi = '''
   Tui thuk tak chhungah te,
   Lei hnuai ril berah a ropuina a 
   in phum si!
-  Engvang hian nge maw 
-  aw hringmi hmangaih a,
+  Engvang hian nge maw aw 
+  hringmi hmangaih a,
   Kan tan a nun a rawn hlan le?
 
           Aw, i hmaah kan lo kun e,
@@ -3352,7 +3362,7 @@ const kanthinlunghi = '''
   a tih zawng te leh,
   A ngaihhlut thil tinrengte hi;
   Thil hlu a tih leh a ngaihsan 
-  thil te,
+  thilte,
   Mawina leh sanna zawng zawng 
   te;
   Kan Pathian hmangaihna 
