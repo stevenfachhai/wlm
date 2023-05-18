@@ -670,7 +670,7 @@ const songInfo = [
     'id': '1021',
     'title': 'Hosanna',
     'language': 'mara',
-    'lyrics': hmotaotheinazy,
+    'lyrics': hosana,
     'link': 'https://youtu.be/LBFuAC8BCSk',
   },
   {
@@ -733,14 +733,14 @@ const songInfo = [
     'id': '1030',
     'title': 'Kha reithai teh u',
     'language': 'mara',
-    'lyrics': keideinasiesaiawvei,
+    'lyrics': khareithaitehu,
     'link': 'https://youtu.be/Sdbb90xsb-Q',
   },
   {
     'id': '1031',
     'title': 'Khizaw hmozy hmâ pata',
     'language': 'mara',
-    'lyrics': krawliatathisaisohay,
+    'lyrics': khizawhmozyhmapata,
     'link': 'https://youtu.be/iIkV9LDw9jU',
   },
   {
@@ -796,7 +796,7 @@ const songInfo = [
     'id': '1039',
     'title': 'Kyhpachana hla ta ei sa aw',
     'language': 'mara',
-    'lyrics': kristaadaihpaki,
+    'lyrics': kyhpachanahlataeisaaw,
     'link': 'https://youtu.be/IEYNyQoLwdI',
   },
   {
