@@ -43,7 +43,10 @@ class _LyricsScreenState extends State<LyricsScreen> {
           final url = Uri.parse(link);
           launchUrl(url);
         },
-        child: const Icon(Icons.play_arrow),
+        child: const Icon(
+          Icons.play_circle_filled,
+          color: Colors.red,
+        ),
       ),
     );
   }
