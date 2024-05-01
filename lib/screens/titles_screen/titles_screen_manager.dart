@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import 'package:wlm/screens/lyrics_screen.dart';
+import 'package:wlm/song/song.dart';
 import 'package:wlm/song/song_info.dart';
 
 class TitlesScreenManager {
@@ -25,7 +27,13 @@ class TitlesScreenManager {
     songListNotifier.value = _songTitles;
   }
 
-  Map<String, String> getSong(String title) {
-    return songInfo.where((song) => song['title'] == title).first;
+  Song getSong(String title) {
+    final songDetails = songInfo.firstWhere((song) => song['title'] == title);
+    return Song(
+      id: songDetails['id']!,
+      title: songDetails['title']!,
+      lyrics: songDetails['lyrics']!,
+      link: songDetails['link']!,
+    );
   }
 }

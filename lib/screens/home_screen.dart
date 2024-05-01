@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:wlm/screens/favourite_screen.dart';
 import 'package:wlm/screens/titles_screen/titles_screen.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -12,7 +14,7 @@ class HomeScreen extends StatelessWidget {
           const Positioned.fill(
             //
             child: Image(
-              image: AssetImage('assets/last.png'),
+              image: AssetImage('assets/lili.png'),
               fit: BoxFit.fill,
             ),
           ),
@@ -27,23 +29,29 @@ class HomeScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) =>
-                                const TitlesScreen(language: 'mara')),
+                          builder: (context) =>
+                              const TitlesScreen(language: 'mara'),
+                        ),
                       );
                     },
-                    child: const Text('Mara',
-                        style: TextStyle(
-                          fontSize: 35,
-                          color: Color.fromARGB(255, 246, 222, 222),
-                          fontWeight: FontWeight.bold,
-                          backgroundColor: Color.fromARGB(250, 0, 0, 0),
-                          shadows: [
-                            Shadow(
-                                color: Color.fromARGB(255, 247, 131, 131),
-                                blurRadius: 3.0,
-                                offset: Offset(4, 2))
-                          ],
-                        )),
+                    child: Container(
+                      padding: const EdgeInsets.all(8.0),
+                      decoration: BoxDecoration(
+                          color: Colors.black,
+                          border: Border.all(
+                            color: const Color.fromARGB(255, 250, 247, 247),
+                            width: 2.0,
+                          ),
+                          borderRadius: BorderRadius.circular(6.0)),
+                      child: Text(
+                        'Mara',
+                        style: GoogleFonts.libreBaskerville(
+                          fontSize: 25,
+                          color: Color.fromARGB(255, 248, 246, 245),
+                          fontWeight: FontWeight.normal,
+                        ),
+                      ),
+                    ),
                   ),
                   const SizedBox(height: 12),
                   TextButton(
@@ -55,19 +63,24 @@ class HomeScreen extends StatelessWidget {
                                 const TitlesScreen(language: 'mizo')),
                       );
                     },
-                    child: const Text('Mizo',
-                        style: TextStyle(
-                          fontSize: 35,
-                          color: Color.fromARGB(255, 246, 222, 222),
-                          fontWeight: FontWeight.bold,
-                          backgroundColor: Color.fromARGB(250, 0, 0, 0),
-                          shadows: [
-                            Shadow(
-                                color: Color.fromARGB(255, 247, 131, 131),
-                                blurRadius: 3.0,
-                                offset: Offset(4, 2))
-                          ],
-                        )),
+                    child: Container(
+                      padding: const EdgeInsets.all(8.0),
+                      decoration: BoxDecoration(
+                          color: Colors.black,
+                          border: Border.all(
+                            color: const Color.fromARGB(255, 250, 247, 247),
+                            width: 2.0,
+                          ),
+                          borderRadius: BorderRadius.circular(6.0)),
+                      child: Text(
+                        'Mizo',
+                        style: GoogleFonts.libreBaskerville(
+                          fontSize: 25,
+                          color: Color.fromARGB(255, 248, 246, 245),
+                          fontWeight: FontWeight.normal,
+                        ),
+                      ),
+                    ),
                   ),
                   const SizedBox(height: 16),
                   TextButton(
@@ -79,19 +92,52 @@ class HomeScreen extends StatelessWidget {
                                 const TitlesScreen(language: 'dance')),
                       );
                     },
-                    child: const Text('Action song',
-                        style: TextStyle(
-                          fontSize: 35,
-                          color: Color.fromARGB(255, 246, 222, 222),
-                          fontWeight: FontWeight.bold,
-                          backgroundColor: Color.fromARGB(250, 0, 0, 0),
-                          shadows: [
-                            Shadow(
-                                color: Color.fromARGB(255, 247, 131, 131),
-                                blurRadius: 3.0,
-                                offset: Offset(4, 2))
-                          ],
-                        )),
+                    child: Container(
+                      padding: const EdgeInsets.all(8.0),
+                      decoration: BoxDecoration(
+                          color: Colors.black,
+                          border: Border.all(
+                            color: const Color.fromARGB(255, 250, 247, 247),
+                            width: 2.0,
+                          ),
+                          borderRadius: BorderRadius.circular(6.0)),
+                      child: Text(
+                        'Worship dance',
+                        style: GoogleFonts.libreBaskerville(
+                          fontSize: 25,
+                          color: Color.fromARGB(255, 248, 246, 245),
+                          fontWeight: FontWeight.normal,
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => FavoriteScreen()),
+                      );
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.all(8.0),
+                      decoration: BoxDecoration(
+                          color: Colors.black,
+                          border: Border.all(
+                            color: const Color.fromARGB(255, 250, 247, 247),
+                            width: 2.0,
+                          ),
+                          borderRadius: BorderRadius.circular(6.0)),
+                      child: Text(
+                        'Favourite',
+                        style: GoogleFonts.libreBaskerville(
+                          fontSize: 25,
+                          color: Color.fromARGB(255, 248, 246, 245),
+                          fontWeight: FontWeight.normal,
+                        ),
+                      ),
+                    ),
                   ),
                 ],
               ),

@@ -1,49 +1,76 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:wlm/screens/favourite_screen.dart';
+import 'package:wlm/song/song.dart';
 
 class LyricsScreen extends StatefulWidget {
-  const LyricsScreen({
-    Key? key,
-    required this.song,
-  }) : super(key: key);
+  final Song song;
 
-  final Map<String, String> song;
+  const LyricsScreen({Key? key, required this.song}) : super(key: key);
 
   @override
-  State<LyricsScreen> createState() => _LyricsScreenState();
+  _LyricsScreenState createState() => _LyricsScreenState();
 }
 
 class _LyricsScreenState extends State<LyricsScreen> {
-  String _lyrics = '';
+  bool _isFavorite = false;
 
   @override
   void initState() {
     super.initState();
-    _lyrics = widget.song['lyrics']!;
+    // Check if the song is already in the list of favorites
+    _isFavorite = favoriteSongs.contains(widget.song);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        actions: [
+          IconButton(
+            onPressed: () {
+              setState(() {
+                _isFavorite = !_isFavorite;
+                if (_isFavorite) {
+                  favoriteSongs.add(widget.song);
+                } else {
+                  favoriteSongs.remove(widget.song);
+                }
+              });
+            },
+            icon: _isFavorite
+                ? const Icon(Icons.favorite)
+                : const Icon(Icons.favorite_border),
+          ),
+        ],
+      ),
       body: SingleChildScrollView(
         child: Container(
-          width: double.infinity,
-          margin: const EdgeInsets.symmetric(horizontal: 35),
-          child: Text(
-            _lyrics,
-            style: const TextStyle(fontSize: 17),
+          padding: const EdgeInsets.all(20.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                widget.song.title,
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              SizedBox(height: 20),
+              Text(
+                widget.song.lyrics,
+                style: TextStyle(fontSize: 18),
+              ),
+            ],
           ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          final link = widget.song['link'] ?? '';
-          if (link.isEmpty) return;
-          final url = Uri.parse(link);
-          launchUrl(url);
+          launch(widget.song.link);
         },
-        child: const Icon(
+        child: Icon(
           Icons.play_circle_filled,
           color: Colors.red,
         ),

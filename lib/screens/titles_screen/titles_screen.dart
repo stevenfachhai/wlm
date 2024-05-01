@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wlm/screens/titles_screen/titles_screen_manager.dart';
 import '../lyrics_screen.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class TitlesScreen extends StatefulWidget {
   const TitlesScreen({Key? key, required this.language}) : super(key: key);
@@ -23,7 +24,18 @@ class _TitlesScreenState extends State<TitlesScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 232, 232, 226),
+        title: Text(
+          'Worship Lyrics Mara&Mizo',
+          style: GoogleFonts.libreBaskerville(
+            textStyle: const TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.normal,
+            ),
+          ),
+        ),
+      ),
       body: Column(
         children: [
           TextField(
@@ -53,13 +65,15 @@ class _TitlesScreenState extends State<TitlesScreen> {
                             style: const TextStyle(fontSize: 17),
                           ),
                           onTap: () {
-                            final song = manager.getSong(title);
+                            final song =
+                                manager.getSong(title); // Retrieve Song object
 
                             Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => LyricsScreen(
-                                  song: song,
+                                  song:
+                                      song, // Pass Song object to LyricsScreen
                                 ),
                               ),
                             );
