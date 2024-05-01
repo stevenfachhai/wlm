@@ -75,9 +75,7 @@ const maraLyrics = {
   74: beipatamiah,
 };
 const akuthatlonachhohlia = '''
-             
-          A ku thatlôna chhôh lia
-
+          
 1.Pachhatuhpa ta eina vaih 
   thlâh haw,
   Chariah nâ dyuh hrasa ei boh 
@@ -108,8 +106,6 @@ const akuthatlonachhohlia = '''
 ''';
 
 const einachhityh = '''
-               
-       Ano ku ta einâ chhi tyh   
 
 1.Khazohpa ta einâ chhi tyh,
   Cha cha pahno na ei ly kaw;
@@ -140,8 +136,6 @@ const einachhityh = '''
 ''';
 
 const atoeihlakhai = '''
-    
-        Ato ei hlâ khai
 
 1.Zisu hnohta ato ei hlâ, 
   Lypa ta ei pie khai haw; 
@@ -176,8 +170,6 @@ const atoeihlakhai = '''
 
 const beidyuchhai = '''
 
-    Beidyuchhai nah reithaina zydua
-
 1.Beidyuchhai nah reithaina zydua,
   Tlaichhai thei khao leipa ta;
   Sei châna tawh eima pua thei 
@@ -210,8 +202,6 @@ const beidyuchhai = '''
 ''';
 
 const beipachawpangai = '''
-          
-        Beipa ch'aw pangai
 
 1.Beipa ch'aw pangai,
   Palôh thiehpa na pie la ;
@@ -243,8 +233,6 @@ const beipachawpangai = '''
 
 const beipaeivy = '''
 
-        Beipa ei vy hai
-
 1.Khazohpa tawh ei pavia haw, 
   Tahmâ ei vy hai;
   Molei lâpi vâro ei chhih,
@@ -274,8 +262,6 @@ const beipaeivy = '''
 ''';
 
 const beipanangiathaimahy = '''
-                                                  
-        BEIPA nâ ngiahthai mah y
 
 1.Krista kyhpachâna,
   Pahnothai leipa hawhta;
@@ -307,8 +293,6 @@ const beipanangiathaimahy = '''
 
 const beipanapachachi = '''
 
-        Beipa, na pachâ chi
-
 1.Nopona ei tyhpa hryta,
   Pachârohna ta ei y no chhao;
   Pacha na ta ei ly via tyh,
@@ -334,9 +318,7 @@ const beipanapachachi = '''
 ''';
 
 const beipaPhana = '''
-                                                                                     
-        BEIPA PHANA
-                    
+                 
   Kyh cha pachâ,
   Na zawngiahna zydua vâta;
   Na chhitha chi Na ku thatlôpa ta,
@@ -368,9 +350,6 @@ const beipaPhana = '''
 ''';
 
 const chakrawchaeipatulymaaw = '''
-
-        CHA KRAWS CHA EI PATU 
-                LYMA AW 
 
 1.Haosa râh tlâh lata kraws hlopa 
   cha a y,
@@ -409,8 +388,6 @@ const chakrawchaeipatulymaaw = '''
 
 const chhazawtaronahnatayse = '''
 
-        Chhâzaw ta rônahna ta y se
-
   Thlâpâ nah awhsi zy, 
   Nohlynô chhao a zoh;
   Khizaw Pachhatuhpa A thi haw,
@@ -447,8 +424,6 @@ Khizaw a tiah ha na.
 
 const eichalybeipa = '''
 
-          EI CHÂLY BEIPA
-
 1.Hy BEIPA na kyhpachâna he,
 No-âh âchhih ngaita kaw diah;
 Moleina liata thi thlâh awpa he,
@@ -481,8 +456,6 @@ Na kyhpachâna ta tlua papua chi.
 
 const eilongahnachaipa = '''
 
-        Ei lôhngâhna chaipa na cha
-
 Nâ cha eima bohna na thlalôhna,
 Nôpo nota baotu hniapa na châ;
 Khâpa ma ei chi aw. 
@@ -508,8 +481,6 @@ Ei bohna na chai a châ.
 
 const einachhinamaiheisieaw = '''
 
-        Einâ chhina maih ei sie aw
-
 1.Einâ chhina maih ei sie aw, 
   Ano ei ngâ hapa vâta; 
   Ei châta Kalvari lia thi, 
@@ -533,8 +504,6 @@ const einachhinamaiheisieaw = '''
 ''';
 
 const eithyuawnaeipawola = '''
-
-        Ei thyu aw na, ei paw o lȃ
 
 1.Ei thyu aw na, ei paw o lȃ 
   ei sie aw na,
@@ -573,8 +542,6 @@ const eithyuawnaeipawola = '''
 ''';
 
 const eisahhlupi = '''
-                
-          EI SÂH HLUHPI
         
 Hy ei thlahmipa y, Beipa reithai la,
 A moh dei a chhy la;
@@ -599,8 +566,6 @@ Kô sâh hluhpi chhâzaw taih chhao ta.
 ''';
 
 const eivaolathlo = '''
-
-          Ei va o lathloh
 
 1.Chakaona rai hria awpa ta,
   Keima nata ei daihtizy vaw hmâh 
@@ -637,8 +602,6 @@ const eivaolathlo = '''
 
 const eldoradomara = '''
 
-        El Dorado
-
 1.Aw ei hro yru pa heta,
   Kyhpachatu ângiah ngaita;
   Ei hrona heta hy Beipa 
@@ -663,8 +626,6 @@ const eldoradomara = '''
 
 ''';
 const hekhizawrahliabaohela = '''
-
-        He khizaw râh lia bao hela
 
 1.He khizaw râh lia bao hela,
   Molei reipasaona ba thei tlô va;
@@ -699,8 +660,6 @@ const hekhizawrahliabaohela = '''
 
 const hmotaotheinazy = '''
 
-        Hmotaotheina zy
-
   Hmotaotheina zy, 
   Beizy Beipa;
   Hmotaopa zydua kheihawpa 
@@ -728,8 +687,6 @@ const hmotaotheinazy = '''
 ''';
 
 const hosana = '''
-
-          Hosanna
 
 Rôhna na Beipa ei hmô. 
 Va meido hry ta mei haw
@@ -763,8 +720,6 @@ Chhazaw râh ei tlôna tai ei cha zi aw.
 
 const hrokrista = '''
 
-              HRO KRISTA
-
 1.Lei lyna tluapa ta ei hro he 
   vaw hmâh tyh hraw sa,
   A paw ngianazy thlai vaw lo ta;
@@ -794,8 +749,6 @@ const hrokrista = '''
 
 const hronatikhaokuabeileipa = '''
 
-          Hrona tikhaoh kua beih leipa
-
 1.Hrona tikhaoh kua beih leipa,
   Hrona viachhâ nie tiah leipa;
   Bei Zisu cha ei hnei haw,
@@ -821,9 +774,7 @@ const hronatikhaokuabeileipa = '''
 ''';
 
 const hybeipaeichangiangaita = '''
-
-          Hy Beipa ei châ ngiah ngaita 
-              
+           
   Hy Beipa ei ch'aw pangai,
   Na kiah lia na pahâsa;
   Nâ leita sie thai vana,
@@ -850,9 +801,6 @@ const hybeipaeichangiangaita = '''
 ''';
 
 const hybeikhazohnahmotaopazyduahe = '''
-
-          Hy Bei Khazoh na hmotaopa 
-                zydua he
 
 1.Hy Bei Khazoh na hmotaopa 
   zydua he, 
@@ -895,9 +843,7 @@ const hybeikhazohnahmotaopazyduahe = '''
 ''';
 
 const hykhazohna = '''
-            
-        HY KHAZOH NA 
-
+ 
 1.Hy Khazoh ! Nâ Beichhai na châ,
   Palôh miah na moh tyh;
   Ato eima ryhraopazy,
@@ -916,8 +862,6 @@ const hykhazohna = '''
 ''';
 
 const hyrohnachai = '''
-        
-          Hy rôhnah chai 
 
 1.Noh nah thlapa, awhsi zy,
   A ruapa liata; 
@@ -945,8 +889,6 @@ const hyrohnachai = '''
 
 ''';
 const krawliatathisaisohay = '''
-
-       Hy, thisai rôhna chaipa 
 
 1.Kraws liata thisai sôh a y,
   Kraws pathai cha ei hmô;
@@ -982,8 +924,6 @@ const krawliatathisaisohay = '''
 
 const khareithaitehu = '''
 
-          Kha reithai teh u
-
 1.Ngiachhie chakao raihria awpa ta,
   Tloh vei hr’awsala;
   Ei sialeina tlohleina hawh eina pyh tyh,
@@ -1009,9 +949,7 @@ const khareithaitehu = '''
 ''';
 
 const khizawhmozyhmapata = '''
-  
-      Khizaw hmozy hmâ pata
-
+ 
 1.Khizaw hmozy hmâ pata,
   Hmia haopa chata;
   Eima sahpa khopa zy,
@@ -1054,8 +992,6 @@ const khizawhmozyhmapata = '''
 
 const khizawthainanahsohnazy = '''
 
-          Khizaw thaina nah sona zy
-
 1.Khizaw thaina nah sona zy,
   A rônahna zy tluata ei râ tyh;
   Nâ Cha tlua beih vana,
@@ -1086,8 +1022,6 @@ const khizawthainanahsohnazy = '''
 ''';
 
 const khizawheleihrasa = '''
-
-        Khizaw he lei hrasa
 
 1.Khizaw he lei hrasa,
   Zisu ei hnei, 
@@ -1129,9 +1063,6 @@ const khizawheleihrasa = '''
 
 const khizawchysanatanamohmolia = '''
 
-        Khizaw chyhsa nata na 
-              mohmô lia
-
 1.Khizaw chyhsa nata na mohmô 
   lia,
   Hmo ei vaw parao he zaw;
@@ -1166,8 +1097,6 @@ const khizawchysanatanamohmolia = '''
 ''';
 const khotalainachazisutanapie = '''
 
-        Khotalaina cha zisu ta na pie
-
   Bei chaipa ta kei moleipa
   He na dytha vei
   Leidiapa eina hmô haw hei
@@ -1200,8 +1129,6 @@ const khotalainachazisutanapie = '''
 ''';
 
 const krawsthabylia = '''
-
-        Kraws thaby lia
 
   Beipa na pahno chi,
   Ato zydua;
@@ -1239,9 +1166,7 @@ const krawsthabylia = '''
 ''';
 
 const krawsvaeimachaly = '''
-                            
-            Kraws va eima châly
-        
+      
   Kraws vâ eimâ châly,
   Miah na chatlai vâ Beipa;
   Moleina zydua phao chi,
@@ -1266,9 +1191,7 @@ const krawsvaeimachaly = '''
 ''';
 
 const keideinasiesaiawvei = '''
-    
-    Kei dei na siesai aw vei
-
+ 
 1.Chiehleinazy rairunazy,
   Ei chô Liata vaw tlô tyhpa he; 
   Vâduana ta rao hr'awsala, 
@@ -1296,9 +1219,7 @@ const keideinasiesaiawvei = '''
 ''';
 
 const kristaadaihpaki = '''
-                                          
-        Christ is enough
-              
+            
   Krista ei lymâ,
   Ei hmoto zydua chhaota;
   Khizaw lia lyna y vei,
@@ -1337,8 +1258,6 @@ const kristaadaihpaki = '''
 
 const kyhpachanahlataeisaaw = '''
 
-          Kyhpachana hla ta ei sa aw
-
 1.Khazohpa ta khizaw kyhpachâ ngaita, 
   A sawchapai matlu hneichhô pie ta; 
   Molei siekhei awpa ta,
@@ -1362,8 +1281,6 @@ Ei hrochhô ta ei phua Lai lyma aw.
 ''';
 
 const kyhpachanareitheisala = '''
-                                                  
-      Kyhpachâna! Noâh â chhih 
 
 1.Kyhpachâna  reih thai sala,
   Nâzari zisu tlai kha;
@@ -1399,8 +1316,6 @@ const kyhpachanareitheisala = '''
 
 const mohlanahroaw = '''
 
-        Moh la na hro aw
-
 1.Kalvary lia pachhatu moh la,
   Nâ nah kei châ pasa a tao haw;
   Kyhpachâ ta awna nathlie la,
@@ -1432,9 +1347,7 @@ const mohlanahroaw = '''
 ''';
 
 const mohngichaipaacha = '''
-
-          MOH NGIA CHAIPA BEI ZISU
-        
+     
   Athaona liata bie cha na châ,
   Chônô chaipa hnoh ypa;
   Hmotaopa lia rônahna nyupa,
@@ -1483,9 +1396,6 @@ Bâlia to chhie la x3
 
 const namoleiphaohripahleinakhoma = '''
 
-        Na molei phaohri pahlei 
-                na khoh ma?
-
 1.Na molei phaohri pahlei 
   na khoh ma?
   Thisaih lia hmotaotheina a y;
@@ -1521,8 +1431,6 @@ const namoleiphaohripahleinakhoma = '''
 
 const nazarizisu = '''
 
-        Nazari zisu
-
 1.Zisu, zisu ei paloh liata bie vaw 
   reih chanei heih la,
   Ei ngiapana he tha na patlo teh;
@@ -1552,8 +1460,6 @@ const nazarizisu = '''
 ''';
 
 const olivethohna = '''
-
-        Olive thohna
 
 1.Sah hria noh dahti cha a cha haw,
   Pachhapa ta y tla mapi;
@@ -1585,8 +1491,6 @@ const olivethohna = '''
 
 const pachhatuhahro = '''
 
-        Pachhatuh a hro
-
 Ei thlahpa na pachha haw,
 A thisaih ta ei moleina na pasi; 
 Ei ngiapâ.
@@ -1610,8 +1514,6 @@ Na khinarâh ei hâ.
 ''';
 
 const pachhatuhkeinakhosaikha = '''
-                                    
-          Pachhatuh, kei na khôsai kha
 
 1.Pachhatuh, kei na khôsai kha,
   Ei awhna thei la;
@@ -1640,8 +1542,6 @@ const pachhatuhkeinakhosaikha = '''
 ''';
 
 const pakhotehu = '''
-
-      Pakho teh u,
 
 1.Mopathaihpazy, moh teh u, 
   Pachârôhpa chyhsa cha;
@@ -1672,8 +1572,6 @@ const pakhotehu = '''
 
 const pathipalomoleichhipa = '''
 
-      Pathipalôh molei chiehpa
-
 1.Pathipalôh molei chiehpa,
   Nâ chhyna O pachâsa; 
   A chhôh liata, hy ei Beipa,
@@ -1703,8 +1601,6 @@ const pathipalomoleichhipa = '''
 
 const pawkypachana = '''
 
-      Paw kypachâna
-
 1.No-âh âchhi kaw dia, 
   Paw kypachâna;
   A sawchapaw lei lâ za tuahpa ta,
@@ -1730,8 +1626,6 @@ const pawkypachana = '''
   ''';
 
 const rahtaipala = '''
-
-           Râh taipa lâ
 
 1.He khizaw râh lia bao hela
   Molei reipasaona bâh thei tlôh va
@@ -1765,8 +1659,6 @@ const rahtaipala = '''
 
 const reithaina = '''
 
-            Reithaina.
-
 1.Ei paw Khazoh, Ato tao tu,
   Reithai tlâ Khazohpa na châ na;
   Ei châna zydua chhaota ei 
@@ -1795,8 +1687,6 @@ const reithaina = '''
 
 const sakhihdahphipahawhbeipa = '''
 
-        SAKHIH DÀHPHIPA HAWH
-
 1.Sakhih dàhphipa hawh Beipa,
   Ei thlahpa ta nâ a cha vâ;
   Nâ tlai he lôhri ei ngiabàh chai,
@@ -1821,8 +1711,6 @@ const sakhihdahphipahawhbeipa = '''
 ''';
 
 const sieparasuh = '''
-
-        Sie para suh
 
 1.Bei Zisu ngiapâtuhpa zydua saih u
   Thi awpazy cha pachh’aw mapi ma
@@ -1861,8 +1749,6 @@ const sieparasuh = '''
 ''';
 
 const still = '''
-                     
-              STILL
 
   Na nyu la, 
   Na mathlaw lia;
@@ -1882,8 +1768,6 @@ const still = '''
 ''';
 
 const shouttothelord = '''
-
-        Reithai teh u
 
   Bei zisu, pachhatuh 
   Nâ hawhpa rai y vei ei 
@@ -1912,9 +1796,7 @@ const shouttothelord = '''
 ''';
 
 const thlapapathai = '''
-                
-        Thlahpa Pathaih 
-        
+                  
 1.Thlahpa Pathaih ei chavâ kaw dia,
   Ei khi tlyna râh liata;
   Molei charia kei châ a ru tu,
@@ -1939,8 +1821,6 @@ const thlapapathai = '''
 ''';
 
 const theblessing = '''
-   
-    The Blessing 
 
   Bei chaipa ta,
   Cha hrôbie se;
@@ -1971,8 +1851,6 @@ const theblessing = '''
 
 const tiwinelapachasa = '''
 
-        Ti, wine lâ na pachâsa
-
   Ti, wine lâ na pachâsa,
   Mochao mo na pavâhsa;
   Nâ hawhpa raita,
@@ -2001,8 +1879,6 @@ const tiwinelapachasa = '''
 
 ''';
 const eimalikalialeichiepaay = '''
-  
-    Zisu ei hnabeiseina
 
   Eima lika lia Lei chiepa a y,
   Tlâsapa ei kia theilei awpa;
@@ -2042,8 +1918,6 @@ const eimalikalialeichiepaay = '''
 ''';
 
 const zisueiviasaphachhai = '''
-    
-    Zisu ei viasa pha chai
 
 1.Zisu ei viasa pha chai,
   Ei moleina ty thô awpa ta;
@@ -2085,8 +1959,6 @@ const zisueiviasaphachhai = '''
 
 const zisueimaviasaphachhai = '''
 
-        Zisu eima viasa pha chai
-
 1.Zisu eima viasa pha chai,
   Molei nôpona siekhei;
   Eima pachârôna zydua,
@@ -2118,8 +1990,6 @@ const zisueimaviasaphachhai = '''
 ''';
 
 const zisuhneieikhohvia = '''
-
-        Zisu hnei ei khoh via
 
 1.Zisu hnei ei khoh via, 
   ryu sôh chaipa hlâ,
@@ -2160,8 +2030,6 @@ const zisuhneieikhohvia = '''
 
 const khazohpanahniapa = '''
 
-        Khazohpa nâ hnia pa
-
 1. Khazohpa nâ hnia’pa, hnia via ei khoh,
 Kraws rietheina ta na vi hrasala;
 He hla khâ ei sa aw, Khazohpa nâ hnia'pa,
@@ -2192,8 +2060,6 @@ Khazohpa nâ hnia pa, hnia via ei khoh.
 
 const eichavangaita = '''
 
-          THLAHPA PATHAIH
-
 1.  Ngiachhie chakao raihria liata chânazy hneipa ta,
     Thaina sona hneinazy chhao hmâh hrawsala;
     Thlahpa Pathaih ahlao leita chakaona he,
@@ -2220,8 +2086,6 @@ const eichavangaita = '''
 
 const hybeizisuvaw = '''
 
-          HY BEI ZISU VAW CHA HRYH HEIH LA
-  
 1.  Hy Bei Zisu vaw cha hryh heih la,
     Eima cha vâ ngaita kaw;
     Keimo nata keimo hela â patlâh thei khao ma pi,
@@ -2247,8 +2111,6 @@ const hybeizisuvaw = '''
 
 const zisuhneieikhoh = '''
 
-        Zisu hnei ei khoh via
-
 1.  Zisu hnei ei khoh via, ryu sôh chaipa hla,
     A eih ch ei khoh, khizaw sôh zydua hlâ ;
     Zisu hnei ei khoh via, râh nah o hlâta,
@@ -2272,8 +2134,6 @@ const zisuhneieikhoh = '''
 ''';
 
 const eihronabei = '''
-
-          Ei hrona bei ei cha pakho 
 
 1.  Ei hrona bei ei cha pakho 
     Rohna na ei cha se
@@ -2306,8 +2166,6 @@ const eihronabei = '''
 
 const zisuchabeiacha = '''
 
-          BEI A CHÂ
-
           Zisu cha Bei a châ x 4
           Thina pahnieh ta
           A thyu hei
@@ -2336,8 +2194,6 @@ Zisu cha Bei a châ.
 
 const rona = '''
 
-        Rônah Rónah
-
 1.Rônah Rónah
   Rônah chai Beipa
   Rônah Rônah
@@ -2359,8 +2215,6 @@ const rona = '''
 ''';
 
 const chhileino = '''
-
-        Chieleino tha nâ patlôtuh
 
     Chieleino tha nâ patlôtuh
     Ryu sôh chaipa ei tlua tyhpa
@@ -2393,8 +2247,6 @@ const chhileino = '''
 
 const reithainazy = '''
 
-        Reithai zydua na phu.
-
 Mopathai na angel
 Zydua ta chânao ei
 Machâ zy chhao ta
@@ -2413,8 +2265,6 @@ Chhô na zâh reithaina cha nâla khy se.
 ''';
 
 const khizawkhaipa = '''
-
-          KHIZAW KHAIPA EI HMÔ HLA TAWH
 
 1. Khizaw khaipa ei hmô hla tawh,
     Ato kei châ ryh na rao;
@@ -2444,8 +2294,6 @@ const khizawkhaipa = '''
 
 const beipatamiah = '''
 
-          Beipa ta miah a kho
-
 1.  Hy Beipa na thisaisoh tana chatlai pazy,
     Khizaw pawngiana tlaichhaita na chatlei sai ei;
     Pachhana pahno leita sahlupi zy ama khohai.
@@ -2471,8 +2319,6 @@ const beipatamiah = '''
 ''';
 
 const khazohkyhpacharohna = '''
-
-        KHAZOH  KYHPACHA RÔHNAH ZIE
 
 1.  Khazoh kyhpachâ rôhnah zie,
     Bie nah hla ta chho khai thei vei;
@@ -2613,8 +2459,6 @@ const mizoLyrics = {
 
 const ahmangaihnaaloni = '''
 
-      A hmangaihna a lo ni
-
 1.Ka Lalpa min hruaina hi,
   Thu in ka hril seng dawn lo;
   Ka zai leh ka banphar te 
@@ -2642,8 +2486,6 @@ const ahmangaihnaaloni = '''
 ''';
 
 const anhrilhfiah = '''
-
-              An hrilhfiah
 
 1.Min hmangaih tih ka hria 
   i thilsiam ah a lang,
@@ -2682,8 +2524,6 @@ const anhrilhfiah = '''
 
 const amanengkimahminhria = '''
 
-        Aman engkimah min hria e,
-
 1.Lalpan chiang takin min thlir a,
   Ka awm dan zawng zawng te hi;
   Ka rilru ngaihtuahna zawng nen,
@@ -2717,8 +2557,6 @@ const amanengkimahminhria = '''
 ''';
 
 const amenkapelotheilo = '''
-
-        Amen ka pe lo thei lo 
 
 1.Moria tlangah kal la, 
   i Isaka vuiliam rawh,
@@ -2755,8 +2593,6 @@ const amenkapelotheilo = '''
 ''';
 
 const amenSilfaikani = '''
-
-      Amen! Silfai ka ni
 
 1.Sual Setana'n rei tak min lo bum,
   Zahngaihna ka hmuh ve 
@@ -2798,8 +2634,6 @@ const amenSilfaikani = '''
 
 const athae = '''
 
-        A ṭha e
-
 1.An sawi lei malsawmna chang lo 
   mah ila,
   In leh ro, hmun lo ram neilo 
@@ -2833,8 +2667,6 @@ const athae = '''
 ''';
 
 const awropuiber = '''
-
-        Aw, ropui ber
 
 1.Van boruak zau tak te 
   ka han thlir vel a, 
@@ -2876,8 +2708,6 @@ const awropuiber = '''
 ''';
 
 const bultanminphalsak = '''
-
-      Bultan min phal sak
 
 1.Sual bumna lamtluang zawhin 
   ka buai thin a,
@@ -2934,8 +2764,6 @@ const bultanminphalsak = '''
 
 const chawmawinazawngkahlanche = '''
 
-        Chawimawina 
-
 1.Aw Pa Pathian, engkim siamtu,
   Fak phu Pathian reng i lo ni e;
   Ka nihna zawng nen 
@@ -2965,9 +2793,6 @@ const chawmawinazawngkahlanche = '''
 ''';
 
 const chhandamtuminhruainalamtluang = '''
-
-        Chhandamtu min hruaina 
-              lamtluang
 
 1.Chhandamtu min hruaina 
   lamtluang ka thlir let a,
@@ -3007,8 +2832,6 @@ const chhandamtuminhruainalamtluang = '''
 
 const danglamlokrista = '''
 
-          Danglamlo krista
-
 1.Hahchawlhna an zawng, 
   chawlhna an hmu lo,
   Nun hlimna an zawng, 
@@ -3041,8 +2864,6 @@ const danglamlokrista = '''
 
 const duhthlannasangber = '''
 
-        Duhthlanna sang ber
-
 1.Dam lai lamtluang ka zawh laiin,
   Doral a lian thlemna karah;
   Thlarau zawngin peih mahse,
@@ -3072,8 +2893,6 @@ const duhthlannasangber = '''
 ''';
 
 const engtiaawmtheinge = '''
-    
-      Engtia awm thei nge?
 
 1.Dawn chang ni hianin thinlai a fan 
   thin,
@@ -3107,8 +2926,6 @@ const engtiaawmtheinge = '''
 
 const engvangnge = '''
 
-        Eng vang nge
-
 1.Alpha Omega i ni, 
   chatuan i tâ a ni a
   I danglam ngai lova 
@@ -3134,8 +2951,6 @@ const engvangnge = '''
 ''';
 
 const eldoradomizo = '''
-   
-        El Dorado
 
 1.Aw ka nun khawhar chau tak hian,
   Hmangaihtu a ngai thin a;
@@ -3161,8 +2976,6 @@ const eldoradomizo = '''
 ''';
 
 const hmangaihtu = '''
-     
-        Hmangaihtu  
 
 1.Tunge ka nih Lalpa i hria,
   Eng nge ka tih thin i hai lo;
@@ -3194,8 +3007,6 @@ const hmangaihtu = '''
 
 const hringnunkanzinkawngahhian = '''
 
-      Thuro iang zaidam nunnem
-
 1.Hringnun kan zin kawngah hian,
   Kan ngai che Thlarau Thianghlim;
   Min kai la chung van Kanan t
@@ -3222,8 +3033,6 @@ const hringnunkanzinkawngahhian = '''
 ''';
 
 const hriatchianlehzualchehi = '''
-
-      Hriatchian lehzual che
 
 1.Nawmsaknate zawngin 
   ka tlan thin,
@@ -3262,8 +3071,6 @@ const hriatchianlehzualchehi = '''
 ''';
 const ihluani = '''
 
-          I hlu a ni.
-
 1.I thiltih te ka ngaihtuah chang 
   hianin,
   I rinawm min hmuh tir kei tawmkai 
@@ -3301,8 +3108,6 @@ const ihluani = '''
 ''';
 
 const ilamkanlohawi = '''
-      
-        I lam kan lo hawi
 
 1.Aw Lalpa, i lam kan lo hawi,
   Nangmah lam chauh kan rawn 
@@ -3335,8 +3140,6 @@ const ilamkanlohawi = '''
 
 const indona = '''
 
-            Indona
-
 1.Indona zawng a rapthlak ber ka nun hi,
   Lehlam lehlam ah neksawr in a awm a;
   Van indona aia nasa zawk a ni,
@@ -3363,8 +3166,6 @@ const indona = '''
   Ka Lalpa thisen min ti thianghlim tu.
 ''';
 const isualalber = '''
-
-        Isua lal ber ani
 
 1.Hmangaihna hla mawi ri ka hria
   Rimawi mawi ber mai chu
@@ -3402,8 +3203,6 @@ const isualalber = '''
 
 const izalen = '''
 
-        I zalen 
-
 1.I chau ve thin em? 
   I hah thin ti raw?
   Hahchawlhna Isuan 
@@ -3438,8 +3237,6 @@ const izalen = '''
 
 const kadamlainunkawng = '''
 
-          Ka dam lai nun kawng
-
 1.Ka dam lai nun kawng hi Lal Isu,
   Chhiar dan ka thiam theih nan 
   min kai la;
@@ -3468,8 +3265,6 @@ const kadamlainunkawng = '''
 ''';
 
 const kadaizeldawn = '''
-
-    Ka dai zel dawn
 
 1.Ka hringnun hi 
   ka theihna zawng leh,
@@ -3517,8 +3312,6 @@ const kadaizeldawn = '''
 
 const kaduhberlalpa = '''
 
-        Ka duh ber Lalpa
-
 1.Hei leh chen kumtam min hruaitu,
   Ka Lalpa ka tan i va tha em;
   Malsawm tin reng 
@@ -3554,8 +3347,6 @@ const kaduhberlalpa = '''
 ''';
 
 const kahnaihnanche = '''
-
-          ka hnaih nan che
 
 1.Thatna leh mawina reng neilo niin
   Thianghlimlo leh tlinglo mai ka ni, 
@@ -3594,8 +3385,6 @@ const kahnaihnanche = '''
 ''';
 
 const kalawmeisu = '''
-     
-      Ka lawm e Isu
 
 1.I thu hian min thlamuan thin,
   I aw hian min ti chak thin;
@@ -3621,8 +3410,6 @@ const kalawmeisu = '''
 ''';
 
 const kalawmelalpa = '''
-
-      KA LAWM E LALPA
 
   Khawvel mi ten min thlir reng,
   Ka nunkawng har tak hi;
@@ -3653,8 +3440,6 @@ const kalawmelalpa = '''
 ''';
 
 const kalokire = '''
-
-            Ka lo kir e
 
 1.Kum tam tak chhung hmangaihtu 
   hre lo in,
@@ -3690,8 +3475,6 @@ const kalokire = '''
 
 const kanfakche = '''
 
-            Kan fak che
-
 1.Ka beiseina, ka innghahna,
   Hmalam thlir tur min siamsaktu;
   Ka kulhbing sang, ka thlamuanna,
@@ -3719,8 +3502,6 @@ const kanfakche = '''
 ''';
 
 const kanthinlunghi = '''
-
-    Kan thinlung kan hlan che
 
 1.He khawvel zawng leh a ropuina te,
   Vana arsi zawng zanwg te leh;
@@ -3760,8 +3541,6 @@ const kanthinlunghi = '''
 ''';
 const kanunhnarkaitu = '''
 
-      Ka nun hnâr kaitu
-
 1.Lalpa nang lo tu nge ka neih,
   Ka mangan leh ritphurh ka thlenna;
   Ka lâwmna leh hlimna te nên,
@@ -3788,8 +3567,6 @@ const kanunhnarkaitu = '''
   Ka neih chhun aw, ka ngaihlu che.
 ''';
 const kanzaiitan = '''
-
-        Kan zai i tan 
 
 1.Kan damna i ni, 
   kan lungpui nghet chu,
@@ -3839,8 +3616,6 @@ Chawimawi tlak Pathian nung i ni.
 ''';
 
 const karawninhlane = '''
-
-        Ka rawn in hlan e
 
 1.Ka zinna kawng thlaler 
   hmun khawhar
@@ -3899,8 +3674,6 @@ const karawninhlane = '''
 
 const karinchhanLalpan = '''
 
-        Ka rinchhan Lalpa'n
-
 1.Lei hringnun khualzin 
   kawngah hian,
   Natna thlipui ten 
@@ -3939,8 +3712,6 @@ const karinchhanLalpan = '''
 
 const karingzelangche = '''
 
-        Ka ring zel ang che.
-
 1.Israel faten tuipui daikaiin,
   An ei thin thawk lovin;
   Ram ro mahse ei leh in thinin,
@@ -3975,8 +3746,6 @@ const karingzelangche = '''
 ''';
 
 const katawrhhilalpanaphal = '''
-
-        Ka tawrh hi Lalpan a phal
 
 1.Khawvel lungngaihna te leh 
   buaina karah ah hian,
@@ -4015,8 +3784,6 @@ const katawrhhilalpanaphal = '''
 ''';
 
 const katlingsilo = '''
-
-          Ka tling si lo
 
 1.I hmangaihna thuk zia 
   ka han dawn chang hian,
@@ -4064,8 +3831,6 @@ const katlingsilo = '''
 ''';
 
 const kathinglungahanung = '''
-
-        Ka thinlungah a nung
 
 1.Vante khian i ropui zia an lan tir,
   Leilung leh tuifinriat i ta an ni;
@@ -4129,8 +3894,6 @@ ka thinlungah a nung.
 ''';
 
 const kathupuiber = '''
-            
-            Ka thupui ber
 
 1.Ramtiam lam panin chaklo tak 
   chungin nitin ka kal a,
@@ -4161,9 +3924,6 @@ const kathupuiber = '''
 ''';
 
 const kazawngzawnghianfakcheanuam = '''
-
-        Ka zawng zawng hian fak che 
-                  a nuam 
 
 1.Lalpa, tu nge maw ka nih a 
   mi hriat?
@@ -4203,8 +3963,6 @@ const kazawngzawnghianfakcheanuam = '''
 ''';
 
 const khawngaihna = '''
-
-          Khawngaihna
 
 1.Ani chuan kan thiltih angte ni loin,
   Ama duhdan leh remruat ang zelin;
@@ -4252,8 +4010,6 @@ const khawngaihna = '''
 ''';
 const krawkawng = '''
 
-        KRAWS KAWNG
-
 1.Ka khualzin kawng ka vahvaihna,
   Ka Pa lalram a ni si lo;
   Amah ngei vahvaihna a nih vangin,
@@ -4294,8 +4050,6 @@ const krawkawng = '''
 ''';
 
 const lalpaathaani = '''
-
-                Lalpa atha ani
 
 1.Ka hringnun chhui chang hian 
   lungawi a har mang e,
@@ -4338,8 +4092,6 @@ const lalpaathaani = '''
 
 const lalpaatha = '''
 
-          Lalpa atha
-
 1.Hlauhna leh lungngaihna ten 
   ka nun min chim lai leh,
   Buaina leh mangannate lo thleng 
@@ -4370,8 +4122,6 @@ const lalpaatha = '''
 ''';
 
 const lalpathatna = '''
-
-        Lalpa thatna
 
 1.Ka hmangaih che, 
   i khawngaihna tlai ve ngai lo,
@@ -4418,8 +4168,6 @@ const lalpathatna = '''
 
 const lalpaini = '''
 
-          Lalpa ini
-
 1.Ka eng leh chhandamna I ni, 
   Ka hlau tawp lovang; 
   Ka chakna ber I ni Lalpa, 
@@ -4449,8 +4197,6 @@ const lalpaini = '''
 ''';
 
 const lalpamihriat = '''
-
-        Lalpa mi hriat 
 
 1.Mihringte thlir danah buai 
   thin mah ila,
@@ -4492,8 +4238,6 @@ const lalpamihriat = '''
 
 const lalpaminhria = '''
 
-          Lalpa'n min hria 
-
 1.Lapa'n min hria a mak ka ti thin,
   Lei leh vana lalber hriat nih hi;
   Ka dawn, ka chhuichhuak thiam 
@@ -4526,8 +4270,6 @@ const lalpaminhria = '''
 ''';
 
 const lalparemruat = '''
-
-                Lalpa remruat 
 
 1,Hlim ni herliam in lungngaih niin 
   kan khar leh thin,
@@ -4568,8 +4310,6 @@ const lalparemruat = '''
 
 const minchhungkhatla = '''
 
-        Min chhung khat la
-
 1.Min chhungkhat la,
   Khawngaihna leh hmangaihna 
   a khatin;
@@ -4603,8 +4343,6 @@ const minchhungkhatla = '''
 ''';
 
 const mindilsakthin = '''
-
-        Min dilsak thin 
 
 1.Lungngaih vanga thlan thisen ang 
   far dawn khan,
@@ -4651,9 +4389,6 @@ const mindilsakthin = '''
 
 const minhmangaihlohItheilo = '''
 
-    
-      Min hmangaih loh i thei lo
-
 1.Awm thei lo, i awm lohna hmun,
   Awm lohna i nei si lo;
   Nangma'n engkim min tanin,
@@ -4696,8 +4431,6 @@ const minhmangaihlohItheilo = '''
 
 const minhmangaihsia = '''
 
-      Min hmangaih si a
-
 1.I khawngaih kraws kawng zawh in, 
   I rawngbawl lamtluang ka chhui,
   Kawng nuam leh hahdam 
@@ -4734,8 +4467,6 @@ const minhmangaihsia = '''
 
 const minhruailakazuiangche = '''
 
-      Min hruai la ka zui ang che
-
 1.Min hruai la ka zui ang che,
   Min tirhna ah ka kal ang;
   Ka nunna hi nangmah tan chauh,
@@ -4759,8 +4490,6 @@ const minhruailakazuiangche = '''
   Chakna thar min pe ang che.
 ''';
 const mintiharhlehrawh = '''
-
-        Min ti harh leh rawh
 
 1.Kan ram thlirin i thinlung 
   kan hliam thin a,
@@ -4801,8 +4530,6 @@ const mintiharhlehrawh = '''
 
 const nangchauhini = '''
 
-        Nang chauh i ni 
-
 1.Khawvelah hian lungngaiin awm 
   thin mah ila,
   Ka Lalpa'n ka mangannate 
@@ -4840,8 +4567,6 @@ const nangchauhini = '''
 ''';
 
 const nangfakzelche = '''
-
-      Nang fak zel che
 
 1.Kan zin na he lei hi zawng
   lungngaihna hmun mai lo ni,
@@ -4888,8 +4613,6 @@ const nangfakzelche = '''
 ''';
 
 const nangkahimnainisi = '''
-               
-        Nang ka himna i ni si.
 
 1.Manganna tawhin buainaten 
   min chim,
@@ -4924,8 +4647,6 @@ const nangkahimnainisi = '''
   i awm ang.
 ''';
 const nangnenchuan = '''
-
-      Nang nen chuan
 
 1.Nang nen chuan khawi hmunah 
   pawh,
@@ -4967,9 +4688,6 @@ const nangnenchuan = '''
 
 const nazareth = '''
 
-      
-        Nazareth
-
 1.Lal Isua hring chan niah khan,
   Nazarethah a seilian;
   Hun leh ni hmang zo mahsela,
@@ -5003,9 +4721,6 @@ const nazareth = '''
 ''';
 const nitinhian = '''
 
-  
-    Nitin hian
-
 1.Ka nunna i tlan a,
   Boralna lak ata,
   Hliama ka awm min kalsan lo,
@@ -5034,8 +4749,6 @@ const nitinhian = '''
 ''';
 
 const pathianhmelduhawm = '''
-
-          Pathian hmel 
 
 1.Thim zingah thuin, 
   mangang ritphur in,
@@ -5071,9 +4784,6 @@ const pathianhmelduhawm = '''
 
 const pathianhnenata = '''
 
-        Pathian hnen ata ka bo hnu 
-
-
 1.Pathian hnen ata ka bo hnu,
   Tunah ka lo haw;
   Sual kawng thuk tak mai 
@@ -5104,8 +4814,6 @@ const pathianhnenata = '''
 
 const phulohmangaihna = '''
 
-        Phuloh hmangaihna chu
-
 1.Ka Lalpa'n tuihal dang charin
   Ka Kross puin, Hlinglukhum nen,
   Kalvari tlang panin a kal
@@ -5130,8 +4838,6 @@ const phulohmangaihna = '''
 
 const rabboni = '''
 
-                Rabboni
-       
 1.Hringnun tlai lamah hian,
   harsatna zunzamin min zem;
   Kan taksa khawnvar pawh 
@@ -5161,9 +4867,6 @@ const rabboni = '''
 ''';
 
 const rimawiropuiber = '''
-
-        
-         Rimawi ropui ber
 
 1.Tlang tin chuanin mual tin 
   hruta hawi vel in,
@@ -5203,8 +4906,6 @@ const rimawiropuiber = '''
 
 const rohluisuakanei = '''
 
-      ROHLU ISUA KA NEI
-
 1.Engnge ka lungngaih ang,
   Engnge ka hlauh ang;
   Engahnge ka buai fo ang le,
@@ -5234,8 +4935,6 @@ const rohluisuakanei = '''
 ''';
 
 const siamduatlai = '''
-
-          Siamtu duatlai 
 
 1.Zingtian bawhar zai lo sa a,
   Hai ang thangin khua ka chuan a;
@@ -5277,8 +4976,6 @@ const siamduatlai = '''
 
 const thianthaberisua = '''
 
-      Thian tha ber Isua
-
 1.Manganna in min tuam lai leh,
   Lungngaihna lo thlen changin;
   Hei hian in min thlamuan fo 
@@ -5310,8 +5007,6 @@ const thianthaberisua = '''
 ''';
 
 const thleibikaneilo = '''
-
-        THLEI A BIK NEI LO
 
 1.Mi sual ber pawh min hmangaih hi 
   amak ka ti Lalpa,
@@ -5350,8 +5045,6 @@ const thleibikaneilo = '''
 
 ''';
 const tlawmluamahla = '''
-      
-        Tlawm lua mah la
 
 1.Ka lungngaihna hrethiam turin,
   Gesmaniah i lungngai a;
@@ -5385,8 +5078,6 @@ const tlawmluamahla = '''
 ''';
 
 const uirenu = '''
-
-            Uire Nu 
 
 1.Mi tam tak authawm chu ka hria, 
   en teh mi tute nge ni ang?
@@ -5438,8 +5129,6 @@ const uirenu = '''
 
 const vanruahtui = '''
 
-        Van ruahtui
-
 1.Ka nun hi lungngaiin a rum a,
   Ṭhal lei iangin a ro ta e;
   Ka thinlung pawh riakmaw 
@@ -5469,8 +5158,6 @@ const vanruahtui = '''
 ''';
 
 const atholehta = '''
-
-          A tho leh ta e
 
 1.  Hliamin a awm, na tak tuarin Kalvari lam a pan e, 
     Hmusit takin an tawrh tira, 
@@ -5517,9 +5204,6 @@ Halleluiah! min hneh sak ta e.
 
 const isuaatelve = '''
 
-                Isua a tel ve
- 
-
 1.  Ka thinlung ril hian chhan sen loh zawhna, 
     A dawng thin, mahse, ka chhang thiam lo,
     "Eng vangin nge maw?" tia inzawtin, 
@@ -5546,8 +5230,6 @@ const isuaatelve = '''
 ''';
 
 const awthalai = '''
-
-                Aw thalai
 
 1.  Aw thalai, hringnun i dawn thin a, 
     Aw thalai, hma hun i thlir thin a, 
@@ -5587,8 +5269,6 @@ const awthalai = '''
 
 const awisu = '''
 
-              Aw Isu
-
 1.  Min hruaitu i ni, min thlamuantu i ni,
     Min vengtu i ni, hlauhawmah i hnai thin;
     Zan thim karah pawh muangtein ka awm thin,
@@ -5615,8 +5295,6 @@ const awisu = '''
 ''';
 
 const maltinsawmtu = '''
-
-            Maltinsawmtu 
 
 1.  Zingtian kawl eng ri riaiah, 
     Muang leh hlimte'n nau ang lo tho vin lungkham lo te'n; 
@@ -5648,8 +5326,6 @@ const maltinsawmtu = '''
 
 const hringnun = '''
 
-            Hring nun
-
 1.  Panlai nun dawn kira nunhlui liamhnu chhuiin, 
     A lang e puanlem iang thinlai rilah fiah ngei e; 
     Sikul run in hliap zar hnuaiah nau ang chaiin kan nui, 
@@ -5680,8 +5356,6 @@ const hringnun = '''
 
 const ihruaitheiin = '''
 
-            I hruai theihin
-
 1.  Ka hringnun hi ka dâwn a kawng zâl leh nuam a awm,
     A châng erawh a kawng a chhukchhova;
     Mahse, hêng hun zawng hian maw hei hi min hmuhtir thin,
@@ -5707,9 +5381,6 @@ const ihruaitheiin = '''
 ''';
 
 const chawimawikaphutlo = '''
-
-            Chawimawina ka phut lo
-
 
 1.	Ka thlir țhin kan dinhmun, 
     Rethei Pachhia ka ni; 
@@ -5741,8 +5412,6 @@ const chawimawikaphutlo = '''
 ''';
 
 const beiseina = '''
-
-            BEISEINA
 
 1.  Hringnun hi ka dawn nawn fo thin 
     Nun dan thiam famkim awm thei maw 
@@ -5787,8 +5456,6 @@ const beiseina = '''
 
 const nuntobul = '''
 
-            Nun tobul
-
 1.  Vawiin ka buaina hian kumkhua a daih dawnlo, 
     Ni thar a lo chhuak a, hunin herliam pui ṭhin, 
     Hnah hlui an ṭil zova, hnah thar lo chawr ang hian, 
@@ -5815,8 +5482,6 @@ const nuntobul = '''
 ''';
 
 const kathlangsual = '''
-
-          Ka thlang sual lo
 
 1.	He ka nun kawng ka dâwn chang hian 
     Lal Isua ka lo thlang hi 
@@ -5846,9 +5511,6 @@ const kathlangsual = '''
 
 const kalawmnaber = '''
 
-      Ka lawmna ber
-
-
 1.  Harsatna leh lungngaihna a lo thleng a, 
     Thawpik leh ruma ka awm laiin;
     Min hriattir thin ka Lalpa'n, 
@@ -5874,8 +5536,6 @@ const kalawmnaber = '''
 ''';
 
 const malinkaawmlo = '''
-
-            Malin ka awm lawng
 
 1.  Tui thuk tak ka dai lai pawhin, 
     Ka hnenah i awm ka hria;
@@ -5926,8 +5586,6 @@ Min kalsan ngai lo vang.
 
 const krosthiltih = '''
 
-          Krows thiltihtheina
-
 1.  Kraws thiltihtheihna chhun engah,
     Ka ding ngam lo ka mualpho ta;
     Kalvari kraws zuna uaiin
@@ -5958,8 +5616,6 @@ const krosthiltih = '''
 
 const karinchhan = '''
 
-            Ka rinchhan lalpa
-
 1.  Lei hringnun khualzin kawngah hian, 
     Natna thlipui ten min nuai mahse;
     Ka vui mawlh lo Lalpa, 
@@ -5988,8 +5644,6 @@ const karinchhan = '''
 
 const kathlarauachawm = '''
 
-            Ka thlarau a chawm leh thin
-
 1.  Lei hringnun sualna leh khawvel ka chen thin te kha,
     Hnutiang chhawna hmatiang lam pan turin;
     Oh..oh..o..Lal Isua ka chhar ta, 
@@ -6016,8 +5670,6 @@ const kathlarauachawm = '''
 ''';
 
 const thlarauvin = '''
-
-            Thlarauvin  min hruai rawh
 
 1.  Zan khawthim iang lungngaihna ten,
     Ka vel thimin a bawm a;
@@ -6050,8 +5702,6 @@ const thlarauvin = '''
 
 const kapawnlam = '''
 
-              Ka pawn lam lan dan
-
 1.  Ka pawn lam lan dan hi mawi in lang thin mahse, 
     Chhungril erawh Lalpa, i hmuhfiah kha i hria;
     A bawlhhlawh zia hre reng chung si hian,
@@ -6076,8 +5726,6 @@ const kapawnlam = '''
 ''';
 
 const fakna = '''
-
-            Fakna zawng
 
 Fakna zawng kan Lalpa tan,
 Chawimawina hla tinreng nen lungrualin,
@@ -6151,8 +5799,6 @@ Fakna zawng, fakna kan Lalpa tan.
 
 const ilamah = '''
 
-            I lam kan lo hawi
-
 1.  Aw Lalpa, i lam kan lo hawi, 
     Nangmah lam chauh kan rawn thlir e;
     Kan ram hi a rum a ni, 
@@ -6180,8 +5826,6 @@ const ilamah = '''
 ''';
 
 const ivanin = '''
-
-          I VAN IN A RAWNGBAWLTU 
 
 Ramzau taka roreltu Lalropui nih aichuan 
 I van in nuama rawngbawltu nih ka duh 
@@ -6213,8 +5857,6 @@ Tunah ka rawn inhlan Lalpa
 ''';
 
 const tihnghin = '''
-
-            Tihnghin rual loh
 
 1.  "Harsatna tawk lo chhungkua tunge awm le?"
     Tiin ka chhut vela,
@@ -6248,9 +5890,6 @@ const danceLyrics = {
 
 const ape = '''
 
-              Ape
-
-
 1.Setana leh a hote'n nitin 
   in hnathawh,
   Tunah bansan ru;
@@ -6279,9 +5918,6 @@ const ape = '''
 ''';
 
 const chachalaeipasie = '''
-
-      Chachâh lâ ei pasie 
-      chavei lâ ei pa hie
 
 1.Chachâh lâ ei pasie, 
   Chavei lâ ei pahie;
@@ -6312,9 +5948,6 @@ const chachalaeipasie = '''
 
 const eireithailymaaw = '''
 
-
-    EI REITHAI LYMÂ AW
-
 1.Ei theina zydua ta, 
   Zisu ei reithai aw;
   Reipasaona hlu hrasala, 
@@ -6336,9 +5969,6 @@ const eireithailymaaw = '''
 
 const hallelujah = '''
 
-
-      Hallelujah
-
 Hallelujah x3
 Ryu A reih.
 
@@ -6356,8 +5986,6 @@ Ngiachhiena ta pachhapa châ pi.
 ''';
 
 const hlimnakim = '''
-
-        Hlimna kim 
 
 Lungngaite tan thlamuanna famkim,
 Pachhiate tan a engkim;
@@ -6431,9 +6059,7 @@ Isu, Isu, lawmna ropui min petu, Isu.
 
 ''';
 
-const nahrolialynanakhoma = '''        
-         
-Na hro lia lyna na kho ma
+const nahrolialynanakhoma = '''
 
 1.Na hro lia lyna na kho ma?
 Lyna dia bei leipa cha.
@@ -6453,8 +6079,6 @@ Thlatlôna dia bei leipa cha.
 ''';
 
 const naliaatoeitaothei = '''
-
-    Nâ lia ato ei taothei
 
 1.Nâ lia ato ei taothei
   hmoto ei taothei
@@ -6477,8 +6101,6 @@ const naliaatoeitaothei = '''
 ''';
 
 const tuinungluichu = '''
-
-     Tuinung lui chu ka lo nei ta,
 
 1.Tuinung lui chu ka lo nei ta,
   Chatuana kang ngai lo tur chu,

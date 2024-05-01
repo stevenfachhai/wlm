@@ -794,7 +794,7 @@ const songInfo = [
   },
   {
     'id': '1017',
-    'title': 'Ei va o lathloh',
+    'title': 'Ei va o lâthlôh',
     'language': 'mara',
     'lyrics': eivaolathlo,
     'link': 'https://youtu.be/TeT0iLCm4go',
