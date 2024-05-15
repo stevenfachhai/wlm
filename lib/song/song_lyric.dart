@@ -2135,31 +2135,31 @@ const zisuhneieikhoh = '''
 
 const eihronabei = '''
 
-1.  Ei hrona bei ei cha pakho 
-    Rohna na ei cha se
-    Hlo lakho ei my lei nawpa
-    Kalvary la na chhi
+1.  Ei hrona bei ei cha pakho, 
+    Rôhna nâ eih châ se;
+    Hlo lakho ei my lei nawpa,
+    Kalvary lâ nâ chhi.
 
-          Chorus
-          Ketsemani my lei nawpa
-          Na taona ei my lei nawpa.
-          Na kyhpacha my lei nawpa
-          Kalvary la na chhi
+            Chorus
+            Ketsemani my lei n’awpa,
+            Na taona ei my lei n’awpa;
+            Na kyhpachâ my lei n’awpa,
+            Kalvary lâ nâ chhi.
 
-2.  Na pahnosa na zia na su
-    Mothli tla na suh cha.
-    Valyucha pongyu bu zy ta
-    Thla ama vaihna suh
+2.  Na pahnosa nâ ziana su,
+    Mothlih tla na su cha;
+    Vâlyuhchâ poh ngyuh buzy ta,
+    Thlâ ama vaih na su.
 
-3.  Mari haw pacharo hey lia
-    Ei thlapa ei Chaw hla
-    Thlaruapa na pamosa la
-    Kalvary la tlokhei
+3.  Mari hawh pachârôh hry lia,
+    Ei thlahpa ei chaw hlâ;
+    Thlâ ruapa na pamosa la,
+    Kalvary na tlôkhei.
 
-4.  Noto kraws apu awpata
-    Ei ma haw hy beipa
-    Pacharo nyu ei do awpa
-    Na ta do khai tlo chi
+4.  Noh to kraws apu awpata,
+    Ei mâ haw, hy Beipa;
+    Pachârôh nyu ei do awpa,
+    Nâ ta doh khai tlôh chi.
 
 
 ''';
@@ -2277,7 +2277,7 @@ const khizawkhaipa = '''
         Halleluia Amen
  
 2. Saw châna taih na pie chi
-    Khizaw ta apie thei leipa;
+    Khizaw ta pie thei leipa;
     Thina tawhta hrona lâ,
     Nâma lia hro hra awpa ta 
     Zisu Na hro kei châ na hlâ.
@@ -2295,25 +2295,31 @@ const khizawkhaipa = '''
 const beipatamiah = '''
 
 1.  Hy Beipa na thisaisoh tana chatlai pazy,
-    Khizaw pawngiana tlaichhaita na chatlei sai ei;
-    Pachhana pahno leita sahlupi zy ama khohai.
+    Khizaw pawngiana tlaichhaita na chatlei 
+    sai ei;
+    Pachhana pahno leita sahlupi zy 
+    ama khohai.
 
     Bei Krista awnanohzy thyu ula mo kha u,
     Thazei panaopata eima y thlathli aw ma?
-    Sai ula lyuzy mo tu,hria aw pata ama ma khai haw.
+    Sai ula lyuzy mo tu,
+    hria aw pata ama ma khai haw.
 
-        Ahy sie aw?Bei pata mia a aw,
-        Akyhpachana bie chho awpata;
-        Khizaw hmozy hno chhy ta Beipa;
-        Cha hria awpa Krista thyutliazy Bei pata mia akho.
+            Ahy sie aw?Bei pata mia a aw,
+            Akyhpachana bie chho awpata;
+            Khizaw hmozy hno chhy ta Beipa;
+            Cha hria awpa Krista thyutliazy 
+            Bei pata mia akho.
 
 2.  Ngiapa tupa zy hnota Beipa bietah pacha,
-    Molei sei chana liata atahpa zy hnota; marathyutlia.com
-    Khaina bie pahno sata pachh'aw pata bie miachho haw.
+    Molei sei chana liata atahpa zy hnota; 
+    Khaina bie pahno sata pachh'aw pata 
+    bie miachho haw.
 
 3.  Mothli tla na chota sachi ahie tupa zy,
     Chana chota sachi pua khei ty hra ei sala,
-    Ama sapia zy chhaota vango khi lia eima hmo awh.
+    Ama sapia zy chhaota vango khi lia 
+    eima hmo awh.
 
 
 ''';
@@ -2329,24 +2335,24 @@ const khazohkyhpacharohna = '''
     Leidia sawzy thlahlôhna pie,
     Ama molei ngiahthai.
     
-          A thuta hy, a sah kaw dia,
+          A thuta hy, â sâh kaw dia,
           Khazoh kyhpachâna;
-          Chhazaw chhaota lo neih aw vei,
-          Vâ angelzy hla cha.
+          Chhâzaw chhaota lo beih aw vei,
+          Vâ Angelzy hla cha.
 
 
 2.  Râh rôhnah nah lei beidyuchhai,
     Ama nawh aw, daihti lei aw;
     Ahyrai thlachhâh khoh leipa,
-    Tlâh nah lôzy ama chhai aw.
-    Lo leita a luah lyma aw,
+    Tlâh nah lôzy amâ chhai aw.
+    Lo leita â luah lymâ aw,
     Khazoh kyhpachâna;
     Adâh pathla chatlaina pie,
-    Vâ angelzy hla cha.
+    Vâ Angelzy hla cha.
 
 
-3.  Tilaipi he chati châ se,
-    Ro nawpata thochiah zydua;
+3.  Tilaipi he châti châ se,
+    Ro n'awpa ta thochiah zydua;
     Avâ khi roleipa châ se,
     Rohtuh awpa chyhsa to rai.
     A kyhpachâna phuah sala,
@@ -2455,6 +2461,7 @@ const mizoLyrics = {
   95: ilamah,
   96: ivanin,
   97: tihnghin,
+  98: minngaihdam,
 };
 
 const ahmangaihnaaloni = '''
@@ -5873,6 +5880,37 @@ const tihnghin = '''
     Nitin maichawm mit lo vin;
     Mahse, he khawvel Setan lalna ramah hianin,
     Mittui a luang fo thin, Lalpa, kan ngai em che.
+
+
+''';
+
+const minngaihdam = '''
+
+1.  Ka rilru, ka taksa, ka ngaihtuahna thinlung
+    Ka hun hlu neih zawng leh ka vanglai 
+    nite nen:
+    Ka Lal tan hmang lovin, 
+    khawvel chu chenin, 
+    Hlimna, lawmna, muanna a awm 
+    chuang si lo.
+
+            Min ngaidam ang che Lalpa, 
+            min ngaidam rawh, 
+            Ka vahbo san rei em che 
+            l tan ka nung ngai lo;
+            I hmel eng ngei kha Lalpa, 
+            min hmuhtir leh la, 
+            l angchhung muannaah khan 
+            min chentir leh ang che.
+
+2.  Ka tana I thatna, min khawngaih, 
+    lainatna, 
+    Ka thinlung chhungrilah hrereng 
+    mah ilangin;
+    Ka Lalpa i duhzawng thiltih 
+    ka nei lo, 
+    I tana nung turin min hruai 
+    leh ang che.
 
 
 ''';

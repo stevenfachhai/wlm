@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:wlm/screens/lyrics_screen.dart';
+import 'package:wlm/screens/lyrics_screen/lyrics_screen.dart';
 import 'package:wlm/song/song.dart';
 import 'package:wlm/song/song_info.dart';
 

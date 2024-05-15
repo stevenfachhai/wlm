@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:wlm/screens/favourite_screen.dart';
 import 'package:wlm/screens/titles_screen/titles_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import 'favorite_screen/favorite_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -117,7 +118,7 @@ class HomeScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => FavoriteScreen()),
+                            builder: (context) => const FavoriteScreen()),
                       );
                     },
                     child: Container(
@@ -130,7 +131,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                           borderRadius: BorderRadius.circular(6.0)),
                       child: Text(
-                        'Favourite',
+                        'Favorite',
                         style: GoogleFonts.libreBaskerville(
                           fontSize: 25,
                           color: Color.fromARGB(255, 248, 246, 245),

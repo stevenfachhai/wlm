@@ -1,4 +1,15 @@
+import 'package:wlm/song/song.dart';
 import 'package:wlm/song/song_lyric.dart';
+
+Song getSongFromId(String id) {
+  final song = songInfo.firstWhere((song) => song['id'] == id);
+  return Song(
+    id: song['id']!,
+    title: song['title']!,
+    lyrics: song['lyrics']!,
+    link: song['link']!,
+  );
+}
 
 const songInfo = [
   {
@@ -679,6 +690,13 @@ const songInfo = [
     'language': 'mizo',
     'lyrics': tihnghin,
     'link': 'https://youtu.be/y_GhRN3DOyo?si=AhQjIq6fDnoN0JAc',
+  },
+  {
+    'id': '0098',
+    'title': 'Min Ngaidam Ang Che Lalpa',
+    'language': 'mizo',
+    'lyrics': minngaihdam,
+    'link': 'https://youtu.be/oy-ho53rDGc?si=Fol6vWcHHRhHqj_F',
   },
   {
     'id': '1001',

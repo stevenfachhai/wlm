@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wlm/screens/titles_screen/titles_screen_manager.dart';
-import '../lyrics_screen.dart';
+import '../lyrics_screen/lyrics_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class TitlesScreen extends StatefulWidget {
@@ -47,7 +47,7 @@ class _TitlesScreenState extends State<TitlesScreen> {
               hintText: 'search',
               suffixIcon: const Icon(Icons.search),
               filled: true,
-              fillColor: Colors.grey.shade200, //<-- SEE HERE
+              fillColor: Colors.grey.shade200,
             ),
           ),
           Expanded(
@@ -65,15 +65,13 @@ class _TitlesScreenState extends State<TitlesScreen> {
                             style: const TextStyle(fontSize: 17),
                           ),
                           onTap: () {
-                            final song =
-                                manager.getSong(title); // Retrieve Song object
+                            final song = manager.getSong(title);
 
                             Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => LyricsScreen(
-                                  song:
-                                      song, // Pass Song object to LyricsScreen
+                                  song: song,
                                 ),
                               ),
                             );
@@ -85,6 +83,19 @@ class _TitlesScreenState extends State<TitlesScreen> {
                 }),
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.popUntil(context, (route) => route.isFirst);
+        },
+        child: const Icon(Icons.home),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: BottomAppBar(
+        shape: const CircularNotchedRectangle(),
+        child: Container(
+          height: 50.0,
+        ),
       ),
     );
   }
