@@ -1224,6 +1224,27 @@ const songInfo = [
     'link': 'https://youtu.be/V-2Wcn6TbJQ?si=dvxN-nl67FuJ663Y',
   },
   {
+    'id': '1076',
+    'title': 'Shout to the Lord',
+    'language': 'mara',
+    'lyrics': shoutout,
+    'link': '',
+  },
+  {
+    'id': '1077',
+    'title': 'Bei Zisu Kypachana',
+    'language': 'mara',
+    'lyrics': beizisukyh,
+    'link': '',
+  },
+  {
+    'id': '1078',
+    'title': 'Your beautiful(NÂ NGIACHAI NA)',
+    'language': 'mara',
+    'lyrics': nangia,
+    'link': '',
+  },
+  {
     'id': '2001',
     'title': 'Ape',
     'language': 'dance',

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:wlm/screens/favorite_screen/favorite_screen_manager.dart';
 import 'package:wlm/screens/lyrics_screen/lyrics_screen.dart';
-import 'package:wlm/song/song.dart';
 import 'package:wlm/song/song_info.dart';
 
 class FavoriteScreen extends StatefulWidget {

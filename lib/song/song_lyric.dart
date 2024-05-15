@@ -73,6 +73,8 @@ const maraLyrics = {
   72: reithainazy,
   73: khizawkhaipa,
   74: beipatamiah,
+  75: shoutout,
+  76: beizisukyh,
 };
 const akuthatlonachhohlia = '''
           
@@ -2359,6 +2361,118 @@ const khazohkyhpacharohna = '''
     A kua khai aw, tilai chhao;
     A tlôh aw vei, a chyh tu aw,
     Phuah khai tiah aw veih ei.
+
+
+''';
+
+const shoutout = '''
+
+Shout to the Lord
+(Reithai teh u khizaw zydua)
+
+Bei Zisu, Pachhatuh
+Nâ hawhpa rai y vei ei
+Ei Hrozô chhâhkha liana heta
+Na rônahzie reithai ei khoh.
+
+ Lôhngâhna ei bohna
+ Ku ngâchhihpa thatlôpa
+ Ei theina zydua ei chânazy chhao
+ Na rônahna reithai se.
+
+
+  (Chorus)
+   Reithai teh u khizaw zydua sai u
+   Rônahna Beipa cha reithai suh vy
+   Tilaipi nata tlâhpipa zy chhao,
+   Chalyu ei na moh vâ,
+   Na hmotao rôhna vâ ei cha reithai
+   Chhâzaw taih chhao kyh ei cha pachâ 
+   aw
+   Nâ hawhta  ngâchhihpa rai y vei ei,
+   ZISU.
+
+
+''';
+
+const beizisukyh = '''
+
+Bei Zisu Kypachana
+
+1.  Hro thachhâ ta nâ rôh ma?
+    Hnabeidy ta na chah ma,
+    Bei Zisu kyhpachâna ta cha hâ; 
+    Hruatuhpazy dytha vei,
+    Hawtupa chhao y hlei vei;
+    Bei Zisu kyhpachâna he no-âh chhi.
+
+          Bei Zisu he hy angia cchaina,
+          Hlo lakho ta pakho hr'eisala
+          Ei Bei ei pachhatuh cha
+          Ei reithai aw chhâzaw ta
+          Haleluiah tah ta ei'reithai aw
+
+2.  Chieleina ei tyh châh nah,
+    Thachhâ ta ei y châh chhao;
+    Bei Zisu kyhpachâna a daih na,
+    Keidei na pathlua bei vei;
+    Zâ zohpa chhao Ano nah,
+    Thlalôh ta ei sie Ano ei viasa 'châ.
+
+3.  Khâpa hma byu khao vana,
+    Na kyhpachâ ku ngâlah;
+    Hy Zisu kei châ adaih khizaw lia,
+    Vâsu rônah tlôna taih;
+    He he ei chhâzaw hlâ'pa,
+    Bei Zisu kyhpachâna he asôh chai.
+
+
+''';
+
+const nangia = '''
+
+NÂ NGIACHAI NA
+
+My khih vawdeih ta na hmia ei hmô
+Na taopa angia zie na mo amâ dyh tlaina
+Noh kawchhipa ta navaw pahra ta
+Avâ moh na' heta ei reih
+
+Nâ ngiachai na
+Oh oh.... (x4)
+
+Chôthlapi nata awhsi zyta
+Na hmotao theina rônah zie ama palâsa
+No-âhchhi avâ kawh ngaitapazy ta
+Ahy na châ palâsa ei
+
+Nâ ngiachai na
+Oh oh.... (x4)
+
+Kraws lia chaluahpa ta ei cha hmô
+Kei châ taopa ta thi chita kei châ na thyu hei
+Tahmâ nâ Bei dyuchhai lia atyu chi
+Thlai ta eimâ kaw di hra aw
+
+Nâ ngiachai na
+Oh oh.... (x4)
+
+Bridge:
+Na chhâzaw su eima kawtlô ti cha
+Thina nata mothlih tlana y khao bei aw vei
+Na myuhzy na hnohta eima kiah aw
+Heta nâ cha reithai awpi
+
+Nâ ngiachai na
+Oh oh.... (x4)
+
+Na hmia ei hmô, nâ ngiachai na
+Nâ ngiachai na
+Nâ ngiachai na
+
+Na hmia ei hmô, nâ ngiachai na
+Nâ ngiachai na
+Nâ ngiachai na
 
 
 ''';
