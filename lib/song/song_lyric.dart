@@ -2576,6 +2576,8 @@ const mizoLyrics = {
   96: ivanin,
   97: tihnghin,
   98: minngaihdam,
+  99: minlokai,
+  100: karingche,
 };
 
 const ahmangaihnaaloni = '''
@@ -2583,7 +2585,7 @@ const ahmangaihnaaloni = '''
 1.Ka Lalpa min hruaina hi,
   Thu in ka hril seng dawn lo;
   Ka zai leh ka banphar te 
-  zawng pawhin,
+  zawng pawh hian,
   A hmangaih an hril seng lo.
 
         Min hmangaihna chhiar dawn 
@@ -2595,12 +2597,12 @@ const ahmangaihnaaloni = '''
 
 2.A malsawm ka chhiar seng lo,
   Ka mamawh chitin min pe;
-  Lamtluang thim leh zim ka zawh 
+  Lamtluang zim leh thim ka zawh 
   lai pawhin,
   A hmangaih banin min kai thin.
 
-3.Ka hmabak ka en zel a,
-  Doral lian a tlawm zel a;
+3.Ka hmabak a eng zel ang,
+  Doral lian a tlawm zel ang;
   Ka rin leh ka beisei te aia sangin,
   Min la chawisang zel dawn si.
 
@@ -2620,7 +2622,7 @@ const anhrilhfiah = '''
         min hmangaih tih a hrilhfiah,
         Misual ber hi nangin 
         min hmangaih a;
-        Ka tan i hlu i tan ka hlu tih 
+        Ka tan I hlu I tan ka hlu tih 
         ka hria,
         Lalpa ka va lâwm em.
 
@@ -2633,12 +2635,12 @@ const anhrilhfiah = '''
   Min hmangaih an hrilhfiah.
 
 3.Min hmangaih tih ka hria 
-  i tuarna ah a lang,
+  I tuarna ah a lang,
   Pathian fapa meuh kha nunna 
   kan neih theih nan;
   Thing kross-ah an khai a 
   saruak mualpho berin,
-  Min hmangaih i hrilhfiah.
+  Min hmangaih I hrilhfiah.
 
 
 ''';
@@ -2646,7 +2648,7 @@ const anhrilhfiah = '''
 const amanengkimahminhria = '''
 
 1.Lalpan chiang takin min thlir a,
-  Ka awm dan zawng zawng te hi;
+  Ka awmdan zawng zawngte hi;
   Ka rilru ngaihtuahna zawng nen,
   Ka kal leh ka muthilh lai te;
   Ka hnung lam leh ka hmalam 
@@ -2655,7 +2657,7 @@ const amanengkimahminhria = '''
 
         Aman engkimah min hria e,
         Aman engkimah min hria e;
-        Chutiang em em a 
+        Hetiang em em a 
         hriatchianna chu,
         A sang em a, ka phak lo a ni.
 
@@ -2724,7 +2726,7 @@ const amenSilfaikani = '''
   min phuar zel turin.
 
         Aw, a rawng in,a thlum zia 
-        ka lo va lo hre lo rei em,
+        ka va lo hre lo rei em,
         Kraws thisen a silfai ka nih hi;
         Kraws thisen a silfai ka ni a,
         Sual a phuarte zalen kan ni ta,
@@ -2738,7 +2740,7 @@ const amenSilfaikani = '''
   tih mai hi,
   Chatuan atan nunna a lo ni.
 
-3.Aw, a hlu in, a thlum zia 
+  Aw, a hlu in, a thlum zia 
   ka va lo hre lo rei em,
   Kraws thisen a silfai ka nih hi;
   Kraws thisen a silfai ka ni a,
@@ -2802,7 +2804,7 @@ const awropuiber = '''
         Aw, ropui ber, 
         Siamtu ropui Lalpa,
         Engkim chunga thuneitu 
-        Lal Ropui i ni.
+        Lal Ropui I ni.
 
 2.Leia thil zawng zawng te 
   ka chhui vel thin a,
@@ -2816,14 +2818,13 @@ const awropuiber = '''
         Aw, ropui ber, 
         aw, ropui ber,
         Roreltu ropui i ni.
-
-3.I van, i kutchhuak 
-  ka ngaihtuah changin,
-  I ropui zia a lang thin a,
-  Chung zawng aia mawia siamtu,
-  Halleluiah, ka fak che, 
-  Halleluiah, Halleluiah, Halleluiah 
-  ka fak che.
+        I van, i kutchhuak 
+        ka ngaihtuah changin,
+        I ropui zia a lang thin a,
+        Chung zawng aia mawia siamtu,
+        Halleluiah, ka fak che, 
+        Halleluiah, Halleluiah, Halleluiah 
+        ka fak che.
 
 
 ''';
@@ -2835,7 +2836,7 @@ const bultanminphalsak = '''
   Ka hmaah nunkawng hlen tur 
   hmu chung siin;
   Ka daikai hnute'n min hip thin,
-  Mahse, lungchhirna mai lo chu,
+  Mahse, lungchhir na mai lo chu,
   Leiah hian chan reng ka nei si lo.
 
         Mahse, tunah i lam 
@@ -2854,6 +2855,7 @@ const bultanminphalsak = '''
   Engtiangin ka Lal thinlai na maw?
   Kei misual hian ka lo der che,
   Thingthiin tunah ka lo kir e.
+
         Aw, tunah hian i lam 
         ka rawn pan,
         Nangin kei min lo hnar 
@@ -2870,8 +2872,9 @@ const bultanminphalsak = '''
   I kut chak tak chuan 
   min chelh reng si,
   Hmalam panin ka kal zel ang,
-  I kraws eng chuan min hruai 
+  I kraws eng chuan min hruai zel
   dawn si.
+
           Aw, tunah hian i lam 
           ka rawn pan,
           Nangin kei min lo hnar 
@@ -2885,11 +2888,18 @@ const bultanminphalsak = '''
 
 const chawmawinazawngkahlanche = '''
 
-1.Aw Pa Pathian, engkim siamtu,
-  Fak phu Pathian reng i lo ni e;
-  Ka nihna zawng nen 
-  ka rawn pan a che,
-  Fak hla sa chung zel in.
+1.  Aw Pa Pathian, engkim siamtu,
+    Fak phu Pathian reng i lo ni e;
+    Ka nihna zawng nen 
+    ka rawn pan a che,
+    Fak hla sa chung zel in.
+
+2.  I awmnaah ka lo kal hian,
+    Thinlung bawlhhlawh 
+    min lak bo sak rawh;
+    Krista thisen ka thiamchanna 
+    lo chu,
+    Chhuan tur ka nei si lo.
 
         Chawimawina zawng 
         ka hlan che,
@@ -2898,13 +2908,6 @@ const chawmawinazawngkahlanche = '''
         i hmaah lo kun in,
         Lalpa, ka hmangaih che,
         Lawmna min pekah hian.
-
-2.I awmnaah ka lo kal hian,
-  Thinlung bawlhhlawh 
-  min lak bo sak rawh;
-  Krista thisen ka thiamchanna 
-  lo chu,
-  Chhuan tur ka nei si lo.
 
 3.Leiah vawihnih kan vul dawn lo,
   Kan damlaini a ral hma ngei hian;
@@ -2919,7 +2922,14 @@ const chhandamtuminhruainalamtluang = '''
   lamtluang ka thlir let a,
   Khawngaihna in min chhandam a;
   Khawngaihna in min nun sak thin,
-  Khawngaihna in min enkawl thin.
+  Khawngaihna in min enkawl thin.  
+
+2.Khawngaihna in min thukru in 
+  min awmtlei thin,
+  Damlai hreawm kawng 
+  chhuk chho pawh;
+  Chung muvanlai iang min chawiin,
+  Thlaler ah pawh bikna min siam.
 
         Van lawmna kim 
         ka neih theih nan,
@@ -2928,13 +2938,6 @@ const chhandamtuminhruainalamtluang = '''
         ka hriat theih nan,
         Hringnun nep zia 
         min hriattir thin.
-
-2.Khawngaihna in min thukru in 
-  min awmtlei thin,
-  Damlai hreawm kawng 
-  chhuk chho pawh;
-  Chung muvanlai iang min chawiin,
-  Thlaler ah pawh bikna min siam.
 
 3.Ka hma ah hian fiahna tinreng 
   a rawn tir a,
@@ -2945,7 +2948,7 @@ const chhandamtuminhruainalamtluang = '''
 
 4.Lei lungngaihna pelh 
   kan nghalhlel ringtu ten,
-  Mahse, tihtur min pe;
+  Mahse,Lalpan tihtur min pe;
   Khawngaihna a rawngbawl tur leh,
   Khawvel thim hi tieng tur in.
 
@@ -2990,8 +2993,7 @@ const duhthlannasangber = '''
   Thlarau zawngin peih mahse,
   Tisa erawh a chak si lo,
   Ka hneh zo lo ka tlu leh si thin.
-  (Châng 2-na sak leh nghal tur)
-
+  
 2.Mi rethei ka va han ni em!
   Tu in nge min chhanchhuak ang le?
   Thihna taksa atang hian;
@@ -3015,14 +3017,14 @@ const duhthlannasangber = '''
 
 const engtiaawmtheinge = '''
 
-1.Dawn chang ni hianin thinlai a fan 
-  thin,
-  I hmangaihna hi ka dawn thui 
-  thiam silo;
-  Tihhlum tura lokal, khenbeh tura 
-  piangin,
-  Phumin a awm maw, 
-  Pathian meuh ni si hi!
+1.  Dawn chang ni hianin thinlai a fan 
+    thin,
+    I hmangaihna hi ka dawn thui 
+    thiam silo;
+    Tihhlum tur a lokal, khenbeh tur a 
+    piangin,
+    Phumin a awm maw! 
+    Pathian meuh ni si hi!
 
         Engtia awm thei nge maw 
         hringmi tawnah hian?
@@ -3030,43 +3032,43 @@ const engtiaawmtheinge = '''
         silo maw!
         I hmangaihna a ril hian a ropui 
         ngei e,
-        Misual ber mai pawh i hnar 
+        Misual ber mai pawh I hnar 
         phal si lo maw?
-        Ka phu mawlh love misual kei 
+        Ka phu mawlh lo ve misual kei 
         mai hian,
         I hmangaihna hi.
 
-2.Dawn chang ni hianin lunglai a 
-  zing thin,
-  Ka hmangaihna che tichauh mai 
-  maw lo ni!
-  I tan ka tih ve hi a tlem lua e Lalpa,
-  Engkim hlan che in (aw), a hen 
-  chuang si lo'ng maw!
+2.  Dawn chang ni hianin lunglai a 
+    zing thin,
+    Ka hmangaihna che ti chauh mai 
+    maw lo ni!
+    I tan ka tih ve hi a tlem lua e Lalpa,
+    Engkim hlan che in (aw), a hen 
+    chuang si lo'ng maw!
 ''';
 
 const engvangnge = '''
 
-1.Alpha Omega i ni, 
-  chatuan i tâ a ni a
-  I danglam ngai lova 
-  i pangngai reng
-  Vansang boruak zau tak leh; 
-  Arsi i sipai te khian
-  I ropuizia an hril i kutchhuak te’n.
+1.  Alpha Omega I ni, 
+    chatuan I tâ a ni a
+    I danglam ngai lova 
+    I pangngai reng
+    Vansang boruak zau tak leh; 
+    Arsi I sipai te khian
+    I ropuizia an hril i kutchhuak te’n.
 
         Eng vang nge min hriatreng a?
         Engvang nge min hmangaih le?
         Sual khur thûk ber a mi pawh,
-        Min hmangaih i thulh sîlo,
-        Mak leh ropui i ni.
+        Min hmangaih I thulh sîlo,
+        Mak leh ropui I ni.
 
-2.Lei leh Van a leng lo kha, 
-  Seol ah pawh awm a kha;
-  Thil tê bera changin a va mak êm!!
-  Thisen sêngin min tlan a, 
-  Tlanna famkim zawh zovin,
-  Nunna kan lo nei ta, Haleluia!
+2.  Lei leh Van a leng lo kha, 
+    Seol ah pawh awm a kha;
+    Thil tê ber a changin a va mak êm!!
+    Thisen sêngin min tlan a, 
+    Tlanna famkim thawk zovin,
+    Nunna kan lo nei ta, Haleluia!
 
 
 ''';
@@ -3078,28 +3080,28 @@ const eldoradomizo = '''
   Aw ka nunna hian Lalpa a ngai a ni.
 
         I tello chuan nun a kim lo,
-        Ka zinkawng khawhar ah hian;
-        An sawi nin loh ramnuam 
+        Ka zinkawng khawharah hian;
+        An sawi nin loh ram nuam 
         El Dorado,
         An ngai thin ang hian,
         Lalpa ka ngai em che.
 
 2.Aw ka nun chau rethei tak hian,
-  Hnemtu a ngai a ni;
+  Hnemtu a ngai thin a;
   Aw ka hringnun hian 
   Lalpa a ngai a ni.
 
 3.Hmangaihtu tawnglo 
   nun khawhar,
-  Kei misual leh rethei tan hian;
+  Kei misualleh rethei tan hian;
   Aw lo eng ang che ka nun 
   khawhar ah hian.
 ''';
 
 const hmangaihtu = '''
 
-1.Tunge ka nih Lalpa i hria,
-  Eng nge ka tih thin i hai lo;
+1.Tunge ka nih Lalpa I hria,
+  Eng nge ka tih thin I hai lo;
   Nunhlui liam tawh hnute vanga 
   beidawng thin,
   Sulhnu pawh hmuh tlak awm lo,
@@ -3113,10 +3115,10 @@ const hmangaihtu = '''
         Min hmangaih, min hmangaih,
         Min enkawl a thulh lo,
         A malsawm min vur bang lo ve,
-        Kei mai hian i hmangaih ka phu 
+        Kei mai hian I hmangaih ka phu 
         mawlh lo.
 
-2.Ka duhthlan ka daipelh ten,
+2.Ka duhthlan ka dai pelh ten,
   Ka inchhirna ber min thlen thin;
   Heng hian ba ang min thing se, 
   rul zo maw,
@@ -3130,8 +3132,8 @@ const hringnunkanzinkawngahhian = '''
 
 1.Hringnun kan zin kawngah hian,
   Kan ngai che Thlarau Thianghlim;
-  Min kai la chung van Kanan t
-  hlen thlengin,
+  Min kai la chung van Kanan 
+  thlen thlengin,
   Dam tein min hruai zel rawh.
 
         Thuro iang zaidam nunnem,
@@ -3163,9 +3165,9 @@ const hriatchianlehzualchehi = '''
   Ka tan hian a tha ber e.
 
 2.Ka nunna hi I tan ka hlan e,
-  Ka thiamna hi i tan ka hlan e;
+  Ka thiamna hi I tan ka hlan e;
   Ka neih ro hlu leh 
-  ka hun hlu zawngte hi’tan 
+  ka hun hlu zawngte hi I tan 
   ka hlan e Lalpa
 
           Hriatchian lehzual che hi 
@@ -3186,7 +3188,7 @@ const hriatchianlehzualchehi = '''
 
 4.Midangte tan damna a thlen a,
   Mahse A tan damna a awm lo;
-  A va make m I hmangaihna ropui 
+  A va mak em I hmangaihna ropui 
   hi;
   Ka tan hian a sang lua e.
 ''';
@@ -3203,7 +3205,7 @@ const ihluani = '''
           I hmangaihna hi ka damchhung 
           hla a ni,
           I mi lainatna khawngaihna hian 
-          lairila fan zo e;
+          lairil a fan zo e;
           Engvang hian nge 
           min hriatreng a 
           min hruai zel thin ni le?
@@ -3220,7 +3222,7 @@ const ihluani = '''
 
 3.Ka zui ang che ka damchhung ni
   zawng hian,
-  I hman atan tiin ka rawn inhlan e;
+  I hman atan tiin ka rawn in hlan e;
   Keimahah hian katlang se 
   i hnathawh,
   Chu chu ka ngai hlu ber 
@@ -3234,7 +3236,7 @@ const ilamkanlohawi = '''
   Nangmah lam chauh kan rawn 
   thlir e;
   Kan ram hi a rum a ni,
-  Hlau leh khurin kan awm e,
+  Hlau leh khur in kan awm e,
   Aw Lalpa, nangmah chauh 
   kan beisei e.
 
@@ -3268,13 +3270,13 @@ const indona = '''
 
         Krista mi hruaitu hnehtu Lal ropui chu,
         Ka chakna leh ka thiltihtheihna a ni;
-        Ka zam ngai lo'ng Setan ral hma ah,
-        Hnehna chu ka ta a ni tih ka hria.
+        Ka zam ngai law'ng Setan ral hma ah,
+        Hnehna chu ka ta a nih ka hria.
 
-2.Lehlam lehlam ah lungawi tum a nun hi,
+2.Lehlam lehlam ah lungawi tuma nun hi,
   Mahni himna tur a tih nimahsela;
-  Chhiatna za khua thlentu mai a lo ni si,
-  Tuilairapa awm an dingchhuak ngai love.
+  Chhiatna zakhua thlentu mai a lo ni si,
+  Tuilairapa awm an ding chhuak ngai love.
 
 3.Aw, ka nun rimchhia hi ka va han ning tak em,
   Mahni chu inpawh hram hram thei mah ila;
@@ -3361,7 +3363,7 @@ const kadamlainunkawng = '''
 1.Ka dam lai nun kawng hi Lal Isu,
   Chhiar dan ka thiam theih nan 
   min kai la;
-  I ram ka thlen hmain sualnaten,
+  I ram ka thlen hmain sualna te'n,
   Min beiin chauvin ka buai leh thin.
 
       Chaute hnena chakna pe thintu,
@@ -3377,7 +3379,7 @@ const kadamlainunkawng = '''
   I thlarauvin min tiharh leh la;
   Chak lo leh khawhara ka awmin,
   Min thlamuanin 
-  min tiharh ang che.
+  min ti harh ang che.
 
 3.Khawvel mawinate lo vul mahse,
   Ka tan zawng i hlu ber Lal Isu;
@@ -3541,14 +3543,14 @@ const kalawmelalpa = '''
   Ka lawm e Lalpa, 
   i malsawmna vangin.
 
-  Chenna in tur min buatsaih,
-  Hahchawlhna tur min pe;
-  Ei leh in tur min pe in,
-  Silh leh fen min pe a;
-  Hmangaihna in min hruai thin,
-  Chhungkaw duhawm min pe;
-  Ka lawm e Lalpa, 
-  malsawmna vangin.
+        Chenna in tur min buatsaih,
+        Hahchawlhna tur min pe;
+        Ei leh in tur min pe in,
+        Silh leh fen min pe a;
+        Hmangaihna in min hruai thin,
+        Chhungkaw duhawm min pe;
+        Ka lawm e Lalpa, 
+        malsawmna vangin.
 
   Hausakna chhuan tur ka nei lo,
   Silhfen tha nei lovin;
@@ -3759,7 +3761,8 @@ const karawninhlane = '''
         chu phurin
         I hnenah ka rawn in hlan e.
 
-2.He lei hrehawm an
+2.Ka zinna kawng thlaler hmun khawhar
+  He lei hrehawm an
   Mi chim lungngaih tahna ten
   Sualna hliam chu tuarin nun 
   a lo chau zo
@@ -3876,15 +3879,6 @@ const katawrhhilalpanaphal = '''
   tanpuitu ka au,
   I hmaah ka lo kun e aw ka Lal Isu.
 
-        Ka vahbo san tawh lovang 
-        he khawvel ah hian,
-        Chhandamtu Isua ka nei 
-        ka tana thi kha;
-        Khawvelin min hmusit in min 
-        dem mahse la,
-        Ka chhuang zel fo dawn a ni 
-        ka chhandamtu.
-
 2.Hreawmna ka tawrh zawng te 
   hrethiam duh lovin,
   Ka nawmsakna tur zawngin ka tlan 
@@ -3893,6 +3887,15 @@ const katawrhhilalpanaphal = '''
   reng si,
   Ka tawrh hi Lalpan a phal vui thei 
   ka nilo.
+
+        Ka vahbo san tawh lovang 
+        he khawvel ah hian,
+        Chhandamtu Isua ka nei 
+        ka tana thi kha;
+        Khawvelin min hmusit in min 
+        dem mahse la,
+        Ka chhuang zel fo dawn a ni 
+        Aw ka chhandamtu.
 
 3.Ka nawmsakna tur zawnga rawng 
   ka bawllai in,
@@ -4085,16 +4088,11 @@ const kazawngzawnghianfakcheanuam = '''
 
 const khawngaihna = '''
 
-1.Ani chuan kan thiltih angte ni loin,
+1.Ani chuan kan thiltih angte ni lovin,
   Ama duhdan leh remruat ang zelin;
   A fapaah chuan min lo chhandam 
   si,
   Aw, khawngaihna a va thuk em.
-
-      Mihring thiltihte hi 
-      chhinchhiah la,
-      Lalpa, tunge chhandam 
-      ni thei ang le, Aw Lalpa.
 
 2.Hnathawk lo a Pathian pawh 
   ngaihsak lo,
@@ -4103,6 +4101,12 @@ const khawngaihna = '''
   Ama felnaah ruat a ni si a,
   A va mak em, 
   Lalpa hmangaihna chu.
+
+      Mihring thiltihte hi 
+      chhinchhiah la,
+      Lalpa, tunge chhandam 
+      ni thei ang le, 
+      Aw Lalpa.
 
 3.Keimah lam ka han in en hian 
   Lalpa,
@@ -4137,6 +4141,13 @@ const krawkawng = '''
   Tap chungin kraws kawng 
   ka zawh zel ang.
 
+2.Tuarna pumpelh kawng 
+  zawhtu ten,
+  Kraws nunna hnar an hloh si thin;
+  Ka zin kawng a hrang ngei e, 
+  kham leh suar,
+  A hming pawh luruh hmun a ni si.
+
         Tahna ruam ka zawh hi,
         Ka Pa in panna lam lian a ni;
         Mittui nen ka zin kawng 
@@ -4146,13 +4157,8 @@ const krawkawng = '''
         hliam hnu kha,
         Hmuin hlimin hla mawi 
         ka rem tawh ang.
-
-2.Tuarna pumpelh kawng 
-  zawhtu ten,
-  Kraws nunna hnar an hloh si thin;
-  Ka zin kawng a hrang ngei e, 
-  kham leh suar,
-  A hming pawh luruh hmun a ni si.
+        Tap chungin kraws kawng 
+        ka zawh zel ang.
 
 3.Ka tan kawng dang a awm 
   lo'm ni?
@@ -4162,7 +4168,7 @@ const krawkawng = '''
   Tap chungin kraws kawng 
   ka zawh zel ang.
 
-4.Ka pa hnen ka thlen hunah chuan,
+  Ka pa hnen ka thlen hunah chuan,
   Ka khualzin kawng ka hrilh ang a;
   Ka mittui min hrukfaisak tawh 
   ang a,
@@ -4192,7 +4198,7 @@ const lalpaathaani = '''
         Lalpa a tha a ni.
 
 2.I lam hawi, nang ngaitu i hawisan 
-  ngai lo vang,
+  ngai lo va,
   I hmuhtir thin i ngaihsak zia, 
   i tihsak an sawi thin;
   Kei beisei tur reng nei lo hi, 
@@ -4202,7 +4208,7 @@ const lalpaathaani = '''
 
 3.Nangma lam tantute 
   chhanhim loh ang mahse,
-  Sadraka te i hmuhtir khan i 
+  Sadraka te i hmuhtir kha i 
   chenchilhna an chang;
   Kei pawh Lalpa hei ka duh ber 
   i ke bula awm hi,
@@ -4220,7 +4226,7 @@ const lalpaatha = '''
   Heng hian min hrilh nawn thin hun 
   harsaah pawh min awmpui,
   Min chelh reng thin, 
-  min thlahthlam lo Lalpan.
+  min thlahthlam lo Lalpa'n.
 
         Engkim hian min hmangaih zia 
         min hrilh nawn thin,
@@ -4394,10 +4400,10 @@ const lalparemruat = '''
 
 1,Hlim ni herliam in lungngaih niin 
   kan khar leh thin,
-  Lawm ni herliam in tahniin 
+  Lawm ni herliam in tah ni in 
   kan khar leh thin;
   Hringmi nun a lo ni si, 
-  kan rel leh ruat a lo ni si lo,
+  kan rel leh ruat a ni si lo,
   Min thlir, min hmu, min hrereng si, 
   kan tana tha tura ruat a ni si.
 
@@ -4478,7 +4484,7 @@ const mindilsakthin = '''
         karah;
         Min sawisak leh dawn a ni 
         rorelniah chuan,
-        Ka tan hian, aw, i van hlu em!
+        Ka tan hian, aw, i van han hlu em!
 
 2.Tuarna zawnga tawrhna rapthlak 
   tak tuara,
@@ -4489,7 +4495,7 @@ const mindilsakthin = '''
   Ava han mak em 
   min hmangaihna hi!! 
 
-3.Min relsak dawn ro min la 
+  Min relsak dawn ro min la 
   relsak leh dawn,
   Pathian hmaah ka la ding dawn;
   Chutih hunah chuan 
@@ -4619,7 +4625,7 @@ const mintiharhlehrawh = '''
   I malsawm dawn kan chak a, 
   malsawmtu kan chak si lo,
   I hming kan lam thin mahse 
-  i thu kan zawm si lo.
+  maw i thu kan zawm si lo.
 
         Siamthar, dinthar ngaiin 
         kan chau zo ta e,
@@ -4630,7 +4636,7 @@ const mintiharhlehrawh = '''
         Thlarau thianghlim 
         min ti harh leh rawh.
 
-2.Kan chang thina harhnain 
+2.Kan chang thin a harhnain 
   min tuam leh thin,
   Mahse, ramri kan lo hianin 
   mei angin a mit leh thin,
@@ -4651,7 +4657,7 @@ const mintiharhlehrawh = '''
 
 const nangchauhini = '''
 
-1.Khawvelah hian lungngaiin awm 
+1.Khawvelah hian lungngai in awm 
   thin mah ila,
   Ka Lalpa'n ka mangannate 
   a hre vek si;
@@ -4692,9 +4698,9 @@ const nangfakzelche = '''
 1.Kan zin na he lei hi zawng
   lungngaihna hmun mai lo ni,
   Hlimni lo thleng thin mahse
-  tah na in kan khar leh thin;
+  tah ni in kan khar leh thin;
   Lungangaihna leh manganna in
-  min chimbuai lai hian in,
+  min chimbuai lai hian ni hian,
   Tu hringnun nge maw lungawi 
   ngai le?
 
@@ -4703,7 +4709,7 @@ const nangfakzelche = '''
   Jakoba Pathian ngei chu
   ro min rel sak tu a ni;
   Kan puithiam Krista zarah
-  a mah chu kan ta a ni,
+  a mah chu kan 'Pa' a ni,
   Hmangaih tawp lo 
   a hmangaih tu chu.
 
@@ -5048,7 +5054,7 @@ const rohluisuakanei = '''
 
 3.Engnge ka lungkham ang,
   Engnge ka zawn ang;
-  Engahnge ka mangan ang le,
+  Engah nge ka buai foang le,
   Khawvel zawng pawh hi bo dawn 
   mahsela,
   Rohlu Isua ka nei.
@@ -5254,7 +5260,7 @@ const vanruahtui = '''
   Ṭhal lei iangin a ro ta e;
   Ka thinlung pawh riakmaw 
   iang a vai,
-  Sakhi lui tui chak ang main.
+  Sakhi lui tui chak ang maiin.
 
         Van ruahtui a lo thleng a,
         Ka thinlung lei ro tana 
@@ -5268,9 +5274,9 @@ const vanruahtui = '''
   A thlum zawk e ka Lalpa chu;
   Kalvari Tlang tuinung lui 
   luang chuan,
-  Misual dum ber min chhandam ta.
+  Misual bo hnu min chhandam ta.
 
-3.Phurrit phura chaua rum te u,
+3.Phurrit phura chaua rumte u,
   Isuan Kross ah a hlen tawh e;
   Hmangaihtu ngaia vante tan pawh,
   Hmangaihtu Isua a tawk e.
@@ -6025,6 +6031,78 @@ const minngaihdam = '''
     ka nei lo, 
     I tana nung turin min hruai 
     leh ang che.
+
+
+''';
+const minlokai = '''
+
+Lalpa, i khawngaihna,
+Lalpa, i khawngaihna chuan,
+Kei mi sual hi min huam ve em? 
+
+Lalpa, i khawngaihna,
+Lalpa, i khawngaihna chuan,
+Kei mi sual hi min huam ve em? hmmm...
+Ka au che, Lalpa,
+
+        Ka lei hringnun hi a ral hunin, 
+        Min lo kai angem?
+        Ka thlarau riangvai hian,
+        Thihna Jordan lui a dai hunin....
+        Aw, i thiltihtheihna kut chak chuan,
+        Min lo kai angem?
+        Keimah mai chuan,
+        Ka dai ngam dawn si lo.
+
+Lalpa, i hmangaihna,
+Lalpa, i hmangaihna chuan,
+Kei mi sual hi min pawm angem? 
+
+Lalpa, i hmangaihna,
+Lalpa, i hmangaihna chuan,
+Kei mi sual hi min pawm angem? hmmm..
+Ka au che, Lalpa,
+
+Lalpa, i thiltihtheihna,
+Lalpa, i thiltihtheihna chuan,
+Kei mi sual hi min siam thar rawh...hmm
+
+Lalpa, i thiltihtheihna,
+Lalpa, i thiltihtheihna chuan,
+Kei mi sual hi min siam thar rawh...hmm
+Ka au che, Lalpa,
+
+
+
+''';
+
+const karingche = '''
+
+Ka duhsam zawng zawngte kalsanin,
+I ke bulah ka rawn hlan e;
+Ka vahvaihna kawng chhuk chho mahse,
+Nang chuan min hnawl chuang si lo.
+
+Mahni chaknain hneh ka tum thin,
+Ka hneh zo si lo ka chau leh thin;
+Hnehtu ropui sipai te Lal,
+Engpawh lo thleng se min awmpui reng thin.
+
+        Hatsatna tlang cho rual loh la bo dawn lo mahla,
+        Ka kawng daltu luipui lian min hruaikai dawn lovin;
+        Ka manganna au rawl pawh min chhang dawn lo mah la,
+        Ka ring che aw Lalpa ka ring zel ang che.
+
+Hriatloh lamtluang reng i nei ve lo,
+Hmatiang hun hriatloh loh i nei si lo;
+Ka nunna hnar ka kawng hruaitu ni la,
+I duh zawng chauh Lalpa ka duh zel ang.
+
+    Ka chakna leh hahchawlhna, min hruai thintu i ni,
+    Ka innghahna lungpui nghet ka kulh bingsang i ni;
+    I kawng ka hriat fiah rual loh, fel famkim a ni si,
+    Khawi hmunah pawh kal i la, Nang i lo awm zel si.
+
 
 
 ''';

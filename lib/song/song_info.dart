@@ -70,7 +70,7 @@ const songInfo = [
   },
   {
     'id': '0009',
-    'title': 'Chawimawina',
+    'title': 'CHAWIMAWINA KA HLAN CHE',
     'language': 'mizo',
     'lyrics': chawmawinazawngkahlanche,
     'link': 'https://youtu.be/59tSCeBuxQY',
@@ -697,6 +697,20 @@ const songInfo = [
     'language': 'mizo',
     'lyrics': minngaihdam,
     'link': 'https://youtu.be/oy-ho53rDGc?si=Fol6vWcHHRhHqj_F',
+  },
+  {
+    'id': '0099',
+    'title': 'Min lo kai angem?',
+    'language': 'mizo',
+    'lyrics': minlokai,
+    'link': 'https://youtu.be/cXrMohxg1vA?si=PoqN_po34cZV8KzH',
+  },
+  {
+    'id': '00100',
+    'title': 'Ka ring zel ang che (Trust in You)',
+    'language': 'mizo',
+    'lyrics': minlokai,
+    'link': 'https://youtu.be/SwEm3VModis?si=XuX30pMFDQ26xioc',
   },
   {
     'id': '1001',
