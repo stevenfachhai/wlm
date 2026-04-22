@@ -3,24 +3,43 @@ import 'package:shared_preferences/shared_preferences.dart';
 class UserSettings {
   static const _keyFavorites = 'favorites';
 
+  /// ✅ GET FAVORITES
   Future<List<String>> getFavorites() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
+    final prefs = await SharedPreferences.getInstance();
     return prefs.getStringList(_keyFavorites) ?? [];
   }
 
-  Future<void> saveFavorite(String songId) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> favorites = await getFavorites();
-    if (!favorites.contains(songId)) {
-      favorites.add(songId);
+  /// ✅ ADD FAVORITE
+  Future<void> addFavorite(String id) async {
+    final prefs = await SharedPreferences.getInstance();
+    final favorites = prefs.getStringList(_keyFavorites) ?? [];
+
+    if (!favorites.contains(id)) {
+      favorites.add(id);
       await prefs.setStringList(_keyFavorites, favorites);
     }
   }
 
-  Future<void> removeFavorite(String songId) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> favorites = await getFavorites();
-    favorites.remove(songId);
+  /// ✅ REMOVE FAVORITE
+  Future<void> removeFavorite(String id) async {
+    final prefs = await SharedPreferences.getInstance();
+    final favorites = prefs.getStringList(_keyFavorites) ?? [];
+
+    favorites.remove(id);
+    await prefs.setStringList(_keyFavorites, favorites);
+  }
+
+  /// ✅ 🔥 THIS IS THE IMPORTANT ONE
+  Future<void> toggleFavorite(String id) async {
+    final prefs = await SharedPreferences.getInstance();
+    final favorites = prefs.getStringList(_keyFavorites) ?? [];
+
+    if (favorites.contains(id)) {
+      favorites.remove(id);
+    } else {
+      favorites.add(id);
+    }
+
     await prefs.setStringList(_keyFavorites, favorites);
   }
 }

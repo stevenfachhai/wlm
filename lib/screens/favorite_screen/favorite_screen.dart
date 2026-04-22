@@ -1,98 +1,79 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:wlm/screens/favorite_screen/favorite_screen_manager.dart';
-import 'package:wlm/screens/lyrics_screen/lyrics_screen.dart';
-import 'package:wlm/song/song_info.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import '../song_lyric.dart';
 
 class FavoriteScreen extends StatefulWidget {
-  const FavoriteScreen({
-    Key? key,
-  }) : super(key: key);
+  const FavoriteScreen({super.key});
 
   @override
   State<FavoriteScreen> createState() => _FavoriteScreenState();
 }
 
 class _FavoriteScreenState extends State<FavoriteScreen> {
-  final manager = FavoriteScreenManager();
+  List<String> favorites = [];
 
   @override
   void initState() {
     super.initState();
-    manager.loadFavorites();
+    loadFavorites();
+  }
+
+  Future<void> loadFavorites() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      favorites = prefs.getStringList('favorites') ?? [];
+    });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 232, 232, 226),
-        title: Text(
-          'Worship Lyrics Mara&Mizo',
-          style: GoogleFonts.libreBaskerville(
-            textStyle: const TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.normal,
-            ),
-          ),
-        ),
+        title: const Text("Favorites"),
       ),
-      body: Column(
-        children: [
-          TextField(
-            onChanged: (searchString) {
-              manager.search(searchString);
-            },
-            autofocus: true,
-            decoration: InputDecoration(
-              hintText: 'search',
-              suffixIcon: const Icon(Icons.search),
-              filled: true,
-              fillColor: Colors.grey.shade200,
-            ),
-          ),
-          Expanded(
-            child: ValueListenableBuilder<List<String>>(
-                valueListenable: manager.favoritesNotifier,
-                builder: (context, favoriteSongs, child) {
-                  return ListView.builder(
-                    itemCount: favoriteSongs.length,
-                    itemBuilder: (context, index) {
-                      final id = favoriteSongs[index];
-                      final song = getSongFromId(id);
-                      return ListTile(
-                        title: Text(
-                          '${index + 1}. ${song.title}',
-                          style: const TextStyle(fontSize: 17),
+      body: favorites.isEmpty
+          ? const Center(child: Text("No favorites yet"))
+          : ListView.builder(
+              padding: const EdgeInsets.all(12),
+              itemCount: favorites.length,
+              itemBuilder: (context, index) {
+                final item = favorites[index];
+
+                /// 🔥 SPLIT SAVED DATA
+                final parts = item.split("|||");
+
+                final title = parts[0];
+                final lyrics = parts.length > 1 ? parts[1] : "";
+                final youtubeLink = parts.length > 2 ? parts[2] : "";
+
+                return Container(
+                  margin: const EdgeInsets.only(bottom: 12),
+                  decoration: BoxDecoration(
+                    color: Colors.grey.shade200,
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: ListTile(
+                    title: Text(
+                      "${index + 1}. $title",
+                      style: const TextStyle(fontSize: 18),
+                    ),
+                    trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => SongLyricScreen(
+                            title: title,
+                            lyrics: lyrics,
+                            youtubeLink: youtubeLink,
+                          ),
                         ),
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => LyricsScreen(song: song),
-                            ),
-                          );
-                        },
                       );
                     },
-                  );
-                }),
-          ),
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.popUntil(context, (route) => route.isFirst);
-        },
-        child: const Icon(Icons.home),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      bottomNavigationBar: BottomAppBar(
-        shape: const CircularNotchedRectangle(),
-        child: Container(
-          height: 50.0,
-        ),
-      ),
+                  ),
+                );
+              },
+            ),
     );
   }
 }
