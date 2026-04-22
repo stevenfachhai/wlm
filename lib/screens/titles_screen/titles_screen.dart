@@ -29,17 +29,17 @@ class _TitlesScreenState extends State<TitlesScreen> {
       ),
       body: Column(
         children: [
-          /// 🔍 SEARCH
+          /// 🔍 SEARCH BAR
           Padding(
             padding: const EdgeInsets.all(12),
             child: TextField(
               decoration: InputDecoration(
-                hintText: "search",
+                hintText: "Search song...",
                 suffixIcon: const Icon(Icons.search),
                 filled: true,
                 fillColor: Colors.grey.shade300,
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(6),
+                  borderRadius: BorderRadius.circular(8),
                   borderSide: BorderSide.none,
                 ),
               ),
@@ -57,27 +57,38 @@ class _TitlesScreenState extends State<TitlesScreen> {
               stream: FirebaseFirestore.instance
                   .collection('lyrics')
                   .where('category', isEqualTo: widget.category)
+                  .orderBy('title')
                   .snapshots(),
               builder: (context, snapshot) {
+                /// ❌ SHOW REAL ERROR
                 if (snapshot.hasError) {
-                  return const Center(child: Text("Error"));
+                  return Center(
+                    child: Text(
+                      snapshot.error.toString(),
+                      textAlign: TextAlign.center,
+                    ),
+                  );
                 }
 
+                /// ⏳ LOADING
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return const Center(child: CircularProgressIndicator());
                 }
 
                 final allDocs = snapshot.data!.docs;
 
+                /// 🔍 FILTER SEARCH
                 final docs = allDocs.where((doc) {
-                  final title = doc['title'].toString().toLowerCase();
+                  final title = (doc['title'] ?? '').toString().toLowerCase();
                   return title.contains(searchText);
                 }).toList();
 
+                /// ❌ EMPTY
                 if (docs.isEmpty) {
-                  return const Center(child: Text("No songs"));
+                  return const Center(child: Text("No songs found"));
                 }
 
+                /// ✅ LIST VIEW
                 return ListView.builder(
                   padding: const EdgeInsets.symmetric(horizontal: 12),
                   itemCount: docs.length,
@@ -99,7 +110,12 @@ class _TitlesScreenState extends State<TitlesScreen> {
                           "${index + 1}. $title",
                           style: const TextStyle(fontSize: 16),
                         ),
-                        trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+                        trailing: const Icon(
+                          Icons.arrow_forward_ios,
+                          size: 16,
+                        ),
+
+                        /// 👉 OPEN LYRICS SCREEN
                         onTap: () {
                           Navigator.push(
                             context,
@@ -107,7 +123,7 @@ class _TitlesScreenState extends State<TitlesScreen> {
                               builder: (_) => SongLyricScreen(
                                 title: title,
                                 lyrics: lyrics,
-                                youtubeLink: doc['youtubeLink'] ?? '',
+                                youtubeLink: youtubeLink,
                               ),
                             ),
                           );
