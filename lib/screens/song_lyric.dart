@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SongLyricScreen extends StatefulWidget {
   final String title;
@@ -20,6 +21,7 @@ class SongLyricScreen extends StatefulWidget {
 
 class _SongLyricScreenState extends State<SongLyricScreen> {
   bool isFavorite = false;
+  double fontSize = 16;
 
   @override
   void initState() {
@@ -72,7 +74,7 @@ class _SongLyricScreenState extends State<SongLyricScreen> {
     }
   }
 
-  /// 🎶 BUILD LYRICS (CHORUS + BRIDGE STYLE)
+  /// 🎶 BUILD LYRICS
   Widget buildLyrics(String lyrics) {
     final lines = lyrics.split('\n');
 
@@ -81,13 +83,11 @@ class _SongLyricScreenState extends State<SongLyricScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: lines.map((line) {
-        /// START CHORUS OR BRIDGE
         if (line.contains("[chorus]") || line.contains("[bridge]")) {
           isHighlight = true;
           return const SizedBox();
         }
 
-        /// END CHORUS OR BRIDGE
         if (line.contains("[/chorus]") || line.contains("[/bridge]")) {
           isHighlight = false;
           return const SizedBox();
@@ -101,12 +101,12 @@ class _SongLyricScreenState extends State<SongLyricScreen> {
               : const EdgeInsets.symmetric(vertical: 2),
           child: Text(
             cleanLine,
-            textAlign: isHighlight ? TextAlign.justify : TextAlign.left,
+            textAlign: isHighlight ? TextAlign.center : TextAlign.left,
             style: TextStyle(
-              fontSize: isHighlight ? 18 : 16,
+              fontSize: isHighlight ? fontSize + 2 : fontSize,
               height: 1.6,
               fontWeight: isHighlight ? FontWeight.w600 : FontWeight.normal,
-              color: isHighlight ? Colors.deepPurple : Colors.black,
+              color: Colors.black,
             ),
           ),
         );
@@ -119,16 +119,33 @@ class _SongLyricScreenState extends State<SongLyricScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFFEDE7F6),
 
-      /// 🔝 APP BAR
+      /// 🔝 APPBAR (ONLY BACK + ACTIONS)
       appBar: AppBar(
         backgroundColor: const Color(0xFFEDE7F6),
         elevation: 0,
         leading: const BackButton(color: Colors.black),
-        title: Text(
-          widget.title,
-          style: const TextStyle(color: Colors.black),
-        ),
         actions: [
+          /// 🔠 FONT SIZE -
+          IconButton(
+            icon: const Text("A−", style: TextStyle(color: Colors.black)),
+            onPressed: () {
+              setState(() {
+                if (fontSize > 14) fontSize -= 2;
+              });
+            },
+          ),
+
+          /// 🔠 FONT SIZE +
+          IconButton(
+            icon: const Text("A+", style: TextStyle(color: Colors.black)),
+            onPressed: () {
+              setState(() {
+                fontSize += 2;
+              });
+            },
+          ),
+
+          /// ❤️ FAVORITE
           IconButton(
             icon: Icon(
               isFavorite ? Icons.favorite : Icons.favorite_border,
@@ -139,11 +156,31 @@ class _SongLyricScreenState extends State<SongLyricScreen> {
         ],
       ),
 
-      /// 📄 LYRICS BODY
+      /// 📄 BODY
       body: Padding(
-        padding: const EdgeInsets.all(25),
-        child: SingleChildScrollView(
-          child: buildLyrics(widget.lyrics),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
+        child: Column(
+          children: [
+            /// 🔥 TITLE BELOW ARROW
+            Text(
+              widget.title,
+              textAlign: TextAlign.center,
+              style: GoogleFonts.playfairDisplay(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: Colors.black,
+              ),
+            ),
+
+            const SizedBox(height: 20),
+
+            /// 📖 LYRICS
+            Expanded(
+              child: SingleChildScrollView(
+                child: buildLyrics(widget.lyrics),
+              ),
+            ),
+          ],
         ),
       ),
 
@@ -151,17 +188,13 @@ class _SongLyricScreenState extends State<SongLyricScreen> {
       floatingActionButton: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          /// 🔴 YOUTUBE
           FloatingActionButton(
             heroTag: "yt",
             backgroundColor: const Color(0xFFD1C4E9),
             onPressed: openYoutube,
             child: const Icon(Icons.play_arrow, color: Colors.red),
           ),
-
           const SizedBox(height: 12),
-
-          /// 🏠 HOME
           FloatingActionButton(
             heroTag: "home",
             backgroundColor: const Color(0xFFD1C4E9),
